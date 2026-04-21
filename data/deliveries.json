@@ -93,10 +93,94 @@
       ]
     }
   ],
+  "licenses": [
+    {
+      "service": "HueForge",
+      "title": "HueForge v0.9.3.1 release and downloads",
+      "status": "Digital product update",
+      "nextDate": null,
+      "dateLabel": "Latest update email: Wednesday, 16 April 2026",
+      "timezone": "Europe/Madrid",
+      "notes": "HueForge says your digital products for order #69471 have updates and the latest builds are available from your downloads page.",
+      "items": [
+        "Windows, macOS, and Linux builds",
+        "Account downloads page",
+        "Plugins updated for HueForge v0.9.3+"
+      ],
+      "links": [
+        {
+          "label": "Open HueForge downloads",
+          "url": "https://shop.thehueforge.com/73796321561/orders/24b5f8f3cbe076f08541dd1aa53555db/authenticate?key=7e9df76accacb8a766a34986e6b06737"
+        }
+      ]
+    },
+    {
+      "service": "Parallels",
+      "title": "Parallels Desktop for Mac Pro Edition (1 Year)",
+      "status": "Active subscription",
+      "nextDate": "2027-02-24",
+      "dateLabel": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Cleverbridge order email includes the product key and says the next payment is due on February 24, 2027.",
+      "items": [
+        "Product key ends in CAKX6Y",
+        "Billed annually"
+      ],
+      "links": [
+        {
+          "label": "Manage subscription",
+          "url": "https://my.parallels.com/login?utm_source=cb&utm_medium=email&utm_campaign=confirmation-email&utm_term=manage-my-subscriptions&utm_content=myaccount-manage-subscription&cancelurl=https%3A%2F%2Fbuy.parallels.com%2F329%2Fcsi%2FS67748378%3Fs%3D1771937347%26e%3D1774529347%26c%3D2395B4D2F6BFE6C4512718010279524FAFD8D7CD%26subscriptionitemrunningno%3D1%26%26progress%3Dcancel"
+        },
+        {
+          "label": "Download Parallels",
+          "url": "https://www.parallels.com/directdownload/pd/?experience=enter_key"
+        }
+      ]
+    },
+    {
+      "service": "ChatGPT",
+      "title": "ChatGPT Business subscription",
+      "status": "Active subscription",
+      "nextDate": null,
+      "dateLabel": "Monthly billing",
+      "timezone": "Europe/Madrid",
+      "notes": "OpenAI confirms the Business workspace is active and billed monthly, with seats adjustable at any time.",
+      "items": [
+        "Monthly billing",
+        "Workspace plan"
+      ],
+      "links": [
+        {
+          "label": "Manage subscription",
+          "url": "https://chatgpt.com/account/manage?account_id=f34384e0-c9b8-47ed-86bc-6ec937ab25c0"
+        }
+      ]
+    },
+    {
+      "service": "Prime Video",
+      "title": "Prime Video ad-free subscription",
+      "status": "Active subscription",
+      "nextDate": null,
+      "dateLabel": "Monthly billing",
+      "timezone": "Europe/Madrid",
+      "notes": "Prime Video says ad free is active and renews automatically for €1.99 per month until canceled.",
+      "items": [
+        "€1.99 per month",
+        "Cancel from account settings"
+      ],
+      "links": [
+        {
+          "label": "Manage Prime Video",
+          "url": "https://www.primevideo.com/settings"
+        }
+      ]
+    }
+  ],
   "emptySuppliers": [
     "Temu",
     "Bambu Lab",
     "Kickstarter",
-    "Snapmaker"
+    "Snapmaker",
+    "BIQU"
   ]
 }

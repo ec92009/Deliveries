@@ -177,6 +177,36 @@ h1 {
   color: var(--accent);
 }
 
+.tab-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  appearance: none;
+  border: 1px solid var(--line);
+  background: rgba(30, 27, 24, 0.04);
+  color: var(--text-soft);
+  border-radius: 999px;
+  padding: 10px 14px;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 120ms ease, color 120ms ease, transform 120ms ease;
+}
+
+.tab-button:hover {
+  transform: translateY(-1px);
+}
+
+.tab-button.is-active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
 .delivery-list {
   display: grid;
   gap: 16px;
@@ -258,6 +288,10 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+.empty-copy {
+  color: var(--text-soft);
 }
 
 .empty-card {

@@ -3,10 +3,13 @@ const DATA_URL = "./data/deliveries.json";
 const summaryGrid = document.querySelector("#summary-grid");
 const lastUpdated = document.querySelector("#last-updated");
 const timezone = document.querySelector("#timezone");
-const openCount = document.querySelector("#open-count");
+const panelTitle = document.querySelector("#panel-title");
+const panelCount = document.querySelector("#panel-count");
 const deliveryList = document.querySelector("#delivery-list");
 const emptySuppliers = document.querySelector("#empty-suppliers");
 const template = document.querySelector("#delivery-card-template");
+const deliveriesTab = document.querySelector("#tab-deliveries");
+const licensesTab = document.querySelector("#tab-licenses");
 
 const supplierClassMap = {
   Amazon: "supplier-amazon",
@@ -66,6 +69,11 @@ function renderSummary(data) {
       value: data.emptySuppliers.length,
       detail: "Tracked suppliers currently clear",
     },
+    {
+      label: "License entries",
+      value: data.licenses.length,
+      detail: "Digital products and subscriptions",
+    },
   ];
 
   summaryGrid.innerHTML = "";
@@ -82,17 +90,19 @@ function renderSummary(data) {
   }
 }
 
-function renderDeliveries(data) {
-  const deliveries = [...data.deliveries].sort(compareDeliveries);
-  openCount.textContent = `${deliveries.length} open`;
+function renderCards(entries, config) {
+  const records = [...entries].sort(config.sorter);
   deliveryList.innerHTML = "";
 
-  if (!deliveries.length) {
-    deliveryList.innerHTML = '<p class="empty-state">No pending deliveries right now.</p>';
+  panelTitle.textContent = config.title;
+  panelCount.textContent = config.countLabel(records);
+
+  if (!records.length) {
+    deliveryList.innerHTML = `<p class="empty-copy">${config.emptyMessage}</p>`;
     return;
   }
 
-  for (const delivery of deliveries) {
+  for (const delivery of records) {
     const node = template.content.firstElementChild.cloneNode(true);
     const supplierTag = node.querySelector(".supplier-tag");
     const statusTag = node.querySelector(".status-tag");
@@ -102,11 +112,11 @@ function renderDeliveries(data) {
     const items = node.querySelector(".delivery-items");
     const links = node.querySelector(".delivery-links");
 
-    supplierTag.textContent = delivery.supplier;
-    supplierTag.classList.add(supplierClassMap[delivery.supplier] || "supplier-amazon");
+    supplierTag.textContent = config.tagLabel(delivery);
+    supplierTag.classList.add(config.tagClass(delivery));
     statusTag.textContent = delivery.status;
     title.textContent = delivery.title;
-    date.textContent = formatDueDate(delivery);
+    date.textContent = config.dateLabel(delivery);
     notes.textContent = delivery.notes;
 
     for (const item of delivery.items || []) {
@@ -127,6 +137,60 @@ function renderDeliveries(data) {
 
     deliveryList.appendChild(node);
   }
+}
+
+function renderDeliveries(data) {
+  renderCards(data.deliveries, {
+    title: "Open deliveries",
+    countLabel: (records) => `${records.length} open`,
+    emptyMessage: "No pending deliveries right now.",
+    tagLabel: (entry) => entry.supplier,
+    tagClass: (entry) => supplierClassMap[entry.supplier] || "supplier-amazon",
+    dateLabel: (entry) => formatDueDate(entry),
+    sorter: compareDeliveries,
+  });
+}
+
+function compareLicenses(a, b) {
+  if (a.nextDate && b.nextDate) {
+    return a.nextDate.localeCompare(b.nextDate);
+  }
+
+  if (a.nextDate) {
+    return -1;
+  }
+
+  if (b.nextDate) {
+    return 1;
+  }
+
+  return a.title.localeCompare(b.title);
+}
+
+function formatLicenseDate(license) {
+  if (!license.nextDate) {
+    return license.dateLabel || "No renewal date listed";
+  }
+
+  return new Intl.DateTimeFormat("en-GB", {
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    timeZone: license.timezone || "Europe/Madrid",
+  }).format(new Date(`${license.nextDate}T12:00:00Z`));
+}
+
+function renderLicenses(data) {
+  renderCards(data.licenses, {
+    title: "Licenses and subscriptions",
+    countLabel: (records) => `${records.length} tracked`,
+    emptyMessage: "No license emails found yet.",
+    tagLabel: (entry) => entry.service,
+    tagClass: () => "supplier-aliexpress",
+    dateLabel: (entry) => formatLicenseDate(entry),
+    sorter: compareLicenses,
+  });
 }
 
 function renderEmptySuppliers(data) {
@@ -154,6 +218,22 @@ async function init() {
   renderSummary(data);
   renderDeliveries(data);
   renderEmptySuppliers(data);
+
+  deliveriesTab.addEventListener("click", () => {
+    deliveriesTab.classList.add("is-active");
+    deliveriesTab.setAttribute("aria-selected", "true");
+    licensesTab.classList.remove("is-active");
+    licensesTab.setAttribute("aria-selected", "false");
+    renderDeliveries(data);
+  });
+
+  licensesTab.addEventListener("click", () => {
+    licensesTab.classList.add("is-active");
+    licensesTab.setAttribute("aria-selected", "true");
+    deliveriesTab.classList.remove("is-active");
+    deliveriesTab.setAttribute("aria-selected", "false");
+    renderLicenses(data);
+  });
 }
 
 init().catch((error) => {

@@ -38,10 +38,18 @@
       <section class="panel">
         <div class="panel-header">
           <div>
-            <p class="section-kicker">Upcoming</p>
-            <h2>Open deliveries</h2>
+            <p class="section-kicker">Dashboard</p>
+            <h2 id="panel-title">Open deliveries</h2>
           </div>
-          <span class="pill" id="open-count">Loading…</span>
+          <span class="pill" id="panel-count">Loading…</span>
+        </div>
+        <div class="tab-row" role="tablist" aria-label="Dashboard tabs">
+          <button class="tab-button is-active" id="tab-deliveries" type="button" role="tab" aria-selected="true">
+            Deliveries
+          </button>
+          <button class="tab-button" id="tab-licenses" type="button" role="tab" aria-selected="false">
+            Licenses
+          </button>
         </div>
         <div id="delivery-list" class="delivery-list" aria-live="polite"></div>
       </section>
