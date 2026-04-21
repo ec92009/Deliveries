@@ -132,6 +132,26 @@ h1 {
   border: 1px solid var(--line);
   border-radius: 22px;
   box-shadow: var(--shadow);
+  position: relative;
+  text-align: left;
+}
+
+.summary-card-button {
+  appearance: none;
+  width: 100%;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  transition: transform 120ms ease, border-color 120ms ease, box-shadow 120ms ease;
+}
+
+.summary-card-button:hover {
+  transform: translateY(-2px);
+}
+
+.summary-card-button.is-selected {
+  border-color: rgba(200, 92, 44, 0.42);
+  box-shadow: 0 24px 60px rgba(66, 45, 24, 0.18);
 }
 
 .summary-card strong {
@@ -227,13 +247,28 @@ h1 {
   position: absolute;
   top: 14px;
   left: 14px;
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   border-radius: 999px;
-  box-shadow: 0 0 0 4px rgba(255, 250, 241, 0.9);
+  opacity: 0.5;
+  box-shadow: 0 0 0 6px rgba(255, 250, 241, 0.9);
+}
+
+.summary-dot {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  opacity: 0.5;
 }
 
 .status-dot-active {
+  background: #2f8f57;
+}
+
+.summary-dot-active {
   background: #2f8f57;
 }
 
@@ -241,7 +276,15 @@ h1 {
   background: #4b6fd8;
 }
 
+.summary-dot-canceled {
+  background: #4b6fd8;
+}
+
 .status-dot-warning {
+  background: #c85c2c;
+}
+
+.summary-dot-warning {
   background: #c85c2c;
 }
 

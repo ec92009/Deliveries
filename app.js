@@ -26,6 +26,9 @@ const modeButtons = {
   subscriptions: subscriptionsTab,
 };
 
+let activeMode = "deliveries";
+let subscriptionFilter = "all";
+
 function formatCalendarDate(date, zone = "Europe/Madrid") {
   return new Intl.DateTimeFormat("en-GB", {
     weekday: "long",
@@ -126,6 +129,22 @@ function getSubscriptionTone(entry, today) {
   return "neutral";
 }
 
+function getFilteredSubscriptions(entries, today, filter) {
+  if (filter === "hot") {
+    return entries.filter((entry) => getLicenseWarning(entry, today));
+  }
+
+  if (filter === "canceled") {
+    return entries.filter((entry) => entry.renewalState === "canceled");
+  }
+
+  if (filter === "active") {
+    return entries.filter((entry) => entry.renewalState === "active");
+  }
+
+  return entries;
+}
+
 function formatLicenseDate(license) {
   if (!license.nextDate) {
     return license.dateLabel || "No renewal date listed";
@@ -165,13 +184,30 @@ function normalizeData(data) {
   };
 }
 
-function renderSummary(cards) {
+function renderSummary(cards, onSelect) {
   summaryGrid.innerHTML = "";
 
   for (const card of cards) {
-    const node = document.createElement("article");
+    const node = document.createElement(card.action ? "button" : "article");
     node.className = "summary-card";
-    node.innerHTML = `
+
+    if (card.action) {
+      node.type = "button";
+      node.classList.add("summary-card-button");
+      if (card.selected) {
+        node.classList.add("is-selected");
+      }
+      node.addEventListener("click", () => onSelect?.(card.action));
+    }
+
+    if (card.tone) {
+      const toneDot = document.createElement("span");
+      toneDot.className = `summary-dot summary-dot-${card.tone}`;
+      toneDot.setAttribute("aria-hidden", "true");
+      node.appendChild(toneDot);
+    }
+
+    node.innerHTML += `
       <span class="meta-label">${card.label}</span>
       <strong>${card.value}</strong>
       <span>${card.detail}</span>
@@ -301,35 +337,52 @@ function getModeConfig(mode, data) {
   }
 
   if (mode === "subscriptions") {
+    const filteredSubscriptions = getFilteredSubscriptions(data.subscriptions, data.today, subscriptionFilter);
+
     return {
       summary: [
         {
           label: "Tracked subscriptions",
           value: data.subscriptions.length,
           detail: "Recurring plans with billing or access-end state",
+          action: "all",
+          selected: subscriptionFilter === "all",
         },
         {
           label: "Renewing within a week",
           value: data.subscriptions.filter((entry) => getLicenseWarning(entry, data.today)).length,
           detail: "Renewals landing inside the warning window",
+          action: "hot",
+          selected: subscriptionFilter === "hot",
+          tone: "warning",
         },
         {
           label: "Canceled at period end",
           value: data.subscriptions.filter((entry) => entry.renewalState === "canceled").length,
           detail: "Plans that will not renew automatically",
+          action: "canceled",
+          selected: subscriptionFilter === "canceled",
+          tone: "canceled",
         },
         {
           label: "Still active",
           value: data.subscriptions.filter((entry) => entry.renewalState === "active").length,
           detail: "Auto-renewing subscriptions still in effect",
+          action: "active",
+          selected: subscriptionFilter === "active",
+          tone: "active",
         },
       ],
       panel: {
-        entries: data.subscriptions,
+        entries: filteredSubscriptions,
         title: "Subscriptions",
         countLabel: (records) => {
-          const warningCount = records.filter((record) => getLicenseWarning(record, data.today)).length;
-          return warningCount ? `${warningCount} warning${warningCount === 1 ? "" : "s"}` : `${records.length} tracked`;
+          if (subscriptionFilter === "all") {
+            const warningCount = records.filter((record) => getLicenseWarning(record, data.today)).length;
+            return warningCount ? `${warningCount} warning${warningCount === 1 ? "" : "s"}` : `${records.length} tracked`;
+          }
+
+          return `${records.length} shown`;
         },
         emptyMessage: "No subscription emails found yet.",
         tagLabel: (entry) => entry.service,
@@ -404,6 +457,8 @@ function decorateWarnings(records, today, enabled) {
 }
 
 function setActiveMode(mode, data) {
+  activeMode = mode;
+
   for (const [name, button] of Object.entries(modeButtons)) {
     const isActive = name === mode;
     button.classList.toggle("is-active", isActive);
@@ -411,7 +466,14 @@ function setActiveMode(mode, data) {
   }
 
   const config = getModeConfig(mode, data);
-  renderSummary(config.summary);
+  renderSummary(config.summary, (action) => {
+    if (mode !== "subscriptions") {
+      return;
+    }
+
+    subscriptionFilter = action;
+    setActiveMode(activeMode, data);
+  });
   const records = renderCards(config.panel.entries, config.panel);
   decorateWarnings(records, data.today, config.warningMode);
   renderEmptySuppliers(data, config.showEmptySuppliers);
