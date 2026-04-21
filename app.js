@@ -109,6 +109,23 @@ function getLicenseWarning(license, today) {
   return null;
 }
 
+function getSubscriptionTone(entry, today) {
+  const warning = getLicenseWarning(entry, today);
+  if (warning) {
+    return "warning";
+  }
+
+  if (entry.renewalState === "canceled") {
+    return "canceled";
+  }
+
+  if (entry.renewalState === "active") {
+    return "active";
+  }
+
+  return "neutral";
+}
+
 function formatLicenseDate(license) {
   if (!license.nextDate) {
     return license.dateLabel || "No renewal date listed";
@@ -184,6 +201,14 @@ function renderCards(entries, config) {
     const notes = node.querySelector(".delivery-notes");
     const items = node.querySelector(".delivery-items");
     const links = node.querySelector(".delivery-links");
+    const tone = config.cardTone ? config.cardTone(entry) : null;
+
+    if (tone) {
+      const toneDot = document.createElement("span");
+      toneDot.className = `status-dot status-dot-${tone}`;
+      toneDot.setAttribute("aria-hidden", "true");
+      node.prepend(toneDot);
+    }
 
     supplierTag.textContent = config.tagLabel(entry);
     supplierTag.classList.add(config.tagClass(entry));
@@ -206,6 +231,15 @@ function renderCards(entries, config) {
       anchor.target = "_blank";
       anchor.rel = "noreferrer";
       links.appendChild(anchor);
+    }
+
+    if (entry.sourceEmail?.url) {
+      const sourceAnchor = document.createElement("a");
+      sourceAnchor.href = entry.sourceEmail.url;
+      sourceAnchor.textContent = entry.sourceEmail.label || "Source email";
+      sourceAnchor.target = "_blank";
+      sourceAnchor.rel = "noreferrer";
+      links.appendChild(sourceAnchor);
     }
 
     deliveryList.appendChild(node);
@@ -260,6 +294,7 @@ function getModeConfig(mode, data) {
         tagClass: () => "supplier-aliexpress",
         dateLabel: (entry) => formatLicenseDate(entry),
         sorter: compareLicenses,
+        cardTone: () => null,
       },
       showEmptySuppliers: false,
     };
@@ -301,6 +336,7 @@ function getModeConfig(mode, data) {
         tagClass: () => "supplier-aliexpress",
         dateLabel: (entry) => formatLicenseDate(entry),
         sorter: compareLicenses,
+        cardTone: (entry) => getSubscriptionTone(entry, data.today),
       },
       warningMode: true,
       showEmptySuppliers: false,
@@ -339,6 +375,7 @@ function getModeConfig(mode, data) {
       tagClass: (entry) => supplierClassMap[entry.supplier] || "supplier-amazon",
       dateLabel: (entry) => formatDueDate(entry),
       sorter: compareDeliveries,
+      cardTone: () => null,
     },
     showEmptySuppliers: true,
   };
