@@ -79,15 +79,15 @@ p {
 h1 {
   margin-top: 10px;
   max-width: 10ch;
-  font-size: clamp(2.4rem, 7vw, 4.8rem);
-  line-height: 0.95;
+  font-size: clamp(1.2rem, 3.5vw, 2.4rem);
+  line-height: 1;
 }
 
 .hero-copy {
   margin-top: 18px;
   max-width: 58ch;
   color: var(--text-soft);
-  font-size: 1.02rem;
+  font-size: 0.92rem;
   line-height: 1.5;
 }
 
@@ -109,6 +109,7 @@ h1 {
 .hero-meta strong {
   display: block;
   margin-top: 6px;
+  font-size: 0.95rem;
 }
 
 .summary-grid {
@@ -154,7 +155,7 @@ h1 {
 }
 
 .panel-header h2 {
-  font-size: 1.5rem;
+  font-size: 1.15rem;
 }
 
 .pill,
@@ -224,7 +225,7 @@ h1 {
 }
 
 .delivery-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.15;
 }
 
