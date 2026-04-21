@@ -2,6 +2,7 @@ const DATA_URL = "./data/deliveries.json";
 
 const summaryGrid = document.querySelector("#summary-grid");
 const lastUpdated = document.querySelector("#last-updated");
+const appVersion = document.querySelector("#app-version");
 const timezone = document.querySelector("#timezone");
 const panelTitle = document.querySelector("#panel-title");
 const panelCount = document.querySelector("#panel-count");
@@ -213,6 +214,7 @@ async function init() {
     timeStyle: "short",
     timeZone: data.metadata.timezone,
   }).format(new Date(data.metadata.generatedAt));
+  appVersion.textContent = data.metadata.version || "Unversioned";
   timezone.textContent = data.metadata.timezone;
 
   renderSummary(data);
@@ -237,6 +239,6 @@ async function init() {
 }
 
 init().catch((error) => {
-  openCount.textContent = "Error";
+  panelCount.textContent = "Error";
   deliveryList.innerHTML = `<p class="empty-state">Failed to load delivery data: ${error.message}</p>`;
 });
