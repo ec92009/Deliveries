@@ -1,8 +1,8 @@
 {
   "today": "2026-04-21",
   "metadata": {
-    "version": "v52.5",
-    "generatedAt": "2026-04-21T12:02:00+02:00",
+    "version": "v52.6",
+    "generatedAt": "2026-04-21T12:12:00+02:00",
     "timezone": "Europe/Madrid",
     "source": "Manual snapshot from Gmail delivery, subscription, and renewal emails"
   },
@@ -115,7 +115,9 @@
           "url": "https://shop.thehueforge.com/73796321561/orders/24b5f8f3cbe076f08541dd1aa53555db/authenticate?key=7e9df76accacb8a766a34986e6b06737"
         }
       ]
-    },
+    }
+  ],
+  "subscriptions": [
     {
       "service": "Parallels",
       "title": "Parallels Desktop for Mac Pro Edition (1 Year)",

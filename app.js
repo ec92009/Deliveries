@@ -117,20 +117,35 @@ function formatLicenseDate(license) {
   return formatCalendarDate(license.nextDate, license.timezone);
 }
 
-function getLicenseBuckets(data) {
-  const oneTime = [];
+function normalizeData(data) {
+  const explicitLicenses = Array.isArray(data.licenses) ? data.licenses : [];
+  const explicitSubscriptions = Array.isArray(data.subscriptions) ? data.subscriptions : [];
+
+  if (explicitSubscriptions.length) {
+    return {
+      ...data,
+      licenses: explicitLicenses,
+      subscriptions: explicitSubscriptions,
+    };
+  }
+
+  const licenses = [];
   const subscriptions = [];
 
-  for (const license of data.licenses) {
-    if (license.renewalState === "one_time") {
-      oneTime.push(license);
+  for (const entry of explicitLicenses) {
+    if (entry.renewalState === "one_time") {
+      licenses.push(entry);
       continue;
     }
 
-    subscriptions.push(license);
+    subscriptions.push(entry);
   }
 
-  return { oneTime, subscriptions };
+  return {
+    ...data,
+    licenses,
+    subscriptions,
+  };
 }
 
 function renderSummary(cards) {
@@ -217,29 +232,27 @@ function renderEmptySuppliers(data, isVisible) {
 }
 
 function getModeConfig(mode, data) {
-  const { oneTime, subscriptions } = getLicenseBuckets(data);
-
   if (mode === "licenses") {
     return {
       summary: [
         {
           label: "Tracked licenses",
-          value: oneTime.length,
+          value: data.licenses.length,
           detail: "One-time digital purchases and download entitlements",
         },
         {
           label: "With account links",
-          value: oneTime.filter((entry) => (entry.links || []).length > 0).length,
+          value: data.licenses.filter((entry) => (entry.links || []).length > 0).length,
           detail: "Entries with a direct download or account page",
         },
         {
-          label: "Recent product updates",
-          value: oneTime.filter((entry) => /update/i.test(entry.status) || /update/i.test(entry.title)).length,
-          detail: "License emails that included new builds or downloads",
+          label: "No renewal date",
+          value: data.licenses.filter((entry) => !entry.nextDate).length,
+          detail: "One-time items that are not expected to auto-renew",
         },
       ],
       panel: {
-        entries: oneTime,
+        entries: data.licenses,
         title: "License access",
         countLabel: (records) => `${records.length} tracked`,
         emptyMessage: "No one-time license emails found yet.",
@@ -257,27 +270,27 @@ function getModeConfig(mode, data) {
       summary: [
         {
           label: "Tracked subscriptions",
-          value: subscriptions.length,
+          value: data.subscriptions.length,
           detail: "Recurring plans with billing or access-end state",
         },
         {
-          label: "Warnings this week",
-          value: subscriptions.filter((entry) => getLicenseWarning(entry, data.today)).length,
+          label: "Renewing within a week",
+          value: data.subscriptions.filter((entry) => getLicenseWarning(entry, data.today)).length,
           detail: "Renewals landing inside the warning window",
         },
         {
           label: "Canceled at period end",
-          value: subscriptions.filter((entry) => entry.renewalState === "canceled").length,
+          value: data.subscriptions.filter((entry) => entry.renewalState === "canceled").length,
           detail: "Plans that will not renew automatically",
         },
         {
           label: "Still active",
-          value: subscriptions.filter((entry) => entry.renewalState === "active").length,
+          value: data.subscriptions.filter((entry) => entry.renewalState === "active").length,
           detail: "Auto-renewing subscriptions still in effect",
         },
       ],
       panel: {
-        entries: subscriptions,
+        entries: data.subscriptions,
         title: "Subscriptions",
         countLabel: (records) => {
           const warningCount = records.filter((record) => getLicenseWarning(record, data.today)).length;
@@ -369,7 +382,7 @@ function setActiveMode(mode, data) {
 
 async function init() {
   const response = await fetch(DATA_URL, { cache: "no-store" });
-  const data = await response.json();
+  const data = normalizeData(await response.json());
 
   lastUpdated.textContent = new Intl.DateTimeFormat("en-GB", {
     dateStyle: "full",
