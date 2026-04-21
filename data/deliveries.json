@@ -1,10 +1,10 @@
 {
   "today": "2026-04-21",
   "metadata": {
-    "version": "v52.3",
-    "generatedAt": "2026-04-21T10:45:00+02:00",
+    "version": "v52.4",
+    "generatedAt": "2026-04-21T11:40:29+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Manual snapshot from Gmail order and shipping emails"
+    "source": "Manual snapshot from Gmail delivery, subscription, and renewal emails"
   },
   "deliveries": [
     {
@@ -98,11 +98,12 @@
     {
       "service": "HueForge",
       "title": "HueForge v0.9.3.1 release and downloads",
-      "status": "Digital product update",
+      "status": "One-time digital purchase",
       "nextDate": null,
-      "dateLabel": "Latest update email: Wednesday, 16 April 2026",
+      "dateLabel": "No renewal date found",
       "timezone": "Europe/Madrid",
-      "notes": "HueForge says your digital products for order #69471 have updates and the latest builds are available from your downloads page.",
+      "renewalState": "one_time",
+      "notes": "The Gmail trail only shows product-update and download-access mail for order #69471, so this looks like a one-time purchase rather than a recurring subscription.",
       "items": [
         "Windows, macOS, and Linux builds",
         "Account downloads page",
@@ -120,11 +121,11 @@
       "title": "Parallels Desktop for Mac Pro Edition (1 Year)",
       "status": "Auto-renew disabled",
       "nextDate": "2027-02-24",
-      "dateLabel": null,
+      "dateLabel": "Access ends Tuesday, 24 February 2027",
       "timezone": "Europe/Madrid",
       "renewalState": "canceled",
       "warningWindowDays": 7,
-      "notes": "Cleverbridge order email includes the product key and the original renewal date, but auto-renew has already been canceled so this should not warn.",
+      "notes": "A later Cleverbridge cancellation email confirms auto-renew is off and the current subscription period ends on February 24, 2027, so this should not warn.",
       "items": [
         "Product key ends in CAKX6Y",
         "Annual plan",
@@ -144,16 +145,17 @@
     {
       "service": "ChatGPT",
       "title": "ChatGPT Business subscription",
-      "status": "Active subscription",
-      "nextDate": null,
-      "dateLabel": "Monthly billing",
+      "status": "Will not renew",
+      "nextDate": "2026-05-07",
+      "dateLabel": "Access ends Thursday, 7 May 2026",
       "timezone": "Europe/Madrid",
-      "renewalState": "active",
+      "renewalState": "canceled",
       "warningWindowDays": 7,
-      "notes": "OpenAI confirms the Business workspace is active and billed monthly, with seats adjustable at any time.",
+      "notes": "A later OpenAI billing email explicitly says the ChatGPT Business subscription will not renew and stays available only until May 7, 2026.",
       "items": [
-        "Monthly billing",
-        "Workspace plan"
+        "Business workspace",
+        "Canceled at period end",
+        "Renewable from account page"
       ],
       "links": [
         {
@@ -166,15 +168,16 @@
       "service": "Prime Video",
       "title": "Prime Video ad-free subscription",
       "status": "Active subscription",
-      "nextDate": null,
-      "dateLabel": "Monthly billing",
+      "nextDate": "2026-05-16",
+      "dateLabel": "Estimated monthly renewal on Saturday, 16 May 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "Prime Video says ad free is active and renews automatically for €1.99 per month until canceled.",
+      "notes": "Prime Video says ad free renews automatically for €1.99 per month until canceled. I could not reach the signed-in account page from the tooling here, so the next date is inferred from the latest signup email dated April 16, 2026.",
       "items": [
         "€1.99 per month",
-        "Cancel from account settings"
+        "Cancel from account settings",
+        "Renewal date inferred from latest signup email"
       ],
       "links": [
         {
