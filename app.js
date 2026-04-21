@@ -214,8 +214,13 @@ async function init() {
     timeStyle: "short",
     timeZone: data.metadata.timezone,
   }).format(new Date(data.metadata.generatedAt));
-  appVersion.textContent = data.metadata.version || "Unversioned";
-  timezone.textContent = data.metadata.timezone;
+  if (appVersion) {
+    appVersion.textContent = data.metadata.version || "Unversioned";
+  }
+
+  if (timezone) {
+    timezone.textContent = data.metadata.timezone;
+  }
 
   renderSummary(data);
   renderDeliveries(data);
