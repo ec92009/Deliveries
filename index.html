@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deliveries</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero">
+        <p class="eyebrow">Live inbox snapshot</p>
+        <h1>Pending deliveries across Amazon, AliExpress, and Temu.</h1>
+        <p class="hero-copy">
+          This page is published from GitHub Pages and refreshed from Gmail on a
+          schedule.
+        </p>
+        <div class="hero-meta">
+          <div>
+            <span class="meta-label">Last updated</span>
+            <strong id="last-updated">Loading…</strong>
+          </div>
+          <div>
+            <span class="meta-label">Timezone</span>
+            <strong id="timezone">Loading…</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="summary-grid" id="summary-grid" aria-label="Delivery summary"></section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <p class="section-kicker">Upcoming</p>
+            <h2>Open deliveries</h2>
+          </div>
+          <span class="pill" id="open-count">Loading…</span>
+        </div>
+        <div id="delivery-list" class="delivery-list" aria-live="polite"></div>
+      </section>
+
+      <section class="panel muted-panel">
+        <div class="panel-header">
+          <div>
+            <p class="section-kicker">Suppliers</p>
+            <h2>Nothing pending right now</h2>
+          </div>
+        </div>
+        <div id="empty-suppliers" class="empty-state"></div>
+      </section>
+    </main>
+
+    <template id="delivery-card-template">
+      <article class="delivery-card">
+        <div class="delivery-topline">
+          <span class="supplier-tag"></span>
+          <span class="status-tag"></span>
+        </div>
+        <h3 class="delivery-title"></h3>
+        <p class="delivery-date"></p>
+        <p class="delivery-notes"></p>
+        <div class="delivery-items"></div>
+        <div class="delivery-links"></div>
+      </article>
+    </template>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

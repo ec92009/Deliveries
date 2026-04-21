@@ -1,0 +1,99 @@
+{
+  "today": "2026-04-21",
+  "metadata": {
+    "generatedAt": "2026-04-21T10:45:00+02:00",
+    "timezone": "Europe/Madrid",
+    "source": "Manual snapshot from Gmail order and shipping emails"
+  },
+  "deliveries": [
+    {
+      "supplier": "Amazon",
+      "title": "ONLY Denim Jacket ONLTIA Denim Jacket Medium Blue Denim 38",
+      "status": "Ordered",
+      "dueDate": "2026-04-23",
+      "timezone": "Europe/Madrid",
+      "notes": "Latest Amazon order email says arriving Thursday.",
+      "items": [],
+      "links": [
+        {
+          "label": "Open on Amazon",
+          "url": "https://www.amazon.es/gp/r.html?C=200ZVWEXWRVQN&K=CM79IS1EW80U&M=urn:rtn:msg:20260421071058465aac197b6947bb800f9dc5ebf0p0eu&R=IO2RA3HHUEL3&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fyour-orders%2Forder-details%3ForderID%3D404-8659414-1187556%26ref_%3Dpe_112039931_1111703621_p_btn_fed_veo&H=E52ABHBJEQSAWJPWM1CX10SJJOQA&ref_=pe_112039931_1111703621_p_btn_fed_veo"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "ProDen PlaqueOff 120 Soft Chews",
+      "status": "Dispatched",
+      "dueDate": "2026-04-24",
+      "timezone": "Europe/Madrid",
+      "notes": "Latest Amazon dispatch email says arriving 24 April.",
+      "items": [],
+      "links": [
+        {
+          "label": "Track on Amazon",
+          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:202604161628161b9377e595f54bf09d9a532f55e0p0eu&R=1649GW1DHYCRO&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D404-7594567-3089928%26packageIndex%3D0%26shipmentId%3DTNn9hwNjN%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=ACUEGA8YQA3A5APACOBLAYOADLOA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "Subscribe & Save bundle",
+      "status": "Upcoming",
+      "dueDate": "2026-04-30",
+      "timezone": "Europe/Madrid",
+      "notes": "Current Amazon Subscribe & Save notice says arriving by Thursday, April 30.",
+      "items": [
+        "Korres Argan aceite avanzada coloration Very Light...",
+        "Hellmann's, Salsa Barbacoa Bocabajo, 285g",
+        "L'Oréal Paris Revitalift Láser Triple Acción Crema...",
+        "Joejis Absorbe Olores Nevera - Dura 12 meses, carbón...",
+        "Men Pre Electric Shave Lotion 100ml",
+        "Arándano Rojo Capsulas 50.000 mg con Vitamina C...",
+        "Parodontax Herbal Fresh Pasta de Dientes...",
+        "Extra Grande BBQ Grill Mat de Lukata (Paquete de 3)...",
+        "Probióticos y Prebióticos Intestinales - 180...",
+        "Clément Faugier - Chestnut Spread - 992g"
+      ],
+      "links": [
+        {
+          "label": "Manage on Amazon",
+          "url": "https://www.amazon.es/gp/r.html?C=1ZPW2CG7QLU7N&K=CM79IS1EW80U&M=urn:rtn:msg:20260419213748784d0cb728a44532ba6578ac0a10p0eu&R=21QHEWKRTR3BF&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fgp%2Fsubscribe-and-save%2Fmanage%3FshipId%3Djmmhttjrlmpnr%26ref_%3Dpe_106917471_1094691761_SL_03_01_BT_03__em_rd&H=FUMDT08DLNYRL048OLXLZDW9TGCA&ref_=pe_106917471_1094691761_SL_03_01_BT_03__em_rd"
+        }
+      ]
+    },
+    {
+      "supplier": "AliExpress",
+      "title": "12PCS Magnetic Bendable Allig...",
+      "status": "Confirmation extended",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "AliExpress extended the auto-confirmation date on April 13, which suggests the order was still unresolved at that point.",
+      "items": [],
+      "links": [
+        {
+          "label": "Open on AliExpress",
+          "url": "https://www.aliexpress.com/p/order/detail.html?orderId=3071207156173468"
+        }
+      ]
+    },
+    {
+      "supplier": "AliExpress",
+      "title": "Telescopic Extension Wand for Dyson...",
+      "status": "In transit",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Latest AliExpress transit mail says package 315193137741900017 left the departure region on April 8.",
+      "items": [],
+      "links": [
+        {
+          "label": "Track on AliExpress",
+          "url": "https://www.aliexpress.com/p/tracking/index.html?_addShare=no&_login=yes&tradeOrderId=3071064198343468"
+        }
+      ]
+    }
+  ],
+  "emptySuppliers": [
+    "Temu"
+  ]
+}
