@@ -8,9 +8,11 @@ const panelTitle = document.querySelector("#panel-title");
 const panelCount = document.querySelector("#panel-count");
 const deliveryList = document.querySelector("#delivery-list");
 const emptySuppliers = document.querySelector("#empty-suppliers");
+const emptySuppliersPanel = document.querySelector("#empty-suppliers-panel");
 const template = document.querySelector("#delivery-card-template");
 const deliveriesTab = document.querySelector("#tab-deliveries");
 const licensesTab = document.querySelector("#tab-licenses");
+const subscriptionsTab = document.querySelector("#tab-subscriptions");
 
 const supplierClassMap = {
   Amazon: "supplier-amazon",
@@ -18,18 +20,28 @@ const supplierClassMap = {
   Temu: "supplier-temu",
 };
 
-function formatDueDate(delivery) {
-  if (!delivery.dueDate) {
-    return "Expected date not available";
-  }
+const modeButtons = {
+  deliveries: deliveriesTab,
+  licenses: licensesTab,
+  subscriptions: subscriptionsTab,
+};
 
+function formatCalendarDate(date, zone = "Europe/Madrid") {
   return new Intl.DateTimeFormat("en-GB", {
     weekday: "long",
     day: "numeric",
     month: "long",
     year: "numeric",
-    timeZone: delivery.timezone || "Europe/Madrid",
-  }).format(new Date(`${delivery.dueDate}T12:00:00Z`));
+    timeZone: zone,
+  }).format(new Date(`${date}T12:00:00Z`));
+}
+
+function formatDueDate(delivery) {
+  if (!delivery.dueDate) {
+    return "Expected date not available";
+  }
+
+  return formatCalendarDate(delivery.dueDate, delivery.timezone);
 }
 
 function compareDeliveries(a, b) {
@@ -46,110 +58,6 @@ function compareDeliveries(a, b) {
   }
 
   return a.supplier.localeCompare(b.supplier) || a.title.localeCompare(b.title);
-}
-
-function renderSummary(data) {
-  const cards = [
-    {
-      label: "Pending deliveries",
-      value: data.deliveries.length,
-      detail: "Across all tracked suppliers",
-    },
-    {
-      label: "Due today",
-      value: data.deliveries.filter((item) => item.dueDate === data.today).length,
-      detail: "Anything expected today goes first",
-    },
-    {
-      label: "Suppliers with open deliveries",
-      value: new Set(data.deliveries.map((item) => item.supplier)).size,
-      detail: "Only suppliers with something pending",
-    },
-    {
-      label: "No pending deliveries",
-      value: data.emptySuppliers.length,
-      detail: "Tracked suppliers currently clear",
-    },
-    {
-      label: "License entries",
-      value: data.licenses.length,
-      detail: "Digital products and subscriptions",
-    },
-  ];
-
-  summaryGrid.innerHTML = "";
-
-  for (const card of cards) {
-    const node = document.createElement("article");
-    node.className = "summary-card";
-    node.innerHTML = `
-      <span class="meta-label">${card.label}</span>
-      <strong>${card.value}</strong>
-      <span>${card.detail}</span>
-    `;
-    summaryGrid.appendChild(node);
-  }
-}
-
-function renderCards(entries, config) {
-  const records = [...entries].sort(config.sorter);
-  deliveryList.innerHTML = "";
-
-  panelTitle.textContent = config.title;
-  panelCount.textContent = config.countLabel(records);
-
-  if (!records.length) {
-    deliveryList.innerHTML = `<p class="empty-copy">${config.emptyMessage}</p>`;
-    return;
-  }
-
-  for (const delivery of records) {
-    const node = template.content.firstElementChild.cloneNode(true);
-    const supplierTag = node.querySelector(".supplier-tag");
-    const statusTag = node.querySelector(".status-tag");
-    const title = node.querySelector(".delivery-title");
-    const date = node.querySelector(".delivery-date");
-    const notes = node.querySelector(".delivery-notes");
-    const items = node.querySelector(".delivery-items");
-    const links = node.querySelector(".delivery-links");
-
-    supplierTag.textContent = config.tagLabel(delivery);
-    supplierTag.classList.add(config.tagClass(delivery));
-    statusTag.textContent = delivery.status;
-    title.textContent = delivery.title;
-    date.textContent = config.dateLabel(delivery);
-    notes.textContent = delivery.notes;
-
-    for (const item of delivery.items || []) {
-      const pill = document.createElement("span");
-      pill.className = "mini-pill";
-      pill.textContent = item;
-      items.appendChild(pill);
-    }
-
-    for (const link of delivery.links || []) {
-      const anchor = document.createElement("a");
-      anchor.href = link.url;
-      anchor.textContent = link.label;
-      anchor.target = "_blank";
-      anchor.rel = "noreferrer";
-      links.appendChild(anchor);
-    }
-
-    deliveryList.appendChild(node);
-  }
-}
-
-function renderDeliveries(data) {
-  renderCards(data.deliveries, {
-    title: "Open deliveries",
-    countLabel: (records) => `${records.length} open`,
-    emptyMessage: "No pending deliveries right now.",
-    tagLabel: (entry) => entry.supplier,
-    tagClass: (entry) => supplierClassMap[entry.supplier] || "supplier-amazon",
-    dateLabel: (entry) => formatDueDate(entry),
-    sorter: compareDeliveries,
-  });
 }
 
 function compareLicenses(a, b) {
@@ -175,7 +83,7 @@ function differenceInDays(targetDate, today) {
 }
 
 function getLicenseWarning(license, today) {
-  if (!license.nextDate || license.renewalState === "canceled") {
+  if (!license.nextDate || license.renewalState === "canceled" || license.renewalState === "one_time") {
     return null;
   }
 
@@ -206,34 +114,232 @@ function formatLicenseDate(license) {
     return license.dateLabel || "No renewal date listed";
   }
 
-  return new Intl.DateTimeFormat("en-GB", {
-    weekday: "long",
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-    timeZone: license.timezone || "Europe/Madrid",
-  }).format(new Date(`${license.nextDate}T12:00:00Z`));
+  return formatCalendarDate(license.nextDate, license.timezone);
 }
 
-function renderLicenses(data) {
-  renderCards(data.licenses, {
-    title: "Licenses and subscriptions",
-    countLabel: (records) => {
-      const warningCount = records.filter((record) => getLicenseWarning(record, data.today)).length;
-      return warningCount ? `${warningCount} warning${warningCount === 1 ? "" : "s"}` : `${records.length} tracked`;
+function getLicenseBuckets(data) {
+  const oneTime = [];
+  const subscriptions = [];
+
+  for (const license of data.licenses) {
+    if (license.renewalState === "one_time") {
+      oneTime.push(license);
+      continue;
+    }
+
+    subscriptions.push(license);
+  }
+
+  return { oneTime, subscriptions };
+}
+
+function renderSummary(cards) {
+  summaryGrid.innerHTML = "";
+
+  for (const card of cards) {
+    const node = document.createElement("article");
+    node.className = "summary-card";
+    node.innerHTML = `
+      <span class="meta-label">${card.label}</span>
+      <strong>${card.value}</strong>
+      <span>${card.detail}</span>
+    `;
+    summaryGrid.appendChild(node);
+  }
+}
+
+function renderCards(entries, config) {
+  const records = [...entries].sort(config.sorter);
+  deliveryList.innerHTML = "";
+
+  panelTitle.textContent = config.title;
+  panelCount.textContent = config.countLabel(records);
+
+  if (!records.length) {
+    deliveryList.innerHTML = `<p class="empty-copy">${config.emptyMessage}</p>`;
+    return records;
+  }
+
+  for (const entry of records) {
+    const node = template.content.firstElementChild.cloneNode(true);
+    const supplierTag = node.querySelector(".supplier-tag");
+    const statusTag = node.querySelector(".status-tag");
+    const title = node.querySelector(".delivery-title");
+    const date = node.querySelector(".delivery-date");
+    const notes = node.querySelector(".delivery-notes");
+    const items = node.querySelector(".delivery-items");
+    const links = node.querySelector(".delivery-links");
+
+    supplierTag.textContent = config.tagLabel(entry);
+    supplierTag.classList.add(config.tagClass(entry));
+    statusTag.textContent = entry.status;
+    title.textContent = entry.title;
+    date.textContent = config.dateLabel(entry);
+    notes.textContent = entry.notes;
+
+    for (const item of entry.items || []) {
+      const pill = document.createElement("span");
+      pill.className = "mini-pill";
+      pill.textContent = item;
+      items.appendChild(pill);
+    }
+
+    for (const link of entry.links || []) {
+      const anchor = document.createElement("a");
+      anchor.href = link.url;
+      anchor.textContent = link.label;
+      anchor.target = "_blank";
+      anchor.rel = "noreferrer";
+      links.appendChild(anchor);
+    }
+
+    deliveryList.appendChild(node);
+  }
+
+  return records;
+}
+
+function renderEmptySuppliers(data, isVisible) {
+  emptySuppliersPanel.classList.toggle("is-hidden", !isVisible);
+
+  if (!isVisible) {
+    return;
+  }
+
+  emptySuppliers.innerHTML = "";
+
+  for (const supplier of data.emptySuppliers) {
+    const card = document.createElement("div");
+    card.className = "empty-card";
+    card.textContent = `${supplier} has no pending deliveries in the latest refresh.`;
+    emptySuppliers.appendChild(card);
+  }
+}
+
+function getModeConfig(mode, data) {
+  const { oneTime, subscriptions } = getLicenseBuckets(data);
+
+  if (mode === "licenses") {
+    return {
+      summary: [
+        {
+          label: "Tracked licenses",
+          value: oneTime.length,
+          detail: "One-time digital purchases and download entitlements",
+        },
+        {
+          label: "With account links",
+          value: oneTime.filter((entry) => (entry.links || []).length > 0).length,
+          detail: "Entries with a direct download or account page",
+        },
+        {
+          label: "Recent product updates",
+          value: oneTime.filter((entry) => /update/i.test(entry.status) || /update/i.test(entry.title)).length,
+          detail: "License emails that included new builds or downloads",
+        },
+      ],
+      panel: {
+        entries: oneTime,
+        title: "License access",
+        countLabel: (records) => `${records.length} tracked`,
+        emptyMessage: "No one-time license emails found yet.",
+        tagLabel: (entry) => entry.service,
+        tagClass: () => "supplier-aliexpress",
+        dateLabel: (entry) => formatLicenseDate(entry),
+        sorter: compareLicenses,
+      },
+      showEmptySuppliers: false,
+    };
+  }
+
+  if (mode === "subscriptions") {
+    return {
+      summary: [
+        {
+          label: "Tracked subscriptions",
+          value: subscriptions.length,
+          detail: "Recurring plans with billing or access-end state",
+        },
+        {
+          label: "Warnings this week",
+          value: subscriptions.filter((entry) => getLicenseWarning(entry, data.today)).length,
+          detail: "Renewals landing inside the warning window",
+        },
+        {
+          label: "Canceled at period end",
+          value: subscriptions.filter((entry) => entry.renewalState === "canceled").length,
+          detail: "Plans that will not renew automatically",
+        },
+        {
+          label: "Still active",
+          value: subscriptions.filter((entry) => entry.renewalState === "active").length,
+          detail: "Auto-renewing subscriptions still in effect",
+        },
+      ],
+      panel: {
+        entries: subscriptions,
+        title: "Subscriptions",
+        countLabel: (records) => {
+          const warningCount = records.filter((record) => getLicenseWarning(record, data.today)).length;
+          return warningCount ? `${warningCount} warning${warningCount === 1 ? "" : "s"}` : `${records.length} tracked`;
+        },
+        emptyMessage: "No subscription emails found yet.",
+        tagLabel: (entry) => entry.service,
+        tagClass: () => "supplier-aliexpress",
+        dateLabel: (entry) => formatLicenseDate(entry),
+        sorter: compareLicenses,
+      },
+      warningMode: true,
+      showEmptySuppliers: false,
+    };
+  }
+
+  return {
+    summary: [
+      {
+        label: "Pending deliveries",
+        value: data.deliveries.length,
+        detail: "Across all tracked suppliers",
+      },
+      {
+        label: "Due today",
+        value: data.deliveries.filter((item) => item.dueDate === data.today).length,
+        detail: "Anything expected today goes first",
+      },
+      {
+        label: "Suppliers with open deliveries",
+        value: new Set(data.deliveries.map((item) => item.supplier)).size,
+        detail: "Only suppliers with something pending",
+      },
+      {
+        label: "No pending deliveries",
+        value: data.emptySuppliers.length,
+        detail: "Tracked suppliers currently clear",
+      },
+    ],
+    panel: {
+      entries: data.deliveries,
+      title: "Open deliveries",
+      countLabel: (records) => `${records.length} open`,
+      emptyMessage: "No pending deliveries right now.",
+      tagLabel: (entry) => entry.supplier,
+      tagClass: (entry) => supplierClassMap[entry.supplier] || "supplier-amazon",
+      dateLabel: (entry) => formatDueDate(entry),
+      sorter: compareDeliveries,
     },
-    emptyMessage: "No license emails found yet.",
-    tagLabel: (entry) => entry.service,
-    tagClass: () => "supplier-aliexpress",
-    dateLabel: (entry) => formatLicenseDate(entry),
-    sorter: compareLicenses,
-  });
+    showEmptySuppliers: true,
+  };
+}
+
+function decorateWarnings(records, today, enabled) {
+  if (!enabled) {
+    return;
+  }
 
   const cards = [...deliveryList.querySelectorAll(".delivery-card")];
-  const sortedLicenses = [...data.licenses].sort(compareLicenses);
 
-  for (const [index, license] of sortedLicenses.entries()) {
-    const warning = getLicenseWarning(license, data.today);
+  for (const [index, entry] of records.entries()) {
+    const warning = getLicenseWarning(entry, today);
     if (!warning) {
       continue;
     }
@@ -247,15 +353,18 @@ function renderLicenses(data) {
   }
 }
 
-function renderEmptySuppliers(data) {
-  emptySuppliers.innerHTML = "";
-
-  for (const supplier of data.emptySuppliers) {
-    const card = document.createElement("div");
-    card.className = "empty-card";
-    card.textContent = `${supplier} has no pending deliveries in the latest refresh.`;
-    emptySuppliers.appendChild(card);
+function setActiveMode(mode, data) {
+  for (const [name, button] of Object.entries(modeButtons)) {
+    const isActive = name === mode;
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-selected", String(isActive));
   }
+
+  const config = getModeConfig(mode, data);
+  renderSummary(config.summary);
+  const records = renderCards(config.panel.entries, config.panel);
+  decorateWarnings(records, data.today, config.warningMode);
+  renderEmptySuppliers(data, config.showEmptySuppliers);
 }
 
 async function init() {
@@ -267,6 +376,7 @@ async function init() {
     timeStyle: "short",
     timeZone: data.metadata.timezone,
   }).format(new Date(data.metadata.generatedAt));
+
   if (appVersion) {
     appVersion.textContent = data.metadata.version || "Unversioned";
   }
@@ -275,28 +385,15 @@ async function init() {
     timezone.textContent = data.metadata.timezone;
   }
 
-  renderSummary(data);
-  renderDeliveries(data);
-  renderEmptySuppliers(data);
+  setActiveMode("deliveries", data);
 
-  deliveriesTab.addEventListener("click", () => {
-    deliveriesTab.classList.add("is-active");
-    deliveriesTab.setAttribute("aria-selected", "true");
-    licensesTab.classList.remove("is-active");
-    licensesTab.setAttribute("aria-selected", "false");
-    renderDeliveries(data);
-  });
-
-  licensesTab.addEventListener("click", () => {
-    licensesTab.classList.add("is-active");
-    licensesTab.setAttribute("aria-selected", "true");
-    deliveriesTab.classList.remove("is-active");
-    deliveriesTab.setAttribute("aria-selected", "false");
-    renderLicenses(data);
-  });
+  deliveriesTab.addEventListener("click", () => setActiveMode("deliveries", data));
+  licensesTab.addEventListener("click", () => setActiveMode("licenses", data));
+  subscriptionsTab.addEventListener("click", () => setActiveMode("subscriptions", data));
 }
 
 init().catch((error) => {
+  panelTitle.textContent = "Open deliveries";
   panelCount.textContent = "Error";
-  deliveryList.innerHTML = `<p class="empty-state">Failed to load delivery data: ${error.message}</p>`;
+  deliveryList.innerHTML = `<p class="empty-copy">Failed to load delivery data: ${error.message}</p>`;
 });

@@ -37,6 +37,18 @@
         </div>
       </section>
 
+      <div class="mode-switch" role="tablist" aria-label="Dashboard modes">
+        <button class="tab-button is-active" id="tab-deliveries" type="button" role="tab" aria-selected="true">
+          Deliveries
+        </button>
+        <button class="tab-button" id="tab-licenses" type="button" role="tab" aria-selected="false">
+          Licenses
+        </button>
+        <button class="tab-button" id="tab-subscriptions" type="button" role="tab" aria-selected="false">
+          Subscriptions
+        </button>
+      </div>
+
       <section class="summary-grid" id="summary-grid" aria-label="Delivery summary"></section>
 
       <section class="panel">
@@ -47,18 +59,10 @@
           </div>
           <span class="pill" id="panel-count">Loading…</span>
         </div>
-        <div class="tab-row" role="tablist" aria-label="Dashboard tabs">
-          <button class="tab-button is-active" id="tab-deliveries" type="button" role="tab" aria-selected="true">
-            Deliveries
-          </button>
-          <button class="tab-button" id="tab-licenses" type="button" role="tab" aria-selected="false">
-            Licenses
-          </button>
-        </div>
         <div id="delivery-list" class="delivery-list" aria-live="polite"></div>
       </section>
 
-      <section class="panel muted-panel">
+      <section class="panel muted-panel" id="empty-suppliers-panel">
         <div class="panel-header">
           <div>
             <p class="section-kicker">Suppliers</p>
