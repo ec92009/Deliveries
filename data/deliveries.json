@@ -94,6 +94,9 @@
     }
   ],
   "emptySuppliers": [
-    "Temu"
+    "Temu",
+    "Bambu Lab",
+    "Kickstarter",
+    "Snapmaker"
   ]
 }

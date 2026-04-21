@@ -1,6 +1,6 @@
 # Deliveries
 
-A small GitHub Pages app that shows pending deliveries from Amazon, AliExpress, and Temu.
+A small GitHub Pages app that shows pending deliveries from Amazon, AliExpress, Temu, Bambu Lab, Kickstarter, and Snapmaker.
 
 ## How it works
 
@@ -30,7 +30,6 @@ Each entry in `data/deliveries.json` should include:
 
 The scheduled refresh should:
 
-1. Search Gmail for pending delivery updates across Amazon, AliExpress, and Temu.
+1. Search Gmail for pending delivery updates across Amazon, AliExpress, Temu, Bambu Lab, Kickstarter, and Snapmaker.
 2. Update `data/deliveries.json`.
 3. Commit and push if anything changed.
-
