@@ -1,7 +1,7 @@
 {
   "today": "2026-04-21",
   "metadata": {
-    "version": "v52.1",
+    "version": "v52.3",
     "generatedAt": "2026-04-21T10:45:00+02:00",
     "timezone": "Europe/Madrid",
     "source": "Manual snapshot from Gmail order and shipping emails"
@@ -118,14 +118,17 @@
     {
       "service": "Parallels",
       "title": "Parallels Desktop for Mac Pro Edition (1 Year)",
-      "status": "Active subscription",
+      "status": "Auto-renew disabled",
       "nextDate": "2027-02-24",
       "dateLabel": null,
       "timezone": "Europe/Madrid",
-      "notes": "Cleverbridge order email includes the product key and says the next payment is due on February 24, 2027.",
+      "renewalState": "canceled",
+      "warningWindowDays": 7,
+      "notes": "Cleverbridge order email includes the product key and the original renewal date, but auto-renew has already been canceled so this should not warn.",
       "items": [
         "Product key ends in CAKX6Y",
-        "Billed annually"
+        "Annual plan",
+        "Canceled for next renewal"
       ],
       "links": [
         {
@@ -145,6 +148,8 @@
       "nextDate": null,
       "dateLabel": "Monthly billing",
       "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 7,
       "notes": "OpenAI confirms the Business workspace is active and billed monthly, with seats adjustable at any time.",
       "items": [
         "Monthly billing",
@@ -164,6 +169,8 @@
       "nextDate": null,
       "dateLabel": "Monthly billing",
       "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 7,
       "notes": "Prime Video says ad free is active and renews automatically for €1.99 per month until canceled.",
       "items": [
         "€1.99 per month",

@@ -168,6 +168,39 @@ function compareLicenses(a, b) {
   return a.title.localeCompare(b.title);
 }
 
+function differenceInDays(targetDate, today) {
+  const start = new Date(`${today}T12:00:00Z`);
+  const end = new Date(`${targetDate}T12:00:00Z`);
+  return Math.round((end - start) / 86400000);
+}
+
+function getLicenseWarning(license, today) {
+  if (!license.nextDate || license.renewalState === "canceled") {
+    return null;
+  }
+
+  const windowDays = license.warningWindowDays ?? 7;
+  const daysUntil = differenceInDays(license.nextDate, today);
+
+  if (daysUntil < 0) {
+    return { label: "Past due", priority: "warning" };
+  }
+
+  if (daysUntil <= windowDays) {
+    if (daysUntil === 0) {
+      return { label: "Renews today", priority: "warning" };
+    }
+
+    if (daysUntil === 1) {
+      return { label: "Renews tomorrow", priority: "warning" };
+    }
+
+    return { label: `Renews in ${daysUntil} days`, priority: "warning" };
+  }
+
+  return null;
+}
+
 function formatLicenseDate(license) {
   if (!license.nextDate) {
     return license.dateLabel || "No renewal date listed";
@@ -185,13 +218,33 @@ function formatLicenseDate(license) {
 function renderLicenses(data) {
   renderCards(data.licenses, {
     title: "Licenses and subscriptions",
-    countLabel: (records) => `${records.length} tracked`,
+    countLabel: (records) => {
+      const warningCount = records.filter((record) => getLicenseWarning(record, data.today)).length;
+      return warningCount ? `${warningCount} warning${warningCount === 1 ? "" : "s"}` : `${records.length} tracked`;
+    },
     emptyMessage: "No license emails found yet.",
     tagLabel: (entry) => entry.service,
     tagClass: () => "supplier-aliexpress",
     dateLabel: (entry) => formatLicenseDate(entry),
     sorter: compareLicenses,
   });
+
+  const cards = [...deliveryList.querySelectorAll(".delivery-card")];
+  const sortedLicenses = [...data.licenses].sort(compareLicenses);
+
+  for (const [index, license] of sortedLicenses.entries()) {
+    const warning = getLicenseWarning(license, data.today);
+    if (!warning) {
+      continue;
+    }
+
+    const card = cards[index];
+    const statusTag = card?.querySelector(".status-tag");
+    if (statusTag) {
+      statusTag.textContent = warning.label;
+      statusTag.classList.add("status-warning");
+    }
+  }
 }
 
 function renderEmptySuppliers(data) {

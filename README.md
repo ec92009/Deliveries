@@ -29,6 +29,7 @@ Each entry in `data/deliveries.json` should include:
 - `links`
 
 The file also supports a `licenses` array for digital access and subscription records shown in the second tab.
+License entries can include `renewalState` and `warningWindowDays` so the UI can flag renewals that are within a week.
 
 ## Automation goal
 
@@ -39,3 +40,4 @@ The scheduled refresh should:
 3. Refresh the `licenses` tab from Gmail when there are relevant license, renewal, subscription, or digital-download emails.
 4. Commit and push if anything changed.
 5. If the app changes, bump `metadata.version` according to `VERSIONING_SOP.md`.
+6. Preserve license reminder fields like `renewalState`, `nextDate`, and `warningWindowDays` so near-renewal warnings stay accurate.
