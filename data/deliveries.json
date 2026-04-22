@@ -1,8 +1,8 @@
 {
-  "today": "2026-04-21",
+  "today": "2026-04-22",
   "metadata": {
-    "version": "v52.10",
-    "generatedAt": "2026-04-21T12:52:00+02:00",
+    "version": "v53.0",
+    "generatedAt": "2026-04-22T06:05:33+02:00",
     "timezone": "Europe/Madrid",
     "source": "Manual snapshot from Gmail delivery, subscription, and renewal emails"
   },
@@ -99,7 +99,7 @@
       "notes": "Latest AliExpress transit mail says package 315193137741900017 left the departure region on April 8.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d638e4bacfc349"
+        "url": "https://mail.google.com/mail/#all/19d6bafd9d548f03"
       },
       "items": [],
       "links": [
