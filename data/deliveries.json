@@ -1,28 +1,104 @@
 {
-  "today": "2026-04-22",
+  "today": "2026-04-24",
   "metadata": {
-    "version": "v53.0",
-    "generatedAt": "2026-04-22T06:05:33+02:00",
+    "version": "v55.0",
+    "generatedAt": "2026-04-24T06:55:18+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Manual snapshot from Gmail delivery, subscription, and renewal emails"
+    "source": "Automated snapshot from Gmail delivery, subscription, and renewal emails"
   },
   "deliveries": [
     {
       "supplier": "Amazon",
-      "title": "ONLY Denim Jacket ONLTIA Denim Jacket Medium Blue Denim 38",
-      "status": "Ordered",
-      "dueDate": "2026-04-23",
+      "title": "L'Oréal Paris Revitalift Láser Triple Acción Creme",
+      "status": "Payment verification needed",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon order email says arriving Thursday.",
+      "notes": "Amazon says the payment for this order is pending bank verification and may be cancelled if not verified within 5 days.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19daee0ca4bb168e"
+        "url": "https://mail.google.com/mail/#all/19dbd9a9d18f2661"
       },
       "items": [],
       "links": [
         {
-          "label": "Open on Amazon",
-          "url": "https://www.amazon.es/gp/r.html?C=200ZVWEXWRVQN&K=CM79IS1EW80U&M=urn:rtn:msg:20260421071058465aac197b6947bb800f9dc5ebf0p0eu&R=IO2RA3HHUEL3&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fyour-orders%2Forder-details%3ForderID%3D404-8659414-1187556%26ref_%3Dpe_112039931_1111703621_p_btn_fed_veo&H=E52ABHBJEQSAWJPWM1CX10SJJOQA&ref_=pe_112039931_1111703621_p_btn_fed_veo"
+          "label": "Complete payment",
+          "url": "https://www.amazon.es/gp/r.html?C=15HOC21SDWR3T&K=CM79IS1EW80U&M=urn:rtn:msg:20260424034839b415b396437f436a9e13e34140b0p0eu&R=3TOP3A24B2ZRF&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fgp%2Fcss%2Fsummary%2Fedit.html%3Fie%3DUTF8%26orderID%3D403-0240982-8268308%26ref_%3Dpe_27091411_592878531_mfav_CTA&H=6Y06VPAV2UM20G0BDFENLM6JGI0A&ref_=pe_27091411_592878531_mfav_CTA"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "Hellmann's Salsa Barbacoa Bocabajo (Qty 3)",
+      "status": "Payment verification needed",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon says the payment for this order is pending bank verification and may be cancelled if not verified within 5 days.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dbd9a3f4a5c43e"
+      },
+      "items": [],
+      "links": [
+        {
+          "label": "Complete payment",
+          "url": "https://www.amazon.es/gp/r.html?C=15HOC21SDWR3T&K=CM79IS1EW80U&M=urn:rtn:msg:202604240348152a27e2e9fafe4385bc6aadbc7360p0eu&R=3ETW8LE77FRWY&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fgp%2Fcss%2Fsummary%2Fedit.html%3Fie%3DUTF8%26orderID%3D403-6327239-4193930%26ref_%3Dpe_27091411_592878531_mfav_CTA&H=GT3JAIEONU12EVNTBGLXRRX85PGA&ref_=pe_27091411_592878531_mfav_CTA"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "Aboca Aliviolas Fisiolax (Qty 1)",
+      "status": "Payment verification needed",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon says the payment for this order is pending bank verification and may be cancelled if not verified within 5 days.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dbcbdc028a3abb"
+      },
+      "items": [],
+      "links": [
+        {
+          "label": "Complete payment",
+          "url": "https://www.amazon.es/gp/r.html?C=15HOC21SDWR3T&K=CM79IS1EW80U&M=urn:rtn:msg:202604232347255e7b6c01ffae4a96b7bfc1ce8420p0eu&R=2YJKMNCB074K2&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fgp%2Fcss%2Fsummary%2Fedit.html%3Fie%3DUTF8%26orderID%3D403-2803474-8696345%26ref_%3Dpe_27091411_592878531_mfav_CTA&H=P3RD9O7WQZBZAEJLQTPXKHV1YIEA&ref_=pe_27091411_592878531_mfav_CTA"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "SUNLU Pack 4KG Filamento Rápido PLA Plus 2.0 (4x Negro)",
+      "status": "Out for delivery",
+      "dueDate": "2026-04-23",
+      "timezone": "Europe/Madrid",
+      "notes": "Latest Amazon shipment-tracking email says the package was out for delivery and arriving today.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dba0f9e7287562"
+      },
+      "items": [],
+      "links": [
+        {
+          "label": "Track on Amazon",
+          "url": "https://www.amazon.es/gp/r.html?C=12GU1WUTCSP5U&K=CM79IS1EW80U&M=urn:rtn:msg:20260423111758c486563db89745d1a090e148f4a0p0eu&R=18IL0RR868XR&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D404-9015082-3139535%26packageIndex%3D0%26shipmentId%3DT1x5TDr2k%26vt%3DNOTIFICATIONS%26ref_%3Dpe_151259351_1319653101_p_btn_fed_track_package&H=P5INY2A29Y42MTCP7P6XNEXIQGIA&ref_=pe_151259351_1319653101_p_btn_fed_track_package"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "L'OR Cápsulas de Café Ristretto (Qty 2)",
+      "status": "Dispatched",
+      "dueDate": "2026-04-23",
+      "timezone": "Europe/Madrid",
+      "notes": "Latest Amazon dispatch email says arriving tomorrow (email dated 22 April).",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19db70baa7ba582a"
+      },
+      "items": [],
+      "links": [
+        {
+          "label": "Track on Amazon",
+          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:20260422211446aa5b7f8c791341fea6f4addb0440p0eu&R=ERORVAYRG24O&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D408-5096912-4090729%26packageIndex%3D0%26shipmentId%3DTCWkdJr0k%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=86UXGKPBEOON2OJFXYWCAT0LQMWA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
         }
       ]
     },
@@ -42,6 +118,63 @@
         {
           "label": "Track on Amazon",
           "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:202604161628161b9377e595f54bf09d9a532f55e0p0eu&R=1649GW1DHYCRO&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D404-7594567-3089928%26packageIndex%3D0%26shipmentId%3DTNn9hwNjN%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=ACUEGA8YQA3A5APACOBLAYOADLOA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "1.5 Litre Glass Kettle Water Bottle with lid",
+      "status": "Dispatched",
+      "dueDate": "2026-04-24",
+      "timezone": "Europe/Madrid",
+      "notes": "Latest Amazon dispatch email says arriving Friday (24 April).",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19db5e2ae7e8ea45"
+      },
+      "items": [],
+      "links": [
+        {
+          "label": "Track on Amazon",
+          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:202604221550230d221e97c15c45ca9e4bea94a720p0eu&R=1KDEKQITHPK4C&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D404-6494235-4263531%26packageIndex%3D0%26shipmentId%3DT680GZrJk%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=XBI3EUVWCQUWQEBAORWID5CBKXEA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "DEEPLEE PLA Pro 1.75 mm (2 kg) - Grey",
+      "status": "Dispatched",
+      "dueDate": "2026-04-24",
+      "timezone": "Europe/Madrid",
+      "notes": "Latest Amazon dispatch email says arriving tomorrow (email dated 23 April).",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dbafee15c33f80"
+      },
+      "items": [],
+      "links": [
+        {
+          "label": "Track on Amazon",
+          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:20260423153917ab099fe812054f2db730de453270p0eu&R=93CKX88DWRH7&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D403-9275688-0857949%26packageIndex%3D0%26shipmentId%3DTwfhN4GFk%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=FDVMZJ7PINHQBR6U5HLGUYUB2GUA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "GARHWAL 45mm Bi-Metal Hole Saw",
+      "status": "Dispatched",
+      "dueDate": "2026-04-24",
+      "timezone": "Europe/Madrid",
+      "notes": "Latest Amazon dispatch email says arriving tomorrow (email dated 23 April).",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19db8f454505ff18"
+      },
+      "items": [],
+      "links": [
+        {
+          "label": "Track on Amazon",
+          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:202604230608311149728d6bf8464194ae62613900p0eu&R=3AF3E4JI200PS&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D403-9697658-2140318%26packageIndex%3D0%26shipmentId%3DTcwXH9sdk%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=ADOAOA8EHJ44YBDBSIOCFQ2JIO4A&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
         }
       ]
     },
@@ -68,6 +201,44 @@
         {
           "label": "Manage on Amazon",
           "url": "https://www.amazon.es/gp/r.html?C=1ZPW2CG7QLU7N&K=CM79IS1EW80U&M=urn:rtn:msg:20260419213748784d0cb728a44532ba6578ac0a10p0eu&R=21QHEWKRTR3BF&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fgp%2Fsubscribe-and-save%2Fmanage%3FshipId%3Djmmhttjrlmpnr%26ref_%3Dpe_106917471_1094691761_SL_03_01_BT_03__em_rd&H=FUMDT08DLNYRL048OLXLZDW9TGCA&ref_=pe_106917471_1094691761_SL_03_01_BT_03__em_rd"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "eSUN PLA Filamento 1.75mm (2x Dark Red)",
+      "status": "Ordered",
+      "dueDate": "2026-04-30",
+      "timezone": "Europe/Madrid",
+      "notes": "Latest Amazon order email says arriving 30 April.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19db57c30f21087b"
+      },
+      "items": [],
+      "links": [
+        {
+          "label": "View order on Amazon",
+          "url": "https://www.amazon.es/gp/r.html?C=200ZVWEXWRVQN&K=CM79IS1EW80U&M=urn:rtn:msg:202604221358268c98e6e38bf74641b3bcf0233520p0eu&R=32ES5S2HJKCI&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fyour-orders%2Forder-details%3ForderID%3D171-7693667-1676301%26ref_%3Dpe_112039931_1111703621_p_btn_fed_veo&H=VM6TWQ6NF0GEK0O1SIXLEZLNGRQA&ref_=pe_112039931_1111703621_p_btn_fed_veo"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "CMTOP Pantalones Mujer Verano Casuales de Lino (Azul Marino, M)",
+      "status": "Dispatched",
+      "dueDate": "2026-04-25",
+      "timezone": "Europe/Madrid",
+      "notes": "Latest Amazon dispatch email says arriving Saturday (25 April).",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dba4f5f2f6faeb"
+      },
+      "items": [],
+      "links": [
+        {
+          "label": "Track on Amazon",
+          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:20260423122735c79ec5bdaeb7498e8ba4708406b0p0eu&R=FNQZON3VIJ3H&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D404-0435251-3205952%26packageIndex%3D0%26shipmentId%3DTXzJlvshk%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=AXKA70DASO9KUQCLPKRRYDCFPLIA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
         }
       ]
     },
