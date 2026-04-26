@@ -1,8 +1,8 @@
 {
-  "today": "2026-04-24",
+  "today": "2026-04-26",
   "metadata": {
-    "version": "v55.0",
-    "generatedAt": "2026-04-24T06:55:18+02:00",
+    "version": "v57.0",
+    "generatedAt": "2026-04-26T08:22:13+02:00",
     "timezone": "Europe/Madrid",
     "source": "Automated snapshot from Gmail delivery, subscription, and renewal emails"
   },
@@ -66,25 +66,6 @@
     },
     {
       "supplier": "Amazon",
-      "title": "SUNLU Pack 4KG Filamento Rápido PLA Plus 2.0 (4x Negro)",
-      "status": "Out for delivery",
-      "dueDate": "2026-04-23",
-      "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon shipment-tracking email says the package was out for delivery and arriving today.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dba0f9e7287562"
-      },
-      "items": [],
-      "links": [
-        {
-          "label": "Track on Amazon",
-          "url": "https://www.amazon.es/gp/r.html?C=12GU1WUTCSP5U&K=CM79IS1EW80U&M=urn:rtn:msg:20260423111758c486563db89745d1a090e148f4a0p0eu&R=18IL0RR868XR&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D404-9015082-3139535%26packageIndex%3D0%26shipmentId%3DT1x5TDr2k%26vt%3DNOTIFICATIONS%26ref_%3Dpe_151259351_1319653101_p_btn_fed_track_package&H=P5INY2A29Y42MTCP7P6XNEXIQGIA&ref_=pe_151259351_1319653101_p_btn_fed_track_package"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
       "title": "L'OR Cápsulas de Café Ristretto (Qty 2)",
       "status": "Dispatched",
       "dueDate": "2026-04-23",
@@ -118,25 +99,6 @@
         {
           "label": "Track on Amazon",
           "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:202604161628161b9377e595f54bf09d9a532f55e0p0eu&R=1649GW1DHYCRO&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D404-7594567-3089928%26packageIndex%3D0%26shipmentId%3DTNn9hwNjN%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=ACUEGA8YQA3A5APACOBLAYOADLOA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "title": "1.5 Litre Glass Kettle Water Bottle with lid",
-      "status": "Dispatched",
-      "dueDate": "2026-04-24",
-      "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon dispatch email says arriving Friday (24 April).",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19db5e2ae7e8ea45"
-      },
-      "items": [],
-      "links": [
-        {
-          "label": "Track on Amazon",
-          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:202604221550230d221e97c15c45ca9e4bea94a720p0eu&R=1KDEKQITHPK4C&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D404-6494235-4263531%26packageIndex%3D0%26shipmentId%3DT680GZrJk%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=XBI3EUVWCQUWQEBAORWID5CBKXEA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
         }
       ]
     },
@@ -220,44 +182,6 @@
         {
           "label": "View order on Amazon",
           "url": "https://www.amazon.es/gp/r.html?C=200ZVWEXWRVQN&K=CM79IS1EW80U&M=urn:rtn:msg:202604221358268c98e6e38bf74641b3bcf0233520p0eu&R=32ES5S2HJKCI&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fyour-orders%2Forder-details%3ForderID%3D171-7693667-1676301%26ref_%3Dpe_112039931_1111703621_p_btn_fed_veo&H=VM6TWQ6NF0GEK0O1SIXLEZLNGRQA&ref_=pe_112039931_1111703621_p_btn_fed_veo"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "title": "CMTOP Pantalones Mujer Verano Casuales de Lino (Azul Marino, M)",
-      "status": "Dispatched",
-      "dueDate": "2026-04-25",
-      "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon dispatch email says arriving Saturday (25 April).",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dba4f5f2f6faeb"
-      },
-      "items": [],
-      "links": [
-        {
-          "label": "Track on Amazon",
-          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:20260423122735c79ec5bdaeb7498e8ba4708406b0p0eu&R=FNQZON3VIJ3H&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D404-0435251-3205952%26packageIndex%3D0%26shipmentId%3DTXzJlvshk%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=AXKA70DASO9KUQCLPKRRYDCFPLIA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
-        }
-      ]
-    },
-    {
-      "supplier": "AliExpress",
-      "title": "12PCS Magnetic Bendable Allig...",
-      "status": "Confirmation extended",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "AliExpress extended the auto-confirmation date on April 13, which suggests the order was still unresolved at that point.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d884cb6e655304"
-      },
-      "items": [],
-      "links": [
-        {
-          "label": "Open on AliExpress",
-          "url": "https://www.aliexpress.com/p/order/detail.html?orderId=3071207156173468"
         }
       ]
     },
