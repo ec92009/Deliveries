@@ -1,8 +1,8 @@
 {
-  "today": "2026-04-26",
+  "today": "2026-04-27",
   "metadata": {
-    "version": "v57.0",
-    "generatedAt": "2026-04-26T08:22:13+02:00",
+    "version": "v58.0",
+    "generatedAt": "2026-04-27T06:07:35+02:00",
     "timezone": "Europe/Madrid",
     "source": "Automated snapshot from Gmail delivery, subscription, and renewal emails"
   },
@@ -143,10 +143,14 @@
     {
       "supplier": "Amazon",
       "title": "Subscribe & Save bundle",
-      "status": "Upcoming",
-      "dueDate": "2026-04-30",
+      "status": "Dispatched",
+      "dueDate": "2026-04-27",
       "timezone": "Europe/Madrid",
-      "notes": "Current Amazon Subscribe & Save notice says arriving by Thursday, April 30.",
+      "notes": "Multiple Amazon dispatch emails dated 26 April show parts of this Subscribe & Save order shipping; earliest arrival is tomorrow (27 April).",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dcad05514418db"
+      },
       "items": [
         "Korres Argan aceite avanzada coloration Very Light...",
         "Hellmann's, Salsa Barbacoa Bocabajo, 285g",
@@ -186,15 +190,110 @@
       ]
     },
     {
+      "supplier": "Amazon",
+      "title": "AQUILEA Digestive 30 Tablets Mint...",
+      "status": "Ordered",
+      "dueDate": "2026-04-30",
+      "timezone": "Europe/Madrid",
+      "notes": "Latest Amazon order email says arriving Thursday, 30 April (email dated 26 April).",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dcb4c54b3b01d7"
+      },
+      "items": [],
+      "links": [
+        {
+          "label": "View order on Amazon",
+          "url": "https://www.amazon.es/gp/r.html?C=200ZVWEXWRVQN&K=CM79IS1EW80U&M=urn:rtn:msg:20260426193748dbf6f8c0a7f942e1a542e0af83b0p0eu&R=PSW1ABS1814K&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fyour-orders%2Forder-details%3ForderID%3D404-7805623-2260303%26ref_%3Dpe_112039931_1111703621_p_btn_fed_veo&H=KLGA9TTRSIMGMGPT9FZIKXUZ7HEA&ref_=pe_112039931_1111703621_p_btn_fed_veo"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "Rebower 1m (3Ft) Silicone Tube...",
+      "status": "Dispatched",
+      "dueDate": "2026-04-27",
+      "timezone": "Europe/Madrid",
+      "notes": "Latest Amazon dispatch email says arriving tomorrow (email dated 26 April).",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dcad2bea15c778"
+      },
+      "items": [],
+      "links": [
+        {
+          "label": "Track on Amazon",
+          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:202604261725006ae97c35b2f24d2e9bb0da2a7060p0eu&R=2MW5PPEIS779S&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D171-0908248-3369134%26packageIndex%3D0%26shipmentId%3DTXq2wcYmk%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=NG4RNOJDWX5VHF80DJIVWU0JVBQA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "BRITA Flow XXL filter tank (8.2 l)...",
+      "status": "Dispatched",
+      "dueDate": "2026-04-27",
+      "timezone": "Europe/Madrid",
+      "notes": "Latest Amazon dispatch email says arriving tomorrow (email dated 26 April).",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dcad2a88338f90"
+      },
+      "items": [],
+      "links": [
+        {
+          "label": "Track on Amazon",
+          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:20260426172455eb3fa6626b7c403cac90a7f00650p0eu&R=1T607HQ2BY7DD&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D171-5949662-5068301%26packageIndex%3D0%26shipmentId%3DTGqdwcYmk%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=RVQHVTIXWTB8AQBGL86RAVILSQYA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "989Zé ENZO Regular Fit Pant Stretch Jeans...",
+      "status": "Dispatched",
+      "dueDate": "2026-04-30",
+      "timezone": "Europe/Madrid",
+      "notes": "Latest Amazon dispatch email says arriving Thursday, 30 April (email dated 26 April).",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dc74955658a11c"
+      },
+      "items": [],
+      "links": [
+        {
+          "label": "Track on Amazon",
+          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:202604260056036d17fa0cbd524489bf8460841420p0eu&R=WVHLVZOOZE2Q&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D404-6814941-0721957%26packageIndex%3D0%26shipmentId%3DTGyxdVfhk%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=GUAOVW0EXKOA47H4U8SZ7FQKTCSA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "COLGATE Max White Ultra Active Foam...",
+      "status": "Dispatched",
+      "dueDate": "2026-04-29",
+      "timezone": "Europe/Madrid",
+      "notes": "Latest Amazon dispatch email says arriving Wednesday, 29 April (email dated 26 April).",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dc7a62b16e81a6"
+      },
+      "items": [],
+      "links": [
+        {
+          "label": "Track on Amazon",
+          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:20260426023727266f561454fd44f8a56f59807d10p0eu&R=TRMPJBHAWQ69&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D404-5725946-9481144%26packageIndex%3D0%26shipmentId%3DTntgyrfSk%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=XQFDKFIUUBRD0WO7XZQARP6OSJMA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
+        }
+      ]
+    },
+    {
       "supplier": "AliExpress",
       "title": "Telescopic Extension Wand for Dyson...",
       "status": "In transit",
       "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Latest AliExpress transit mail says package 315193137741900017 left the departure region on April 8.",
+      "notes": "Latest AliExpress tracking email says package 315193137741900017 has arrived in your country/region (email dated 27 April).",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d6bafd9d548f03"
+        "url": "https://mail.google.com/mail/#all/19dccaa04822b1d4"
       },
       "items": [],
       "links": [
