@@ -1,8 +1,8 @@
 {
-  "today": "2026-04-27",
+  "today": "2026-04-28",
   "metadata": {
-    "version": "v58.0",
-    "generatedAt": "2026-04-27T06:07:35+02:00",
+    "version": "v59.0",
+    "generatedAt": "2026-04-28T06:03:13+02:00",
     "timezone": "Europe/Madrid",
     "source": "Automated snapshot from Gmail delivery, subscription, and renewal emails"
   },
@@ -281,6 +281,63 @@
         {
           "label": "Track on Amazon",
           "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:20260426023727266f561454fd44f8a56f59807d10p0eu&R=TRMPJBHAWQ69&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D404-5725946-9481144%26packageIndex%3D0%26shipmentId%3DTntgyrfSk%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=XQFDKFIUUBRD0WO7XZQARP6OSJMA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "Clément Faugier - Chestnut Spread - 992g",
+      "status": "Dispatched",
+      "dueDate": "2026-04-30",
+      "timezone": "Europe/Madrid",
+      "notes": "Latest Amazon dispatch email says arriving Thursday, 30 April (email dated 27 April).",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dcd2508dbacb79"
+      },
+      "items": [],
+      "links": [
+        {
+          "label": "Track on Amazon",
+          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:20260427041407be6c3902d1d24878a688b1865ae0p0eu&R=10XL5GYDN43CL&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D404-3097377-5584346%26packageIndex%3D0%26shipmentId%3DTwFNtZlXk%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=BKFJPTSA4ENNL5LZRCRL3COQWGSA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "Men Pre Electric Shave Lotion 100ml",
+      "status": "Dispatched",
+      "dueDate": "2026-04-30",
+      "timezone": "Europe/Madrid",
+      "notes": "Latest Amazon dispatch email says arriving 29 April - 30 April (email dated 27 April).",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dcdb278095a1a7"
+      },
+      "items": [],
+      "links": [
+        {
+          "label": "Track on Amazon",
+          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:20260427064836ce00e078d4b24c308e1776d081f0p0eu&R=68ACPULALLL3&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D408-1223024-4569166%26packageIndex%3D0%26shipmentId%3DDjyrGWbcJ%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=ROO4RVGTT4R0B6TOUG0HNH4GCSAA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "BRITA Depósito filtrante Flow XXL (8,2 l)...",
+      "status": "Ordered",
+      "dueDate": "2026-04-30",
+      "timezone": "Europe/Madrid",
+      "notes": "Latest Amazon order email says arriving Thursday, 30 April (email dated 27 April).",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dceeb753bc8387"
+      },
+      "items": [],
+      "links": [
+        {
+          "label": "View order on Amazon",
+          "url": "https://www.amazon.es/gp/r.html?C=200ZVWEXWRVQN&K=CM79IS1EW80U&M=urn:rtn:msg:2026042712302862ead21c2ff74054afba41bcc1e0p0eu&R=3UHZAA14J8RXJ&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fyour-orders%2Forder-details%3ForderID%3D171-7026712-8751518%26ref_%3Dpe_112039931_1111703621_p_btn_fed_veo&H=WUVZUTYPHK5PAFAIYKMMGFJZSBCA&ref_=pe_112039931_1111703621_p_btn_fed_veo"
         }
       ]
     },
