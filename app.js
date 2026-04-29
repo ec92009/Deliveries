@@ -146,23 +146,33 @@ function getFilteredSubscriptions(entries, today, filter) {
   return entries;
 }
 
-function hasReturnInProgress(entry) {
-  return entry.returnStarted === true || entry.returnInProgress === true || entry.returnStatus === "started";
+function hasReturnAuthorization(entry) {
+  return (
+    entry.returnAuthorizationGranted === true ||
+    entry.returnDropoffRequired === true ||
+    ["authorized", "approved", "granted", "dropoff_required", "return_authorized"].includes(entry.returnStatus)
+  );
+}
+
+function hasReturnRequest(entry) {
+  return (
+    hasReturnAuthorization(entry) ||
+    entry.returnRequested === true ||
+    entry.returnStarted === true ||
+    entry.returnInProgress === true ||
+    ["requested", "started", "pending", "in_progress"].includes(entry.returnStatus)
+  );
 }
 
 function getDeliveryTone(entry, today) {
-  if (hasReturnInProgress(entry)) {
+  if (hasReturnAuthorization(entry)) {
     return "urgent";
   }
 
   if (entry.returnByDate) {
     const daysLeft = differenceInDays(entry.returnByDate, today);
 
-    if (daysLeft >= 0 && daysLeft <= 2) {
-      return "urgent";
-    }
-
-    if (daysLeft >= 0 && daysLeft <= 7) {
+    if (!hasReturnRequest(entry) && daysLeft >= 0 && daysLeft <= 7) {
       return "return-soon";
     }
   }
@@ -462,9 +472,9 @@ function getModeConfig(mode, data) {
         selected: deliveryFilter === "all",
       },
       {
-        label: "Urgent returns",
+        label: "Return authorized",
         value: data.deliveries.filter((item) => getDeliveryTone(item, data.today) === "urgent").length,
-        detail: "Return started already, or inside the last 2 return days",
+        detail: "Authorization granted; bring back for reimbursement",
         action: "urgent",
         selected: deliveryFilter === "urgent",
         tone: "urgent",
@@ -486,9 +496,9 @@ function getModeConfig(mode, data) {
         tone: "future",
       },
       {
-        label: "Return window ending",
+        label: "Still returnable",
         value: data.deliveries.filter((item) => getDeliveryTone(item, data.today) === "return-soon").length,
-        detail: "Had close to a month, but still eligible to return",
+        detail: "No return requested, still eligible near the deadline",
         action: "return-soon",
         selected: deliveryFilter === "return-soon",
         tone: "return-soon",
