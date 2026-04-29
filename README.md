@@ -28,6 +28,7 @@ Each entry in `data/deliveries.json` should include:
 - `items`
 - `links`
 - `sourceEmail`, when the source Gmail message is known
+- `deliveredDate`, when a delivered item is being retained for return-window tracking
 - `returnByDate`, when an item is still eligible to return
 - `returnAuthorizationGranted` or `returnStatus`, when a supplier has authorized a return
 
@@ -46,8 +47,10 @@ The scheduled refresh should:
 
 1. Search Gmail for pending delivery updates from any convincing order, shipment, delivery, return, tracking, or marketplace email. Known suppliers such as Amazon, AliExpress, Temu, Bambu Lab, Kickstarter, Snapmaker, BIQU, and Tikamoon should still be searched explicitly, but the refresh should not reject real delivery signals just because the supplier is new.
 2. Update `data/deliveries.json`.
-3. Refresh the `licenses` and `subscriptions` tabs from Gmail when there are relevant license, renewal, subscription, or digital-download emails.
-4. Commit and push if anything changed.
-5. For every dashboard data change, bump `metadata.version` according to `VERSIONING_SOP.md`.
-6. Preserve license reminder fields like `renewalState`, `nextDate`, and `warningWindowDays` so near-renewal warnings stay accurate.
-7. Verify that `origin/main` contains the new commit after pushing; if not, retry once and record the failure in automation memory.
+3. Retain delivered Amazon items through their return window when `deliveredDate` is available; mark them orange once they are at least 21 days old and still returnable.
+4. Treat red return status strictly as an accepted return authorization that still requires the item to be brought or sent back for reimbursement. Do not keep completed drop-off/refund returns red.
+5. Refresh the `licenses` and `subscriptions` tabs from Gmail when there are relevant license, renewal, subscription, or digital-download emails.
+6. Commit and push if anything changed.
+7. For every dashboard data change, bump `metadata.version` according to `VERSIONING_SOP.md`.
+8. Preserve license reminder fields like `renewalState`, `nextDate`, and `warningWindowDays` so near-renewal warnings stay accurate.
+9. Verify that `origin/main` contains the new commit after pushing; if not, retry once and record the failure in automation memory.

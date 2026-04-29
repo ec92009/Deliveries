@@ -47,6 +47,17 @@ function formatCalendarDate(date, zone = "Europe/Madrid") {
 }
 
 function formatDueDate(delivery) {
+  if (delivery.deliveredDate && delivery.returnByDate) {
+    return `Delivered ${formatCalendarDate(delivery.deliveredDate, delivery.timezone)}. Return by ${formatCalendarDate(
+      delivery.returnByDate,
+      delivery.timezone,
+    )}`;
+  }
+
+  if (delivery.returnByDate) {
+    return `Return by ${formatCalendarDate(delivery.returnByDate, delivery.timezone)}`;
+  }
+
   if (!delivery.dueDate) {
     return "Expected date not available";
   }
@@ -55,15 +66,18 @@ function formatDueDate(delivery) {
 }
 
 function compareDeliveries(a, b) {
-  if (a.dueDate && b.dueDate) {
-    return a.dueDate.localeCompare(b.dueDate);
+  const aSortDate = a.dueDate || a.returnByDate || null;
+  const bSortDate = b.dueDate || b.returnByDate || null;
+
+  if (aSortDate && bSortDate) {
+    return aSortDate.localeCompare(bSortDate);
   }
 
-  if (a.dueDate) {
+  if (aSortDate) {
     return -1;
   }
 
-  if (b.dueDate) {
+  if (bSortDate) {
     return 1;
   }
 
@@ -177,8 +191,12 @@ function getDeliveryTone(entry, today) {
 
   if (entry.returnByDate) {
     const daysLeft = differenceInDays(entry.returnByDate, today);
+    const daysSinceDelivery = entry.deliveredDate ? differenceInDays(today, entry.deliveredDate) : null;
+    const warningStartsAfterDays = entry.returnWarningStartsAfterDays ?? 21;
+    const isOldEnoughToWarn = daysSinceDelivery !== null && daysSinceDelivery >= warningStartsAfterDays;
+    const isInFallbackWarningWindow = daysSinceDelivery === null && daysLeft <= 7;
 
-    if (!hasReturnRequest(entry) && daysLeft >= 0 && daysLeft <= 7) {
+    if (!hasReturnRequest(entry) && daysLeft >= 0 && (isOldEnoughToWarn || isInFallbackWarningWindow)) {
       return "return-soon";
     }
   }

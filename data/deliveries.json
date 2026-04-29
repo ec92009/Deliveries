@@ -1,10 +1,10 @@
 {
   "today": "2026-04-29",
   "metadata": {
-    "version": "v60.5",
-    "generatedAt": "2026-04-29T21:28:33+02:00",
+    "version": "v60.6",
+    "generatedAt": "2026-04-29T21:42:46+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Manual run of scheduled Gmail refresh with broad supplier capture"
+    "source": "Manual Amazon-only Gmail rescan from 2026-03-29 for return-window tracking"
   },
   "deliveries": [
     {
@@ -237,6 +237,301 @@
           "label": "Track Tikamoon shipment",
           "url": "https://go.tikamoon.com/lnk/CAAACJJ-quwAAAAAAAAAAunxVXsAAYCsqYsAAAAAABK5ZQBp8j_dAhITX9MEQxWxrk37BF1oowASU7A/6/SfK0-YsCDpiNYfrSjvHyRw/aHR0cHM6Ly9hcHAudm9uenUuZXMvZmluZC1leHBlZGl0aW9uP2RvbWFpbj1tZXRob2QmcmVmZXJlbmNlPTQwMDQwMjgtV0VCLTEmcG9zdGFsQ29kZT0yOTEzMA"
         }
+      ]
+    },
+    {
+      "id": "amazon-return-window-authorized-171-6934092-7868309",
+      "supplier": "Amazon",
+      "title": "MAGEFESA 1106017 Prague omelette pan return",
+      "status": "Return authorization granted",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "returnByDate": "2026-04-28",
+      "returnAuthorizationGranted": true,
+      "returnDropoffRequired": true,
+      "returnStatus": "return_authorized",
+      "notes": "Amazon accepted this seller return request and later sent a follow-up saying a return authorization was provided. The send-by date in the return email was 28 April, so this should be checked urgently.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19d2c1e611003f3a"
+      },
+      "items": [
+        "MAGEFESA 1106017 Prague omelette pan"
+      ],
+      "links": [
+        {
+          "label": "Manage Amazon return",
+          "url": "https://www.amazon.es/spr/returns/cart?orderId=171-6934092-7868309"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "status": "Delivered - return window closing",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "id": "amazon-return-window-2026-03-30-408-1667774-6541120",
+      "title": "Eucerin, eSUN PLA, and Arquiel delivery bundle",
+      "deliveredDate": "2026-03-30",
+      "returnByDate": "2026-04-29",
+      "notes": "Amazon delivered this package on 30 March. It is still inside the assumed 30-day return window today; the email also listed two additional hidden items behind a package link.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19d3edfdb3163022"
+      },
+      "items": [
+        "Eucerin Hyaluron-Filler + Elasticity Night Cream",
+        "eSUN PLA Basic dark red filament",
+        "Arquiel tropical kitchen towels",
+        "Two additional items listed behind the package link"
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "status": "Delivered - return window closing",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "id": "amazon-return-window-2026-04-02-408-6140323-1971550",
+      "title": "Korres Argan and Pronto repair treatment",
+      "deliveredDate": "2026-04-02",
+      "returnByDate": "2026-05-02",
+      "notes": "Amazon delivered this two-item package on 2 April; no return request was found in the scan window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19d4da2bd4d61220"
+      },
+      "items": [
+        "Korres Argan advanced coloration Very Light Blonde 9.0",
+        "Pronto dark scratch repair treatment for furniture and wood"
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "status": "Delivered - return window closing",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "id": "amazon-return-window-2026-04-02-171-3037711-2697914",
+      "title": "Amazon Basics food storage lids set",
+      "deliveredDate": "2026-04-02",
+      "returnByDate": "2026-05-02",
+      "notes": "Amazon delivered this item on 2 April; no return request was found in the scan window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19d4da2a21c02026"
+      },
+      "items": [
+        "Amazon Basics BPA-free food storage lids and containers set"
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "status": "Delivered - return window closing",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "id": "amazon-return-window-2026-04-02-171-8474968-5973113",
+      "title": "Top Towel hand towel sets",
+      "deliveredDate": "2026-04-02",
+      "returnByDate": "2026-05-02",
+      "notes": "Amazon delivered two Top Towel items on 2 April; no return request was found in the scan window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19d4da26c8e82ae1"
+      },
+      "items": [
+        "Top Towel hand/bath towel set",
+        "Top Towel hand/bath towel set"
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "status": "Delivered - return window closing",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "id": "amazon-return-window-2026-04-02-171-1426325-2981938",
+      "title": "eSUN PLA Basic orange filament, two spools",
+      "deliveredDate": "2026-04-02",
+      "returnByDate": "2026-05-02",
+      "notes": "Amazon delivered this filament on 2 April; no return request was found in the scan window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19d4da22a950e1e2"
+      },
+      "items": [
+        "eSUN PLA Basic filament, orange + orange, two spools"
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "status": "Delivered - return window closing",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "id": "amazon-return-window-2026-04-02-408-4900838-7409939",
+      "title": "Eucerin Hyaluron-Filler day cream",
+      "deliveredDate": "2026-04-02",
+      "returnByDate": "2026-05-02",
+      "notes": "Amazon delivered this item on 2 April; no return request was found in the scan window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19d4da21c52274b5"
+      },
+      "items": [
+        "Eucerin Hyaluron-Filler Day Cream SPF 15 for dry skin"
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "status": "Delivered - return window closing",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "id": "amazon-return-window-2026-04-04-171-0289901-8045177-ourmed",
+      "title": "Ourmed sterile wound dressings",
+      "deliveredDate": "2026-04-04",
+      "returnByDate": "2026-05-04",
+      "notes": "Amazon delivered this item on 4 April; no return request was found in the scan window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19d588747e199c0b"
+      },
+      "items": [
+        "Ourmed sterile self-adhesive wound dressings, 50 units"
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "status": "Delivered - return window closing",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "id": "amazon-return-window-2026-04-04-171-0289901-8045177-bundle",
+      "title": "D.RECT, CIF, and Senti2 delivery bundle",
+      "deliveredDate": "2026-04-04",
+      "returnByDate": "2026-05-04",
+      "notes": "Amazon delivered this package on 4 April; no return request was found in the scan window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19d5886183ce7efd"
+      },
+      "items": [
+        "D.RECT 5580 expandable A4 document folder",
+        "CIF Pink Cream multi-purpose cleaner",
+        "Senti2 hydrating eye drops"
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "status": "Delivered - return window closing",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "id": "amazon-return-window-2026-04-05-171-0289901-8045177-color",
+      "title": "Colour Coloration Permanent 8.3, quantity 2",
+      "deliveredDate": "2026-04-05",
+      "returnByDate": "2026-05-05",
+      "notes": "Amazon delivered two units on 5 April; no return request was found in the scan window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19d5d534ab1a99a8"
+      },
+      "items": [
+        "Colour Coloration Permanent 8.3 Light Golden Blonde, quantity 2"
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "status": "Delivered - return window closing",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "id": "amazon-return-window-2026-04-07-171-3952400-0927543",
+      "title": "RENPHO scale and L'OR Ristretto delivery bundle",
+      "deliveredDate": "2026-04-07",
+      "returnByDate": "2026-05-07",
+      "notes": "Amazon delivered this package on 7 April. It is at least three weeks old and still returnable under the assumed 30-day window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19d682891b139bc6"
+      },
+      "items": [
+        "RENPHO digital body-composition bathroom scale",
+        "L'OR Ristretto capsules, 50 count",
+        "One additional item listed behind the package link"
       ]
     }
   ],
