@@ -1,10 +1,10 @@
 {
-  "today": "2026-04-28",
+  "today": "2026-04-29",
   "metadata": {
-    "version": "v59.0",
-    "generatedAt": "2026-04-28T06:03:13+02:00",
+    "version": "v60.0",
+    "generatedAt": "2026-04-29T19:10:00+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Automated snapshot from Gmail delivery, subscription, and renewal emails"
+    "source": "Manual catch-up snapshot from Gmail delivery, subscription, and renewal emails"
   },
   "deliveries": [
     {
@@ -347,10 +347,10 @@
       "status": "In transit",
       "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Latest AliExpress tracking email says package 315193137741900017 has arrived in your country/region (email dated 27 April).",
+      "notes": "Latest AliExpress tracking email says package 315193137741900017 has cleared customs (email dated 28 April).",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dccaa04822b1d4"
+        "url": "https://mail.google.com/mail/#all/19dd3886ae5b8552"
       },
       "items": [],
       "links": [
