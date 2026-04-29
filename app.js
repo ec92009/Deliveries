@@ -243,6 +243,7 @@ function renderCards(entries, config) {
       const toneDot = document.createElement("span");
       toneDot.className = `status-dot status-dot-${tone}`;
       toneDot.setAttribute("aria-hidden", "true");
+      node.classList.add("delivery-card-has-tone");
       node.prepend(toneDot);
     }
 
