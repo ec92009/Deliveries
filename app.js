@@ -28,6 +28,7 @@ const modeButtons = {
 
 let activeMode = "deliveries";
 let subscriptionFilter = "all";
+let deliveryFilter = "all";
 
 function formatCalendarDate(date, zone = "Europe/Madrid") {
   return new Intl.DateTimeFormat("en-GB", {
@@ -140,6 +141,50 @@ function getFilteredSubscriptions(entries, today, filter) {
 
   if (filter === "active") {
     return entries.filter((entry) => entry.renewalState === "active");
+  }
+
+  return entries;
+}
+
+function getDeliveryTone(entry, today) {
+  if (entry.returnByDate) {
+    const daysLeft = differenceInDays(entry.returnByDate, today);
+
+    if (daysLeft >= 0 && daysLeft <= 2) {
+      return "urgent";
+    }
+
+    if (daysLeft >= 0 && daysLeft <= 7) {
+      return "return-soon";
+    }
+  }
+
+  if (entry.dueDate === today) {
+    return "arriving-today";
+  }
+
+  if (entry.dueDate && entry.dueDate > today) {
+    return "future";
+  }
+
+  return "neutral";
+}
+
+function getFilteredDeliveries(entries, today, filter) {
+  if (filter === "urgent") {
+    return entries.filter((entry) => getDeliveryTone(entry, today) === "urgent");
+  }
+
+  if (filter === "today") {
+    return entries.filter((entry) => getDeliveryTone(entry, today) === "arriving-today");
+  }
+
+  if (filter === "future") {
+    return entries.filter((entry) => getDeliveryTone(entry, today) === "future");
+  }
+
+  if (filter === "return-soon") {
+    return entries.filter((entry) => getDeliveryTone(entry, today) === "return-soon");
   }
 
   return entries;
@@ -397,41 +442,62 @@ function getModeConfig(mode, data) {
     };
   }
 
+  const filteredDeliveries = getFilteredDeliveries(data.deliveries, data.today, deliveryFilter);
+
   return {
     summary: [
       {
-        label: "Pending deliveries",
+        label: "All deliveries",
         value: data.deliveries.length,
         detail: "Across all tracked suppliers",
+        action: "all",
+        selected: deliveryFilter === "all",
       },
       {
-        label: "Due today",
-        value: data.deliveries.filter((item) => item.dueDate === data.today).length,
-        detail: "Anything expected today goes first",
+        label: "Urgent returns",
+        value: data.deliveries.filter((item) => getDeliveryTone(item, data.today) === "urgent").length,
+        detail: "Inside the last 2 days of the return window",
+        action: "urgent",
+        selected: deliveryFilter === "urgent",
+        tone: "urgent",
       },
       {
-        label: "Suppliers with open deliveries",
-        value: new Set(data.deliveries.map((item) => item.supplier)).size,
-        detail: "Only suppliers with something pending",
+        label: "Arriving today",
+        value: data.deliveries.filter((item) => getDeliveryTone(item, data.today) === "arriving-today").length,
+        detail: "Expected to land today",
+        action: "today",
+        selected: deliveryFilter === "today",
+        tone: "arriving-today",
       },
       {
-        label: "No pending deliveries",
-        value: data.emptySuppliers.length,
-        detail: "Tracked suppliers currently clear",
+        label: "Future",
+        value: data.deliveries.filter((item) => getDeliveryTone(item, data.today) === "future").length,
+        detail: "Scheduled after today",
+        action: "future",
+        selected: deliveryFilter === "future",
+        tone: "future",
+      },
+      {
+        label: "Return window ending",
+        value: data.deliveries.filter((item) => getDeliveryTone(item, data.today) === "return-soon").length,
+        detail: "Inside the last week of a 1 month return window",
+        action: "return-soon",
+        selected: deliveryFilter === "return-soon",
+        tone: "return-soon",
       },
     ],
     panel: {
-      entries: data.deliveries,
+      entries: filteredDeliveries,
       title: "Open deliveries",
-      countLabel: (records) => `${records.length} open`,
-      emptyMessage: "No pending deliveries right now.",
+      countLabel: (records) => `${records.length} shown`,
+      emptyMessage: "No deliveries match this filter right now.",
       tagLabel: (entry) => entry.supplier,
       tagClass: (entry) => supplierClassMap[entry.supplier] || "supplier-amazon",
       dateLabel: (entry) => formatDueDate(entry),
       sorter: compareDeliveries,
-      cardTone: () => null,
+      cardTone: (entry) => getDeliveryTone(entry, data.today),
     },
-    showEmptySuppliers: true,
+    showEmptySuppliers: deliveryFilter === "all",
   };
 }
 
@@ -468,12 +534,16 @@ function setActiveMode(mode, data) {
 
   const config = getModeConfig(mode, data);
   renderSummary(config.summary, (action) => {
-    if (mode !== "subscriptions") {
+    if (mode === "subscriptions") {
+      subscriptionFilter = action;
+      setActiveMode(activeMode, data);
       return;
     }
 
-    subscriptionFilter = action;
-    setActiveMode(activeMode, data);
+    if (mode === "deliveries") {
+      deliveryFilter = action;
+      setActiveMode(activeMode, data);
+    }
   });
   const records = renderCards(config.panel.entries, config.panel);
   decorateWarnings(records, data.today, config.warningMode);

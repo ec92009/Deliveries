@@ -292,6 +292,38 @@ h1 {
   background: #c85c2c;
 }
 
+.status-dot-urgent {
+  background: #d93a2f;
+}
+
+.summary-dot-urgent {
+  background: #d93a2f;
+}
+
+.status-dot-arriving-today {
+  background: #2f8f57;
+}
+
+.summary-dot-arriving-today {
+  background: #2f8f57;
+}
+
+.status-dot-future {
+  background: #4b6fd8;
+}
+
+.summary-dot-future {
+  background: #4b6fd8;
+}
+
+.status-dot-return-soon {
+  background: #db7b2b;
+}
+
+.summary-dot-return-soon {
+  background: #db7b2b;
+}
+
 .status-dot-neutral {
   background: rgba(30, 27, 24, 0.18);
 }
