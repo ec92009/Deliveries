@@ -146,7 +146,15 @@ function getFilteredSubscriptions(entries, today, filter) {
   return entries;
 }
 
+function hasReturnInProgress(entry) {
+  return entry.returnStarted === true || entry.returnInProgress === true || entry.returnStatus === "started";
+}
+
 function getDeliveryTone(entry, today) {
+  if (hasReturnInProgress(entry)) {
+    return "urgent";
+  }
+
   if (entry.returnByDate) {
     const daysLeft = differenceInDays(entry.returnByDate, today);
 
@@ -456,7 +464,7 @@ function getModeConfig(mode, data) {
       {
         label: "Urgent returns",
         value: data.deliveries.filter((item) => getDeliveryTone(item, data.today) === "urgent").length,
-        detail: "Inside the last 2 days of the return window",
+        detail: "Return started already, or inside the last 2 return days",
         action: "urgent",
         selected: deliveryFilter === "urgent",
         tone: "urgent",
@@ -480,7 +488,7 @@ function getModeConfig(mode, data) {
       {
         label: "Return window ending",
         value: data.deliveries.filter((item) => getDeliveryTone(item, data.today) === "return-soon").length,
-        detail: "Inside the last week of a 1 month return window",
+        detail: "Had close to a month, but still eligible to return",
         action: "return-soon",
         selected: deliveryFilter === "return-soon",
         tone: "return-soon",
