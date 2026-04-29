@@ -1,6 +1,6 @@
 # Deliveries
 
-A small GitHub Pages app that shows pending deliveries from Amazon, AliExpress, Temu, Bambu Lab, Kickstarter, Snapmaker, and BIQU, plus separate tabs for digital licenses and subscriptions found in email.
+A small GitHub Pages app that shows pending deliveries found in email, plus separate tabs for digital licenses and subscriptions.
 
 ## How it works
 
@@ -44,7 +44,7 @@ Subscription entries can include `renewalState` and `warningWindowDays` so the U
 
 The scheduled refresh should:
 
-1. Search Gmail for pending delivery updates across Amazon, AliExpress, Temu, Bambu Lab, Kickstarter, Snapmaker, and BIQU.
+1. Search Gmail for pending delivery updates from any convincing order, shipment, delivery, return, tracking, or marketplace email. Known suppliers such as Amazon, AliExpress, Temu, Bambu Lab, Kickstarter, Snapmaker, BIQU, and Tikamoon should still be searched explicitly, but the refresh should not reject real delivery signals just because the supplier is new.
 2. Update `data/deliveries.json`.
 3. Refresh the `licenses` and `subscriptions` tabs from Gmail when there are relevant license, renewal, subscription, or digital-download emails.
 4. Commit and push if anything changed.

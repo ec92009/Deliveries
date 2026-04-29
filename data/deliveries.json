@@ -1,69 +1,12 @@
 {
   "today": "2026-04-29",
   "metadata": {
-    "version": "v60.4",
-    "generatedAt": "2026-04-29T19:41:00+02:00",
+    "version": "v60.5",
+    "generatedAt": "2026-04-29T21:28:33+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Manual catch-up snapshot from Gmail delivery, subscription, and renewal emails"
+    "source": "Manual run of scheduled Gmail refresh with broad supplier capture"
   },
   "deliveries": [
-    {
-      "supplier": "Amazon",
-      "title": "L'Oréal Paris Revitalift Láser Triple Acción Creme",
-      "status": "Payment verification needed",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon says the payment for this order is pending bank verification and may be cancelled if not verified within 5 days.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dbd9a9d18f2661"
-      },
-      "items": [],
-      "links": [
-        {
-          "label": "Complete payment",
-          "url": "https://www.amazon.es/gp/r.html?C=15HOC21SDWR3T&K=CM79IS1EW80U&M=urn:rtn:msg:20260424034839b415b396437f436a9e13e34140b0p0eu&R=3TOP3A24B2ZRF&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fgp%2Fcss%2Fsummary%2Fedit.html%3Fie%3DUTF8%26orderID%3D403-0240982-8268308%26ref_%3Dpe_27091411_592878531_mfav_CTA&H=6Y06VPAV2UM20G0BDFENLM6JGI0A&ref_=pe_27091411_592878531_mfav_CTA"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "title": "Hellmann's Salsa Barbacoa Bocabajo (Qty 3)",
-      "status": "Payment verification needed",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon says the payment for this order is pending bank verification and may be cancelled if not verified within 5 days.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dbd9a3f4a5c43e"
-      },
-      "items": [],
-      "links": [
-        {
-          "label": "Complete payment",
-          "url": "https://www.amazon.es/gp/r.html?C=15HOC21SDWR3T&K=CM79IS1EW80U&M=urn:rtn:msg:202604240348152a27e2e9fafe4385bc6aadbc7360p0eu&R=3ETW8LE77FRWY&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fgp%2Fcss%2Fsummary%2Fedit.html%3Fie%3DUTF8%26orderID%3D403-6327239-4193930%26ref_%3Dpe_27091411_592878531_mfav_CTA&H=GT3JAIEONU12EVNTBGLXRRX85PGA&ref_=pe_27091411_592878531_mfav_CTA"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "title": "Aboca Aliviolas Fisiolax (Qty 1)",
-      "status": "Payment verification needed",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon says the payment for this order is pending bank verification and may be cancelled if not verified within 5 days.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dbcbdc028a3abb"
-      },
-      "items": [],
-      "links": [
-        {
-          "label": "Complete payment",
-          "url": "https://www.amazon.es/gp/r.html?C=15HOC21SDWR3T&K=CM79IS1EW80U&M=urn:rtn:msg:202604232347255e7b6c01ffae4a96b7bfc1ce8420p0eu&R=2YJKMNCB074K2&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fgp%2Fcss%2Fsummary%2Fedit.html%3Fie%3DUTF8%26orderID%3D403-2803474-8696345%26ref_%3Dpe_27091411_592878531_mfav_CTA&H=P3RD9O7WQZBZAEJLQTPXKHV1YIEA&ref_=pe_27091411_592878531_mfav_CTA"
-        }
-      ]
-    },
     {
       "supplier": "Amazon",
       "title": "L'OR Cápsulas de Café Ristretto (Qty 2)",
@@ -142,36 +85,6 @@
     },
     {
       "supplier": "Amazon",
-      "title": "Subscribe & Save bundle",
-      "status": "Dispatched",
-      "dueDate": "2026-04-27",
-      "timezone": "Europe/Madrid",
-      "notes": "Multiple Amazon dispatch emails dated 26 April show parts of this Subscribe & Save order shipping; earliest arrival is tomorrow (27 April).",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dcad05514418db"
-      },
-      "items": [
-        "Korres Argan aceite avanzada coloration Very Light...",
-        "Hellmann's, Salsa Barbacoa Bocabajo, 285g",
-        "L'Oréal Paris Revitalift Láser Triple Acción Crema...",
-        "Joejis Absorbe Olores Nevera - Dura 12 meses, carbón...",
-        "Men Pre Electric Shave Lotion 100ml",
-        "Arándano Rojo Capsulas 50.000 mg con Vitamina C...",
-        "Parodontax Herbal Fresh Pasta de Dientes...",
-        "Extra Grande BBQ Grill Mat de Lukata (Paquete de 3)...",
-        "Probióticos y Prebióticos Intestinales - 180...",
-        "Clément Faugier - Chestnut Spread - 992g"
-      ],
-      "links": [
-        {
-          "label": "Manage on Amazon",
-          "url": "https://www.amazon.es/gp/r.html?C=1ZPW2CG7QLU7N&K=CM79IS1EW80U&M=urn:rtn:msg:20260419213748784d0cb728a44532ba6578ac0a10p0eu&R=21QHEWKRTR3BF&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fgp%2Fsubscribe-and-save%2Fmanage%3FshipId%3Djmmhttjrlmpnr%26ref_%3Dpe_106917471_1094691761_SL_03_01_BT_03__em_rd&H=FUMDT08DLNYRL048OLXLZDW9TGCA&ref_=pe_106917471_1094691761_SL_03_01_BT_03__em_rd"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
       "title": "eSUN PLA Filamento 1.75mm (2x Dark Red)",
       "status": "Ordered",
       "dueDate": "2026-04-30",
@@ -186,25 +99,6 @@
         {
           "label": "View order on Amazon",
           "url": "https://www.amazon.es/gp/r.html?C=200ZVWEXWRVQN&K=CM79IS1EW80U&M=urn:rtn:msg:202604221358268c98e6e38bf74641b3bcf0233520p0eu&R=32ES5S2HJKCI&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fyour-orders%2Forder-details%3ForderID%3D171-7693667-1676301%26ref_%3Dpe_112039931_1111703621_p_btn_fed_veo&H=VM6TWQ6NF0GEK0O1SIXLEZLNGRQA&ref_=pe_112039931_1111703621_p_btn_fed_veo"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "title": "AQUILEA Digestive 30 Tablets Mint...",
-      "status": "Ordered",
-      "dueDate": "2026-04-30",
-      "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon order email says arriving Thursday, 30 April (email dated 26 April).",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dcb4c54b3b01d7"
-      },
-      "items": [],
-      "links": [
-        {
-          "label": "View order on Amazon",
-          "url": "https://www.amazon.es/gp/r.html?C=200ZVWEXWRVQN&K=CM79IS1EW80U&M=urn:rtn:msg:20260426193748dbf6f8c0a7f942e1a542e0af83b0p0eu&R=PSW1ABS1814K&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fyour-orders%2Forder-details%3ForderID%3D404-7805623-2260303%26ref_%3Dpe_112039931_1111703621_p_btn_fed_veo&H=KLGA9TTRSIMGMGPT9FZIKXUZ7HEA&ref_=pe_112039931_1111703621_p_btn_fed_veo"
         }
       ]
     },
@@ -267,44 +161,6 @@
     },
     {
       "supplier": "Amazon",
-      "title": "COLGATE Max White Ultra Active Foam...",
-      "status": "Dispatched",
-      "dueDate": "2026-04-29",
-      "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon dispatch email says arriving Wednesday, 29 April (email dated 26 April).",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dc7a62b16e81a6"
-      },
-      "items": [],
-      "links": [
-        {
-          "label": "Track on Amazon",
-          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:20260426023727266f561454fd44f8a56f59807d10p0eu&R=TRMPJBHAWQ69&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D404-5725946-9481144%26packageIndex%3D0%26shipmentId%3DTntgyrfSk%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=XQFDKFIUUBRD0WO7XZQARP6OSJMA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "title": "Clément Faugier - Chestnut Spread - 992g",
-      "status": "Dispatched",
-      "dueDate": "2026-04-30",
-      "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon dispatch email says arriving Thursday, 30 April (email dated 27 April).",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dcd2508dbacb79"
-      },
-      "items": [],
-      "links": [
-        {
-          "label": "Track on Amazon",
-          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:20260427041407be6c3902d1d24878a688b1865ae0p0eu&R=10XL5GYDN43CL&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D404-3097377-5584346%26packageIndex%3D0%26shipmentId%3DTwFNtZlXk%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=BKFJPTSA4ENNL5LZRCRL3COQWGSA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
       "title": "Men Pre Electric Shave Lotion 100ml",
       "status": "Dispatched",
       "dueDate": "2026-04-30",
@@ -319,25 +175,6 @@
         {
           "label": "Track on Amazon",
           "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:20260427064836ce00e078d4b24c308e1776d081f0p0eu&R=68ACPULALLL3&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D408-1223024-4569166%26packageIndex%3D0%26shipmentId%3DDjyrGWbcJ%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=ROO4RVGTT4R0B6TOUG0HNH4GCSAA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "title": "BRITA Depósito filtrante Flow XXL (8,2 l)...",
-      "status": "Ordered",
-      "dueDate": "2026-04-30",
-      "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon order email says arriving Thursday, 30 April (email dated 27 April).",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dceeb753bc8387"
-      },
-      "items": [],
-      "links": [
-        {
-          "label": "View order on Amazon",
-          "url": "https://www.amazon.es/gp/r.html?C=200ZVWEXWRVQN&K=CM79IS1EW80U&M=urn:rtn:msg:2026042712302862ead21c2ff74054afba41bcc1e0p0eu&R=3UHZAA14J8RXJ&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fyour-orders%2Forder-details%3ForderID%3D171-7026712-8751518%26ref_%3Dpe_112039931_1111703621_p_btn_fed_veo&H=WUVZUTYPHK5PAFAIYKMMGFJZSBCA&ref_=pe_112039931_1111703621_p_btn_fed_veo"
         }
       ]
     },
@@ -357,6 +194,48 @@
         {
           "label": "Track on AliExpress",
           "url": "https://www.aliexpress.com/p/tracking/index.html?_addShare=no&_login=yes&tradeOrderId=3071064198343468"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "Flintronic Super Glue, 3 Bottles 50 g",
+      "status": "Ordered",
+      "dueDate": "2026-05-07",
+      "timezone": "Europe/Madrid",
+      "notes": "Latest Amazon order email says arriving 7 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dda9b4f7641782"
+      },
+      "items": [],
+      "links": [
+        {
+          "label": "View order on Amazon",
+          "url": "https://www.amazon.es/gp/r.html?C=200ZVWEXWRVQN&K=CM79IS1EW80U&M=urn:rtn:msg:20260429185822008a70c6a1564886b767f48945e0p0eu&R=2Q3TJQ51JTXTO&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fyour-orders%2Forder-details%3ForderID%3D403-7619849-5556316%26ref_%3Dpe_112039931_1111703621_p_btn_fed_veo&H=3I3VCKHW3PGSAZ4CHQBOZL4BP64A&ref_=pe_112039931_1111703621_p_btn_fed_veo"
+        }
+      ]
+    },
+    {
+      "supplier": "Tikamoon",
+      "title": "Tikamoon order 4004028",
+      "status": "Shipment created",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Tikamoon confirms order 4004028 has shipped. METHOD will handle delivery once it reaches Spain; the tracking link may take 3 to 6 days to activate.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dda4979b4530dc"
+      },
+      "items": [
+        "Tracking reference METIK0071392001",
+        "METHOD carrier after arrival in Spain",
+        "Tikamoon notes free returns for 60 days"
+      ],
+      "links": [
+        {
+          "label": "Track Tikamoon shipment",
+          "url": "https://go.tikamoon.com/lnk/CAAACJJ-quwAAAAAAAAAAunxVXsAAYCsqYsAAAAAABK5ZQBp8j_dAhITX9MEQxWxrk37BF1oowASU7A/6/SfK0-YsCDpiNYfrSjvHyRw/aHR0cHM6Ly9hcHAudm9uenUuZXMvZmluZC1leHBlZGl0aW9uP2RvbWFpbj1tZXRob2QmcmVmZXJlbmNlPTQwMDQwMjgtV0VCLTEmcG9zdGFsQ29kZT0yOTEzMA"
         }
       ]
     }

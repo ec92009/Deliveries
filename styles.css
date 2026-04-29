@@ -11,6 +11,12 @@
   --amazon: #ff9900;
   --aliexpress: #ff4747;
   --temu: #ff6a00;
+  --bambu: #20a84a;
+  --kickstarter: #05ce78;
+  --snapmaker: #2f3440;
+  --biqu: #1fb6ff;
+  --tikamoon: #8b6f47;
+  --supplier-other: #6f6257;
   --shadow: 0 24px 60px rgba(66, 45, 24, 0.12);
 }
 
@@ -354,6 +360,30 @@ h1 {
 
 .supplier-temu {
   background: var(--temu);
+}
+
+.supplier-bambu {
+  background: var(--bambu);
+}
+
+.supplier-kickstarter {
+  background: var(--kickstarter);
+}
+
+.supplier-snapmaker {
+  background: var(--snapmaker);
+}
+
+.supplier-biqu {
+  background: var(--biqu);
+}
+
+.supplier-tikamoon {
+  background: var(--tikamoon);
+}
+
+.supplier-other {
+  background: var(--supplier-other);
 }
 
 .status-tag {

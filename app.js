@@ -18,6 +18,12 @@ const supplierClassMap = {
   Amazon: "supplier-amazon",
   AliExpress: "supplier-aliexpress",
   Temu: "supplier-temu",
+  "Bambu Lab": "supplier-bambu",
+  Bambu: "supplier-bambu",
+  Kickstarter: "supplier-kickstarter",
+  Snapmaker: "supplier-snapmaker",
+  BIQU: "supplier-biqu",
+  Tikamoon: "supplier-tikamoon",
 };
 
 const modeButtons = {
@@ -467,7 +473,7 @@ function getModeConfig(mode, data) {
       {
         label: "All deliveries",
         value: data.deliveries.length,
-        detail: "Across all tracked suppliers",
+        detail: "Across inbox-detected suppliers",
         action: "all",
         selected: deliveryFilter === "all",
       },
@@ -510,7 +516,7 @@ function getModeConfig(mode, data) {
       countLabel: (records) => `${records.length} shown`,
       emptyMessage: "No deliveries match this filter right now.",
       tagLabel: (entry) => entry.supplier,
-      tagClass: (entry) => supplierClassMap[entry.supplier] || "supplier-amazon",
+      tagClass: (entry) => supplierClassMap[entry.supplier] || "supplier-other",
       dateLabel: (entry) => formatDueDate(entry),
       sorter: compareDeliveries,
       cardTone: (entry) => getDeliveryTone(entry, data.today),
