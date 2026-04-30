@@ -1,30 +1,24 @@
 {
-  "today": "2026-04-29",
+  "today": "2026-04-30",
   "metadata": {
-    "version": "v60.6",
-    "generatedAt": "2026-04-29T21:42:46+02:00",
+    "version": "v61.0",
+    "generatedAt": "2026-04-30T06:08:00+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Manual Amazon-only Gmail rescan from 2026-03-29 for return-window tracking"
+    "source": "Broad Gmail transactional refresh plus Amazon return-window scan from 2026-03-30"
   },
   "deliveries": [
     {
       "supplier": "Amazon",
-      "title": "L'OR Cápsulas de Café Ristretto (Qty 2)",
+      "title": "L'OR Capsulas de Cafe Ristretto (Qty 2)",
       "status": "Dispatched",
       "dueDate": "2026-04-23",
       "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon dispatch email says arriving tomorrow (email dated 22 April).",
+      "notes": "Latest Amazon dispatch email says arriving tomorrow (email dated 22 April). No delivered/refund follow-up was found in this refresh.",
       "sourceEmail": {
         "label": "Source email",
         "url": "https://mail.google.com/mail/#all/19db70baa7ba582a"
       },
-      "items": [],
-      "links": [
-        {
-          "label": "Track on Amazon",
-          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:20260422211446aa5b7f8c791341fea6f4addb0440p0eu&R=ERORVAYRG24O&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D408-5096912-4090729%26packageIndex%3D0%26shipmentId%3DTCWkdJr0k%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=86UXGKPBEOON2OJFXYWCAT0LQMWA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
-        }
-      ]
+      "items": []
     },
     {
       "supplier": "Amazon",
@@ -32,18 +26,12 @@
       "status": "Dispatched",
       "dueDate": "2026-04-24",
       "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon dispatch email says arriving 24 April.",
+      "notes": "Latest Amazon dispatch email says arriving 24 April. No delivered/refund follow-up was found in this refresh.",
       "sourceEmail": {
         "label": "Source email",
         "url": "https://mail.google.com/mail/#all/19d971f37f1385cf"
       },
-      "items": [],
-      "links": [
-        {
-          "label": "Track on Amazon",
-          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:202604161628161b9377e595f54bf09d9a532f55e0p0eu&R=1649GW1DHYCRO&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D404-7594567-3089928%26packageIndex%3D0%26shipmentId%3DTNn9hwNjN%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=ACUEGA8YQA3A5APACOBLAYOADLOA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
-        }
-      ]
+      "items": []
     },
     {
       "supplier": "Amazon",
@@ -51,18 +39,12 @@
       "status": "Dispatched",
       "dueDate": "2026-04-24",
       "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon dispatch email says arriving tomorrow (email dated 23 April).",
+      "notes": "Latest Amazon dispatch email says arriving tomorrow (email dated 23 April). No delivered/refund follow-up was found in this refresh.",
       "sourceEmail": {
         "label": "Source email",
         "url": "https://mail.google.com/mail/#all/19dbafee15c33f80"
       },
-      "items": [],
-      "links": [
-        {
-          "label": "Track on Amazon",
-          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:20260423153917ab099fe812054f2db730de453270p0eu&R=93CKX88DWRH7&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D403-9275688-0857949%26packageIndex%3D0%26shipmentId%3DTwfhN4GFk%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=FDVMZJ7PINHQBR6U5HLGUYUB2GUA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
-        }
-      ]
+      "items": []
     },
     {
       "supplier": "Amazon",
@@ -70,18 +52,12 @@
       "status": "Dispatched",
       "dueDate": "2026-04-24",
       "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon dispatch email says arriving tomorrow (email dated 23 April).",
+      "notes": "Latest Amazon dispatch email says arriving tomorrow (email dated 23 April). No delivered/refund follow-up was found in this refresh.",
       "sourceEmail": {
         "label": "Source email",
         "url": "https://mail.google.com/mail/#all/19db8f454505ff18"
       },
-      "items": [],
-      "links": [
-        {
-          "label": "Track on Amazon",
-          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:202604230608311149728d6bf8464194ae62613900p0eu&R=3AF3E4JI200PS&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D403-9697658-2140318%26packageIndex%3D0%26shipmentId%3DTcwXH9sdk%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=ADOAOA8EHJ44YBDBSIOCFQ2JIO4A&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
-        }
-      ]
+      "items": []
     },
     {
       "supplier": "Amazon",
@@ -89,18 +65,12 @@
       "status": "Ordered",
       "dueDate": "2026-04-30",
       "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon order email says arriving 30 April.",
+      "notes": "Latest Amazon order email says arriving 30 April. No delivered/refund follow-up was found in this refresh.",
       "sourceEmail": {
         "label": "Source email",
         "url": "https://mail.google.com/mail/#all/19db57c30f21087b"
       },
-      "items": [],
-      "links": [
-        {
-          "label": "View order on Amazon",
-          "url": "https://www.amazon.es/gp/r.html?C=200ZVWEXWRVQN&K=CM79IS1EW80U&M=urn:rtn:msg:202604221358268c98e6e38bf74641b3bcf0233520p0eu&R=32ES5S2HJKCI&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fyour-orders%2Forder-details%3ForderID%3D171-7693667-1676301%26ref_%3Dpe_112039931_1111703621_p_btn_fed_veo&H=VM6TWQ6NF0GEK0O1SIXLEZLNGRQA&ref_=pe_112039931_1111703621_p_btn_fed_veo"
-        }
-      ]
+      "items": []
     },
     {
       "supplier": "Amazon",
@@ -108,56 +78,25 @@
       "status": "Dispatched",
       "dueDate": "2026-04-27",
       "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon dispatch email says arriving tomorrow (email dated 26 April).",
+      "notes": "Latest Amazon dispatch email says arriving tomorrow (email dated 26 April). No delivered/refund follow-up was found in this refresh.",
       "sourceEmail": {
         "label": "Source email",
         "url": "https://mail.google.com/mail/#all/19dcad2bea15c778"
       },
-      "items": [],
-      "links": [
-        {
-          "label": "Track on Amazon",
-          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:202604261725006ae97c35b2f24d2e9bb0da2a7060p0eu&R=2MW5PPEIS779S&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D171-0908248-3369134%26packageIndex%3D0%26shipmentId%3DTXq2wcYmk%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=NG4RNOJDWX5VHF80DJIVWU0JVBQA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
-        }
-      ]
+      "items": []
     },
     {
       "supplier": "Amazon",
-      "title": "BRITA Flow XXL filter tank (8.2 l)...",
-      "status": "Dispatched",
-      "dueDate": "2026-04-27",
-      "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon dispatch email says arriving tomorrow (email dated 26 April).",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dcad2a88338f90"
-      },
-      "items": [],
-      "links": [
-        {
-          "label": "Track on Amazon",
-          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:20260426172455eb3fa6626b7c403cac90a7f00650p0eu&R=1T607HQ2BY7DD&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D171-5949662-5068301%26packageIndex%3D0%26shipmentId%3DTGqdwcYmk%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=RVQHVTIXWTB8AQBGL86RAVILSQYA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "title": "989Zé ENZO Regular Fit Pant Stretch Jeans...",
+      "title": "989Ze ENZO Regular Fit Pant Stretch Jeans...",
       "status": "Dispatched",
       "dueDate": "2026-04-30",
       "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon dispatch email says arriving Thursday, 30 April (email dated 26 April).",
+      "notes": "Latest Amazon dispatch email says arriving Thursday, 30 April (email dated 26 April). No delivered/refund follow-up was found in this refresh.",
       "sourceEmail": {
         "label": "Source email",
         "url": "https://mail.google.com/mail/#all/19dc74955658a11c"
       },
-      "items": [],
-      "links": [
-        {
-          "label": "Track on Amazon",
-          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:202604260056036d17fa0cbd524489bf8460841420p0eu&R=WVHLVZOOZE2Q&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D404-6814941-0721957%26packageIndex%3D0%26shipmentId%3DTGyxdVfhk%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=GUAOVW0EXKOA47H4U8SZ7FQKTCSA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
-        }
-      ]
+      "items": []
     },
     {
       "supplier": "Amazon",
@@ -165,18 +104,12 @@
       "status": "Dispatched",
       "dueDate": "2026-04-30",
       "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon dispatch email says arriving 29 April - 30 April (email dated 27 April).",
+      "notes": "Latest Amazon dispatch email says arriving 29 April - 30 April (email dated 27 April). No delivered/refund follow-up was found in this refresh.",
       "sourceEmail": {
         "label": "Source email",
         "url": "https://mail.google.com/mail/#all/19dcdb278095a1a7"
       },
-      "items": [],
-      "links": [
-        {
-          "label": "Track on Amazon",
-          "url": "https://www.amazon.es/gp/r.html?C=3IAOJL8RV9G54&K=CM79IS1EW80U&M=urn:rtn:msg:20260427064836ce00e078d4b24c308e1776d081f0p0eu&R=68ACPULALLL3&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fprogress-tracker%2Fpackage%3F_encoding%3DUTF8%26orderId%3D408-1223024-4569166%26packageIndex%3D0%26shipmentId%3DDjyrGWbcJ%26vt%3DNOTIFICATIONS%26ref_%3Dpe_109251351_1103421481_p_btn_fed_track_package&H=ROO4RVGTT4R0B6TOUG0HNH4GCSAA&ref_=pe_109251351_1103421481_p_btn_fed_track_package"
-        }
-      ]
+      "items": []
     },
     {
       "supplier": "AliExpress",
@@ -208,13 +141,7 @@
         "label": "Source email",
         "url": "https://mail.google.com/mail/#all/19dda9b4f7641782"
       },
-      "items": [],
-      "links": [
-        {
-          "label": "View order on Amazon",
-          "url": "https://www.amazon.es/gp/r.html?C=200ZVWEXWRVQN&K=CM79IS1EW80U&M=urn:rtn:msg:20260429185822008a70c6a1564886b767f48945e0p0eu&R=2Q3TJQ51JTXTO&T=C&U=https%3A%2F%2Fwww.amazon.es%2Fyour-orders%2Forder-details%3ForderID%3D403-7619849-5556316%26ref_%3Dpe_112039931_1111703621_p_btn_fed_veo&H=3I3VCKHW3PGSAZ4CHQBOZL4BP64A&ref_=pe_112039931_1111703621_p_btn_fed_veo"
-        }
-      ]
+      "items": []
     },
     {
       "supplier": "Tikamoon",
@@ -240,6 +167,38 @@
       ]
     },
     {
+      "supplier": "Amazon",
+      "title": "Villaolivo dried tomatoes 500g",
+      "status": "Ordered",
+      "dueDate": "2026-05-06",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 29 April says arriving 5 May - 6 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19ddb47fe07a643b"
+      },
+      "items": [
+        "Order 404-8429798-1591535",
+        "Villaolivo dried tomatoes, 500g"
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "GP Multi-Pack 2 x 120ml Subscribe & Save",
+      "status": "Delivery delayed",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon Subscribe & Save email dated 30 April says the upcoming auto-delivery is delayed because the item is temporarily out of stock.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19ddc7045ce86178"
+      },
+      "items": [
+        "Quantity 1",
+        "No replacement delivery date provided"
+      ]
+    },
+    {
       "id": "amazon-return-window-authorized-171-6934092-7868309",
       "supplier": "Amazon",
       "title": "MAGEFESA 1106017 Prague omelette pan return",
@@ -250,7 +209,7 @@
       "returnAuthorizationGranted": true,
       "returnDropoffRequired": true,
       "returnStatus": "return_authorized",
-      "notes": "Amazon accepted this seller return request and later sent a follow-up saying a return authorization was provided. The send-by date in the return email was 28 April, so this should be checked urgently.",
+      "notes": "Amazon accepted this seller return request and a later Amazon follow-up says a return authorization was provided. The send-by date in the return email was 28 April, so this still needs manual checking unless the item was already sent.",
       "sourceEmail": {
         "label": "Source email",
         "url": "https://mail.google.com/mail/#all/19d2c1e611003f3a"
@@ -263,35 +222,6 @@
           "label": "Manage Amazon return",
           "url": "https://www.amazon.es/spr/returns/cart?orderId=171-6934092-7868309"
         }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "status": "Delivered - return window closing",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "id": "amazon-return-window-2026-03-30-408-1667774-6541120",
-      "title": "Eucerin, eSUN PLA, and Arquiel delivery bundle",
-      "deliveredDate": "2026-03-30",
-      "returnByDate": "2026-04-29",
-      "notes": "Amazon delivered this package on 30 March. It is still inside the assumed 30-day return window today; the email also listed two additional hidden items behind a package link.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d3edfdb3163022"
-      },
-      "items": [
-        "Eucerin Hyaluron-Filler + Elasticity Night Cream",
-        "eSUN PLA Basic dark red filament",
-        "Arquiel tropical kitchen towels",
-        "Two additional items listed behind the package link"
       ]
     },
     {
@@ -533,6 +463,507 @@
         "L'OR Ristretto capsules, 50 count",
         "One additional item listed behind the package link"
       ]
+    },
+    {
+      "id": "amazon-return-window-2026-04-10-407-5484657-8476319",
+      "supplier": "Amazon",
+      "title": "Aboca and JAYO filament delivery bundle",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-04-10",
+      "returnByDate": "2026-05-10",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this three-item package on 10 April; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19d77b12532fb238"
+      },
+      "items": [
+        "Aboca Aliviolas Fisiolax",
+        "JAYO PLA filament bundle",
+        "JAYO PLA blue-grey filament"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-04-10-404-3872343-3240306",
+      "supplier": "Amazon",
+      "title": "ECCO Gruuv women's shoes",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-04-10",
+      "returnByDate": "2026-05-10",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this item on 10 April; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19d77b0e424bd8e5"
+      },
+      "items": [
+        "ECCO Gruuv Zapatillas para Mujer, Black Light Grey, 40 EU"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-04-12-403-5743250-5160363",
+      "supplier": "Amazon",
+      "title": "TECKNET Bluetooth headset",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-04-12",
+      "returnByDate": "2026-05-12",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this item on 12 April; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19d81c7e4e7ab485"
+      },
+      "items": [
+        "TECKNET Bluetooth headset with microphone"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-04-12-404-7492302-2249156",
+      "supplier": "Amazon",
+      "title": "Flintronic non-slip bath mats",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-04-12",
+      "returnByDate": "2026-05-12",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this item on 12 April; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19d81c6e2522c27c"
+      },
+      "items": [
+        "Two flintronic non-slip chenille bath mats"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-04-14-19d8c03358325354",
+      "supplier": "Amazon",
+      "title": "Desigual Blus_Stem women's item",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-04-14",
+      "returnByDate": "2026-05-14",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this item on 14 April; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19d8c03358325354"
+      },
+      "items": [
+        "Desigual Blus_Stem women's item"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-04-14-19d8c0321f113905",
+      "supplier": "Amazon",
+      "title": "BRITA Flow XXL filter tank",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-04-14",
+      "returnByDate": "2026-05-14",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this item on 14 April; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19d8c0321f113905"
+      },
+      "items": [
+        "BRITA Flow XXL filter tank"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-04-14-19d8bb15170ef761",
+      "supplier": "Amazon",
+      "title": "Waterdrop filter",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-04-14",
+      "returnByDate": "2026-05-14",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this item on 14 April; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19d8bb15170ef761"
+      },
+      "items": [
+        "Waterdrop filter"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-04-18-19da0907a6cda462",
+      "supplier": "Amazon",
+      "title": "ACWOO sports wrist wraps",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-04-18",
+      "returnByDate": "2026-05-18",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this item on 18 April; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19da0907a6cda462"
+      },
+      "items": [
+        "ACWOO sports wrist wraps"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-04-19-19da63bedd1d51d9",
+      "supplier": "Amazon",
+      "title": "ONLY Denim Jacket ONLTIA",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-04-19",
+      "returnByDate": "2026-05-19",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this item on 19 April; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19da63bedd1d51d9"
+      },
+      "items": [
+        "ONLY Denim Jacket ONLTIA"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-04-23-19dba51613814499",
+      "supplier": "Amazon",
+      "title": "SUNLU Pack 4KG Filamento",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-04-23",
+      "returnByDate": "2026-05-23",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this item on 23 April; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dba51613814499"
+      },
+      "items": [
+        "SUNLU Pack 4KG Filamento"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-04-23-19dba5065c877f03",
+      "supplier": "Amazon",
+      "title": "SUNLU Pack 4KG Filamento",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-04-23",
+      "returnByDate": "2026-05-23",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this item on 23 April; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dba5065c877f03"
+      },
+      "items": [
+        "SUNLU Pack 4KG Filamento"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-04-23-19dba504c39d0904",
+      "supplier": "Amazon",
+      "title": "ONLY Denim Jacket ONLTIA",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-04-23",
+      "returnByDate": "2026-05-23",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this item on 23 April; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dba504c39d0904"
+      },
+      "items": [
+        "ONLY Denim Jacket ONLTIA"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-04-24-19dc0a282d73be3d",
+      "supplier": "Amazon",
+      "title": "1.5 Litre Glass Kettle",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-04-24",
+      "returnByDate": "2026-05-24",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this item on 24 April; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dc0a282d73be3d"
+      },
+      "items": [
+        "1.5 Litre Glass Kettle"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-04-25-19dc521192cc01f4",
+      "supplier": "Amazon",
+      "title": "CMTOP women's summer casual item",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-04-25",
+      "returnByDate": "2026-05-25",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this item on 25 April; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dc521192cc01f4"
+      },
+      "items": [
+        "CMTOP women's summer casual item"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-04-25-19dc51fec411af8e",
+      "supplier": "Amazon",
+      "title": "Aboca Aliviolas and four-item bundle",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-04-25",
+      "returnByDate": "2026-05-25",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this five-item package on 25 April; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dc51fec411af8e"
+      },
+      "items": [
+        "Aboca Aliviolas Fisiolax",
+        "Four additional items listed behind the package link"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-04-25-19dc51f7929269c7",
+      "supplier": "Amazon",
+      "title": "Probioticos y Prebioticos bundle",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-04-25",
+      "returnByDate": "2026-05-25",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this two-item package on 25 April; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dc51f7929269c7"
+      },
+      "items": [
+        "Probioticos y Prebioticos",
+        "One additional item listed behind the package link"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-04-29-171-7026712-8751518",
+      "supplier": "Amazon",
+      "title": "BRITA, AQUILEA, and Joejis delivery bundle",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-04-29",
+      "returnByDate": "2026-05-29",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this three-item package on 29 April. This supersedes the earlier BRITA dispatched row.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dd8b4780d0e201"
+      },
+      "items": [
+        "BRITA Flow XXL filter tank",
+        "AQUILEA Digestive 30...",
+        "Joejis odor absorbing item"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-04-29-404-3097377-5584346",
+      "supplier": "Amazon",
+      "title": "Clement Faugier chestnut spread",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-04-29",
+      "returnByDate": "2026-05-29",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this item on 29 April; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dd946152b445e2"
+      },
+      "items": [
+        "Clement Faugier chestnut spread, 992g"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-04-29-404-5725946-9481144",
+      "supplier": "Amazon",
+      "title": "Korres Argan and Colgate delivery bundle",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-04-29",
+      "returnByDate": "2026-05-29",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this two-item package on 29 April; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dd9462eb2f23e8"
+      },
+      "items": [
+        "Korres Argan aceite avanzada coloration Very Light Blonde 9.0",
+        "COLGATE Max White Ultra Active Foam toothpaste"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
     }
   ],
   "licenses": [
@@ -628,13 +1059,13 @@
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "Prime Video says ad free renews automatically for €1.99 per month until canceled. I could not reach the signed-in account page from the tooling here, so the next date is inferred from the latest signup email dated April 16, 2026.",
+      "notes": "Prime Video says ad free renews automatically for EUR 1.99 per month until canceled. No newer renewal/cancellation email was found, so the next date remains inferred from the latest signup email dated April 16, 2026.",
       "sourceEmail": {
         "label": "Source email",
         "url": "https://mail.google.com/mail/#all/19d96d9bfaaecf9d"
       },
       "items": [
-        "€1.99 per month",
+        "EUR 1.99 per month",
         "Cancel from account settings",
         "Renewal date inferred from latest signup email"
       ],
@@ -646,11 +1077,5 @@
       ]
     }
   ],
-  "emptySuppliers": [
-    "Temu",
-    "Bambu Lab",
-    "Kickstarter",
-    "Snapmaker",
-    "BIQU"
-  ]
+  "emptySuppliers": []
 }
