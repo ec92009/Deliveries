@@ -1,10 +1,10 @@
 {
-  "today": "2026-04-30",
+  "today": "2026-05-01",
   "metadata": {
-    "version": "v61.0",
-    "generatedAt": "2026-04-30T06:08:00+02:00",
+    "version": "v62.0",
+    "generatedAt": "2026-05-01T06:04:22+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Broad Gmail transactional refresh plus Amazon return-window scan from 2026-03-30"
+    "source": "Broad Gmail transactional refresh plus Amazon return/refund scan from 2026-04-01"
   },
   "deliveries": [
     {
@@ -62,15 +62,18 @@
     {
       "supplier": "Amazon",
       "title": "eSUN PLA Filamento 1.75mm (2x Dark Red)",
-      "status": "Ordered",
-      "dueDate": "2026-04-30",
+      "status": "Delivery delayed",
+      "dueDate": "2026-05-23",
       "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon order email says arriving 30 April. No delivered/refund follow-up was found in this refresh.",
+      "notes": "Amazon delivery estimate update dated 30 April says shipment is delayed and now arriving 19 May - 23 May. No dispatch or delivery follow-up was found in this refresh.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19db57c30f21087b"
+        "url": "https://mail.google.com/mail/#all/19ddcb044e86fb8f"
       },
-      "items": []
+      "items": [
+        "Order 171-7693667-1676301",
+        "Quantity 1"
+      ]
     },
     {
       "supplier": "Amazon",
@@ -86,17 +89,49 @@
       "items": []
     },
     {
+      "id": "amazon-return-window-authorized-404-6814941-0721957",
       "supplier": "Amazon",
-      "title": "989Ze ENZO Regular Fit Pant Stretch Jeans...",
-      "status": "Dispatched",
-      "dueDate": "2026-04-30",
+      "title": "989Ze ENZO Regular Fit Pant Stretch Jeans return",
+      "status": "Return authorization granted",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon dispatch email says arriving Thursday, 30 April (email dated 26 April). No delivered/refund follow-up was found in this refresh.",
+      "deliveredDate": "2026-04-30",
+      "returnByDate": "2026-05-31",
+      "returnAuthorizationGranted": true,
+      "returnDropoffRequired": true,
+      "returnStatus": "return_authorized",
+      "notes": "Amazon delivered this item on 30 April, then confirmed the return request. It must be dropped at a Celeritas Dropoff office before 31 May for the refund.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dc74955658a11c"
+        "url": "https://mail.google.com/mail/#all/19dde479bbda2772"
       },
-      "items": []
+      "items": [
+        "Order 404-6814941-0721957",
+        "Estimated refund EUR 28.99",
+        "No box or printed label required"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "Only & Sons Onsloom Men's Skinny Jeans",
+      "status": "Dispatched",
+      "dueDate": "2026-05-04",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 30 April says the package was dispatched and is arriving Monday.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19ddf0676b361c88"
+      },
+      "items": [
+        "Order 403-2261675-4673913",
+        "Only & Sons Onsloom jeans, Dark Blue Denim, 33W / 30L"
+      ]
     },
     {
       "supplier": "Amazon",
@@ -169,17 +204,33 @@
     {
       "supplier": "Amazon",
       "title": "Villaolivo dried tomatoes 500g",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-05-06",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 29 April says arriving 5 May - 6 May.",
+      "notes": "Amazon dispatch email dated 30 April says the package was dispatched and is arriving 5 May - 6 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19ddb47fe07a643b"
+        "url": "https://mail.google.com/mail/#all/19ddd25a34ae463a"
       },
       "items": [
         "Order 404-8429798-1591535",
         "Villaolivo dried tomatoes, 500g"
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "L'OR Ristretto and SUNLU filament Subscribe & Save",
+      "status": "Upcoming auto-delivery",
+      "dueDate": "2026-05-07",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon Subscribe & Save reminder dated 26 April says this two-item auto-delivery is arriving by Thursday, 7 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dcad4162c50f26"
+      },
+      "items": [
+        "L'OR Ristretto capsules, 2 units every 2 weeks",
+        "SUNLU Pack 4KG Filamento Rapido PLA Plus 2.0, 1 unit every 2 weeks"
       ]
     },
     {
