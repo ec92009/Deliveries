@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-01",
+  "today": "2026-05-02",
   "metadata": {
-    "version": "v62.0",
-    "generatedAt": "2026-05-01T06:04:22+02:00",
+    "version": "v63.0",
+    "generatedAt": "2026-05-02T06:03:49+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Broad Gmail transactional refresh plus Amazon return/refund scan from 2026-04-01"
+    "source": "Broad Gmail transactional refresh plus supplier-specific scans and Amazon return/refund scan from 2026-04-01"
   },
   "deliveries": [
     {
@@ -198,6 +198,53 @@
         {
           "label": "Track Tikamoon shipment",
           "url": "https://go.tikamoon.com/lnk/CAAACJJ-quwAAAAAAAAAAunxVXsAAYCsqYsAAAAAABK5ZQBp8j_dAhITX9MEQxWxrk37BF1oowASU7A/6/SfK0-YsCDpiNYfrSjvHyRw/aHR0cHM6Ly9hcHAudm9uenUuZXMvZmluZC1leHBlZGl0aW9uP2RvbWFpbj1tZXRob2QmcmVmZXJlbmNlPTQwMDQwMjgtV0VCLTEmcG9zdGFsQ29kZT0yOTEzMA"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "ONLY ONLWONDER denim jacket",
+      "status": "Ordered",
+      "dueDate": "2026-05-29",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 1 May says this ONLY denim jacket is arriving 29 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19de5a3208cc4ca6"
+      },
+      "items": [
+        "Order 404-6099955-6218744",
+        "ONLY Women's ONLWONDER DNM Jacket, white, size S",
+        "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Leonid Afremov",
+      "title": "Cafe Parisienne On Europa painting",
+      "status": "Ordered",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Order confirmation dated 25 April says the painting order was placed and tracking will be sent once the package ships. A follow-up says average receipt time is around 20 days.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dc4a770c34d47c"
+      },
+      "items": [
+        "Order 000221536",
+        "Invoice 000035294",
+        "Cafe Parisienne On Europa, thin black frame",
+        "10-15 free shipping via EMS/USPS"
+      ],
+      "links": [
+        {
+          "label": "Open Afremov",
+          "url": "https://afremov.com/"
         }
       ]
     },
@@ -519,7 +566,7 @@
       "id": "amazon-return-window-2026-04-10-407-5484657-8476319",
       "supplier": "Amazon",
       "title": "Aboca and JAYO filament delivery bundle",
-      "status": "Delivered - return window open",
+      "status": "Delivered - return window closing",
       "dueDate": null,
       "timezone": "Europe/Madrid",
       "deliveredDate": "2026-04-10",
@@ -547,7 +594,7 @@
       "id": "amazon-return-window-2026-04-10-404-3872343-3240306",
       "supplier": "Amazon",
       "title": "ECCO Gruuv women's shoes",
-      "status": "Delivered - return window open",
+      "status": "Delivered - return window closing",
       "dueDate": null,
       "timezone": "Europe/Madrid",
       "deliveredDate": "2026-04-10",
@@ -1124,6 +1171,88 @@
         {
           "label": "Manage Prime Video",
           "url": "https://www.primevideo.com/settings"
+        }
+      ]
+    },
+    {
+      "service": "Shopify",
+      "title": "Shopify Photos store subscription",
+      "status": "Active subscription",
+      "nextDate": "2026-05-31",
+      "dateLabel": "Estimated next 30-day billing cycle on Sunday, 31 May 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 7,
+      "notes": "Shopify Billing email dated 1 May says the Photos store was charged $5.00 USD for a 30-day billing cycle. The next date is inferred from that 30-day billing cycle because no explicit renewal date was provided.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19de27beb94fa44b"
+      },
+      "items": [
+        "$5.00 USD subscription",
+        "30-day billing cycle starting May 1, 2026",
+        "Mastercard ending in 9827",
+        "Next date inferred from billing cycle"
+      ],
+      "links": [
+        {
+          "label": "View Shopify bill",
+          "url": "https://vxvxk0-qd.myshopify.com/admin/settings/billing/invoice/523722516"
+        }
+      ]
+    },
+    {
+      "service": "Google",
+      "title": "Google AI Pro 5 TB",
+      "status": "Active subscription",
+      "nextDate": "2026-05-22",
+      "dateLabel": "Estimated monthly renewal on Friday, 22 May 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 7,
+      "notes": "Google Play receipt dated 22 April says the Google AI Pro 5 TB subscription continues, is auto-renewing, and costs $19.99 per month. The next date is inferred from the monthly charge date because no explicit renewal date was provided.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19db528d7a71f1c9"
+      },
+      "items": [
+        "Google AI Pro (5 TB)",
+        "$19.99 per month",
+        "Auto-renewing subscription",
+        "Order SOP.3372-6229-2747-02753..10",
+        "Next date inferred from monthly receipt"
+      ],
+      "links": [
+        {
+          "label": "Manage Google Play subscriptions",
+          "url": "https://play.google.com/store/account/subscriptions"
+        }
+      ]
+    },
+    {
+      "service": "Apple iCloud",
+      "title": "Apple iCloud 100 GB storage",
+      "status": "Active subscription",
+      "nextDate": "2026-05-16",
+      "dateLabel": "Renews Saturday, 16 May 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 7,
+      "notes": "Apple receipt dated 26 April says the 100 GB monthly storage subscription renews on May 16, 2026.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dcbf22c786dac8"
+      },
+      "items": [
+        "100 GB monthly storage",
+        "$1.99",
+        "Order MSXW3ZXS0Z",
+        "Exact renewal date provided by Apple"
+      ],
+      "links": [
+        {
+          "label": "Manage Apple subscriptions",
+          "url": "https://finance-app.itunes.apple.com/account/subscriptions"
         }
       ]
     }
