@@ -66,6 +66,13 @@ function formatDueDate(delivery) {
 }
 
 function compareDeliveries(a, b) {
+  const aSupplierRank = a.supplier === "Amazon" ? 1 : 0;
+  const bSupplierRank = b.supplier === "Amazon" ? 1 : 0;
+
+  if (aSupplierRank !== bSupplierRank) {
+    return aSupplierRank - bSupplierRank;
+  }
+
   const aSortDate = a.dueDate || a.returnByDate || null;
   const bSortDate = b.dueDate || b.returnByDate || null;
 

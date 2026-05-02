@@ -1,8 +1,8 @@
 {
   "today": "2026-05-02",
   "metadata": {
-    "version": "v63.0",
-    "generatedAt": "2026-05-02T06:03:49+02:00",
+    "version": "v63.1",
+    "generatedAt": "2026-05-02T22:14:35+02:00",
     "timezone": "Europe/Madrid",
     "source": "Broad Gmail transactional refresh plus supplier-specific scans and Amazon return/refund scan from 2026-04-01"
   },
