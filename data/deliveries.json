@@ -1,8 +1,8 @@
 {
-  "today": "2026-05-02",
+  "today": "2026-05-03",
   "metadata": {
-    "version": "v63.1",
-    "generatedAt": "2026-05-02T22:14:35+02:00",
+    "version": "v64.0",
+    "generatedAt": "2026-05-03T06:04:07+02:00",
     "timezone": "Europe/Madrid",
     "source": "Broad Gmail transactional refresh plus supplier-specific scans and Amazon return/refund scan from 2026-04-01"
   },
@@ -89,35 +89,6 @@
       "items": []
     },
     {
-      "id": "amazon-return-window-authorized-404-6814941-0721957",
-      "supplier": "Amazon",
-      "title": "989Ze ENZO Regular Fit Pant Stretch Jeans return",
-      "status": "Return authorization granted",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-04-30",
-      "returnByDate": "2026-05-31",
-      "returnAuthorizationGranted": true,
-      "returnDropoffRequired": true,
-      "returnStatus": "return_authorized",
-      "notes": "Amazon delivered this item on 30 April, then confirmed the return request. It must be dropped at a Celeritas Dropoff office before 31 May for the refund.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dde479bbda2772"
-      },
-      "items": [
-        "Order 404-6814941-0721957",
-        "Estimated refund EUR 28.99",
-        "No box or printed label required"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
       "supplier": "Amazon",
       "title": "Only & Sons Onsloom Men's Skinny Jeans",
       "status": "Dispatched",
@@ -168,15 +139,19 @@
     {
       "supplier": "Amazon",
       "title": "Flintronic Super Glue, 3 Bottles 50 g",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-05-07",
       "timezone": "Europe/Madrid",
-      "notes": "Latest Amazon order email says arriving 7 May.",
+      "notes": "Amazon dispatch email dated 2 May says the package was dispatched and is arriving Thursday, 7 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dda9b4f7641782"
+        "url": "https://mail.google.com/mail/#all/19de8449884da7ff"
       },
-      "items": []
+      "items": [
+        "Order 403-7619849-5556316",
+        "Flintronic Super Glue, 3 bottles 50 g",
+        "Quantity 1"
+      ]
     },
     {
       "supplier": "Tikamoon",
@@ -297,6 +272,52 @@
       ]
     },
     {
+      "supplier": "Amazon",
+      "title": "Renova Skin Care Plus scented toilet paper (Qty 2)",
+      "status": "Dispatched",
+      "dueDate": "2026-05-03",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 2 May says the package was dispatched and is arriving tomorrow, 3 May. No delivered follow-up was found in this refresh.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19de9a2817bb4208"
+      },
+      "items": [
+        "Order 404-7119419-4151535",
+        "Renova Skin Care Plus scented decorated toilet paper, 6 rolls",
+        "Quantity 2"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "Kssiaz bamboo sofa arm tray",
+      "status": "Dispatched",
+      "dueDate": "2026-05-05",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 2 May originally estimated Thursday, then the 3 May dispatch email says the package was dispatched and is arriving Tuesday, 5 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19deb867e4fb3629"
+      },
+      "items": [
+        "Order 171-6119443-4263557",
+        "Kssiaz bamboo folding sofa arm tray with cup holder, light brown",
+        "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
       "id": "amazon-return-window-authorized-171-6934092-7868309",
       "supplier": "Amazon",
       "title": "MAGEFESA 1106017 Prague omelette pan return",
@@ -320,138 +341,6 @@
           "label": "Manage Amazon return",
           "url": "https://www.amazon.es/spr/returns/cart?orderId=171-6934092-7868309"
         }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "status": "Delivered - return window closing",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "id": "amazon-return-window-2026-04-02-408-6140323-1971550",
-      "title": "Korres Argan and Pronto repair treatment",
-      "deliveredDate": "2026-04-02",
-      "returnByDate": "2026-05-02",
-      "notes": "Amazon delivered this two-item package on 2 April; no return request was found in the scan window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d4da2bd4d61220"
-      },
-      "items": [
-        "Korres Argan advanced coloration Very Light Blonde 9.0",
-        "Pronto dark scratch repair treatment for furniture and wood"
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "status": "Delivered - return window closing",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "id": "amazon-return-window-2026-04-02-171-3037711-2697914",
-      "title": "Amazon Basics food storage lids set",
-      "deliveredDate": "2026-04-02",
-      "returnByDate": "2026-05-02",
-      "notes": "Amazon delivered this item on 2 April; no return request was found in the scan window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d4da2a21c02026"
-      },
-      "items": [
-        "Amazon Basics BPA-free food storage lids and containers set"
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "status": "Delivered - return window closing",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "id": "amazon-return-window-2026-04-02-171-8474968-5973113",
-      "title": "Top Towel hand towel sets",
-      "deliveredDate": "2026-04-02",
-      "returnByDate": "2026-05-02",
-      "notes": "Amazon delivered two Top Towel items on 2 April; no return request was found in the scan window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d4da26c8e82ae1"
-      },
-      "items": [
-        "Top Towel hand/bath towel set",
-        "Top Towel hand/bath towel set"
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "status": "Delivered - return window closing",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "id": "amazon-return-window-2026-04-02-171-1426325-2981938",
-      "title": "eSUN PLA Basic orange filament, two spools",
-      "deliveredDate": "2026-04-02",
-      "returnByDate": "2026-05-02",
-      "notes": "Amazon delivered this filament on 2 April; no return request was found in the scan window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d4da22a950e1e2"
-      },
-      "items": [
-        "eSUN PLA Basic filament, orange + orange, two spools"
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "status": "Delivered - return window closing",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "id": "amazon-return-window-2026-04-02-408-4900838-7409939",
-      "title": "Eucerin Hyaluron-Filler day cream",
-      "deliveredDate": "2026-04-02",
-      "returnByDate": "2026-05-02",
-      "notes": "Amazon delivered this item on 2 April; no return request was found in the scan window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d4da21c52274b5"
-      },
-      "items": [
-        "Eucerin Hyaluron-Filler Day Cream SPF 15 for dry skin"
       ]
     },
     {
@@ -620,7 +509,7 @@
       "id": "amazon-return-window-2026-04-12-403-5743250-5160363",
       "supplier": "Amazon",
       "title": "TECKNET Bluetooth headset",
-      "status": "Delivered - return window open",
+      "status": "Delivered - return window closing",
       "dueDate": null,
       "timezone": "Europe/Madrid",
       "deliveredDate": "2026-04-12",
@@ -646,7 +535,7 @@
       "id": "amazon-return-window-2026-04-12-404-7492302-2249156",
       "supplier": "Amazon",
       "title": "Flintronic non-slip bath mats",
-      "status": "Delivered - return window open",
+      "status": "Delivered - return window closing",
       "dueDate": null,
       "timezone": "Europe/Madrid",
       "deliveredDate": "2026-04-12",
