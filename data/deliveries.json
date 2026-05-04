@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-03",
+  "today": "2026-05-04",
   "metadata": {
-    "version": "v64.0",
-    "generatedAt": "2026-05-03T06:04:07+02:00",
+    "version": "v65.0",
+    "generatedAt": "2026-05-04T06:02:18+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Broad Gmail transactional refresh plus supplier-specific scans and Amazon return/refund scan from 2026-04-01"
+    "source": "Broad Gmail transactional refresh plus supplier-specific scans, Amazon delivery/return/refund scan from 2026-04-01, and digital subscription billing scans"
   },
   "deliveries": [
     {
@@ -269,29 +269,6 @@
       "items": [
         "Quantity 1",
         "No replacement delivery date provided"
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "title": "Renova Skin Care Plus scented toilet paper (Qty 2)",
-      "status": "Dispatched",
-      "dueDate": "2026-05-03",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 2 May says the package was dispatched and is arriving tomorrow, 3 May. No delivered follow-up was found in this refresh.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19de9a2817bb4208"
-      },
-      "items": [
-        "Order 404-7119419-4151535",
-        "Renova Skin Care Plus scented decorated toilet paper, 6 rolls",
-        "Quantity 2"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
       ]
     },
     {
@@ -951,6 +928,103 @@
           "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
+    },
+    {
+      "id": "amazon-return-window-2026-05-03-404-7119419-4151535",
+      "supplier": "Amazon",
+      "title": "Renova Skin Care Plus scented toilet paper (Qty 2)",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-05-03",
+      "returnByDate": "2026-06-02",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivered this package on 3 May and handed it to the resident; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dee113407781a4"
+      },
+      "items": [
+        "Order 404-7119419-4151535",
+        "Renova Skin Care Plus scented decorated toilet paper, 6 rolls",
+        "Quantity 2"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "DEEPLEE PLA+ 2.0 yellow filament 1 kg",
+      "status": "Dispatched",
+      "dueDate": "2026-05-05",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 3 May was followed by a dispatch email the same day; the package is arriving Tuesday, 5 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19ded6e7a8ea5a09"
+      },
+      "items": [
+        "Order 403-4386843-8350719",
+        "DEEPLEE PLA+ 2.0 1.75 mm, 1 kg yellow",
+        "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "Crewhpo women's summer short sleeve pajamas",
+      "status": "Ordered",
+      "dueDate": "2026-05-09",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 3 May says this pajama set is arriving Saturday, 9 May. No dispatch follow-up was found in this refresh.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dece75e32fe074"
+      },
+      "items": [
+        "Order 407-2347723-1756353",
+        "Crewhpo women's summer short sleeve pajama set",
+        "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "COLGATE Max White Ultra Subscribe & Save",
+      "status": "Upcoming auto-delivery",
+      "dueDate": "2026-06-04",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon Subscribe & Save confirmation dated 24 April says this monthly toothpaste auto-delivery starts with an arrival by Thursday, 4 June.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dbff72fe082aeb"
+      },
+      "items": [
+        "COLGATE Max White Ultra Active Foam toothpaste, 50 ml",
+        "Monthly Subscribe & Save delivery",
+        "Arriving by Thursday, 4 June"
+      ],
+      "links": [
+        {
+          "label": "Manage Amazon subscriptions",
+          "url": "https://www.amazon.es/auto-deliveries"
+        }
+      ]
     }
   ],
   "licenses": [
@@ -1142,6 +1216,60 @@
         {
           "label": "Manage Apple subscriptions",
           "url": "https://finance-app.itunes.apple.com/account/subscriptions"
+        }
+      ]
+    },
+    {
+      "service": "ChatGPT Plus (Apple)",
+      "title": "ChatGPT Plus monthly subscription",
+      "status": "Active subscription",
+      "nextDate": "2026-05-21",
+      "dateLabel": "Renews Thursday, 21 May 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 7,
+      "notes": "Apple receipt dated 1 May says ChatGPT Plus monthly renews on May 21, 2026 for the Apple account kellycohen11@gmail.com.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19de7e93d35fa186"
+      },
+      "items": [
+        "Apple Order MSM9437QJM",
+        "ChatGPT Plus monthly",
+        "$19.99",
+        "Exact renewal date provided by Apple"
+      ],
+      "links": [
+        {
+          "label": "Manage Apple subscriptions",
+          "url": "https://apps.apple.com/account/subscriptions"
+        }
+      ]
+    },
+    {
+      "service": "Fly.io",
+      "title": "Fly.io organization usage billing",
+      "status": "Active usage billing",
+      "nextDate": null,
+      "dateLabel": "No renewal date provided",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 7,
+      "notes": "Fly.io billing email dated 2 May says the elie-cohen organization had a $4.03 monthly bill that was discounted by 100% because it was below the collection threshold. No renewal or access-end date was provided.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19de81b859bc90a1"
+      },
+      "items": [
+        "Organization elie-cohen",
+        "May bill $4.03",
+        "100% discount this month",
+        "No exact next billing date provided"
+      ],
+      "links": [
+        {
+          "label": "View Fly.io billing",
+          "url": "https://fly.io/dashboard/elie-cohen/billing"
         }
       ]
     }
