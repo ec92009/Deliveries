@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-04",
+  "today": "2026-05-05",
   "metadata": {
-    "version": "v65.0",
-    "generatedAt": "2026-05-04T06:02:18+02:00",
+    "version": "v66.0",
+    "generatedAt": "2026-05-05T06:04:04+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Broad Gmail transactional refresh plus supplier-specific scans, Amazon delivery/return/refund scan from 2026-04-01, and digital subscription billing scans"
+    "source": "Broad Gmail transactional refresh after 2026-05-03, supplier-specific scans, Amazon delivery/return/refund scan from 2026-04-01, and digital subscription billing scans"
   },
   "deliveries": [
     {
@@ -118,25 +118,6 @@
       "items": []
     },
     {
-      "supplier": "AliExpress",
-      "title": "Telescopic Extension Wand for Dyson...",
-      "status": "In transit",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Latest AliExpress tracking email says package 315193137741900017 has cleared customs (email dated 28 April).",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dd3886ae5b8552"
-      },
-      "items": [],
-      "links": [
-        {
-          "label": "Track on AliExpress",
-          "url": "https://www.aliexpress.com/p/tracking/index.html?_addShare=no&_login=yes&tradeOrderId=3071064198343468"
-        }
-      ]
-    },
-    {
       "supplier": "Amazon",
       "title": "Flintronic Super Glue, 3 Bottles 50 g",
       "status": "Dispatched",
@@ -156,17 +137,17 @@
     {
       "supplier": "Tikamoon",
       "title": "Tikamoon order 4004028",
-      "status": "Shipment created",
+      "status": "Carrier tracking active",
       "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Tikamoon confirms order 4004028 has shipped. METHOD will handle delivery once it reaches Spain; the tracking link may take 3 to 6 days to activate.",
+      "notes": "Vonzu/METHOD received Tikamoon order 4004028-WEB-1 on 4 May and says it will contact the user before delivery, with another communication when the order goes out for delivery.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dda4979b4530dc"
+        "url": "https://mail.google.com/mail/#all/19df1fc60c6a4266"
       },
       "items": [
         "Tracking reference METIK0071392001",
-        "METHOD carrier after arrival in Spain",
+        "METHOD/Vonzu carrier after arrival in Spain",
         "Tikamoon notes free returns for 60 days"
       ],
       "links": [
@@ -333,60 +314,6 @@
           "url": "https://www.amazon.es/your-orders/orders"
         }
       ],
-      "id": "amazon-return-window-2026-04-04-171-0289901-8045177-ourmed",
-      "title": "Ourmed sterile wound dressings",
-      "deliveredDate": "2026-04-04",
-      "returnByDate": "2026-05-04",
-      "notes": "Amazon delivered this item on 4 April; no return request was found in the scan window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d588747e199c0b"
-      },
-      "items": [
-        "Ourmed sterile self-adhesive wound dressings, 50 units"
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "status": "Delivered - return window closing",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "id": "amazon-return-window-2026-04-04-171-0289901-8045177-bundle",
-      "title": "D.RECT, CIF, and Senti2 delivery bundle",
-      "deliveredDate": "2026-04-04",
-      "returnByDate": "2026-05-04",
-      "notes": "Amazon delivered this package on 4 April; no return request was found in the scan window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d5886183ce7efd"
-      },
-      "items": [
-        "D.RECT 5580 expandable A4 document folder",
-        "CIF Pink Cream multi-purpose cleaner",
-        "Senti2 hydrating eye drops"
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "status": "Delivered - return window closing",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
       "id": "amazon-return-window-2026-04-05-171-0289901-8045177-color",
       "title": "Colour Coloration Permanent 8.3, quantity 2",
       "deliveredDate": "2026-04-05",
@@ -483,30 +410,36 @@
       ]
     },
     {
-      "id": "amazon-return-window-2026-04-12-403-5743250-5160363",
+      "id": "amazon-return-authorized-2026-05-04-403-5743250-5160363",
       "supplier": "Amazon",
-      "title": "TECKNET Bluetooth headset",
-      "status": "Delivered - return window closing",
+      "title": "TECKNET Bluetooth headphones return",
+      "status": "Return authorization granted",
       "dueDate": null,
       "timezone": "Europe/Madrid",
       "deliveredDate": "2026-04-12",
-      "returnByDate": "2026-05-12",
+      "returnByDate": "2026-05-13",
       "returnWindowDays": 30,
       "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivered this item on 12 April; no return request was found in the scanned return/refund mail.",
+      "notes": "Amazon confirmed the return request on 4 May. Drop off by Wednesday, 13 May at any Celeritas Dropoff office; refund is issued after drop-off.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d81c7e4e7ab485"
+        "url": "https://mail.google.com/mail/#all/19df356a082a50e6"
       },
       "items": [
-        "TECKNET Bluetooth headset with microphone"
+        "Order 403-5743250-5160363",
+        "TECKNET Bluetooth Headphones, quantity 1",
+        "Estimated refund EUR 27.99 to Amazon account balance",
+        "Celeritas Dropoff, no printed label or box required"
       ],
       "links": [
         {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
+          "label": "Manage Amazon return",
+          "url": "https://www.amazon.es/spr/returns/prep?orderId=403-5743250-5160363"
         }
-      ]
+      ],
+      "returnAuthorizationGranted": true,
+      "returnDropoffRequired": true,
+      "returnStatus": "return_authorized"
     },
     {
       "id": "amazon-return-window-2026-04-12-404-7492302-2249156",
@@ -538,7 +471,7 @@
       "id": "amazon-return-window-2026-04-14-19d8c03358325354",
       "supplier": "Amazon",
       "title": "Desigual Blus_Stem women's item",
-      "status": "Delivered - return window open",
+      "status": "Delivered - return window closing",
       "dueDate": null,
       "timezone": "Europe/Madrid",
       "deliveredDate": "2026-04-14",
@@ -564,7 +497,7 @@
       "id": "amazon-return-window-2026-04-14-19d8c0321f113905",
       "supplier": "Amazon",
       "title": "BRITA Flow XXL filter tank",
-      "status": "Delivered - return window open",
+      "status": "Delivered - return window closing",
       "dueDate": null,
       "timezone": "Europe/Madrid",
       "deliveredDate": "2026-04-14",
@@ -590,7 +523,7 @@
       "id": "amazon-return-window-2026-04-14-19d8bb15170ef761",
       "supplier": "Amazon",
       "title": "Waterdrop filter",
-      "status": "Delivered - return window open",
+      "status": "Delivered - return window closing",
       "dueDate": null,
       "timezone": "Europe/Madrid",
       "deliveredDate": "2026-04-14",
@@ -983,13 +916,13 @@
     {
       "supplier": "Amazon",
       "title": "Crewhpo women's summer short sleeve pajamas",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-05-09",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 3 May says this pajama set is arriving Saturday, 9 May. No dispatch follow-up was found in this refresh.",
+      "notes": "Amazon order email dated 3 May was followed by a 4 May dispatch email; the package is arriving Saturday, 9 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dece75e32fe074"
+        "url": "https://mail.google.com/mail/#all/19df3819029271fe"
       },
       "items": [
         "Order 407-2347723-1756353",
@@ -1023,6 +956,98 @@
         {
           "label": "Manage Amazon subscriptions",
           "url": "https://www.amazon.es/auto-deliveries"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "Only & Sons Onsloom skinny jeans (Qty 2)",
+      "status": "Dispatched",
+      "dueDate": "2026-05-05",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 4 May was followed by two dispatch emails for order 403-0346876-9134748; both packages are arriving Tuesday, 5 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19df3753614ecf38"
+      },
+      "items": [
+        "Order 403-0346876-9134748",
+        "Only & Sons Onsloom jeans, Dark Blue Denim, 33W / 30L",
+        "Quantity 2"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "Wantek wireless Bluetooth headset with charging station",
+      "status": "Ordered",
+      "dueDate": "2026-05-08",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 4 May says the Wantek Bluetooth headset is arriving Friday, 8 May. No dispatch follow-up was found in this refresh.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19df35f9f108092a"
+      },
+      "items": [
+        "Order 403-2588004-1543560",
+        "Wantek wireless Bluetooth headset with microphone, charging station, and USB dongle",
+        "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "Thsucords USB C extension cable 0.5 m",
+      "status": "Dispatched",
+      "dueDate": "2026-05-05",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 4 May was followed by a dispatch email the same day; the package is arriving Tuesday, 5 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19df47c783f83f69"
+      },
+      "items": [
+        "Order 403-0901995-1751521",
+        "Thsucords USB C extension cable 0.5 m, USB 3.2 20 Gbps",
+        "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "34 Pieces Plasterboard Plugs set",
+      "status": "Ordered",
+      "dueDate": "2026-05-06",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 4 May says the plasterboard plug and toggle screw set is arriving Wednesday, 6 May. No dispatch follow-up was found in this refresh.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19df4a2d543d1645"
+      },
+      "items": [
+        "Order 171-8700855-6210738",
+        "34-piece plasterboard plugs / toggle anchor set, M3/M5/M6",
+        "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
     }
@@ -1194,28 +1219,28 @@
     },
     {
       "service": "Apple iCloud",
-      "title": "Apple iCloud 100 GB storage",
+      "title": "Apple iCloud+ 2 TB storage",
       "status": "Active subscription",
-      "nextDate": "2026-05-16",
-      "dateLabel": "Renews Saturday, 16 May 2026",
+      "nextDate": "2026-06-04",
+      "dateLabel": "Renews Thursday, 4 June 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "Apple receipt dated 26 April says the 100 GB monthly storage subscription renews on May 16, 2026.",
+      "notes": "Apple receipt dated 4 May says the iCloud+ 2 TB monthly plan renews on June 4, 2026 for the Apple account ec92009@gmail.com.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dcbf22c786dac8"
+        "url": "https://mail.google.com/mail/#all/19df3730da1ba17a"
       },
       "items": [
-        "100 GB monthly storage",
-        "$1.99",
-        "Order MSXW3ZXS0Z",
+        "iCloud+ with 2 TB monthly storage",
+        "$9.99",
+        "Apple Order MN0HHB15HM",
         "Exact renewal date provided by Apple"
       ],
       "links": [
         {
           "label": "Manage Apple subscriptions",
-          "url": "https://finance-app.itunes.apple.com/account/subscriptions"
+          "url": "https://apps.apple.com/account/subscriptions"
         }
       ]
     },
