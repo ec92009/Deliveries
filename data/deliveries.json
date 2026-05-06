@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-05",
+  "today": "2026-05-06",
   "metadata": {
-    "version": "v66.0",
-    "generatedAt": "2026-05-05T06:04:04+02:00",
+    "version": "v67.0",
+    "generatedAt": "2026-05-06T06:03:17+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Broad Gmail transactional refresh after 2026-05-03, supplier-specific scans, Amazon delivery/return/refund scan from 2026-04-01, and digital subscription billing scans"
+    "source": "Broad Gmail transactional refresh through 2026-05-06, supplier-specific scans for previously seen suppliers, Amazon delivery/return/refund scan over the last 45 days, and digital subscription/license scans"
   },
   "deliveries": [
     {
@@ -62,17 +62,24 @@
     {
       "supplier": "Amazon",
       "title": "eSUN PLA Filamento 1.75mm (2x Dark Red)",
-      "status": "Delivery delayed",
-      "dueDate": "2026-05-23",
+      "status": "Dispatched",
+      "dueDate": "2026-05-09",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery estimate update dated 30 April says shipment is delayed and now arriving 19 May - 23 May. No dispatch or delivery follow-up was found in this refresh.",
+      "notes": "Amazon dispatch email dated 5 May says the eSUN dark-red PLA package was dispatched and is arriving Saturday, 9 May, superseding the earlier delayed estimate.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19ddcb044e86fb8f"
+        "url": "https://mail.google.com/mail/#all/19dfa818379643dd"
       },
       "items": [
         "Order 171-7693667-1676301",
+        "eSUN PLA filament 1.75mm, PLA Basic, dark red, 2 spools",
         "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
       ]
     },
     {
@@ -160,13 +167,13 @@
     {
       "supplier": "Amazon",
       "title": "ONLY ONLWONDER denim jacket",
-      "status": "Ordered",
-      "dueDate": "2026-05-29",
+      "status": "Delivery estimate updated",
+      "dueDate": "2026-05-10",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 1 May says this ONLY denim jacket is arriving 29 May.",
+      "notes": "Amazon delivery estimate update dated 5 May says the ONLY ONLWONDER denim jacket is now arriving Sunday, 10 May. No dispatch follow-up was found in this refresh.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19de5a3208cc4ca6"
+        "url": "https://mail.google.com/mail/#all/19df8c6489f0f81c"
       },
       "items": [
         "Order 404-6099955-6218744",
@@ -183,21 +190,26 @@
     {
       "supplier": "Leonid Afremov",
       "title": "Cafe Parisienne On Europa painting",
-      "status": "Ordered",
+      "status": "Shipped",
       "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Order confirmation dated 25 April says the painting order was placed and tracking will be sent once the package ships. A follow-up says average receipt time is around 20 days.",
+      "notes": "Afremov shipping emails dated 5 May say order 000221536 has shipped via YunExpress with tracking YT2612500706494759.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dc4a770c34d47c"
+        "url": "https://mail.google.com/mail/#all/19df9301302a4a2f"
       },
       "items": [
         "Order 000221536",
-        "Invoice 000035294",
+        "Shipment 000033992",
+        "Tracking YT2612500706494759",
         "Cafe Parisienne On Europa, thin black frame",
         "10-15 free shipping via EMS/USPS"
       ],
       "links": [
+        {
+          "label": "Track YunExpress shipment",
+          "url": "https://www.yuntrack.com/parcelTracking?id=YT2612500706494759"
+        },
         {
           "label": "Open Afremov",
           "url": "https://afremov.com/"
@@ -255,13 +267,13 @@
     {
       "supplier": "Amazon",
       "title": "Kssiaz bamboo sofa arm tray",
-      "status": "Dispatched",
-      "dueDate": "2026-05-05",
+      "status": "Delivery delayed",
+      "dueDate": "2026-05-08",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 2 May originally estimated Thursday, then the 3 May dispatch email says the package was dispatched and is arriving Tuesday, 5 May.",
+      "notes": "Amazon delivery update dated 5 May says the Kssiaz sofa arm tray package is delayed and is now estimated to arrive by 8 May; refund option is offered if it has not arrived by the next day.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19deb867e4fb3629"
+        "url": "https://mail.google.com/mail/#all/19df8757d36a7ca7"
       },
       "items": [
         "Order 171-6119443-4263557",
@@ -299,32 +311,6 @@
           "label": "Manage Amazon return",
           "url": "https://www.amazon.es/spr/returns/cart?orderId=171-6934092-7868309"
         }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "status": "Delivered - return window closing",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "id": "amazon-return-window-2026-04-05-171-0289901-8045177-color",
-      "title": "Colour Coloration Permanent 8.3, quantity 2",
-      "deliveredDate": "2026-04-05",
-      "returnByDate": "2026-05-05",
-      "notes": "Amazon delivered two units on 5 April; no return request was found in the scan window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d5d534ab1a99a8"
-      },
-      "items": [
-        "Colour Coloration Permanent 8.3 Light Golden Blonde, quantity 2"
       ]
     },
     {
@@ -893,13 +879,13 @@
     {
       "supplier": "Amazon",
       "title": "DEEPLEE PLA+ 2.0 yellow filament 1 kg",
-      "status": "Dispatched",
-      "dueDate": "2026-05-05",
+      "status": "Delivery delayed",
+      "dueDate": "2026-05-08",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 3 May was followed by a dispatch email the same day; the package is arriving Tuesday, 5 May.",
+      "notes": "Amazon delivery update dated 5 May says the DEEPLEE yellow PLA+ package is delayed and is now estimated to arrive by 8 May; refund option is offered if it has not arrived by the next day.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19ded6e7a8ea5a09"
+        "url": "https://mail.google.com/mail/#all/19df873f78b6e171"
       },
       "items": [
         "Order 403-4386843-8350719",
@@ -985,13 +971,13 @@
     {
       "supplier": "Amazon",
       "title": "Wantek wireless Bluetooth headset with charging station",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-05-08",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 4 May says the Wantek Bluetooth headset is arriving Friday, 8 May. No dispatch follow-up was found in this refresh.",
+      "notes": "Amazon dispatch email dated 5 May says the Wantek wireless Bluetooth headset package was dispatched and is arriving Friday, 8 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19df35f9f108092a"
+        "url": "https://mail.google.com/mail/#all/19df68b2bb491c0c"
       },
       "items": [
         "Order 403-2588004-1543560",
@@ -1007,37 +993,14 @@
     },
     {
       "supplier": "Amazon",
-      "title": "Thsucords USB C extension cable 0.5 m",
-      "status": "Dispatched",
-      "dueDate": "2026-05-05",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 4 May was followed by a dispatch email the same day; the package is arriving Tuesday, 5 May.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19df47c783f83f69"
-      },
-      "items": [
-        "Order 403-0901995-1751521",
-        "Thsucords USB C extension cable 0.5 m, USB 3.2 20 Gbps",
-        "Quantity 1"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
       "title": "34 Pieces Plasterboard Plugs set",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-05-06",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 4 May says the plasterboard plug and toggle screw set is arriving Wednesday, 6 May. No dispatch follow-up was found in this refresh.",
+      "notes": "Amazon dispatch email dated 5 May says the plasterboard plug and toggle screw set was dispatched and is arriving Wednesday, 6 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19df4a2d543d1645"
+        "url": "https://mail.google.com/mail/#all/19df9a51f3178300"
       },
       "items": [
         "Order 171-8700855-6210738",
@@ -1049,6 +1012,153 @@
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-05-05-403-0901995-1751521",
+      "supplier": "Amazon",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "title": "Thsucords USB C extension cable 0.5 m",
+      "status": "Delivered - return window open",
+      "deliveredDate": "2026-05-05",
+      "returnByDate": "2026-06-04",
+      "notes": "Amazon delivered this USB-C extension cable on 5 May and says the parcel was handed to the resident; no return request was found in the scanned return/refund mail.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19df87e834eafb40"
+      },
+      "items": [
+        "Order 403-0901995-1751521",
+        "Thsucords USB C extension cable 0.5 m, USB 3.2 20 Gbps"
+      ]
+    },
+    {
+      "id": "amazon-order-2026-05-05-171-0970675-1965155",
+      "supplier": "Amazon",
+      "timezone": "Europe/Madrid",
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "title": "ALPIDEX T-Shirt 5-pack, desert, size M",
+      "status": "Ordered",
+      "dueDate": "2026-05-07",
+      "notes": "Amazon order email dated 5 May says the ALPIDEX five-pack of T-shirts is arriving Thursday, 7 May. No dispatch follow-up was found in this refresh.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19df8bacb6aa51fc"
+      },
+      "items": [
+        "Order 171-0970675-1965155",
+        "ALPIDEX T-Shirt pack of 5, desert, size M",
+        "Quantity 1"
+      ]
+    },
+    {
+      "id": "amazon-order-2026-05-05-171-2480271-8953128",
+      "supplier": "Amazon",
+      "timezone": "Europe/Madrid",
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "title": "MIGUBIGU 10-piece locking pins set",
+      "status": "Ordered",
+      "dueDate": "2026-05-09",
+      "notes": "Amazon order email dated 5 May says the MIGUBIGU 10-piece locking pins set is arriving Saturday, 9 May. No dispatch follow-up was found in this refresh.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19df8d953eb3e5bd"
+      },
+      "items": [
+        "Order 171-2480271-8953128",
+        "MIGUBIGU 10-piece locking pins, 4x40 mm",
+        "Quantity 1"
+      ]
+    },
+    {
+      "id": "amazon-order-2026-05-05-171-5490823-1741961",
+      "supplier": "Amazon",
+      "timezone": "Europe/Madrid",
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "title": "DEEPLEE PLA+ 2.0 peach pink filament 1 kg",
+      "status": "Ordered",
+      "dueDate": "2026-05-11",
+      "notes": "Amazon order email dated 5 May says the DEEPLEE peach-pink PLA+ filament spool is arriving Monday, 11 May. No dispatch follow-up was found in this refresh.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19df8e458471abd7"
+      },
+      "items": [
+        "Order 171-5490823-1741961",
+        "DEEPLEE PLA+ 2.0 1.75 mm, 1 kg peach pink",
+        "Quantity 1"
+      ]
+    },
+    {
+      "id": "amazon-order-2026-05-05-171-8124367-2846749",
+      "supplier": "Amazon",
+      "timezone": "Europe/Madrid",
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "title": "DEEPLEE PLA+ 2.0 warm yellow filament 1 kg",
+      "status": "Ordered",
+      "dueDate": "2026-05-13",
+      "notes": "Amazon order email dated 5 May says the DEEPLEE warm-yellow PLA+ filament spool is arriving 13 May. No dispatch follow-up was found in this refresh.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19df8e37b6ea8562"
+      },
+      "items": [
+        "Order 171-8124367-2846749",
+        "DEEPLEE PLA+ 2.0 1.75 mm, 1 kg warm yellow",
+        "Quantity 1"
+      ]
+    },
+    {
+      "id": "amazon-order-2026-05-05-171-7341428-1921963",
+      "supplier": "Amazon",
+      "timezone": "Europe/Madrid",
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "title": "DEEPLEE PLA+ 2.0 pink filament kit 2 kg",
+      "status": "Ordered",
+      "dueDate": "2026-05-13",
+      "notes": "Amazon order email dated 5 May says the DEEPLEE pink PLA+ two-spool kit is arriving 8 May - 13 May. No dispatch follow-up was found in this refresh.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19df8e4daeecd8d0"
+      },
+      "items": [
+        "Order 171-7341428-1921963",
+        "DEEPLEE PLA+ 2.0 1.75 mm, pink kit, 2 spools / 2 kg",
+        "Quantity 1"
       ]
     }
   ],
