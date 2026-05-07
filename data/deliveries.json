@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-06",
+  "today": "2026-05-07",
   "metadata": {
-    "version": "v67.0",
-    "generatedAt": "2026-05-06T06:03:17+02:00",
+    "version": "v68.0",
+    "generatedAt": "2026-05-07T06:05:35+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Broad Gmail transactional refresh through 2026-05-06, supplier-specific scans for previously seen suppliers, Amazon delivery/return/refund scan over the last 45 days, and digital subscription/license scans"
+    "source": "Broad Gmail transactional refresh through 2026-05-07, supplier-specific scans for previously seen and newly discovered suppliers, Amazon delivery/return/refund scan over the last 30+ days, and digital subscription/license scans"
   },
   "deliveries": [
     {
@@ -125,20 +125,31 @@
       "items": []
     },
     {
+      "id": "amazon-return-window-2026-05-06-403-7619849-5556316",
       "supplier": "Amazon",
       "title": "Flintronic Super Glue, 3 Bottles 50 g",
-      "status": "Dispatched",
-      "dueDate": "2026-05-07",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 2 May says the package was dispatched and is arriving Thursday, 7 May.",
+      "deliveredDate": "2026-05-06",
+      "returnByDate": "2026-06-05",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 6 May says the Flintronic Super Glue package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19de8449884da7ff"
+        "url": "https://mail.google.com/mail/#all/19dfdbe59ab9499a"
       },
       "items": [
         "Order 403-7619849-5556316",
         "Flintronic Super Glue, 3 bottles 50 g",
-        "Quantity 1"
+        "Delivered 6 May 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
       ]
     },
     {
@@ -167,13 +178,13 @@
     {
       "supplier": "Amazon",
       "title": "ONLY ONLWONDER denim jacket",
-      "status": "Delivery estimate updated",
-      "dueDate": "2026-05-10",
+      "status": "Dispatched",
+      "dueDate": "2026-05-07",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery estimate update dated 5 May says the ONLY ONLWONDER denim jacket is now arriving Sunday, 10 May. No dispatch follow-up was found in this refresh.",
+      "notes": "Amazon dispatch email dated 6 May says the ONLY ONLWONDER denim jacket package was dispatched and is arriving Thursday, 7 May, superseding the earlier Sunday estimate.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19df8c6489f0f81c"
+        "url": "https://mail.google.com/mail/#all/19dfe5bcbe3df60b"
       },
       "items": [
         "Order 404-6099955-6218744",
@@ -877,20 +888,25 @@
       ]
     },
     {
+      "id": "amazon-return-window-2026-05-06-403-4386843-8350719",
       "supplier": "Amazon",
       "title": "DEEPLEE PLA+ 2.0 yellow filament 1 kg",
-      "status": "Delivery delayed",
-      "dueDate": "2026-05-08",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery update dated 5 May says the DEEPLEE yellow PLA+ package is delayed and is now estimated to arrive by 8 May; refund option is offered if it has not arrived by the next day.",
+      "deliveredDate": "2026-05-06",
+      "returnByDate": "2026-06-05",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 6 May says the DEEPLEE yellow PLA+ package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19df873f78b6e171"
+        "url": "https://mail.google.com/mail/#all/19dfdbdc019b32cc"
       },
       "items": [
         "Order 403-4386843-8350719",
         "DEEPLEE PLA+ 2.0 1.75 mm, 1 kg yellow",
-        "Quantity 1"
+        "Delivered 6 May 2026"
       ],
       "links": [
         {
@@ -992,20 +1008,25 @@
       ]
     },
     {
+      "id": "amazon-return-window-2026-05-06-171-8700855-6210738",
       "supplier": "Amazon",
       "title": "34 Pieces Plasterboard Plugs set",
-      "status": "Dispatched",
-      "dueDate": "2026-05-06",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 5 May says the plasterboard plug and toggle screw set was dispatched and is arriving Wednesday, 6 May.",
+      "deliveredDate": "2026-05-06",
+      "returnByDate": "2026-06-05",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 6 May says the plasterboard plug and toggle screw set was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19df9a51f3178300"
+        "url": "https://mail.google.com/mail/#all/19dfdbce39c2f60e"
       },
       "items": [
         "Order 171-8700855-6210738",
         "34-piece plasterboard plugs / toggle anchor set, M3/M5/M6",
-        "Quantity 1"
+        "Delivered 6 May 2026"
       ],
       "links": [
         {
@@ -1044,49 +1065,49 @@
     {
       "id": "amazon-order-2026-05-05-171-0970675-1965155",
       "supplier": "Amazon",
-      "timezone": "Europe/Madrid",
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
       "title": "ALPIDEX T-Shirt 5-pack, desert, size M",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-05-07",
-      "notes": "Amazon order email dated 5 May says the ALPIDEX five-pack of T-shirts is arriving Thursday, 7 May. No dispatch follow-up was found in this refresh.",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 6 May says the ALPIDEX five-pack of T-shirts was dispatched and is arriving Thursday, 7 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19df8bacb6aa51fc"
+        "url": "https://mail.google.com/mail/#all/19dfe58dacf2ae26"
       },
       "items": [
         "Order 171-0970675-1965155",
         "ALPIDEX T-Shirt pack of 5, desert, size M",
         "Quantity 1"
-      ]
-    },
-    {
-      "id": "amazon-order-2026-05-05-171-2480271-8953128",
-      "supplier": "Amazon",
-      "timezone": "Europe/Madrid",
+      ],
       "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ],
+      ]
+    },
+    {
+      "id": "amazon-order-2026-05-05-171-2480271-8953128",
+      "supplier": "Amazon",
       "title": "MIGUBIGU 10-piece locking pins set",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-05-09",
-      "notes": "Amazon order email dated 5 May says the MIGUBIGU 10-piece locking pins set is arriving Saturday, 9 May. No dispatch follow-up was found in this refresh.",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 6 May says the MIGUBIGU 10-piece locking pins set was dispatched and is arriving Saturday, 9 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19df8d953eb3e5bd"
+        "url": "https://mail.google.com/mail/#all/19dfde7d67fec531"
       },
       "items": [
         "Order 171-2480271-8953128",
         "MIGUBIGU 10-piece locking pins, 4x40 mm",
         "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
       ]
     },
     {
@@ -1159,6 +1180,102 @@
         "Order 171-7341428-1921963",
         "DEEPLEE PLA+ 2.0 1.75 mm, pink kit, 2 spools / 2 kg",
         "Quantity 1"
+      ]
+    },
+    {
+      "id": "amazon-order-2026-05-06-407-5161962-3501932",
+      "supplier": "Amazon",
+      "title": "Ufesa Vitality electric arm juicer",
+      "status": "Dispatched",
+      "dueDate": "2026-05-07",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 6 May says the Ufesa Vitality electric arm juicer package was dispatched and is arriving Thursday, 7 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dfecb689c5c509"
+      },
+      "items": [
+        "Order 407-5161962-3501932",
+        "Ufesa Vitality electric arm juicer, 120W, black/inox",
+        "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-order-2026-05-06-407-4258297-0284344",
+      "supplier": "Amazon",
+      "title": "Yuson Girl Hawaiian shirt, colorful, size M",
+      "status": "Dispatched",
+      "dueDate": "2026-05-07",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 6 May says the Yuson Girl colorful Hawaiian shirt package was dispatched and is arriving Thursday, 7 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dfec78dc490527"
+      },
+      "items": [
+        "Order 407-4258297-0284344",
+        "Yuson Girl Hawaiian Shirt, colorful print, size M",
+        "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-order-2026-05-06-407-3699253-1847552",
+      "supplier": "Amazon",
+      "title": "Yuson Girl vintage short-sleeve shirt",
+      "status": "Dispatched",
+      "dueDate": "2026-05-07",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 6 May says this Yuson Girl vintage short-sleeve shirt package was dispatched and is arriving Thursday, 7 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dfec8a06844c1e"
+      },
+      "items": [
+        "Order 407-3699253-1847552",
+        "Yuson Girl vintage short-sleeve printed shirt",
+        "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-order-2026-05-06-407-9341807-8736341",
+      "supplier": "Amazon",
+      "title": "Yuson Girl vintage printed shirt",
+      "status": "Dispatched",
+      "dueDate": "2026-05-07",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 6 May says this Yuson Girl vintage printed shirt package was dispatched and is arriving Thursday, 7 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19dfecaee666be00"
+      },
+      "items": [
+        "Order 407-9341807-8736341",
+        "Yuson Girl vintage printed short-sleeve shirt",
+        "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
       ]
     }
   ],
