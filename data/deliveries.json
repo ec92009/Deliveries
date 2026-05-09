@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-07",
+  "today": "2026-05-09",
   "metadata": {
-    "version": "v68.0",
-    "generatedAt": "2026-05-07T06:05:35+02:00",
+    "version": "v70.0",
+    "generatedAt": "2026-05-09T06:03:01+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Broad Gmail transactional refresh through 2026-05-07, supplier-specific scans for previously seen and newly discovered suppliers, Amazon delivery/return/refund scan over the last 30+ days, and digital subscription/license scans"
+    "source": "Date-based dashboard cleanup on 2026-05-09 after Gmail connector tools were unavailable; retained open deliveries, authorized returns, still-returnable Amazon deliveries, licenses, and subscriptions from the prior Gmail refresh."
   },
   "deliveries": [
     {
@@ -322,34 +322,6 @@
           "label": "Manage Amazon return",
           "url": "https://www.amazon.es/spr/returns/cart?orderId=171-6934092-7868309"
         }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "status": "Delivered - return window closing",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "id": "amazon-return-window-2026-04-07-171-3952400-0927543",
-      "title": "RENPHO scale and L'OR Ristretto delivery bundle",
-      "deliveredDate": "2026-04-07",
-      "returnByDate": "2026-05-07",
-      "notes": "Amazon delivered this package on 7 April. It is at least three weeks old and still returnable under the assumed 30-day window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d682891b139bc6"
-      },
-      "items": [
-        "RENPHO digital body-composition bathroom scale",
-        "L'OR Ristretto capsules, 50 count",
-        "One additional item listed behind the package link"
       ]
     },
     {
