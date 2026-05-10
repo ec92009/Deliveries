@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-09",
+  "today": "2026-05-10",
   "metadata": {
-    "version": "v70.0",
-    "generatedAt": "2026-05-09T06:03:01+02:00",
+    "version": "v71.0",
+    "generatedAt": "2026-05-10T06:02:35+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Date-based dashboard cleanup on 2026-05-09 after Gmail connector tools were unavailable; retained open deliveries, authorized returns, still-returnable Amazon deliveries, licenses, and subscriptions from the prior Gmail refresh."
+    "source": "Date-based dashboard refresh on 2026-05-10 after Gmail connector tools were unavailable; retained open deliveries, authorized returns, still-returnable Amazon deliveries, licenses, and subscriptions from the prior Gmail refresh without asserting new mailbox state."
   },
   "deliveries": [
     {
