@@ -1,10 +1,10 @@
 {
   "today": "2026-05-10",
   "metadata": {
-    "version": "v71.0",
-    "generatedAt": "2026-05-10T06:02:35+02:00",
+    "version": "v71.1",
+    "generatedAt": "2026-05-10T08:53:00+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Date-based dashboard refresh on 2026-05-10 after Gmail connector tools were unavailable; retained open deliveries, authorized returns, still-returnable Amazon deliveries, licenses, and subscriptions from the prior Gmail refresh without asserting new mailbox state."
+    "source": "Gmail refresh on 2026-05-10 using broad transactional searches plus supplier coverage examples. Added AliExpress and IKEA open shipments; converted confirmed Amazon deliveries from 7-9 May into 30-day return-window tracking; retained authorized returns only when drop-off/refund remains outstanding; excluded marketing, newsletters, login/noise, and completed non-retained deliveries."
   },
   "deliveries": [
     {
@@ -58,29 +58,6 @@
         "url": "https://mail.google.com/mail/#all/19db8f454505ff18"
       },
       "items": []
-    },
-    {
-      "supplier": "Amazon",
-      "title": "eSUN PLA Filamento 1.75mm (2x Dark Red)",
-      "status": "Dispatched",
-      "dueDate": "2026-05-09",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 5 May says the eSUN dark-red PLA package was dispatched and is arriving Saturday, 9 May, superseding the earlier delayed estimate.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dfa818379643dd"
-      },
-      "items": [
-        "Order 171-7693667-1676301",
-        "eSUN PLA filament 1.75mm, PLA Basic, dark red, 2 spools",
-        "Quantity 1"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
     },
     {
       "supplier": "Amazon",
@@ -176,29 +153,6 @@
       ]
     },
     {
-      "supplier": "Amazon",
-      "title": "ONLY ONLWONDER denim jacket",
-      "status": "Dispatched",
-      "dueDate": "2026-05-07",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 6 May says the ONLY ONLWONDER denim jacket package was dispatched and is arriving Thursday, 7 May, superseding the earlier Sunday estimate.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dfe5bcbe3df60b"
-      },
-      "items": [
-        "Order 404-6099955-6218744",
-        "ONLY Women's ONLWONDER DNM Jacket, white, size S",
-        "Quantity 1"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
       "supplier": "Leonid Afremov",
       "title": "Cafe Parisienne On Europa painting",
       "status": "Shipped",
@@ -273,29 +227,6 @@
       "items": [
         "Quantity 1",
         "No replacement delivery date provided"
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "title": "Kssiaz bamboo sofa arm tray",
-      "status": "Delivery delayed",
-      "dueDate": "2026-05-08",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery update dated 5 May says the Kssiaz sofa arm tray package is delayed and is now estimated to arrive by 8 May; refund option is offered if it has not arrived by the next day.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19df8757d36a7ca7"
-      },
-      "items": [
-        "Order 171-6119443-4263557",
-        "Kssiaz bamboo folding sofa arm tray with cup holder, light brown",
-        "Quantity 1"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
       ]
     },
     {
@@ -889,29 +820,6 @@
     },
     {
       "supplier": "Amazon",
-      "title": "Crewhpo women's summer short sleeve pajamas",
-      "status": "Dispatched",
-      "dueDate": "2026-05-09",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 3 May was followed by a 4 May dispatch email; the package is arriving Saturday, 9 May.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19df3819029271fe"
-      },
-      "items": [
-        "Order 407-2347723-1756353",
-        "Crewhpo women's summer short sleeve pajama set",
-        "Quantity 1"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
       "title": "COLGATE Max White Ultra Subscribe & Save",
       "status": "Upcoming auto-delivery",
       "dueDate": "2026-06-04",
@@ -948,29 +856,6 @@
         "Order 403-0346876-9134748",
         "Only & Sons Onsloom jeans, Dark Blue Denim, 33W / 30L",
         "Quantity 2"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "title": "Wantek wireless Bluetooth headset with charging station",
-      "status": "Dispatched",
-      "dueDate": "2026-05-08",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 5 May says the Wantek wireless Bluetooth headset package was dispatched and is arriving Friday, 8 May.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19df68b2bb491c0c"
-      },
-      "items": [
-        "Order 403-2588004-1543560",
-        "Wantek wireless Bluetooth headset with microphone, charging station, and USB dongle",
-        "Quantity 1"
       ],
       "links": [
         {
@@ -1035,141 +920,128 @@
       ]
     },
     {
-      "id": "amazon-order-2026-05-05-171-0970675-1965155",
-      "supplier": "Amazon",
-      "title": "ALPIDEX T-Shirt 5-pack, desert, size M",
-      "status": "Dispatched",
-      "dueDate": "2026-05-07",
+      "supplier": "AliExpress",
+      "title": "AliExpress package 291300000090583640",
+      "status": "In global transit",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 6 May says the ALPIDEX five-pack of T-shirts was dispatched and is arriving Thursday, 7 May.",
+      "notes": "AliExpress tracking email dated 10 May says package 291300000090583640 left the departure region and is in global transit to the destination country/region. The package details reference both newly shipped AliExpress orders.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dfe58dacf2ae26"
+        "url": "https://mail.google.com/mail/#all/19e106fc0af00c00"
       },
       "items": [
-        "Order 171-0970675-1965155",
-        "ALPIDEX T-Shirt pack of 5, desert, size M",
-        "Quantity 1"
+        "Package 291300000090583640",
+        "Order 3072515402983468: Solar LED outdoor wall light, 2 pcs warm light x2, order total 7.73 EUR",
+        "Order 3072515403003468: Bambu Lab LED lamp kit add-on with remote control x4, order total 15.94 EUR"
       ],
       "links": [
         {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
+          "label": "Track AliExpress package",
+          "url": "https://www.aliexpress.com/p/tracking/index.html"
         }
       ]
     },
     {
-      "id": "amazon-order-2026-05-05-171-2480271-8953128",
-      "supplier": "Amazon",
-      "title": "MIGUBIGU 10-piece locking pins set",
-      "status": "Dispatched",
-      "dueDate": "2026-05-09",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 6 May says the MIGUBIGU 10-piece locking pins set was dispatched and is arriving Saturday, 9 May.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dfde7d67fec531"
-      },
-      "items": [
-        "Order 171-2480271-8953128",
-        "MIGUBIGU 10-piece locking pins, 4x40 mm",
-        "Quantity 1"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-order-2026-05-05-171-5490823-1741961",
-      "supplier": "Amazon",
-      "timezone": "Europe/Madrid",
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "title": "DEEPLEE PLA+ 2.0 peach pink filament 1 kg",
-      "status": "Ordered",
+      "supplier": "IKEA",
+      "title": "IKEA DIRIGERA smart home hub order 1601122892",
+      "status": "Parcel delivery pending",
       "dueDate": "2026-05-11",
-      "notes": "Amazon order email dated 5 May says the DEEPLEE peach-pink PLA+ filament spool is arriving Monday, 11 May. No dispatch follow-up was found in this refresh.",
+      "timezone": "Europe/Madrid",
+      "notes": "IKEA order confirmation dated 7 May says order 1601122892 was received for parcel delivery with a 2-4 day delivery window; no later ready/delivered email for this order was found in this refresh.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19df8e458471abd7"
+        "url": "https://mail.google.com/mail/#all/19e03400d72b936f"
+      },
+      "items": [
+        "Order 1601122892",
+        "DIRIGERA hub for smart products, white smart, item 105.034.06",
+        "Parcel delivery to Alhaurin de la Torre",
+        "Due date inferred from the 2-4 day delivery window"
+      ],
+      "links": [
+        {
+          "label": "Track IKEA order",
+          "url": "https://www.ikea.com/es/en/purchases/1601122892/"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-05-09-171-7693667-1676301",
+      "supplier": "Amazon",
+      "title": "eSUN PLA Filamento 1.75mm (2x Dark Red)",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-05-09",
+      "returnByDate": "2026-06-08",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 9 May says the eSUN PLA package was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e0cc2da4423882"
+      },
+      "items": [
+        "Order 171-7693667-1676301",
+        "eSUN PLA Basic filament, dark red, 2 spools",
+        "Delivered 9 May 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-05-09-407-2347723-1756353",
+      "supplier": "Amazon",
+      "title": "Crewhpo women's summer short sleeve pajamas",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-05-09",
+      "returnByDate": "2026-06-08",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 9 May says the Crewhpo pajamas package was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e0cc271d92dcd5"
+      },
+      "items": [
+        "Order 407-2347723-1756353",
+        "Crewhpo summer short-sleeve pajama set",
+        "Delivered 9 May 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-05-08-171-5490823-1741961",
+      "supplier": "Amazon",
+      "title": "DEEPLEE PLA+ 2.0 peach pink filament 1 kg",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-05-08",
+      "returnByDate": "2026-06-07",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 8 May says the DEEPLEE peach-pink PLA+ package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e07e86485b8c10"
       },
       "items": [
         "Order 171-5490823-1741961",
-        "DEEPLEE PLA+ 2.0 1.75 mm, 1 kg peach pink",
-        "Quantity 1"
-      ]
-    },
-    {
-      "id": "amazon-order-2026-05-05-171-8124367-2846749",
-      "supplier": "Amazon",
-      "timezone": "Europe/Madrid",
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "title": "DEEPLEE PLA+ 2.0 warm yellow filament 1 kg",
-      "status": "Ordered",
-      "dueDate": "2026-05-13",
-      "notes": "Amazon order email dated 5 May says the DEEPLEE warm-yellow PLA+ filament spool is arriving 13 May. No dispatch follow-up was found in this refresh.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19df8e37b6ea8562"
-      },
-      "items": [
-        "Order 171-8124367-2846749",
-        "DEEPLEE PLA+ 2.0 1.75 mm, 1 kg warm yellow",
-        "Quantity 1"
-      ]
-    },
-    {
-      "id": "amazon-order-2026-05-05-171-7341428-1921963",
-      "supplier": "Amazon",
-      "timezone": "Europe/Madrid",
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "title": "DEEPLEE PLA+ 2.0 pink filament kit 2 kg",
-      "status": "Ordered",
-      "dueDate": "2026-05-13",
-      "notes": "Amazon order email dated 5 May says the DEEPLEE pink PLA+ two-spool kit is arriving 8 May - 13 May. No dispatch follow-up was found in this refresh.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19df8e4daeecd8d0"
-      },
-      "items": [
-        "Order 171-7341428-1921963",
-        "DEEPLEE PLA+ 2.0 1.75 mm, pink kit, 2 spools / 2 kg",
-        "Quantity 1"
-      ]
-    },
-    {
-      "id": "amazon-order-2026-05-06-407-5161962-3501932",
-      "supplier": "Amazon",
-      "title": "Ufesa Vitality electric arm juicer",
-      "status": "Dispatched",
-      "dueDate": "2026-05-07",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 6 May says the Ufesa Vitality electric arm juicer package was dispatched and is arriving Thursday, 7 May.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dfecb689c5c509"
-      },
-      "items": [
-        "Order 407-5161962-3501932",
-        "Ufesa Vitality electric arm juicer, 120W, black/inox",
-        "Quantity 1"
+        "DEEPLEE PLA+ 2.0 peach pink filament, 1 kg",
+        "Delivered 8 May 2026"
       ],
       "links": [
         {
@@ -1179,20 +1051,161 @@
       ]
     },
     {
-      "id": "amazon-order-2026-05-06-407-4258297-0284344",
+      "id": "amazon-return-window-2026-05-08-171-2480271-8953128",
       "supplier": "Amazon",
-      "title": "Yuson Girl Hawaiian shirt, colorful, size M",
-      "status": "Dispatched",
-      "dueDate": "2026-05-07",
+      "title": "MIGUBIGU 10-piece locking pins set",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 6 May says the Yuson Girl colorful Hawaiian shirt package was dispatched and is arriving Thursday, 7 May.",
+      "deliveredDate": "2026-05-08",
+      "returnByDate": "2026-06-07",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 8 May says the MIGUBIGU locking pins package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dfec78dc490527"
+        "url": "https://mail.google.com/mail/#all/19e07e832a962483"
+      },
+      "items": [
+        "Order 171-2480271-8953128",
+        "MIGUBIGU 10 pieces locking pins 4x40 mm",
+        "Delivered 8 May 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-05-07-407-4258297-0284344",
+      "supplier": "Amazon",
+      "title": "Ufesa juicer and Yuson Girl shirts bundle",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-05-07",
+      "returnByDate": "2026-06-06",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 7 May says the Ufesa/Yuson four-item package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e030a63d6bcaa1"
       },
       "items": [
         "Order 407-4258297-0284344",
-        "Yuson Girl Hawaiian Shirt, colorful print, size M",
+        "Ufesa Vitality electric arm juicer",
+        "Three Yuson Girl Hawaiian/vintage printed shirts",
+        "Delivered 7 May 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-05-07-403-2588004-1543560",
+      "supplier": "Amazon",
+      "title": "Wantek wireless Bluetooth headset with charging station",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-05-07",
+      "returnByDate": "2026-06-06",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 7 May says the Wantek headset package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e0309aa53a06de"
+      },
+      "items": [
+        "Order 403-2588004-1543560",
+        "Wantek wireless Bluetooth headset with microphone, charging station, USB dongle",
+        "Delivered 7 May 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-05-07-404-6099955-6218744",
+      "supplier": "Amazon",
+      "title": "ALPIDEX T-Shirt 5-pack and ONLY ONLWONDER denim jacket",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-05-07",
+      "returnByDate": "2026-06-06",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 7 May says the ALPIDEX T-shirt and ONLY denim-jacket package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e030936fe583eb"
+      },
+      "items": [
+        "Order 404-6099955-6218744",
+        "ALPIDEX men's T-shirt 5-pack, desert, size M",
+        "ONLY ONLWONDER white denim jacket, size S",
+        "Delivered 7 May 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-05-07-171-6119443-4263557",
+      "supplier": "Amazon",
+      "title": "Kssiaz bamboo sofa arm tray",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-05-07",
+      "returnByDate": "2026-06-06",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 7 May says the Kssiaz sofa arm tray package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e03092f6d441f0"
+      },
+      "items": [
+        "Order 171-6119443-4263557",
+        "Kssiaz bamboo folding sofa arm tray, light brown",
+        "Delivered 7 May 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "DEEPLEE PLA+ 2.0 warm yellow filament 1 kg",
+      "status": "Dispatched",
+      "dueDate": "2026-05-13",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 8 May says the DEEPLEE warm-yellow PLA+ package was dispatched and is arriving Wednesday, 13 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e09f715513ce46"
+      },
+      "items": [
+        "Order 171-8124367-2846749",
+        "DEEPLEE PLA+ 2.0 warm yellow filament, 1 kg",
         "Quantity 1"
       ],
       "links": [
@@ -1203,44 +1216,19 @@
       ]
     },
     {
-      "id": "amazon-order-2026-05-06-407-3699253-1847552",
       "supplier": "Amazon",
-      "title": "Yuson Girl vintage short-sleeve shirt",
+      "title": "DEEPLEE PLA+ 2.0 pink filament kit 2 kg",
       "status": "Dispatched",
-      "dueDate": "2026-05-07",
+      "dueDate": "2026-05-13",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 6 May says this Yuson Girl vintage short-sleeve shirt package was dispatched and is arriving Thursday, 7 May.",
+      "notes": "Amazon dispatch email dated 8 May says the DEEPLEE pink PLA+ two-spool kit was dispatched and is arriving Wednesday, 13 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dfec8a06844c1e"
+        "url": "https://mail.google.com/mail/#all/19e09f789df65c32"
       },
       "items": [
-        "Order 407-3699253-1847552",
-        "Yuson Girl vintage short-sleeve printed shirt",
-        "Quantity 1"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-order-2026-05-06-407-9341807-8736341",
-      "supplier": "Amazon",
-      "title": "Yuson Girl vintage printed shirt",
-      "status": "Dispatched",
-      "dueDate": "2026-05-07",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 6 May says this Yuson Girl vintage printed shirt package was dispatched and is arriving Thursday, 7 May.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dfecaee666be00"
-      },
-      "items": [
-        "Order 407-9341807-8736341",
-        "Yuson Girl vintage printed short-sleeve shirt",
+        "Order 171-7341428-1921963",
+        "DEEPLEE PLA+ 2.0 pink filament kit, 2 kg",
         "Quantity 1"
       ],
       "links": [
