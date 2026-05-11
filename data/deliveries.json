@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-10",
+  "today": "2026-05-11",
   "metadata": {
-    "version": "v71.1",
-    "generatedAt": "2026-05-10T08:53:00+02:00",
+    "version": "v72.0",
+    "generatedAt": "2026-05-11T06:04:30+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-05-10 using broad transactional searches plus supplier coverage examples. Added AliExpress and IKEA open shipments; converted confirmed Amazon deliveries from 7-9 May into 30-day return-window tracking; retained authorized returns only when drop-off/refund remains outstanding; excluded marketing, newsletters, login/noise, and completed non-retained deliveries."
+    "source": "Gmail refresh on 2026-05-11 using broad transactional searches plus supplier coverage examples. Added new Amazon return authorizations for plasterboard plugs and Wantek headset, updated Subscribe & Save to the latest L'OR May 21 delivery, added Bjango/iStat Menus license plus Windy and Muscle Booster subscription signals, removed expired Amazon return-window rows and the confirmed-delivered Tikamoon shipment; excluded marketing, review prompts, login/security mail, generic project posts, and completed drop-off/refund returns."
   },
   "deliveries": [
     {
@@ -130,29 +130,6 @@
       ]
     },
     {
-      "supplier": "Tikamoon",
-      "title": "Tikamoon order 4004028",
-      "status": "Carrier tracking active",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Vonzu/METHOD received Tikamoon order 4004028-WEB-1 on 4 May and says it will contact the user before delivery, with another communication when the order goes out for delivery.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19df1fc60c6a4266"
-      },
-      "items": [
-        "Tracking reference METIK0071392001",
-        "METHOD/Vonzu carrier after arrival in Spain",
-        "Tikamoon notes free returns for 60 days"
-      ],
-      "links": [
-        {
-          "label": "Track Tikamoon shipment",
-          "url": "https://go.tikamoon.com/lnk/CAAACJJ-quwAAAAAAAAAAunxVXsAAYCsqYsAAAAAABK5ZQBp8j_dAhITX9MEQxWxrk37BF1oowASU7A/6/SfK0-YsCDpiNYfrSjvHyRw/aHR0cHM6Ly9hcHAudm9uenUuZXMvZmluZC1leHBlZGl0aW9uP2RvbWFpbj1tZXRob2QmcmVmZXJlbmNlPTQwMDQwMjgtV0VCLTEmcG9zdGFsQ29kZT0yOTEzMA"
-        }
-      ]
-    },
-    {
       "supplier": "Leonid Afremov",
       "title": "Cafe Parisienne On Europa painting",
       "status": "Shipped",
@@ -199,18 +176,25 @@
     },
     {
       "supplier": "Amazon",
-      "title": "L'OR Ristretto and SUNLU filament Subscribe & Save",
+      "title": "L'OR Ristretto Subscribe & Save",
       "status": "Upcoming auto-delivery",
-      "dueDate": "2026-05-07",
+      "dueDate": "2026-05-21",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon Subscribe & Save reminder dated 26 April says this two-item auto-delivery is arriving by Thursday, 7 May.",
+      "notes": "Latest Amazon Subscribe & Save reminder dated 10 May says this one-item auto-delivery is arriving by Thursday, 21 May; last day to manage the delivery is Wednesday, 13 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dcad4162c50f26"
+        "url": "https://mail.google.com/mail/#all/19e12088a71edede"
       },
       "items": [
-        "L'OR Ristretto capsules, 2 units every 2 weeks",
-        "SUNLU Pack 4KG Filamento Rapido PLA Plus 2.0, 1 unit every 2 weeks"
+        "L'OR Capsulas de Cafe Ristretto, intensity 11, 50 capsules",
+        "2 units every 2 weeks",
+        "New price EUR 18.04 after 5% Subscribe & Save discount"
+      ],
+      "links": [
+        {
+          "label": "Manage Amazon subscriptions",
+          "url": "https://www.amazon.es/auto-deliveries"
+        }
       ]
     },
     {
@@ -252,60 +236,6 @@
         {
           "label": "Manage Amazon return",
           "url": "https://www.amazon.es/spr/returns/cart?orderId=171-6934092-7868309"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-04-10-407-5484657-8476319",
-      "supplier": "Amazon",
-      "title": "Aboca and JAYO filament delivery bundle",
-      "status": "Delivered - return window closing",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-04-10",
-      "returnByDate": "2026-05-10",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivered this three-item package on 10 April; no return request was found in the scanned return/refund mail.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d77b12532fb238"
-      },
-      "items": [
-        "Aboca Aliviolas Fisiolax",
-        "JAYO PLA filament bundle",
-        "JAYO PLA blue-grey filament"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-04-10-404-3872343-3240306",
-      "supplier": "Amazon",
-      "title": "ECCO Gruuv women's shoes",
-      "status": "Delivered - return window closing",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-04-10",
-      "returnByDate": "2026-05-10",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivered this item on 10 April; no return request was found in the scanned return/refund mail.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d77b0e424bd8e5"
-      },
-      "items": [
-        "ECCO Gruuv Zapatillas para Mujer, Black Light Grey, 40 EU"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
     },
@@ -865,32 +795,36 @@
       ]
     },
     {
-      "id": "amazon-return-window-2026-05-06-171-8700855-6210738",
+      "id": "amazon-return-authorized-2026-05-10-171-8700855-6210738",
       "supplier": "Amazon",
-      "title": "34 Pieces Plasterboard Plugs set",
-      "status": "Delivered - return window open",
+      "title": "34 Pieces Plasterboard Plugs return",
+      "status": "Return authorization granted",
       "dueDate": null,
       "timezone": "Europe/Madrid",
       "deliveredDate": "2026-05-06",
-      "returnByDate": "2026-06-05",
+      "returnByDate": "2026-06-06",
       "returnWindowDays": 30,
       "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 6 May says the plasterboard plug and toggle screw set was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
+      "notes": "Amazon confirmed the return request on 10 May. Drop off by Saturday, 6 June at any Celeritas Dropoff office; refund is issued after drop-off.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dfdbce39c2f60e"
+        "url": "https://mail.google.com/mail/#all/19e12d9147b91486"
       },
       "items": [
         "Order 171-8700855-6210738",
-        "34-piece plasterboard plugs / toggle anchor set, M3/M5/M6",
-        "Delivered 6 May 2026"
+        "34 Pieces Plasterboard Plugs M3/M5/M6 set, quantity 1",
+        "Estimated refund EUR 10.99 to Amazon account balance",
+        "Celeritas Dropoff, no printed label or box required"
       ],
       "links": [
         {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
+          "label": "Manage Amazon return",
+          "url": "https://www.amazon.es/spr/returns/prep?orderId=171-8700855-6210738"
         }
-      ]
+      ],
+      "returnAuthorizationGranted": true,
+      "returnDropoffRequired": true,
+      "returnStatus": "return_authorized"
     },
     {
       "id": "amazon-return-window-2026-05-05-403-0901995-1751521",
@@ -1108,32 +1042,36 @@
       ]
     },
     {
-      "id": "amazon-return-window-2026-05-07-403-2588004-1543560",
+      "id": "amazon-return-authorized-2026-05-10-403-2588004-1543560",
       "supplier": "Amazon",
-      "title": "Wantek wireless Bluetooth headset with charging station",
-      "status": "Delivered - return window open",
+      "title": "Wantek wireless Bluetooth headset return",
+      "status": "Return authorization granted",
       "dueDate": null,
       "timezone": "Europe/Madrid",
       "deliveredDate": "2026-05-07",
-      "returnByDate": "2026-06-06",
+      "returnByDate": "2026-06-08",
       "returnWindowDays": 30,
       "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 7 May says the Wantek headset package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
+      "notes": "Amazon confirmed the return request on 10 May. Drop off by Monday, 8 June at any Celeritas Dropoff office; refund is issued after drop-off. Return instructions say the battery must stay inside the product.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e0309aa53a06de"
+        "url": "https://mail.google.com/mail/#all/19e12d6dae59b92f"
       },
       "items": [
         "Order 403-2588004-1543560",
-        "Wantek wireless Bluetooth headset with microphone, charging station, USB dongle",
-        "Delivered 7 May 2026"
+        "Wantek wireless Bluetooth headset with microphone, quantity 1",
+        "Estimated refund EUR 54.95 to Amazon account balance",
+        "Celeritas Dropoff, no printed label or box required"
       ],
       "links": [
         {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
+          "label": "Manage Amazon return",
+          "url": "https://www.amazon.es/spr/returns/prep?orderId=403-2588004-1543560"
         }
-      ]
+      ],
+      "returnAuthorizationGranted": true,
+      "returnDropoffRequired": true,
+      "returnStatus": "return_authorized"
     },
     {
       "id": "amazon-return-window-2026-05-07-404-6099955-6218744",
@@ -1262,6 +1200,36 @@
         {
           "label": "Open HueForge downloads",
           "url": "https://shop.thehueforge.com/73796321561/orders/24b5f8f3cbe076f08541dd1aa53555db/authenticate?key=7e9df76accacb8a766a34986e6b06737"
+        }
+      ]
+    },
+    {
+      "service": "Bjango",
+      "title": "iStat Menus 7 Family Pack",
+      "status": "One-time digital purchase",
+      "nextDate": null,
+      "dateLabel": "No renewal date found",
+      "timezone": "Europe/Madrid",
+      "renewalState": "one_time",
+      "notes": "Paddle/Bjango email dated 10 May provides download/registration instructions and a license key for iStat Menus 7 Family Pack; the matching receipt shows a one-time EUR 15.69 payment and no renewal terms.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e10af5fbb6217d"
+      },
+      "items": [
+        "Receipt #80068799",
+        "iStat Menus 7 Family Pack, quantity 1",
+        "License key is in the source email",
+        "Amount paid EUR 15.69 via Paddle"
+      ],
+      "links": [
+        {
+          "label": "Open Bjango support",
+          "url": "https://bjango.com/contact/"
+        },
+        {
+          "label": "Open Paddle support",
+          "url": "https://paddle.net"
         }
       ]
     }
@@ -1482,6 +1450,58 @@
         {
           "label": "View Fly.io billing",
           "url": "https://fly.io/dashboard/elie-cohen/billing"
+        }
+      ]
+    },
+    {
+      "service": "Windy.com",
+      "title": "Windy Premium yearly subscription",
+      "status": "Renews soon",
+      "nextDate": "2026-06-09",
+      "dateLabel": "Renews Tuesday, 9 June 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 14,
+      "notes": "Apple subscription renewal email dated 10 May says Windy Premium renews automatically on June 9, 2026 for $24.99/year unless canceled at least one day before renewal.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e13edde9c39394"
+      },
+      "items": [
+        "Windy.com - Radar a predpoved Windy Premium, 1 year",
+        "$24.99 per year",
+        "Exact renewal date provided by Apple"
+      ],
+      "links": [
+        {
+          "label": "Manage Apple subscriptions",
+          "url": "https://apps.apple.com/account/subscriptions"
+        }
+      ]
+    },
+    {
+      "service": "Muscle Booster",
+      "title": "Muscle Booster personalized plan subscription",
+      "status": "Active subscription",
+      "nextDate": null,
+      "dateLabel": "No renewal date provided",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 7,
+      "notes": "Muscle Booster welcome email dated 9 May says the personalized plan is ready in the app and its footer says unsubscribing from emails does not affect the subscription. No receipt, billing amount, renewal date, or access-end date was found in this refresh.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e0b77773b7dbc9"
+      },
+      "items": [
+        "Personalized plan #MB4S35",
+        "Plan access available in the Muscle Booster app",
+        "No exact renewal or billing date found"
+      ],
+      "links": [
+        {
+          "label": "Open Muscle Booster",
+          "url": "https://muscle-booster.io"
         }
       ]
     }
