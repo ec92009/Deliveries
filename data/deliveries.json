@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-11",
+  "today": "2026-05-12",
   "metadata": {
-    "version": "v72.0",
-    "generatedAt": "2026-05-11T06:04:30+02:00",
+    "version": "v73.0",
+    "generatedAt": "2026-05-12T08:41:00+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-05-11 using broad transactional searches plus supplier coverage examples. Added new Amazon return authorizations for plasterboard plugs and Wantek headset, updated Subscribe & Save to the latest L'OR May 21 delivery, added Bjango/iStat Menus license plus Windy and Muscle Booster subscription signals, removed expired Amazon return-window rows and the confirmed-delivered Tikamoon shipment; excluded marketing, review prompts, login/security mail, generic project posts, and completed drop-off/refund returns."
+    "source": "Gmail refresh on 2026-05-12 using broad transactional searches plus supplier coverage examples. Added the new Amazon DiCUNO dispatch, updated AliExpress package 291300000090583640 to in-country, removed the delivered IKEA DIRIGERA row, and refreshed Fly.io billing to the latest May 11 message; excluded marketing, review prompts, login/security mail, generic project posts, and completed drop-off/refund returns."
   },
   "deliveries": [
     {
@@ -856,13 +856,13 @@
     {
       "supplier": "AliExpress",
       "title": "AliExpress package 291300000090583640",
-      "status": "In global transit",
+      "status": "In destination country/region",
       "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "AliExpress tracking email dated 10 May says package 291300000090583640 left the departure region and is in global transit to the destination country/region. The package details reference both newly shipped AliExpress orders.",
+      "notes": "AliExpress tracking email dated 12 May says package 291300000090583640 has arrived in the destination country/region. The package details reference both AliExpress orders.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e106fc0af00c00"
+        "url": "https://mail.google.com/mail/#all/19e1915098152611"
       },
       "items": [
         "Package 291300000090583640",
@@ -873,30 +873,6 @@
         {
           "label": "Track AliExpress package",
           "url": "https://www.aliexpress.com/p/tracking/index.html"
-        }
-      ]
-    },
-    {
-      "supplier": "IKEA",
-      "title": "IKEA DIRIGERA smart home hub order 1601122892",
-      "status": "Parcel delivery pending",
-      "dueDate": "2026-05-11",
-      "timezone": "Europe/Madrid",
-      "notes": "IKEA order confirmation dated 7 May says order 1601122892 was received for parcel delivery with a 2-4 day delivery window; no later ready/delivered email for this order was found in this refresh.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e03400d72b936f"
-      },
-      "items": [
-        "Order 1601122892",
-        "DIRIGERA hub for smart products, white smart, item 105.034.06",
-        "Parcel delivery to Alhaurin de la Torre",
-        "Due date inferred from the 2-4 day delivery window"
-      ],
-      "links": [
-        {
-          "label": "Track IKEA order",
-          "url": "https://www.ikea.com/es/en/purchases/1601122892/"
         }
       ]
     },
@@ -1175,6 +1151,30 @@
           "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "DiCUNO E27 corn LED bulbs, 10W warm white",
+      "status": "Dispatched",
+      "dueDate": "2026-05-12",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 11 May was followed by a dispatch email the same day; the package is arriving tomorrow, Tuesday 12 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e181b1244a9c41"
+      },
+      "items": [
+        "Order 407-4671819-5804354",
+        "DiCUNO LED E27 corn bulbs, 10W, 1200 lm, warm white 2700K, pack of 2",
+        "Quantity 1",
+        "Total EUR 13.99"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
     }
   ],
   "licenses": [
@@ -1435,14 +1435,14 @@
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "Fly.io billing email dated 2 May says the elie-cohen organization had a $4.03 monthly bill that was discounted by 100% because it was below the collection threshold. No renewal or access-end date was provided.",
+      "notes": "Fly.io billing email dated 11 May says the elie-cohen organization had a $1.25 monthly bill that was discounted by 100% because it was below the collection threshold. No renewal or access-end date was provided.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19de81b859bc90a1"
+        "url": "https://mail.google.com/mail/#all/19e1649ba8f5d404"
       },
       "items": [
         "Organization elie-cohen",
-        "May bill $4.03",
+        "May bill $1.25",
         "100% discount this month",
         "No exact next billing date provided"
       ],
