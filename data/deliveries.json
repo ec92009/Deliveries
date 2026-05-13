@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-12",
+  "today": "2026-05-13",
   "metadata": {
-    "version": "v73.0",
-    "generatedAt": "2026-05-12T08:41:00+02:00",
+    "version": "v74.0",
+    "generatedAt": "2026-05-13T06:02:05+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-05-12 using broad transactional searches plus supplier coverage examples. Added the new Amazon DiCUNO dispatch, updated AliExpress package 291300000090583640 to in-country, removed the delivered IKEA DIRIGERA row, and refreshed Fly.io billing to the latest May 11 message; excluded marketing, review prompts, login/security mail, generic project posts, and completed drop-off/refund returns."
+    "source": "Gmail refresh on 2026-05-13 using broad transactional searches plus supplier coverage examples. Updated DiCUNO from dispatched to delivered return-window tracking, added the new Amazon JOMIX clogs order due 25 May, advanced AliExpress package 291300000090583640 to cleared customs, refreshed Muscle Booster to the latest May 12 plan-valid message, and removed Amazon delivered return-window rows whose 30-day window ended before today. Excluded marketing, review prompts, login/security mail, generic project posts, and completed drop-off/refund returns."
   },
   "deliveries": [
     {
@@ -270,32 +270,6 @@
       "returnAuthorizationGranted": true,
       "returnDropoffRequired": true,
       "returnStatus": "return_authorized"
-    },
-    {
-      "id": "amazon-return-window-2026-04-12-404-7492302-2249156",
-      "supplier": "Amazon",
-      "title": "Flintronic non-slip bath mats",
-      "status": "Delivered - return window closing",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-04-12",
-      "returnByDate": "2026-05-12",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivered this item on 12 April; no return request was found in the scanned return/refund mail.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d81c6e2522c27c"
-      },
-      "items": [
-        "Two flintronic non-slip chenille bath mats"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
     },
     {
       "id": "amazon-return-window-2026-04-14-19d8c03358325354",
@@ -856,13 +830,13 @@
     {
       "supplier": "AliExpress",
       "title": "AliExpress package 291300000090583640",
-      "status": "In destination country/region",
+      "status": "Cleared customs",
       "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "AliExpress tracking email dated 12 May says package 291300000090583640 has arrived in the destination country/region. The package details reference both AliExpress orders.",
+      "notes": "AliExpress tracking email dated 13 May says package 291300000090583640 has successfully cleared customs. The package details reference both AliExpress orders.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e1915098152611"
+        "url": "https://mail.google.com/mail/#all/19e1f22806d1a92c"
       },
       "items": [
         "Package 291300000090583640",
@@ -1153,21 +1127,50 @@
       ]
     },
     {
+      "id": "amazon-return-window-2026-05-12-407-4671819-5804354",
       "supplier": "Amazon",
       "title": "DiCUNO E27 corn LED bulbs, 10W warm white",
-      "status": "Dispatched",
-      "dueDate": "2026-05-12",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 11 May was followed by a dispatch email the same day; the package is arriving tomorrow, Tuesday 12 May.",
+      "deliveredDate": "2026-05-12",
+      "returnByDate": "2026-06-11",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 12 May says the DiCUNO E27 corn LED bulb package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e181b1244a9c41"
+        "url": "https://mail.google.com/mail/#all/19e1c03c5cd497e3"
       },
       "items": [
         "Order 407-4671819-5804354",
         "DiCUNO LED E27 corn bulbs, 10W, 1200 lm, warm white 2700K, pack of 2",
+        "Delivered 12 May 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "JOMIX summer clogs",
+      "status": "Ordered",
+      "dueDate": "2026-05-25",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 12 May says the JOMIX clogs were ordered and are arriving 25 May. No dispatch email was found in this refresh.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e1b41f5ca572a2"
+      },
+      "items": [
+        "Order 407-4923254-5644333",
+        "JOMIX Zuecos Mujer Verano con plantilla extraible de balancin / Clogs Woman Summer",
+        "Sold by JOMIX EUROPE",
         "Quantity 1",
-        "Total EUR 13.99"
+        "Total EUR 18.52"
       ],
       "links": [
         {
@@ -1488,14 +1491,15 @@
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "Muscle Booster welcome email dated 9 May says the personalized plan is ready in the app and its footer says unsubscribing from emails does not affect the subscription. No receipt, billing amount, renewal date, or access-end date was found in this refresh.",
+      "notes": "Latest Muscle Booster email dated 12 May says the personalized plan is still valid and the footer says unsubscribing from emails does not affect the subscription. No receipt, billing amount, renewal date, or access-end date was found in this refresh.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e0b77773b7dbc9"
+        "url": "https://mail.google.com/mail/#all/19e1aacffd714fdc"
       },
       "items": [
-        "Personalized plan #MB4S35",
+        "Personalized plan #MB8433231",
         "Plan access available in the Muscle Booster app",
+        "Latest message says the plan is still valid",
         "No exact renewal or billing date found"
       ],
       "links": [
