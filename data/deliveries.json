@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-13",
+  "today": "2026-05-14",
   "metadata": {
-    "version": "v74.0",
-    "generatedAt": "2026-05-13T06:02:05+02:00",
+    "version": "v75.0",
+    "generatedAt": "2026-05-14T06:02:05+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-05-13 using broad transactional searches plus supplier coverage examples. Updated DiCUNO from dispatched to delivered return-window tracking, added the new Amazon JOMIX clogs order due 25 May, advanced AliExpress package 291300000090583640 to cleared customs, refreshed Muscle Booster to the latest May 12 plan-valid message, and removed Amazon delivered return-window rows whose 30-day window ended before today. Excluded marketing, review prompts, login/security mail, generic project posts, and completed drop-off/refund returns."
+    "source": "Gmail refresh on 2026-05-14 using broad transactional searches plus supplier coverage examples. Added the new Amazon Haibang dispatch arriving 14 May, converted the May 13 DEEPLEE filament dispatches to delivered return-window tracking, removed the GP Subscribe & Save delivery after Amazon cancelled it as out of stock, and removed TECKNET, Wantek, and 34 Pieces Plasterboard Plugs returns after May 13 drop-off/refund confirmations. Kept AliExpress package 291300000090583640 at cleared customs and found no newer concrete license/subscription state beyond existing latest records. Excluded marketing, review prompts, login/security mail, generic project posts, delivered-only IKEA mail without return-window tracking, and completed drop-off/refund returns."
   },
   "deliveries": [
     {
@@ -198,22 +198,6 @@
       ]
     },
     {
-      "supplier": "Amazon",
-      "title": "GP Multi-Pack 2 x 120ml Subscribe & Save",
-      "status": "Delivery delayed",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon Subscribe & Save email dated 30 April says the upcoming auto-delivery is delayed because the item is temporarily out of stock.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19ddc7045ce86178"
-      },
-      "items": [
-        "Quantity 1",
-        "No replacement delivery date provided"
-      ]
-    },
-    {
       "id": "amazon-return-window-authorized-171-6934092-7868309",
       "supplier": "Amazon",
       "title": "MAGEFESA 1106017 Prague omelette pan return",
@@ -238,38 +222,6 @@
           "url": "https://www.amazon.es/spr/returns/cart?orderId=171-6934092-7868309"
         }
       ]
-    },
-    {
-      "id": "amazon-return-authorized-2026-05-04-403-5743250-5160363",
-      "supplier": "Amazon",
-      "title": "TECKNET Bluetooth headphones return",
-      "status": "Return authorization granted",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-04-12",
-      "returnByDate": "2026-05-13",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon confirmed the return request on 4 May. Drop off by Wednesday, 13 May at any Celeritas Dropoff office; refund is issued after drop-off.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19df356a082a50e6"
-      },
-      "items": [
-        "Order 403-5743250-5160363",
-        "TECKNET Bluetooth Headphones, quantity 1",
-        "Estimated refund EUR 27.99 to Amazon account balance",
-        "Celeritas Dropoff, no printed label or box required"
-      ],
-      "links": [
-        {
-          "label": "Manage Amazon return",
-          "url": "https://www.amazon.es/spr/returns/prep?orderId=403-5743250-5160363"
-        }
-      ],
-      "returnAuthorizationGranted": true,
-      "returnDropoffRequired": true,
-      "returnStatus": "return_authorized"
     },
     {
       "id": "amazon-return-window-2026-04-14-19d8c03358325354",
@@ -769,38 +721,6 @@
       ]
     },
     {
-      "id": "amazon-return-authorized-2026-05-10-171-8700855-6210738",
-      "supplier": "Amazon",
-      "title": "34 Pieces Plasterboard Plugs return",
-      "status": "Return authorization granted",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-06",
-      "returnByDate": "2026-06-06",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon confirmed the return request on 10 May. Drop off by Saturday, 6 June at any Celeritas Dropoff office; refund is issued after drop-off.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e12d9147b91486"
-      },
-      "items": [
-        "Order 171-8700855-6210738",
-        "34 Pieces Plasterboard Plugs M3/M5/M6 set, quantity 1",
-        "Estimated refund EUR 10.99 to Amazon account balance",
-        "Celeritas Dropoff, no printed label or box required"
-      ],
-      "links": [
-        {
-          "label": "Manage Amazon return",
-          "url": "https://www.amazon.es/spr/returns/prep?orderId=171-8700855-6210738"
-        }
-      ],
-      "returnAuthorizationGranted": true,
-      "returnDropoffRequired": true,
-      "returnStatus": "return_authorized"
-    },
-    {
       "id": "amazon-return-window-2026-05-05-403-0901995-1751521",
       "supplier": "Amazon",
       "dueDate": null,
@@ -992,38 +912,6 @@
       ]
     },
     {
-      "id": "amazon-return-authorized-2026-05-10-403-2588004-1543560",
-      "supplier": "Amazon",
-      "title": "Wantek wireless Bluetooth headset return",
-      "status": "Return authorization granted",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-07",
-      "returnByDate": "2026-06-08",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon confirmed the return request on 10 May. Drop off by Monday, 8 June at any Celeritas Dropoff office; refund is issued after drop-off. Return instructions say the battery must stay inside the product.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e12d6dae59b92f"
-      },
-      "items": [
-        "Order 403-2588004-1543560",
-        "Wantek wireless Bluetooth headset with microphone, quantity 1",
-        "Estimated refund EUR 54.95 to Amazon account balance",
-        "Celeritas Dropoff, no printed label or box required"
-      ],
-      "links": [
-        {
-          "label": "Manage Amazon return",
-          "url": "https://www.amazon.es/spr/returns/prep?orderId=403-2588004-1543560"
-        }
-      ],
-      "returnAuthorizationGranted": true,
-      "returnDropoffRequired": true,
-      "returnStatus": "return_authorized"
-    },
-    {
       "id": "amazon-return-window-2026-05-07-404-6099955-6218744",
       "supplier": "Amazon",
       "title": "ALPIDEX T-Shirt 5-pack and ONLY ONLWONDER denim jacket",
@@ -1081,43 +969,27 @@
       ]
     },
     {
+      "id": "amazon-return-window-2026-05-13-171-7341428-1921963",
       "supplier": "Amazon",
-      "title": "DEEPLEE PLA+ 2.0 warm yellow filament 1 kg",
-      "status": "Dispatched",
-      "dueDate": "2026-05-13",
+      "title": "DEEPLEE PLA+ warm yellow and pink filament bundle",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 8 May says the DEEPLEE warm-yellow PLA+ package was dispatched and is arriving Wednesday, 13 May.",
+      "deliveredDate": "2026-05-13",
+      "returnByDate": "2026-06-12",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 13 May says the DEEPLEE warm-yellow PLA+ spool and pink two-spool kit package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e09f715513ce46"
-      },
-      "items": [
-        "Order 171-8124367-2846749",
-        "DEEPLEE PLA+ 2.0 warm yellow filament, 1 kg",
-        "Quantity 1"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "title": "DEEPLEE PLA+ 2.0 pink filament kit 2 kg",
-      "status": "Dispatched",
-      "dueDate": "2026-05-13",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 8 May says the DEEPLEE pink PLA+ two-spool kit was dispatched and is arriving Wednesday, 13 May.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e09f789df65c32"
+        "url": "https://mail.google.com/mail/#all/19e21d480f36bcbd"
       },
       "items": [
         "Order 171-7341428-1921963",
+        "Order 171-8124367-2846749 also appeared in the tracking link",
+        "DEEPLEE PLA+ 2.0 warm yellow filament, 1 kg",
         "DEEPLEE PLA+ 2.0 pink filament kit, 2 kg",
-        "Quantity 1"
+        "Delivered 13 May 2026"
       ],
       "links": [
         {
@@ -1171,6 +1043,31 @@
         "Sold by JOMIX EUROPE",
         "Quantity 1",
         "Total EUR 18.52"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "Haibang women's summer crop top",
+      "status": "Dispatched",
+      "dueDate": "2026-05-14",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 14 May says the Haibang crop top package was dispatched and is arriving today.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e23df2830b514b"
+      },
+      "items": [
+        "Order 407-7417132-3328365",
+        "Haibang women's summer crop top / camiseta sin mangas",
+        "Sold by Haibang Store",
+        "Quantity 1",
+        "Total EUR 11.99"
       ],
       "links": [
         {
