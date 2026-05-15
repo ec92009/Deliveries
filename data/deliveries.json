@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-14",
+  "today": "2026-05-15",
   "metadata": {
-    "version": "v75.0",
-    "generatedAt": "2026-05-14T06:02:05+02:00",
+    "version": "v76.0",
+    "generatedAt": "2026-05-15T06:03:55+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-05-14 using broad transactional searches plus supplier coverage examples. Added the new Amazon Haibang dispatch arriving 14 May, converted the May 13 DEEPLEE filament dispatches to delivered return-window tracking, removed the GP Subscribe & Save delivery after Amazon cancelled it as out of stock, and removed TECKNET, Wantek, and 34 Pieces Plasterboard Plugs returns after May 13 drop-off/refund confirmations. Kept AliExpress package 291300000090583640 at cleared customs and found no newer concrete license/subscription state beyond existing latest records. Excluded marketing, review prompts, login/security mail, generic project posts, delivered-only IKEA mail without return-window tracking, and completed drop-off/refund returns."
+    "source": "Gmail refresh on 2026-05-15 using broad transactional searches plus supplier coverage examples. Converted the Amazon Haibang crop top from dispatched to delivered return-window tracking, removed three Amazon 14 April delivered return-window rows that expired on 14 May, added the 15 April Kssiaz tray through today's return-window deadline, and added a YouTube Premium subscription from the latest PayPal/Google renewal payment. Kept MAGEFESA as the only urgent authorized return because no newer drop-off/refund completion was found, and kept AliExpress package 291300000090583640 at cleared customs because no newer delivery signal was found. Excluded marketing, login/security mail, generic project posts, delivery-status bounces, supplier promotions, and completed drop-off/refund returns."
   },
   "deliveries": [
     {
@@ -224,75 +224,25 @@
       ]
     },
     {
-      "id": "amazon-return-window-2026-04-14-19d8c03358325354",
+      "id": "amazon-return-window-2026-04-15-171-1670534-0922751",
       "supplier": "Amazon",
-      "title": "Desigual Blus_Stem women's item",
+      "title": "Kssiaz bamboo sofa arm tray",
       "status": "Delivered - return window closing",
       "dueDate": null,
       "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-04-14",
-      "returnByDate": "2026-05-14",
+      "deliveredDate": "2026-04-15",
+      "returnByDate": "2026-05-15",
       "returnWindowDays": 30,
       "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivered this item on 14 April; no return request was found in the scanned return/refund mail.",
+      "notes": "Amazon delivery email dated 15 April says the Kssiaz sofa arm tray package was delivered that day and handed to resident; retained through today's assumed 30-day Amazon return window. No return request was found in the scanned return/refund mail.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d8c03358325354"
+        "url": "https://mail.google.com/mail/#all/19d90fe8daafd71e"
       },
       "items": [
-        "Desigual Blus_Stem women's item"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-04-14-19d8c0321f113905",
-      "supplier": "Amazon",
-      "title": "BRITA Flow XXL filter tank",
-      "status": "Delivered - return window closing",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-04-14",
-      "returnByDate": "2026-05-14",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivered this item on 14 April; no return request was found in the scanned return/refund mail.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d8c0321f113905"
-      },
-      "items": [
-        "BRITA Flow XXL filter tank"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-04-14-19d8bb15170ef761",
-      "supplier": "Amazon",
-      "title": "Waterdrop filter",
-      "status": "Delivered - return window closing",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-04-14",
-      "returnByDate": "2026-05-14",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivered this item on 14 April; no return request was found in the scanned return/refund mail.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d8bb15170ef761"
-      },
-      "items": [
-        "Waterdrop filter"
+        "Order 171-1670534-0922751",
+        "Kssiaz bamboo sofa arm tray / mesa de brazo de sofa",
+        "Delivered 15 April 2026"
       ],
       "links": [
         {
@@ -1052,22 +1002,28 @@
       ]
     },
     {
+      "id": "amazon-return-window-2026-05-14-407-7417132-3328365",
       "supplier": "Amazon",
       "title": "Haibang women's summer crop top",
-      "status": "Dispatched",
-      "dueDate": "2026-05-14",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 14 May says the Haibang crop top package was dispatched and is arriving today.",
+      "deliveredDate": "2026-05-14",
+      "returnByDate": "2026-06-13",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 14 May says the Haibang crop top package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e23df2830b514b"
+        "url": "https://mail.google.com/mail/#all/19e269b2cfb52d32"
       },
       "items": [
         "Order 407-7417132-3328365",
         "Haibang women's summer crop top / camiseta sin mangas",
         "Sold by Haibang Store",
         "Quantity 1",
-        "Total EUR 11.99"
+        "Total EUR 11.99",
+        "Delivered 14 May 2026"
       ],
       "links": [
         {
@@ -1269,6 +1225,34 @@
         {
           "label": "Manage Google Play subscriptions",
           "url": "https://play.google.com/store/account/subscriptions"
+        }
+      ]
+    },
+    {
+      "service": "YouTube Premium",
+      "title": "YouTube Premium Individual plan",
+      "status": "Active subscription",
+      "nextDate": "2026-06-14",
+      "dateLabel": "Estimated monthly renewal on Sunday, 14 June 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 7,
+      "notes": "Latest PayPal receipt dated 14 May shows a recurring Google payment for YouTube Red at the updated YouTube Premium Individual price of $15.99. YouTube's price-update email says the new price applies on the May 14, 2026 billing date; the next date is inferred from the monthly billing cadence because no exact next renewal date was provided.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e27485ce192d52"
+      },
+      "items": [
+        "YouTube Red / YouTube Premium Individual plan",
+        "$15.99 USD per month",
+        "PayPal transaction 120349174K510174X",
+        "Invoice 112244121486188056",
+        "Next date inferred from monthly receipt"
+      ],
+      "links": [
+        {
+          "label": "Manage YouTube memberships",
+          "url": "https://www.youtube.com/paid_memberships"
         }
       ]
     },
