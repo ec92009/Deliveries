@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-15",
+  "today": "2026-05-16",
   "metadata": {
-    "version": "v76.0",
-    "generatedAt": "2026-05-15T06:03:55+02:00",
+    "version": "v77.0",
+    "generatedAt": "2026-05-16T06:03:23+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-05-15 using broad transactional searches plus supplier coverage examples. Converted the Amazon Haibang crop top from dispatched to delivered return-window tracking, removed three Amazon 14 April delivered return-window rows that expired on 14 May, added the 15 April Kssiaz tray through today's return-window deadline, and added a YouTube Premium subscription from the latest PayPal/Google renewal payment. Kept MAGEFESA as the only urgent authorized return because no newer drop-off/refund completion was found, and kept AliExpress package 291300000090583640 at cleared customs because no newer delivery signal was found. Excluded marketing, login/security mail, generic project posts, delivery-status bounces, supplier promotions, and completed drop-off/refund returns."
+    "source": "Gmail refresh on 2026-05-16 using broad transactional searches plus supplier coverage examples. Added Amazon Cuperinox, Aottori, L'OR Ristretto, and 18-piece silicone-lid kit open deliveries from May 15 order/dispatch mail; updated the JOMIX clogs estimate to 21-22 May; removed AliExpress package 291300000090583640 after delivery confirmation on 15 May; removed the Kssiaz 15 April Amazon return-window row because its assumed return deadline expired with no return request found. Kept MAGEFESA as the only urgent authorized return because no newer drop-off/refund completion was found. Found no newer concrete license or subscription renewal/cancellation state. Excluded marketing, newsletters, review prompts, login/security mail, delivery-status bounces, supplier promotions, generic project posts, and completed drop-off/refund returns."
   },
   "deliveries": [
     {
@@ -220,34 +220,6 @@
         {
           "label": "Manage Amazon return",
           "url": "https://www.amazon.es/spr/returns/cart?orderId=171-6934092-7868309"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-04-15-171-1670534-0922751",
-      "supplier": "Amazon",
-      "title": "Kssiaz bamboo sofa arm tray",
-      "status": "Delivered - return window closing",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-04-15",
-      "returnByDate": "2026-05-15",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 15 April says the Kssiaz sofa arm tray package was delivered that day and handed to resident; retained through today's assumed 30-day Amazon return window. No return request was found in the scanned return/refund mail.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d90fe8daafd71e"
-      },
-      "items": [
-        "Order 171-1670534-0922751",
-        "Kssiaz bamboo sofa arm tray / mesa de brazo de sofa",
-        "Delivered 15 April 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
     },
@@ -698,29 +670,6 @@
       ]
     },
     {
-      "supplier": "AliExpress",
-      "title": "AliExpress package 291300000090583640",
-      "status": "Cleared customs",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "AliExpress tracking email dated 13 May says package 291300000090583640 has successfully cleared customs. The package details reference both AliExpress orders.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e1f22806d1a92c"
-      },
-      "items": [
-        "Package 291300000090583640",
-        "Order 3072515402983468: Solar LED outdoor wall light, 2 pcs warm light x2, order total 7.73 EUR",
-        "Order 3072515403003468: Bambu Lab LED lamp kit add-on with remote control x4, order total 15.94 EUR"
-      ],
-      "links": [
-        {
-          "label": "Track AliExpress package",
-          "url": "https://www.aliexpress.com/p/tracking/index.html"
-        }
-      ]
-    },
-    {
       "id": "amazon-return-window-2026-05-09-171-7693667-1676301",
       "supplier": "Amazon",
       "title": "eSUN PLA Filamento 1.75mm (2x Dark Red)",
@@ -979,20 +928,21 @@
     {
       "supplier": "Amazon",
       "title": "JOMIX summer clogs",
-      "status": "Ordered",
-      "dueDate": "2026-05-25",
+      "status": "Delivery estimate updated",
+      "dueDate": "2026-05-22",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 12 May says the JOMIX clogs were ordered and are arriving 25 May. No dispatch email was found in this refresh.",
+      "notes": "Amazon delivery estimate update dated 15 May says the JOMIX clogs are now arriving Thursday, 21 May 2026 - Friday, 22 May 2026.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e1b41f5ca572a2"
+        "url": "https://mail.google.com/mail/#all/19e2c62383d91513"
       },
       "items": [
         "Order 407-4923254-5644333",
         "JOMIX Zuecos Mujer Verano con plantilla extraible de balancin / Clogs Woman Summer",
         "Sold by JOMIX EUROPE",
         "Quantity 1",
-        "Total EUR 18.52"
+        "Total EUR 18.52",
+        "Updated delivery estimate: 21-22 May 2026"
       ],
       "links": [
         {
@@ -1024,6 +974,105 @@
         "Quantity 1",
         "Total EUR 11.99",
         "Delivered 14 May 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "Cuperinox glass tea pot with infuser",
+      "status": "Dispatched",
+      "dueDate": "2026-05-16",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 15 May says order 171-7521334-8372342 was dispatched and is arriving today.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e2e0e4972af713"
+      },
+      "items": [
+        "Order 171-7521334-8372342",
+        "Cuperinox glass tea pot with infuser, 750 ml",
+        "Sold by CUPERINOX, S.L.",
+        "Quantity 1",
+        "Total EUR 18.49"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "Aottori women's summer sleeveless top",
+      "status": "Dispatched",
+      "dueDate": "2026-05-16",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 15 May says order 407-4027928-7236326 was dispatched and is arriving today.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e2e0cea433d17a"
+      },
+      "items": [
+        "Order 407-4027928-7236326",
+        "Aottori sleeveless V-neck tank top, light green, size S",
+        "Sold by yyh-eu",
+        "Quantity 1",
+        "Total EUR 12.99"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "L'OR Ristretto capsules (Qty 2)",
+      "status": "Dispatched",
+      "dueDate": "2026-05-16",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 15 May says order 403-1450261-2164327 was dispatched and is arriving today.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e2e0b0ce58f39b"
+      },
+      "items": [
+        "Order 403-1450261-2164327",
+        "L'OR Cafe Ristretto capsules, intensity 11, 50 capsules",
+        "Quantity 2",
+        "Total EUR 28.86"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "18-piece adjustable silicone lids kit",
+      "status": "Ordered",
+      "dueDate": "2026-05-19",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 15 May says order 407-1951908-2844347 was placed and is arriving Tuesday, 19 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e2db3c4751c73b"
+      },
+      "items": [
+        "Order 407-1951908-2844347",
+        "18-piece adjustable reusable silicone lids kit in 6 sizes",
+        "Sold by Karroum Express",
+        "Quantity 1",
+        "Total EUR 0.00"
       ],
       "links": [
         {
