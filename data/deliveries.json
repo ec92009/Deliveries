@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-16",
+  "today": "2026-05-17",
   "metadata": {
-    "version": "v77.0",
-    "generatedAt": "2026-05-16T06:03:23+02:00",
+    "version": "v78.0",
+    "generatedAt": "2026-05-17T06:02:04+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-05-16 using broad transactional searches plus supplier coverage examples. Added Amazon Cuperinox, Aottori, L'OR Ristretto, and 18-piece silicone-lid kit open deliveries from May 15 order/dispatch mail; updated the JOMIX clogs estimate to 21-22 May; removed AliExpress package 291300000090583640 after delivery confirmation on 15 May; removed the Kssiaz 15 April Amazon return-window row because its assumed return deadline expired with no return request found. Kept MAGEFESA as the only urgent authorized return because no newer drop-off/refund completion was found. Found no newer concrete license or subscription renewal/cancellation state. Excluded marketing, newsletters, review prompts, login/security mail, delivery-status bounces, supplier promotions, generic project posts, and completed drop-off/refund returns."
+    "source": "Gmail refresh on 2026-05-17 using broad transactional searches plus explicit supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS/ShipStation, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT, HueForge, Bjango, and Muscle Booster. Converted the 16 May Amazon Cuperinox/L'OR and Aottori delivery confirmations into Amazon return-window rows; added an unidentified USPS Informed Delivery ShipStation Ground Saver package that is awaiting sender handoff; added Netflix Standard with ads using the latest Netflix price-update email with exact next billing date 16 June 2026; rolled the inferred Prime Video ad-free renewal to 16 June because no newer exact billing email was found. Kept MAGEFESA as the only urgent authorized return because no newer drop-off/refund completion was found; excluded marketing, newsletters, review prompts, login/security mail, generic project posts, delivered non-Amazon items without return tracking needs, and completed drop-off/refund returns."
   },
   "deliveries": [
     {
@@ -983,22 +983,51 @@
       ]
     },
     {
-      "supplier": "Amazon",
-      "title": "Cuperinox glass tea pot with infuser",
-      "status": "Dispatched",
-      "dueDate": "2026-05-16",
+      "id": "usps-shipstation-ground-saver-92612903039351541516115888",
+      "supplier": "ShipStation Ground Saver / USPS",
+      "title": "Unidentified ShipStation Ground Saver package",
+      "status": "Awaiting sender handoff",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 15 May says order 171-7521334-8372342 was dispatched and is arriving today.",
+      "notes": "USPS Informed Delivery digest dated 16 May shows one inbound package awaiting from sender via ShipStation Ground Saver. No merchant or item name was provided in the digest.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e2e0e4972af713"
+        "url": "https://mail.google.com/mail/#all/19e3130b02fa98b8"
+      },
+      "items": [
+        "Tracking 92612903039351541516115888",
+        "From: ShipStation Ground Saver",
+        "Status: Awaiting from sender"
+      ],
+      "links": [
+        {
+          "label": "Track USPS package",
+          "url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=92612903039351541516115888"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-05-16-19e313ea3ebbddc2",
+      "supplier": "Amazon",
+      "title": "Cuperinox teapot and L'OR Ristretto capsules",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-05-16",
+      "returnByDate": "2026-06-15",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 16 May says the package containing the Cuperinox teapot and L'OR Ristretto capsules was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e313ea3ebbddc2"
       },
       "items": [
         "Order 171-7521334-8372342",
         "Cuperinox glass tea pot with infuser, 750 ml",
-        "Sold by CUPERINOX, S.L.",
-        "Quantity 1",
-        "Total EUR 18.49"
+        "Order 403-1450261-2164327",
+        "L'OR Cafe Ristretto capsules, intensity 11, 50 capsules",
+        "Delivered 16 May 2026"
       ],
       "links": [
         {
@@ -1008,46 +1037,25 @@
       ]
     },
     {
+      "id": "amazon-return-window-2026-05-16-407-4027928-7236326",
       "supplier": "Amazon",
       "title": "Aottori women's summer sleeveless top",
-      "status": "Dispatched",
-      "dueDate": "2026-05-16",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 15 May says order 407-4027928-7236326 was dispatched and is arriving today.",
+      "deliveredDate": "2026-05-16",
+      "returnByDate": "2026-06-15",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 16 May says the Aottori top package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e2e0cea433d17a"
+        "url": "https://mail.google.com/mail/#all/19e313e01e566f14"
       },
       "items": [
         "Order 407-4027928-7236326",
         "Aottori sleeveless V-neck tank top, light green, size S",
-        "Sold by yyh-eu",
-        "Quantity 1",
-        "Total EUR 12.99"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "title": "L'OR Ristretto capsules (Qty 2)",
-      "status": "Dispatched",
-      "dueDate": "2026-05-16",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 15 May says order 403-1450261-2164327 was dispatched and is arriving today.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e2e0b0ce58f39b"
-      },
-      "items": [
-        "Order 403-1450261-2164327",
-        "L'OR Cafe Ristretto capsules, intensity 11, 50 capsules",
-        "Quantity 2",
-        "Total EUR 28.86"
+        "Delivered 16 May 2026"
       ],
       "links": [
         {
@@ -1200,12 +1208,12 @@
       "service": "Prime Video",
       "title": "Prime Video ad-free subscription",
       "status": "Active subscription",
-      "nextDate": "2026-05-16",
-      "dateLabel": "Estimated monthly renewal on Saturday, 16 May 2026",
+      "nextDate": "2026-06-16",
+      "dateLabel": "Estimated monthly renewal on Tuesday, 16 June 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "Prime Video says ad free renews automatically for EUR 1.99 per month until canceled. No newer renewal/cancellation email was found, so the next date remains inferred from the latest signup email dated April 16, 2026.",
+      "notes": "Prime Video says ad free renews automatically for EUR 1.99 per month until canceled. No newer renewal/cancellation email was found, so the next date is inferred from the latest signup email dated April 16, 2026 and the monthly cadence.",
       "sourceEmail": {
         "label": "Source email",
         "url": "https://mail.google.com/mail/#all/19d96d9bfaaecf9d"
@@ -1219,6 +1227,34 @@
         {
           "label": "Manage Prime Video",
           "url": "https://www.primevideo.com/settings"
+        }
+      ]
+    },
+    {
+      "service": "Netflix",
+      "title": "Netflix Standard with ads",
+      "status": "Active subscription",
+      "nextDate": "2026-06-16",
+      "dateLabel": "Next billing date Tuesday, 16 June 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 7,
+      "notes": "Latest Netflix membership email dated 16 May says the plan is Standard with ads, the monthly price is increasing from EUR 6.99 to EUR 8.99 starting June 16, 2026, and the next billing date is June 16, 2026. A PayPal receipt dated 15 May confirms the latest EUR 6.99 Netflix payment.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e2e4565ede7ddc"
+      },
+      "items": [
+        "Standard with ads",
+        "EUR 8.99 per month starting 16 June 2026",
+        "Previous payment EUR 6.99 via PayPal on 15 May 2026",
+        "PayPal Billing ID B-7GH834550U855515G",
+        "Exact next billing date provided by Netflix"
+      ],
+      "links": [
+        {
+          "label": "Manage Netflix membership",
+          "url": "https://www.netflix.com/account/membership"
         }
       ]
     },
