@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-18",
+  "today": "2026-05-19",
   "metadata": {
-    "version": "v79.0",
-    "generatedAt": "2026-05-18T06:04:26+02:00",
+    "version": "v80.0",
+    "generatedAt": "2026-05-19T06:04:00+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-05-18 using broad transactional searches plus explicit supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS/ShipStation, Banggood, Etsy, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT, HueForge, Bjango, and Muscle Booster. Added five new 17 May Amazon orders due 19-22 May; removed the superseded L'OR Subscribe & Save upcoming row because the later 16 May delivery confirmation is already retained for return-window tracking; refreshed the unidentified USPS/ShipStation Ground Saver package from the 17 May digest and kept it awaiting sender handoff; kept Netflix Standard with ads on the exact 16 June billing date while noting the later PayPal payment receipt; kept MAGEFESA as the only urgent authorized return because no newer drop-off/refund completion was found; excluded AliExpress-delivered packages, Amazon Subscribe & Save cancellation notices with no pending delivery, marketing, newsletters, review prompts, login/security mail, generic project posts, delivered non-Amazon items without return tracking needs, and completed drop-off/refund returns."
+    "source": "Gmail refresh on 2026-05-19 using broad transactional searches plus explicit supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS/ShipStation, Banggood, Etsy, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT, HueForge, Bjango, Muscle Booster, and TezLab. Promoted six 17 May Amazon orders to dispatched from 18 May dispatch emails; refreshed the unidentified ShipStation Ground Saver / USPS package from the 18 May digest and kept it awaiting sender handoff; removed the ACWOO Amazon return-window row because its 18 May return deadline has passed with no return request found. No newer concrete subscription renewal, cancellation, billing-period, license access, Afremov/YunExpress shipping, MAGEFESA return completion, or non-Amazon pending delivery signal was found; excluded newsletters, marketing offers, login/generic updates, and delivered non-Amazon items without return-tracking needs."
   },
   "deliveries": [
     {
@@ -197,32 +197,6 @@
         {
           "label": "Manage Amazon return",
           "url": "https://www.amazon.es/spr/returns/cart?orderId=171-6934092-7868309"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-04-18-19da0907a6cda462",
-      "supplier": "Amazon",
-      "title": "ACWOO sports wrist wraps",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-04-18",
-      "returnByDate": "2026-05-18",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivered this item on 18 April; no return request was found in the scanned return/refund mail.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19da0907a6cda462"
-      },
-      "items": [
-        "ACWOO sports wrist wraps"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
     },
@@ -966,10 +940,10 @@
       "status": "Awaiting sender handoff",
       "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Latest USPS Informed Delivery digest dated 17 May still shows one inbound package awaiting from sender via ShipStation Ground Saver. No merchant or item name was provided in the digest.",
+      "notes": "Latest USPS Informed Delivery digest dated 18 May still shows one inbound package awaiting from sender via ShipStation Ground Saver. No merchant or item name was provided in the digest.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e365578083ff1a"
+        "url": "https://mail.google.com/mail/#all/19e3b7fa6101e4b1"
       },
       "items": [
         "Tracking 92612903039351541516115888",
@@ -1044,20 +1018,20 @@
     {
       "supplier": "Amazon",
       "title": "18-piece adjustable silicone lids kit",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-05-19",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 15 May says order 407-1951908-2844347 was placed and is arriving Tuesday, 19 May.",
+      "notes": "Amazon dispatch email dated 18 May says order 407-1951908-2844347 was dispatched and is arriving Tuesday, 19 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e2db3c4751c73b"
+        "url": "https://mail.google.com/mail/#all/19e3c99068f6faa9"
       },
       "items": [
         "Order 407-1951908-2844347",
         "18-piece adjustable reusable silicone lids kit in 6 sizes",
         "Sold by Karroum Express",
         "Quantity 1",
-        "Total EUR 0.00"
+        "Total EUR 9.99"
       ],
       "links": [
         {
@@ -1069,13 +1043,13 @@
     {
       "supplier": "Amazon",
       "title": "HG Natural Stone Countertop Cleaner 500 ml",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-05-19",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 17 May says order 407-7394578-2143540 was placed and is arriving Tuesday, 19 May.",
+      "notes": "Amazon dispatch email dated 18 May says order 407-7394578-2143540 was dispatched and is arriving Tuesday, 19 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e35873527b71d5"
+        "url": "https://mail.google.com/mail/#all/19e3c9728fe69064"
       },
       "items": [
         "Order 407-7394578-2143540",
@@ -1094,13 +1068,13 @@
     {
       "supplier": "Amazon",
       "title": "Amazon Essentials men's classic chino shorts",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-05-19",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 17 May says order 407-1268155-0006727 was placed and is arriving Tuesday, 19 May.",
+      "notes": "Amazon dispatch email dated 18 May says order 407-1268155-0006727 was dispatched and is arriving Tuesday, 19 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e353e72d771aca"
+        "url": "https://mail.google.com/mail/#all/19e3c9957e7a5082"
       },
       "items": [
         "Order 407-1268155-0006727",
@@ -1119,20 +1093,20 @@
     {
       "supplier": "Amazon",
       "title": "Curluriy men's waffle casual shorts",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-05-19",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 17 May says order 407-2452148-4160346 was placed and is arriving Tuesday, 19 May.",
+      "notes": "Amazon dispatch email dated 18 May says order 407-2452148-4160346 was dispatched and is arriving Tuesday, 19 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e352fe1b486726"
+        "url": "https://mail.google.com/mail/#all/19e3c9a98f9ed5cf"
       },
       "items": [
         "Order 407-2452148-4160346",
         "Curluriy men's casual waffle shorts / pantalones cortos gofre",
         "Sold by Curluriy",
         "Quantity 1",
-        "Total EUR 0.50"
+        "Total EUR 12.99"
       ],
       "links": [
         {
@@ -1144,20 +1118,20 @@
     {
       "supplier": "Amazon",
       "title": "Aottori women's summer sleeveless V-neck top",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-05-19",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 17 May says order 407-8231125-4905917 was placed and is arriving Tuesday, 19 May.",
+      "notes": "Amazon dispatch email dated 18 May says order 407-8231125-4905917 was dispatched and is arriving Tuesday, 19 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e34dfd023a1623"
+        "url": "https://mail.google.com/mail/#all/19e3c9bba8d049fb"
       },
       "items": [
         "Order 407-8231125-4905917",
         "Aottori sleeveless V-neck tank top, pink, size S",
         "Sold by yyh-eu",
         "Quantity 1",
-        "Total EUR 0.00"
+        "Total EUR 12.99"
       ],
       "links": [
         {
@@ -1169,20 +1143,20 @@
     {
       "supplier": "Amazon",
       "title": "Lonya men's linen short-sleeve shirt",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-05-22",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 17 May says order 407-1065802-2296335 was placed and is arriving Friday, 22 May.",
+      "notes": "Amazon dispatch email dated 18 May says order 407-1065802-2296335 was dispatched and is arriving Friday, 22 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e350acc9892940"
+        "url": "https://mail.google.com/mail/#all/19e3bf485fdec991"
       },
       "items": [
         "Order 407-1065802-2296335",
         "Lonya men's linen short-sleeve shirt, navy blue, size M",
         "Sold by YSPEU",
         "Quantity 1",
-        "Total EUR 0.00"
+        "Total EUR 14.99"
       ],
       "links": [
         {
