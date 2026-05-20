@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-19",
+  "today": "2026-05-20",
   "metadata": {
-    "version": "v80.0",
-    "generatedAt": "2026-05-19T06:04:00+02:00",
+    "version": "v81.0",
+    "generatedAt": "2026-05-20T06:12:00+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-05-19 using broad transactional searches plus explicit supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS/ShipStation, Banggood, Etsy, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT, HueForge, Bjango, Muscle Booster, and TezLab. Promoted six 17 May Amazon orders to dispatched from 18 May dispatch emails; refreshed the unidentified ShipStation Ground Saver / USPS package from the 18 May digest and kept it awaiting sender handoff; removed the ACWOO Amazon return-window row because its 18 May return deadline has passed with no return request found. No newer concrete subscription renewal, cancellation, billing-period, license access, Afremov/YunExpress shipping, MAGEFESA return completion, or non-Amazon pending delivery signal was found; excluded newsletters, marketing offers, login/generic updates, and delivered non-Amazon items without return-tracking needs."
+    "source": "Gmail refresh on 2026-05-20 using broad transactional searches plus explicit supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS/ShipStation, Banggood, Etsy, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT, HueForge, Bjango, Muscle Booster, TezLab, and newly surfaced marketing senders. Promoted the 19 May Amazon five-item package to delivered from the delivery confirmation; removed the silicone lids item because Amazon return/drop-off/refund messages show the return completed and refunded. Updated JOMIX clogs from delivery-estimate update to dispatched for 22 May; added three new 19 May Amazon orders due 22 May; refreshed the ShipStation Ground Saver / USPS package from the 19 May digest to expected 19 May instead of awaiting sender. Removed the Amazon ONLY denim jacket return-window row because its 19 May return deadline has passed with no return request found. No newer concrete subscription renewal, cancellation, billing-period, license access, Afremov/YunExpress shipping, or other non-Amazon pending delivery signal was found; excluded newsletters, marketing offers, login/generic updates, and delivered non-Amazon items without return-tracking needs."
   },
   "deliveries": [
     {
@@ -197,32 +197,6 @@
         {
           "label": "Manage Amazon return",
           "url": "https://www.amazon.es/spr/returns/cart?orderId=171-6934092-7868309"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-04-19-19da63bedd1d51d9",
-      "supplier": "Amazon",
-      "title": "ONLY Denim Jacket ONLTIA",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-04-19",
-      "returnByDate": "2026-05-19",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivered this item on 19 April; no return request was found in the scanned return/refund mail.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19da63bedd1d51d9"
-      },
-      "items": [
-        "ONLY Denim Jacket ONLTIA"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
     },
@@ -879,21 +853,20 @@
     {
       "supplier": "Amazon",
       "title": "JOMIX summer clogs",
-      "status": "Delivery estimate updated",
+      "status": "Dispatched",
       "dueDate": "2026-05-22",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery estimate update dated 15 May says the JOMIX clogs are now arriving Thursday, 21 May 2026 - Friday, 22 May 2026.",
+      "notes": "Amazon dispatch email dated 19 May says order 407-4923254-5644333 was dispatched and is arriving Friday, 22 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e2c62383d91513"
+        "url": "https://mail.google.com/mail/#all/19e40d512b9cf5b6"
       },
       "items": [
         "Order 407-4923254-5644333",
         "JOMIX Zuecos Mujer Verano con plantilla extraible de balancin / Clogs Woman Summer",
         "Sold by JOMIX EUROPE",
         "Quantity 1",
-        "Total EUR 18.52",
-        "Updated delivery estimate: 21-22 May 2026"
+        "Total EUR 18.52"
       ],
       "links": [
         {
@@ -937,18 +910,18 @@
       "id": "usps-shipstation-ground-saver-92612903039351541516115888",
       "supplier": "ShipStation Ground Saver / USPS",
       "title": "Unidentified ShipStation Ground Saver package",
-      "status": "Awaiting sender handoff",
-      "dueDate": null,
+      "status": "Expected 19 May",
+      "dueDate": "2026-05-19",
       "timezone": "Europe/Madrid",
-      "notes": "Latest USPS Informed Delivery digest dated 18 May still shows one inbound package awaiting from sender via ShipStation Ground Saver. No merchant or item name was provided in the digest.",
+      "notes": "Latest USPS Informed Delivery digest dated 19 May shows the inbound ShipStation Ground Saver package as expected today. No merchant or item name was provided in the digest, and no 20 May digest or delivery confirmation was found.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e3b7fa6101e4b1"
+        "url": "https://mail.google.com/mail/#all/19e40a5bd6639536"
       },
       "items": [
         "Tracking 92612903039351541516115888",
         "From: ShipStation Ground Saver",
-        "Status: Awaiting from sender"
+        "Status: Expected 19 May in the USPS digest"
       ],
       "links": [
         {
@@ -1017,131 +990,6 @@
     },
     {
       "supplier": "Amazon",
-      "title": "18-piece adjustable silicone lids kit",
-      "status": "Dispatched",
-      "dueDate": "2026-05-19",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 18 May says order 407-1951908-2844347 was dispatched and is arriving Tuesday, 19 May.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e3c99068f6faa9"
-      },
-      "items": [
-        "Order 407-1951908-2844347",
-        "18-piece adjustable reusable silicone lids kit in 6 sizes",
-        "Sold by Karroum Express",
-        "Quantity 1",
-        "Total EUR 9.99"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "title": "HG Natural Stone Countertop Cleaner 500 ml",
-      "status": "Dispatched",
-      "dueDate": "2026-05-19",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 18 May says order 407-7394578-2143540 was dispatched and is arriving Tuesday, 19 May.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e3c9728fe69064"
-      },
-      "items": [
-        "Order 407-7394578-2143540",
-        "HG Natural Stone Countertop Cleaner / Limpiador Encimeras Piedra Natural, 500 ml",
-        "Sold by Amazon.es",
-        "Quantity 1",
-        "Total EUR 7.99"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "title": "Amazon Essentials men's classic chino shorts",
-      "status": "Dispatched",
-      "dueDate": "2026-05-19",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 18 May says order 407-1268155-0006727 was dispatched and is arriving Tuesday, 19 May.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e3c9957e7a5082"
-      },
-      "items": [
-        "Order 407-1268155-0006727",
-        "Amazon Essentials men's classic chino shorts, dark navy, 34W",
-        "Sold by Amazon.es",
-        "Quantity 1",
-        "Total EUR 19.40"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "title": "Curluriy men's waffle casual shorts",
-      "status": "Dispatched",
-      "dueDate": "2026-05-19",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 18 May says order 407-2452148-4160346 was dispatched and is arriving Tuesday, 19 May.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e3c9a98f9ed5cf"
-      },
-      "items": [
-        "Order 407-2452148-4160346",
-        "Curluriy men's casual waffle shorts / pantalones cortos gofre",
-        "Sold by Curluriy",
-        "Quantity 1",
-        "Total EUR 12.99"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "title": "Aottori women's summer sleeveless V-neck top",
-      "status": "Dispatched",
-      "dueDate": "2026-05-19",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 18 May says order 407-8231125-4905917 was dispatched and is arriving Tuesday, 19 May.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e3c9bba8d049fb"
-      },
-      "items": [
-        "Order 407-8231125-4905917",
-        "Aottori sleeveless V-neck tank top, pink, size S",
-        "Sold by yyh-eu",
-        "Quantity 1",
-        "Total EUR 12.99"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
       "title": "Lonya men's linen short-sleeve shirt",
       "status": "Dispatched",
       "dueDate": "2026-05-22",
@@ -1157,6 +1005,193 @@
         "Sold by YSPEU",
         "Quantity 1",
         "Total EUR 14.99"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-05-19-407-1268155-0006727",
+      "supplier": "Amazon",
+      "title": "Amazon Essentials men's classic chino shorts",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-05-19",
+      "returnByDate": "2026-06-18",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 19 May says the package containing this item was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e3fae689d28333"
+      },
+      "items": [
+        "Order 407-1268155-0006727",
+        "Amazon Essentials men's classic chino shorts, dark navy, 34W",
+        "Delivered 19 May 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-05-19-407-2452148-4160346",
+      "supplier": "Amazon",
+      "title": "Curluriy men's waffle casual shorts",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-05-19",
+      "returnByDate": "2026-06-18",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 19 May says the five-item package containing this item was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e3fae689d28333"
+      },
+      "items": [
+        "Order 407-2452148-4160346",
+        "Curluriy men's casual waffle shorts / pantalones cortos gofre",
+        "Delivered 19 May 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-05-19-407-7394578-2143540",
+      "supplier": "Amazon",
+      "title": "HG Natural Stone Countertop Cleaner 500 ml",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-05-19",
+      "returnByDate": "2026-06-18",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 19 May says the five-item package containing this item was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e3fae689d28333"
+      },
+      "items": [
+        "Order 407-7394578-2143540",
+        "HG Natural Stone Countertop Cleaner / Limpiador Encimeras Piedra Natural, 500 ml",
+        "Delivered 19 May 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-05-19-407-8231125-4905917",
+      "supplier": "Amazon",
+      "title": "Aottori women's summer sleeveless V-neck top",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-05-19",
+      "returnByDate": "2026-06-18",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 19 May says the five-item package containing this item was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e3fae689d28333"
+      },
+      "items": [
+        "Order 407-8231125-4905917",
+        "Aottori sleeveless V-neck tank top, pink, size S",
+        "Delivered 19 May 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "Leversic women's medium impact sports bra",
+      "status": "Ordered",
+      "dueDate": "2026-05-22",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 19 May says order 407-1235158-3267538 was placed and is arriving Friday, 22 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e3ee753ac727ea"
+      },
+      "items": [
+        "Order 407-1235158-3267538",
+        "Leversic women's medium impact sports bra, green, size M",
+        "Sold by CHONGREN-EU",
+        "Quantity 1",
+        "Total EUR 9.44"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "Sykooria women's sports bra",
+      "status": "Ordered",
+      "dueDate": "2026-05-22",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 19 May says order 407-6084577-0976344 was placed and is arriving Friday, 22 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e3ef65030e16e2"
+      },
+      "items": [
+        "Order 407-6084577-0976344",
+        "Sykooria women's racerback sports bra, wine red, size L",
+        "Sold by CHONGREN-EU",
+        "Quantity 1",
+        "Total EUR 11.04"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "iDesign iDry extra-large kitchen drying mat",
+      "status": "Ordered",
+      "dueDate": "2026-05-22",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 19 May says order 407-3458547-1497140 was placed and is arriving Friday, 22 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e40888900a0e04"
+      },
+      "items": [
+        "Order 407-3458547-1497140",
+        "iDesign iDry kitchen mat / alfombrilla escurreplatos extragrande, pewter grey/ivory",
+        "Sold by Amazon.es",
+        "Quantity 1",
+        "Total EUR 12.40"
       ],
       "links": [
         {
