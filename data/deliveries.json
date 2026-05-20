@@ -1,8 +1,8 @@
 {
   "today": "2026-05-20",
   "metadata": {
-    "version": "v81.0",
-    "generatedAt": "2026-05-20T06:12:00+02:00",
+    "version": "v81.1",
+    "generatedAt": "2026-05-20T06:05:14+02:00",
     "timezone": "Europe/Madrid",
     "source": "Gmail refresh on 2026-05-20 using broad transactional searches plus explicit supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS/ShipStation, Banggood, Etsy, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT, HueForge, Bjango, Muscle Booster, TezLab, and newly surfaced marketing senders. Promoted the 19 May Amazon five-item package to delivered from the delivery confirmation; removed the silicone lids item because Amazon return/drop-off/refund messages show the return completed and refunded. Updated JOMIX clogs from delivery-estimate update to dispatched for 22 May; added three new 19 May Amazon orders due 22 May; refreshed the ShipStation Ground Saver / USPS package from the 19 May digest to expected 19 May instead of awaiting sender. Removed the Amazon ONLY denim jacket return-window row because its 19 May return deadline has passed with no return request found. No newer concrete subscription renewal, cancellation, billing-period, license access, Afremov/YunExpress shipping, or other non-Amazon pending delivery signal was found; excluded newsletters, marketing offers, login/generic updates, and delivered non-Amazon items without return-tracking needs."
   },
