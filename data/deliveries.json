@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-21",
+  "today": "2026-05-22",
   "metadata": {
-    "version": "v82.0",
-    "generatedAt": "2026-05-21T06:05:50+02:00",
+    "version": "v83.0",
+    "generatedAt": "2026-05-22T06:02:56+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-05-21 using broad transactional searches plus explicit supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS/ShipStation, Banggood, Etsy, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT, HueForge, Bjango, Muscle Booster, TezLab, and newly surfaced senders. Added new Amazon dispatches for MoFiz pajama pants, Treki router bit, 4-piece wood router/bur set, Amazon Essentials chino shorts, and Curluriy waffle shorts; updated the iDesign iDry mat from ordered to dispatched. Marked the 19 May Curluriy shorts delivery as return-authorized/drop-off required from the 20 May Amazon return confirmation, due at Celeritas by 19 June. Excluded two same-day Amazon orders that were later canceled, removed the ShipStation Ground Saver / USPS package after the 20 May USPS digest showed no inbound packages, and did not add AliExpress review-request mail as pending delivery. Updated Google AI Pro subscription notes from the 20 May plan-change email while preserving the inferred 22 May renewal reminder because no newer exact renewal/billing date was found. No newer concrete cancellation, billing-period, license access, Afremov/YunExpress delivery, or other non-Amazon pending delivery signal was found; excluded newsletters, ads, marketing, event reminders, financial statements, login/generic updates, and delivered non-Amazon items without return-tracking needs."
+    "source": "Gmail refresh on 2026-05-22 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, and TezLab. Added new Amazon dispatches for SUNKISS adult diapers and Billabong Fade 16 swim trunks; updated Leversic and Sykooria sports bras from ordered to dispatched; marked MoFiz pajama pants, Treki router bit, and the 4-piece router/bur set delivered on 21 May for Amazon return-window tracking; converted the replacement/new Curluriy shorts dispatch into a second active return authorization due at Celeritas by 21 June while preserving the earlier 407-2452148-4160346 Curluriy return due 19 June. CTT Express carrier mail for Amazon shipment 0079050079050005466177 showed in-transit/out-for-delivery and later delivered on 21 May; because it had no item/order details, it was treated as corroborating carrier coverage, not a standalone delivery row. USPS digest still showed 0 inbound packages. Google AI Pro had no newer exact renewal/billing email than the 20 May plan-change notice already recorded; no newer concrete Apple, PayPal, Netflix, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, license/download access, Afremov/YunExpress, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, HueForge, Bjango, Muscle Booster, or TezLab transactional signal was found; excluded newsletters, ads, marketing, generic account notices, political/project posts, financial statements, login/generic updates, and delivered non-Amazon items without return-tracking needs."
   },
   "deliveries": [
     {
@@ -1028,7 +1028,7 @@
       "returnByDate": "2026-06-19",
       "returnWindowDays": 30,
       "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon return confirmation dated 20 May says the Curluriy shorts return request is confirmed, the item should be dropped at any Celeritas office by 19 June, and the refund will be issued after drop-off.",
+      "notes": "Amazon return confirmation dated 20 May says this Curluriy shorts return request is confirmed, the item should be dropped at any Celeritas office by 19 June, and the refund will be issued after drop-off. A separate 21 May return authorization exists for replacement/new order 171-7943613-1521168.",
       "sourceEmail": {
         "label": "Source email",
         "url": "https://mail.google.com/mail/#all/19e450d9713259b5"
@@ -1109,13 +1109,13 @@
     {
       "supplier": "Amazon",
       "title": "Leversic women's medium impact sports bra",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-05-22",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 19 May says order 407-1235158-3267538 was placed and is arriving Friday, 22 May.",
+      "notes": "Amazon dispatch email dated 21 May says order 407-1235158-3267538 was dispatched and is arriving tomorrow from the email date (22 May).",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e3ee753ac727ea"
+        "url": "https://mail.google.com/mail/#all/19e4a964367a800c"
       },
       "items": [
         "Order 407-1235158-3267538",
@@ -1134,13 +1134,13 @@
     {
       "supplier": "Amazon",
       "title": "Sykooria women's sports bra",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-05-22",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 19 May says order 407-6084577-0976344 was placed and is arriving Friday, 22 May.",
+      "notes": "Amazon dispatch email dated 21 May says order 407-6084577-0976344 was dispatched and is arriving tomorrow from the email date (22 May).",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e3ef65030e16e2"
+        "url": "https://mail.google.com/mail/#all/19e4a978d412eda8"
       },
       "items": [
         "Order 407-6084577-0976344",
@@ -1180,76 +1180,88 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-05-21-407-8659239-0437148",
+      "id": "amazon-return-window-2026-05-21-407-8659239-0437148",
       "supplier": "Amazon",
       "title": "MoFiz women's 3/4 pajama pants",
-      "status": "Dispatched",
-      "dueDate": "2026-05-21",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 20 May says this package was dispatched and is arriving today.",
+      "notes": "Amazon delivery email dated 21 May says the package containing the women's pajama pants and two more items was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e47b3c7a0f4bc2"
+        "url": "https://mail.google.com/mail/#all/19e4a9c68d331fe9"
       },
       "items": [
         "Order 407-8659239-0437148",
-        "Mujer Pantalones de pijama mujer 3/4 largos / Women's pajama pants, azul gris claro, size S",
-        "Quantity 1"
+        "MoFiz women's 3/4 pajama pants / Mujer Pantalones de pijama mujer 3/4 largos, azul gris claro, size S",
+        "Delivered 21 May 2026"
       ],
       "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-05-21",
+      "returnByDate": "2026-06-20",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-05-21-171-6099261-0685951",
+      "id": "amazon-return-window-2026-05-21-171-6099261-0685951",
       "supplier": "Amazon",
       "title": "4-piece 8 mm shank wood router/bur set",
-      "status": "Dispatched",
-      "dueDate": "2026-05-21",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 20 May says this package was dispatched and is arriving today. A separate same-item order 171-5636958-5880353 was canceled and is not shown.",
+      "notes": "Amazon delivery email dated 21 May says the package containing the 4-piece wood router/bur set and two more items was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e47b24d0168973"
+        "url": "https://mail.google.com/mail/#all/19e4a9c68d331fe9"
       },
       "items": [
         "Order 171-6099261-0685951",
         "4 Piezas Juego 8mm Vastago Fresas para Madera / 4 Piece Set 8 mm Shank Wood Burs",
-        "Quantity 1"
+        "Delivered 21 May 2026"
       ],
       "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-05-21",
+      "returnByDate": "2026-06-20",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-05-21-171-7302036-4390748",
+      "id": "amazon-return-window-2026-05-21-171-7302036-4390748",
       "supplier": "Amazon",
       "title": "Treki 8 mm bearing router bit",
-      "status": "Dispatched",
-      "dueDate": "2026-05-21",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 20 May says this package was dispatched and is arriving today.",
+      "notes": "Amazon delivery email dated 21 May says the package containing the Treki router bit and two more items was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e47b229599eb5e"
+        "url": "https://mail.google.com/mail/#all/19e4a9c68d331fe9"
       },
       "items": [
         "Order 171-7302036-4390748",
         "Treki Fresa de Enrasar con Rodamiento de 8mm Vastago / bearing router bit",
-        "Quantity 1"
+        "Delivered 21 May 2026"
       ],
       "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-05-21",
+      "returnByDate": "2026-06-20",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-dispatched-2026-05-22-407-4447555-2726757",
@@ -1276,21 +1288,80 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-05-21-171-7943613-1521168",
+      "id": "amazon-return-window-authorized-171-7943613-1521168",
       "supplier": "Amazon",
-      "title": "Curluriy men's waffle casual shorts",
-      "status": "Dispatched",
-      "dueDate": "2026-05-21",
+      "title": "Curluriy men's waffle casual shorts return",
+      "status": "Return authorization granted",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 20 May says this replacement/new Curluriy shorts package was dispatched and is arriving tomorrow from the email date.",
+      "notes": "Amazon return confirmation dated 21 May says the replacement/new Curluriy shorts return request for order 171-7943613-1521168 is confirmed, the item should be dropped at any Celeritas office by 21 June, and the refund will be issued after drop-off.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e45fc52adfa0e5"
+        "url": "https://mail.google.com/mail/#all/19e4ab182df089a3"
       },
       "items": [
         "Order 171-7943613-1521168",
-        "Curluriy Pantalones Cortos Gofre Hombre Casual / waffle casual shorts",
-        "Quantity 1"
+        "Curluriy Shorts Waffle Man Casual, quantity 1",
+        "Estimated refund EUR 12.99 to Amazon account balance",
+        "Drop off by 21 June 2026 at Celeritas"
+      ],
+      "links": [
+        {
+          "label": "Manage Amazon return",
+          "url": "https://www.amazon.es/spr/returns/cart?orderId=171-7943613-1521168"
+        }
+      ],
+      "returnByDate": "2026-06-21",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "returnAuthorizationGranted": true,
+      "returnDropoffRequired": true,
+      "returnStatus": "return_authorized"
+    },
+    {
+      "id": "amazon-dispatched-2026-05-22-407-8669568-2297127",
+      "supplier": "Amazon",
+      "title": "SUNKISS adult diapers, 32 count",
+      "status": "Dispatched",
+      "dueDate": "2026-05-22",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 22 May says order 407-8669568-2297127 was dispatched and is arriving today between 7 am and 1 pm.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e4d1d45d27cc7f"
+      },
+      "items": [
+        "Order 407-8669568-2297127",
+        "SUNKISS adult diapers women, maximum protection, beige, size M, 32 units",
+        "Sold by SUNKISS Direct",
+        "Quantity 1",
+        "Total EUR 31.98"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-05-25-407-9319321-4144309",
+      "supplier": "Amazon",
+      "title": "Billabong men's Fade 16 swim trunks",
+      "status": "Dispatched",
+      "dueDate": "2026-05-25",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 21 May says order 407-9319321-4144309 was dispatched and is arriving Monday (25 May).",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e4b15ff56b71f9"
+      },
+      "items": [
+        "Order 407-9319321-4144309",
+        "Billabong men's Fade 16 swim trunks",
+        "Sold by Amazon.es",
+        "Quantity 1",
+        "Total EUR 18.40"
       ],
       "links": [
         {
