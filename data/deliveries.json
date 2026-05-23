@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-22",
+  "today": "2026-05-23",
   "metadata": {
-    "version": "v83.0",
-    "generatedAt": "2026-05-22T06:02:56+02:00",
+    "version": "v84.0",
+    "generatedAt": "2026-05-23T06:05:39+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-05-22 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, and TezLab. Added new Amazon dispatches for SUNKISS adult diapers and Billabong Fade 16 swim trunks; updated Leversic and Sykooria sports bras from ordered to dispatched; marked MoFiz pajama pants, Treki router bit, and the 4-piece router/bur set delivered on 21 May for Amazon return-window tracking; converted the replacement/new Curluriy shorts dispatch into a second active return authorization due at Celeritas by 21 June while preserving the earlier 407-2452148-4160346 Curluriy return due 19 June. CTT Express carrier mail for Amazon shipment 0079050079050005466177 showed in-transit/out-for-delivery and later delivered on 21 May; because it had no item/order details, it was treated as corroborating carrier coverage, not a standalone delivery row. USPS digest still showed 0 inbound packages. Google AI Pro had no newer exact renewal/billing email than the 20 May plan-change notice already recorded; no newer concrete Apple, PayPal, Netflix, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, license/download access, Afremov/YunExpress, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, HueForge, Bjango, Muscle Booster, or TezLab transactional signal was found; excluded newsletters, ads, marketing, generic account notices, political/project posts, financial statements, login/generic updates, and delivered non-Amazon items without return-tracking needs."
+    "source": "Gmail refresh on 2026-05-23 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, TezLab, HeyGen, Coursera, Leroy Merlin, and Photos By Elie. Updated Amazon May 22 delivery confirmations for JOMIX clogs, Lonya navy linen shirt, Leversic and Sykooria sports bras, iDesign iDry kitchen mat, Amazon Essentials khaki chino shorts, and SUNKISS adult diapers into Amazon return-window tracking through 21 June. Added new Amazon orders for Colgate Max White One toothpaste arriving 23 May and Lonya khaki/light-blue linen shirts arriving 25/26 May. Added AliExpress receipt-confirmation monitoring for solar LED outdoor lights and Bambu Lab LED lamp kits. Updated Google AI Pro from the 22 May Google Play renewal receipt and YouTube Premium from the 22 May cancellation/access-end email. Added one-time Photos By Elie digital download receipt. No newer concrete Netflix, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI billing, Apple subscription renewal, Afremov/YunExpress, USPS, CTT Express, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, HueForge, Bjango, Muscle Booster, or TezLab signal was found; excluded newsletters, ads, marketing, login/generic updates, political/project posts, and supplier/project posts without concrete transactional state."
   },
   "deliveries": [
     {
@@ -853,27 +853,30 @@
     {
       "supplier": "Amazon",
       "title": "JOMIX summer clogs",
-      "status": "Dispatched",
-      "dueDate": "2026-05-22",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 19 May says order 407-4923254-5644333 was dispatched and is arriving Friday, 22 May.",
+      "notes": "Amazon delivery email dated 22 May says this package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e40d512b9cf5b6"
+        "url": "https://mail.google.com/mail/#all/19e5014efa0945a8"
       },
       "items": [
         "Order 407-4923254-5644333",
         "JOMIX Zuecos Mujer Verano con plantilla extraible de balancin / Clogs Woman Summer",
-        "Sold by JOMIX EUROPE",
-        "Quantity 1",
-        "Total EUR 18.52"
+        "Delivered 22 May 2026"
       ],
       "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "id": "amazon-return-window-2026-05-22-407-4923254-5644333",
+      "deliveredDate": "2026-05-22",
+      "returnByDate": "2026-06-21",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-return-window-2026-05-14-407-7417132-3328365",
@@ -967,27 +970,30 @@
     {
       "supplier": "Amazon",
       "title": "Lonya men's linen short-sleeve shirt",
-      "status": "Dispatched",
-      "dueDate": "2026-05-22",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 18 May says order 407-1065802-2296335 was dispatched and is arriving Friday, 22 May.",
+      "notes": "Amazon delivery email dated 22 May says this package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e3bf485fdec991"
+        "url": "https://mail.google.com/mail/#all/19e501494d588801"
       },
       "items": [
         "Order 407-1065802-2296335",
         "Lonya men's linen short-sleeve shirt, navy blue, size M",
-        "Sold by YSPEU",
-        "Quantity 1",
-        "Total EUR 14.99"
+        "Delivered 22 May 2026"
       ],
       "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "id": "amazon-return-window-2026-05-22-407-1065802-2296335",
+      "deliveredDate": "2026-05-22",
+      "returnByDate": "2026-06-21",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-return-window-2026-05-19-407-1268155-0006727",
@@ -1109,75 +1115,86 @@
     {
       "supplier": "Amazon",
       "title": "Leversic women's medium impact sports bra",
-      "status": "Dispatched",
-      "dueDate": "2026-05-22",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 21 May says order 407-1235158-3267538 was dispatched and is arriving tomorrow from the email date (22 May).",
+      "notes": "Amazon delivery email dated 22 May says this package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e4a964367a800c"
+        "url": "https://mail.google.com/mail/#all/19e501426023b763"
       },
       "items": [
         "Order 407-1235158-3267538",
         "Leversic women's medium impact sports bra, green, size M",
-        "Sold by CHONGREN-EU",
-        "Quantity 1",
-        "Total EUR 9.44"
+        "Delivered 22 May 2026"
       ],
       "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "id": "amazon-return-window-2026-05-22-407-1235158-3267538",
+      "deliveredDate": "2026-05-22",
+      "returnByDate": "2026-06-21",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "supplier": "Amazon",
       "title": "Sykooria women's sports bra",
-      "status": "Dispatched",
-      "dueDate": "2026-05-22",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 21 May says order 407-6084577-0976344 was dispatched and is arriving tomorrow from the email date (22 May).",
+      "notes": "Amazon delivery email dated 22 May says this package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e4a978d412eda8"
+        "url": "https://mail.google.com/mail/#all/19e501426023b763"
       },
       "items": [
         "Order 407-6084577-0976344",
         "Sykooria women's racerback sports bra, wine red, size L",
-        "Sold by CHONGREN-EU",
-        "Quantity 1",
-        "Total EUR 11.04"
+        "Delivered 22 May 2026"
       ],
       "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "id": "amazon-return-window-2026-05-22-407-6084577-0976344",
+      "deliveredDate": "2026-05-22",
+      "returnByDate": "2026-06-21",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "supplier": "Amazon",
       "title": "iDesign iDry extra-large kitchen drying mat",
-      "status": "Dispatched",
-      "dueDate": "2026-05-22",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 20 May says the iDesign iDry kitchen mat package was dispatched and is arriving Friday.",
+      "notes": "Amazon delivery email dated 22 May says this package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e45fea08fac0dd"
+        "url": "https://mail.google.com/mail/#all/19e50145fafce449"
       },
       "items": [
         "Order 407-3458547-1497140",
         "iDesign iDry kitchen mat, extra-large, pewter/ivory",
-        "Quantity 1"
+        "Delivered 22 May 2026"
       ],
       "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "id": "amazon-return-window-2026-05-22-407-3458547-1497140",
+      "deliveredDate": "2026-05-22",
+      "returnByDate": "2026-06-21",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-return-window-2026-05-21-407-8659239-0437148",
@@ -1264,28 +1281,32 @@
       "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-05-22-407-4447555-2726757",
+      "id": "amazon-return-window-2026-05-22-407-4447555-2726757",
       "supplier": "Amazon",
       "title": "Amazon Essentials men's classic chino shorts",
-      "status": "Dispatched",
-      "dueDate": "2026-05-22",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 20 May says this package was dispatched and is arriving Friday.",
+      "notes": "Amazon delivery email dated 22 May says this package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e4608566a35279"
+        "url": "https://mail.google.com/mail/#all/19e50145fafce449"
       },
       "items": [
         "Order 407-4447555-2726757",
         "Amazon Essentials men's classic fit chino shorts, khaki, 34W",
-        "Quantity 1"
+        "Delivered 22 May 2026"
       ],
       "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-05-22",
+      "returnByDate": "2026-06-21",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-return-window-authorized-171-7943613-1521168",
@@ -1319,30 +1340,32 @@
       "returnStatus": "return_authorized"
     },
     {
-      "id": "amazon-dispatched-2026-05-22-407-8669568-2297127",
+      "id": "amazon-return-window-2026-05-22-407-8669568-2297127",
       "supplier": "Amazon",
       "title": "SUNKISS adult diapers, 32 count",
-      "status": "Dispatched",
-      "dueDate": "2026-05-22",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 22 May says order 407-8669568-2297127 was dispatched and is arriving today between 7 am and 1 pm.",
+      "notes": "Amazon delivery email dated 22 May says this package was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e4d1d45d27cc7f"
+        "url": "https://mail.google.com/mail/#all/19e4efd1f34e4b06"
       },
       "items": [
         "Order 407-8669568-2297127",
         "SUNKISS adult diapers women, maximum protection, beige, size M, 32 units",
-        "Sold by SUNKISS Direct",
-        "Quantity 1",
-        "Total EUR 31.98"
+        "Delivered 22 May 2026"
       ],
       "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-05-22",
+      "returnByDate": "2026-06-21",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-dispatched-2026-05-25-407-9319321-4144309",
@@ -1367,6 +1390,132 @@
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-05-23-407-2685818-0938715",
+      "supplier": "Amazon",
+      "title": "Colgate Max White One toothpaste, pack of 2",
+      "status": "Ordered",
+      "dueDate": "2026-05-23",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order confirmation dated 22 May says order 407-2685818-0938715 was placed and is arriving tomorrow from the email date (23 May).",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e51d5e4dd462cf"
+      },
+      "items": [
+        "Order 407-2685818-0938715",
+        "Colgate Max White One whitening toothpaste, pack of 2 x 75 ml",
+        "Sold by Amazon.es",
+        "Quantity 1",
+        "Total EUR 4.65"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-05-25-403-4141750-1024325-light-blue",
+      "supplier": "Amazon",
+      "title": "Lonya men's linen shirt, light blue",
+      "status": "Ordered",
+      "dueDate": "2026-05-25",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order confirmation dated 22 May says this order line is arriving Monday (25 May).",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e505742a3da9e4"
+      },
+      "items": [
+        "Order 403-4141750-1024325",
+        "Lonya men's linen short-sleeve shirt, light blue, size M",
+        "Sold by YSPEU",
+        "Quantity 1",
+        "Line price EUR 14.99"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-05-26-403-4141750-1024325-khaki",
+      "supplier": "Amazon",
+      "title": "Lonya men's linen shirt, khaki",
+      "status": "Ordered",
+      "dueDate": "2026-05-26",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order confirmation dated 22 May says this order line is arriving Tuesday (26 May).",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e505742a3da9e4"
+      },
+      "items": [
+        "Order 403-4141750-1024325",
+        "Lonya men's linen short-sleeve shirt, khaki, size M",
+        "Sold by YSPEU",
+        "Quantity 1",
+        "Line price EUR 14.99"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "aliexpress-awaiting-confirmation-3072515402983468",
+      "supplier": "AliExpress",
+      "title": "Solar LED outdoor wall lights, warm light set",
+      "status": "Awaiting receipt confirmation",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "AliExpress email dated 19 May says order 3072515402983468 will be marked completed soon and instructs the buyer to apply for returns/refunds promptly if the package was not received or was not as described. A 20 May review request followed for the same order.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e3fd5e5bf8c599"
+      },
+      "items": [
+        "Order 3072515402983468",
+        "Solar LED Outdoor Wall Light, 2Pcs Warm light, quantity 2",
+        "Order total EUR 7.73"
+      ],
+      "links": [
+        {
+          "label": "Open AliExpress orders",
+          "url": "https://www.aliexpress.com/p/order/index.html"
+        }
+      ]
+    },
+    {
+      "id": "aliexpress-awaiting-confirmation-3072515403003468",
+      "supplier": "AliExpress",
+      "title": "Bambu Lab LED lamp kit, white shell",
+      "status": "Awaiting receipt confirmation",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "AliExpress email dated 19 May says order 3072515403003468 will be marked completed soon and instructs the buyer to apply for returns/refunds promptly if the package was not received or was not as described. A 20 May review request followed for the same order.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e3fd5ee9887a34"
+      },
+      "items": [
+        "Order 3072515403003468",
+        "Bambu Lab LED lamp kit, adjustable, with remote control, white shell, quantity 4",
+        "Order total EUR 15.94"
+      ],
+      "links": [
+        {
+          "label": "Open AliExpress orders",
+          "url": "https://www.aliexpress.com/p/order/index.html"
         }
       ]
     }
@@ -1424,6 +1573,32 @@
         {
           "label": "Open Paddle support",
           "url": "https://paddle.net"
+        }
+      ]
+    },
+    {
+      "service": "Photos By Elie",
+      "title": "Photos By Elie digital photo downloads",
+      "status": "One-time digital purchase",
+      "nextDate": null,
+      "dateLabel": "No renewal date found",
+      "timezone": "Europe/Madrid",
+      "renewalState": "one_time",
+      "notes": "Stripe receipt dated 22 May provides download/recovery access for Photos By Elie order PBE-20260522-7A8D583B6E and shows a one-time $0.50 payment with no renewal terms.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e504bd63f10768"
+      },
+      "items": [
+        "Receipt #1974-8947",
+        "Photos By Elie order PBE-20260522-7A8D583B6E",
+        "Chateau de Versailles JPG 3 MP and 1 MP downloads",
+        "Amount paid $0.50 via Apple Pay"
+      ],
+      "links": [
+        {
+          "label": "Recover Photos By Elie order",
+          "url": "https://ec92009.github.io/PhotosByElie/order.html"
         }
       ]
     }
@@ -1570,22 +1745,22 @@
       "service": "Google",
       "title": "Google AI Pro 5 TB",
       "status": "Active subscription",
-      "nextDate": "2026-05-22",
-      "dateLabel": "Estimated monthly renewal on Friday, 22 May 2026",
+      "nextDate": "2026-06-22",
+      "dateLabel": "Estimated monthly renewal on Monday, 22 June 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "Google Play receipt dated 22 April says the Google AI Pro 5 TB subscription continues, is auto-renewing, and costs $19.99 per month. A later Google One email dated 20 May confirms the AI Pro plan is still active and describes usage-limit changes, but does not provide a newer exact renewal date, so the next date remains inferred from the monthly charge date.",
+      "notes": "Latest Google Play receipt dated 22 May says the Google AI Pro 5 TB subscription continues, is auto-renewing, and costs $19.99/month. The receipt does not provide an exact next renewal date, so the next date is inferred from the monthly billing cadence.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e484b3d4bd6b34"
+        "url": "https://mail.google.com/mail/#all/19e4fa7987ab5dd3"
       },
       "items": [
         "Google AI Pro (5 TB)",
         "$19.99 per month",
         "Auto-renewing subscription",
-        "Order SOP.3372-6229-2747-02753..10",
-        "20 May plan-change email confirms active AI Pro access",
+        "Order SOP.3372-6229-2747-02753..11",
+        "22 May Google Play receipt is the latest billing signal",
         "Next date inferred from monthly receipt"
       ],
       "links": [
@@ -1598,23 +1773,22 @@
     {
       "service": "YouTube Premium",
       "title": "YouTube Premium Individual plan",
-      "status": "Active subscription",
+      "status": "Will not renew",
       "nextDate": "2026-06-14",
-      "dateLabel": "Estimated monthly renewal on Sunday, 14 June 2026",
+      "dateLabel": "Access ends Sunday, 14 June 2026",
       "timezone": "Europe/Madrid",
-      "renewalState": "active",
+      "renewalState": "canceled",
       "warningWindowDays": 7,
-      "notes": "Latest PayPal receipt dated 14 May shows a recurring Google payment for YouTube Red at the updated YouTube Premium Individual price of $15.99. YouTube's price-update email says the new price applies on the May 14, 2026 billing date; the next date is inferred from the monthly billing cadence because no exact next renewal date was provided.",
+      "notes": "Latest YouTube email dated 22 May says the YouTube Premium membership has been canceled and benefits end on June 14, 2026.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e27485ce192d52"
+        "url": "https://mail.google.com/mail/#all/19e4ea8261520460"
       },
       "items": [
-        "YouTube Red / YouTube Premium Individual plan",
-        "$15.99 USD per month",
-        "PayPal transaction 120349174K510174X",
-        "Invoice 112244121486188056",
-        "Next date inferred from monthly receipt"
+        "YouTube Premium Individual plan",
+        "Membership canceled",
+        "Benefits end June 14, 2026",
+        "Can be restarted from YouTube membership page"
       ],
       "links": [
         {
