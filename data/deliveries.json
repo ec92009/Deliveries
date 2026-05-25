@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-24",
+  "today": "2026-05-25",
   "metadata": {
-    "version": "v85.0",
-    "generatedAt": "2026-05-24T06:03:05+02:00",
+    "version": "v86.0",
+    "generatedAt": "2026-05-25T06:02:27+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-05-24 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, TezLab, Coursera, Leroy Merlin, Movistar, and Photos By Elie. Updated Amazon May 23 orders and dispatches for Aottori tank top, Colgate toothpaste, Lonya khaki shirt, CMTOP navy/khaki pants, ECOOPTS slow-cooker liners, U-100/SKXZK measuring tools, and Vitabay Q10 Subscribe & Save. Cleared completed Curluriy returns after Amazon drop-off and refund confirmations for orders 407-2452148-4160346 and 171-7943613-1521168, and removed Amazon return-window entries that expired on 23 May. Added Movistar invoice billing and refreshed Muscle Booster active-subscription evidence from the 23 May email. No newer concrete AliExpress, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress shipment, USPS package, CTT Express, Netflix billing, Apple subscription renewal, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, TezLab, Coursera, Leroy Merlin order, or Photos By Elie license signal was found; excluded newsletters, ads, login/security notices, marketing mail, generic updates, and project posts without concrete transactional state."
+    "source": "Gmail refresh on 2026-05-25 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, Leroy Merlin, and Photos By Elie. Updated May 24 Amazon deliveries for Aottori orange tank top, CMTOP navy pants, Colgate toothpaste, and Lonya khaki linen shirt; retained them for the assumed 30-day Amazon return window through 23 June. Updated Amazon dispatches for ECOOPTS slow-cooker liners, Lonya light-blue linen shirt, and U-100 lab syringes, including seller-provided Asendia tracking AS011615163US. Refreshed the June 4 Subscribe & Save delivery evidence and removed the expired April 24 Amazon glass-kettle return-window entry. The April 25 Amazon return-window entries remain through their 25 May deadline. No newer concrete AliExpress, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon delivery/order, Afremov/YunExpress shipment, USPS package, CTT Express, Netflix billing, Apple subscription renewal, Google/YouTube subscription, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar invoice, Leroy Merlin order, or Photos By Elie license signal was found; excluded newsletters, ads, login/security notices, marketing/review mail, and project posts without concrete transactional state."
   },
   "deliveries": [
     {
@@ -197,32 +197,6 @@
         {
           "label": "Manage Amazon return",
           "url": "https://www.amazon.es/spr/returns/cart?orderId=171-6934092-7868309"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-04-24-19dc0a282d73be3d",
-      "supplier": "Amazon",
-      "title": "1.5 Litre Glass Kettle",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-04-24",
-      "returnByDate": "2026-05-24",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivered this item on 24 April; no return request was found in the scanned return/refund mail.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dc0a282d73be3d"
-      },
-      "items": [
-        "1.5 Litre Glass Kettle"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
     },
@@ -449,20 +423,21 @@
       "status": "Upcoming auto-delivery",
       "dueDate": "2026-06-04",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon Subscribe & Save confirmation dated 24 April says this monthly toothpaste auto-delivery starts with an arrival by Thursday, 4 June.",
+      "notes": "Amazon Subscribe & Save email dated 24 May says the next auto-delivery arrives by Thursday, 4 June, and the last day to manage delivery is Wednesday, 27 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dbff72fe082aeb"
+        "url": "https://mail.google.com/mail/#all/19e59cf595943463"
       },
       "items": [
-        "COLGATE Max White Ultra Active Foam toothpaste, 50 ml",
-        "Monthly Subscribe & Save delivery",
-        "Arriving by Thursday, 4 June"
+        "Subscribe & Save delivery arriving by 4 June 2026",
+        "Last day to manage delivery 27 May 2026",
+        "17 items in this delivery",
+        "Includes COLGATE Max White Ultra Active Foam toothpaste price update"
       ],
       "links": [
         {
-          "label": "Manage Amazon subscriptions",
-          "url": "https://www.amazon.es/auto-deliveries"
+          "label": "Manage Subscribe & Save",
+          "url": "https://www.amazon.es/gp/subscribe-and-save/manage"
         }
       ]
     },
@@ -1255,26 +1230,18 @@
       "id": "amazon-ordered-2026-05-25-403-4141750-1024325-light-blue",
       "supplier": "Amazon",
       "title": "Lonya men's linen shirt, light blue",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-05-25",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order confirmation dated 22 May says this order line is arriving Monday (25 May).",
+      "notes": "Amazon dispatch email dated 24 May says order 403-4141750-1024325 shipped and is arriving tomorrow, 25 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e505742a3da9e4"
+        "url": "https://mail.google.com/mail/#all/19e5b0b3b41961b5"
       },
       "items": [
         "Order 403-4141750-1024325",
-        "Lonya men's linen short-sleeve shirt, light blue, size M",
-        "Sold by YSPEU",
-        "Quantity 1",
-        "Line price EUR 14.99"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
+        "Lonya men's short-sleeve linen shirt, light blue, size M",
+        "Sold by YSPEU"
       ]
     },
     {
@@ -1326,100 +1293,116 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-05-24-407-6196575-8197133",
+      "id": "amazon-return-window-2026-05-24-407-6196575-8197133",
       "supplier": "Amazon",
       "title": "Aottori women's sleeveless V-neck tank top, orange",
-      "status": "Dispatched",
-      "dueDate": "2026-05-24",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 23 May says this package was dispatched and is arriving tomorrow.",
+      "notes": "Amazon delivery email dated 24 May says the Aottori orange V-neck tank top was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e56ad3784941a2"
+        "url": "https://mail.google.com/mail/#all/19e597c42e2fcfb3"
       },
       "items": [
         "Order 407-6196575-8197133",
-        "Aottori Camiseta Tirantes Mujer Verano, orange, size S",
-        "Shipment Tgq1HC94b"
+        "Aottori orange V-neck sleeveless tank top, size S",
+        "Delivered 24 May 2026"
       ],
       "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-05-24",
+      "returnByDate": "2026-06-23",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-05-24-407-2685818-0938715",
+      "id": "amazon-return-window-2026-05-24-407-2685818-0938715-colgate",
       "supplier": "Amazon",
       "title": "Colgate Max White One toothpaste, pack of 2",
-      "status": "Dispatched",
-      "dueDate": "2026-05-24",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 23 May says this package was dispatched and is arriving tomorrow.",
+      "notes": "Amazon delivery email dated 24 May says the Colgate Max White One toothpaste pack was delivered that day with the Lonya khaki linen shirt and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e56570629144fc"
+        "url": "https://mail.google.com/mail/#all/19e597bdd3d64db4"
       },
       "items": [
         "Order 407-2685818-0938715",
         "Colgate Max White One toothpaste, pack of 2 x 75 ml",
-        "Shipment TJY8M9Qcb"
+        "Delivered 24 May 2026"
       ],
       "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-05-24",
+      "returnByDate": "2026-06-23",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-05-25-403-4141750-1024325-khaki",
+      "id": "amazon-return-window-2026-05-24-407-2685818-0938715-lonya-khaki",
       "supplier": "Amazon",
       "title": "Lonya men's linen shirt, khaki",
-      "status": "Dispatched",
-      "dueDate": "2026-05-25",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 23 May says the khaki Lonya shirt package was dispatched and is arriving Monday.",
+      "notes": "Amazon delivery email dated 24 May says the Lonya khaki short-sleeve linen shirt was delivered that day with the Colgate toothpaste and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e5657035b16f47"
+        "url": "https://mail.google.com/mail/#all/19e597bdd3d64db4"
       },
       "items": [
-        "Order 403-4141750-1024325",
-        "Lonya linen short-sleeve shirt, khaki, size M",
-        "Shipment TNYMM9Qcb"
+        "Order 407-2685818-0938715",
+        "Lonya men's short-sleeve linen shirt, khaki, size M",
+        "Delivered 24 May 2026"
       ],
       "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-05-24",
+      "returnByDate": "2026-06-23",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-05-24-407-3162228-2673113",
+      "id": "amazon-return-window-2026-05-24-407-3162228-2673113",
       "supplier": "Amazon",
       "title": "CMTOP women's summer cotton 7/8 pants, navy",
-      "status": "Dispatched",
-      "dueDate": "2026-05-24",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 23 May says the navy CMTOP pants package was dispatched and is arriving tomorrow.",
+      "notes": "Amazon delivery email dated 24 May says the navy CMTOP cotton 7/8 pants were delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e56568bfc0a994"
+        "url": "https://mail.google.com/mail/#all/19e597c3c69e7048"
       },
       "items": [
         "Order 407-3162228-2673113",
-        "CMTOP summer cotton 7/8 pants, navy, size M",
-        "Shipment TNMRzX9Hb"
+        "CMTOP women's summer cotton 7/8 pants, navy, size M",
+        "Delivered 24 May 2026"
       ],
       "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-05-24",
+      "returnByDate": "2026-06-23",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-ordered-2026-05-29-407-1601896-5445103",
@@ -1448,45 +1431,42 @@
       "id": "amazon-ordered-2026-05-30-407-3930166-2189105",
       "supplier": "Amazon",
       "title": "ECOOPTS extra-large slow cooker liners",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-05-30",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 23 May says the ECOOPTS slow-cooker liners are arriving 30 May.",
+      "notes": "Amazon dispatch email dated 24 May says order 407-3930166-2189105 shipped and is arriving Saturday; the earlier order email listed the expected delivery as 30 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e55158c217d3e2"
+        "url": "https://mail.google.com/mail/#all/19e5a2f82dc1b9bb"
       },
       "items": [
         "Order 407-3930166-2189105",
-        "ECOOPTS 20 extra-large slow cooker liners"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
+        "ECOOPTS 20 extra-large slow cooker liners",
+        "Sold by ECOOPTS-ES"
       ]
     },
     {
       "id": "amazon-ordered-2026-06-03-171-1375320-3541901",
       "supplier": "Amazon",
       "title": "U-100 1 ml/cc 31G lab syringes, 25 pack",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-06-03",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 23 May says this NEXUSCORP LLC package is arriving 29 May - 3 June; a seller follow-up the same day says they will follow delivery.",
+      "notes": "Amazon dispatch email dated 24 May says order 171-1375320-3541901 shipped and is arriving 29 May - 3 June. A seller message the same day says the package was sent with Asendia tracking AS011615163US.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e53d71e9b25d1e"
+        "url": "https://mail.google.com/mail/#all/19e5b389653325f7"
       },
       "items": [
         "Order 171-1375320-3541901",
-        "U-100 1 ml/cc 31G 6 mm individually wrapped lab syringes, 25 pack",
-        "Seller message from NEXUSCORP LLC in email 19e53fcbb369d4af"
+        "U-100 1 ml/cc 31G 6 mm lab syringes, 25 pack",
+        "Carrier Asendia",
+        "Tracking AS011615163US",
+        "Sold by NEXUSCORP LLC"
       ],
       "links": [
         {
-          "label": "Open Amazon orders",
+          "label": "Track Amazon package",
           "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
