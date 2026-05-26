@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-25",
+  "today": "2026-05-26",
   "metadata": {
-    "version": "v86.0",
-    "generatedAt": "2026-05-25T06:02:27+02:00",
+    "version": "v87.0",
+    "generatedAt": "2026-05-26T06:04:38+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-05-25 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, Leroy Merlin, and Photos By Elie. Updated May 24 Amazon deliveries for Aottori orange tank top, CMTOP navy pants, Colgate toothpaste, and Lonya khaki linen shirt; retained them for the assumed 30-day Amazon return window through 23 June. Updated Amazon dispatches for ECOOPTS slow-cooker liners, Lonya light-blue linen shirt, and U-100 lab syringes, including seller-provided Asendia tracking AS011615163US. Refreshed the June 4 Subscribe & Save delivery evidence and removed the expired April 24 Amazon glass-kettle return-window entry. The April 25 Amazon return-window entries remain through their 25 May deadline. No newer concrete AliExpress, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon delivery/order, Afremov/YunExpress shipment, USPS package, CTT Express, Netflix billing, Apple subscription renewal, Google/YouTube subscription, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar invoice, Leroy Merlin order, or Photos By Elie license signal was found; excluded newsletters, ads, login/security notices, marketing/review mail, and project posts without concrete transactional state."
+    "source": "Gmail refresh on 2026-05-26 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, Leroy Merlin, Banggood, Etsy, Wispr, Blink, and Coursera. Updated May 25 Amazon deliveries for Lonya light-blue linen shirt and Billabong Fade 16 swim trunks and retained them for the assumed 30-day Amazon return window through 24 June. Updated Amazon dispatches for SKXZK 1 ml/cc 30G measuring tools and CMTOP khaki 7/8 pants; added Flyzoo magnetic kickstand iPhone 16 Plus case dispatched and arriving 28 May. Removed expired April 25 Amazon return-window entries whose return deadline passed on 25 May. Updated Apple subscription evidence from May 25 receipts: ChatGPT Plus renews 21 June 2026, and a 100 GB monthly App Store subscription renews 16 June 2026. No newer concrete AliExpress, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress shipment, USPS package, CTT Express, Netflix billing, Google/YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI direct billing, HueForge, Bjango, Muscle Booster, Movistar invoice, Leroy Merlin order, Banggood, Etsy, Wispr, Blink, or Coursera transactional signal was found; excluded newsletters, ads, login/security notices, payment-card notices, marketing/review mail, and project posts without concrete transactional state."
   },
   "deliveries": [
     {
@@ -197,86 +197,6 @@
         {
           "label": "Manage Amazon return",
           "url": "https://www.amazon.es/spr/returns/cart?orderId=171-6934092-7868309"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-04-25-19dc521192cc01f4",
-      "supplier": "Amazon",
-      "title": "CMTOP women's summer casual item",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-04-25",
-      "returnByDate": "2026-05-25",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivered this item on 25 April; no return request was found in the scanned return/refund mail.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dc521192cc01f4"
-      },
-      "items": [
-        "CMTOP women's summer casual item"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-04-25-19dc51fec411af8e",
-      "supplier": "Amazon",
-      "title": "Aboca Aliviolas and four-item bundle",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-04-25",
-      "returnByDate": "2026-05-25",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivered this five-item package on 25 April; no return request was found in the scanned return/refund mail.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dc51fec411af8e"
-      },
-      "items": [
-        "Aboca Aliviolas Fisiolax",
-        "Four additional items listed behind the package link"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-04-25-19dc51f7929269c7",
-      "supplier": "Amazon",
-      "title": "Probioticos y Prebioticos bundle",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-04-25",
-      "returnByDate": "2026-05-25",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivered this two-item package on 25 April; no return request was found in the scanned return/refund mail.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dc51f7929269c7"
-      },
-      "items": [
-        "Probioticos y Prebioticos",
-        "One additional item listed behind the package link"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
     },
@@ -1201,47 +1121,59 @@
       "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-05-25-407-9319321-4144309",
+      "id": "amazon-return-window-2026-05-25-407-9319321-4144309",
       "supplier": "Amazon",
       "title": "Billabong men's Fade 16 swim trunks",
-      "status": "Dispatched",
-      "dueDate": "2026-05-25",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 21 May says order 407-9319321-4144309 was dispatched and is arriving Monday (25 May).",
+      "notes": "Amazon delivery email dated 25 May says the Billabong Fade 16 swim trunks package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e4b15ff56b71f9"
+        "url": "https://mail.google.com/mail/#all/19e5eff713acb65b"
       },
       "items": [
         "Order 407-9319321-4144309",
         "Billabong men's Fade 16 swim trunks",
-        "Sold by Amazon.es",
-        "Quantity 1",
-        "Total EUR 18.40"
+        "Delivered 25 May 2026"
       ],
       "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-05-25",
+      "returnByDate": "2026-06-24",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-ordered-2026-05-25-403-4141750-1024325-light-blue",
+      "id": "amazon-return-window-2026-05-25-403-4141750-1024325",
       "supplier": "Amazon",
       "title": "Lonya men's linen shirt, light blue",
-      "status": "Dispatched",
-      "dueDate": "2026-05-25",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 24 May says order 403-4141750-1024325 shipped and is arriving tomorrow, 25 May.",
+      "notes": "Amazon delivery email dated 25 May says the Lonya light-blue linen shirt was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e5b0b3b41961b5"
+        "url": "https://mail.google.com/mail/#all/19e5f0010b57477a"
       },
       "items": [
         "Order 403-4141750-1024325",
         "Lonya men's short-sleeve linen shirt, light blue, size M",
-        "Sold by YSPEU"
+        "Delivered 25 May 2026"
+      ],
+      "deliveredDate": "2026-05-25",
+      "returnByDate": "2026-06-24",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
       ]
     },
     {
@@ -1408,17 +1340,18 @@
       "id": "amazon-ordered-2026-05-29-407-1601896-5445103",
       "supplier": "Amazon",
       "title": "CMTOP women's summer cotton 7/8 pants, khaki",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-05-29",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 23 May says the khaki CMTOP pants are arriving Friday.",
+      "notes": "Amazon dispatch email dated 25 May says order 407-1601896-5445103 shipped and is arriving Friday, 29 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e53e69da890cbb"
+        "url": "https://mail.google.com/mail/#all/19e60534ede97edb"
       },
       "items": [
         "Order 407-1601896-5445103",
-        "CMTOP summer cotton 7/8 pants, khaki, size M"
+        "CMTOP women's summer cotton 7/8 pants, khaki, size M",
+        "Sold by Lemens"
       ],
       "links": [
         {
@@ -1475,17 +1408,18 @@
       "id": "amazon-ordered-2026-05-27-171-6947385-2229157",
       "supplier": "Amazon",
       "title": "SKXZK 1 ml/cc 30G multi-purpose measuring tools",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-05-27",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 23 May says this package is arriving Wednesday.",
+      "notes": "Amazon dispatch email dated 25 May says order 171-6947385-2229157 shipped and is arriving Wednesday, 27 May.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e53d71e9b25d1e"
+        "url": "https://mail.google.com/mail/#all/19e5e2c2a6efaa6a"
       },
       "items": [
         "Order 171-6947385-2229157",
-        "SKXZK 1 ml/cc 30G plastic measuring tools, 20 units"
+        "SKXZK 1 ml/cc 30G plastic measuring tools, 20 units",
+        "Sold by ALMERICORP SL"
       ],
       "links": [
         {
@@ -1516,6 +1450,30 @@
           "label": "Manage Amazon subscriptions",
           "url": "https://www.amazon.es/auto-deliveries"
         },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-05-28-171-3942297-7539508",
+      "supplier": "Amazon",
+      "title": "Flyzoo magnetic kickstand iPhone 16 Plus case",
+      "status": "Dispatched",
+      "dueDate": "2026-05-28",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order and dispatch emails dated 25 May say order 171-3942297-7539508 shipped and is arriving Thursday, 28 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e60a83f5dcdbfb"
+      },
+      "items": [
+        "Order 171-3942297-7539508",
+        "Flyzoo magnetic kickstand case for iPhone 16 Plus, clear blue",
+        "Sold by Flyzoo ES"
+      ],
+      "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
@@ -1831,18 +1789,18 @@
       "service": "ChatGPT Plus (Apple)",
       "title": "ChatGPT Plus monthly subscription",
       "status": "Active subscription",
-      "nextDate": "2026-05-21",
-      "dateLabel": "Renews Thursday, 21 May 2026",
+      "nextDate": "2026-06-21",
+      "dateLabel": "Renews Sunday, 21 June 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "Apple receipt dated 1 May says ChatGPT Plus monthly renews on May 21, 2026 for the Apple account kellycohen11@gmail.com.",
+      "notes": "Latest Apple receipt dated 25 May says ChatGPT Plus monthly renews on June 21, 2026 for the Apple account kellycohen11@gmail.com.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19de7e93d35fa186"
+        "url": "https://mail.google.com/mail/#all/19e61cc158a2a800"
       },
       "items": [
-        "Apple Order MSM9437QJM",
+        "Apple Order MSM97051BZ",
         "ChatGPT Plus monthly",
         "$19.99",
         "Exact renewal date provided by Apple"
@@ -1961,6 +1919,33 @@
         {
           "label": "Open Mi Movistar app info",
           "url": "https://app.movistar.es/atencion-cliente/app-mi-movistar"
+        }
+      ]
+    },
+    {
+      "service": "Apple App Store 100 GB",
+      "title": "Apple 100 GB monthly subscription",
+      "status": "Active subscription",
+      "nextDate": "2026-06-16",
+      "dateLabel": "Renews Tuesday, 16 June 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 7,
+      "notes": "Apple receipt dated 25 May says the 100 GB monthly subscription renews on June 16, 2026 for the Apple account ac92009@gmail.com.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e61d37c7da2342"
+      },
+      "items": [
+        "Apple Order MSXW6N5Y5W",
+        "100 GB monthly subscription",
+        "$1.99",
+        "Exact renewal date provided by Apple"
+      ],
+      "links": [
+        {
+          "label": "Manage Apple subscriptions",
+          "url": "https://apps.apple.com/account/subscriptions"
         }
       ]
     }
