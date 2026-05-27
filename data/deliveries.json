@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-26",
+  "today": "2026-05-27",
   "metadata": {
-    "version": "v87.0",
-    "generatedAt": "2026-05-26T06:04:38+02:00",
+    "version": "v88.0",
+    "generatedAt": "2026-05-27T06:03:50+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-05-26 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, Leroy Merlin, Banggood, Etsy, Wispr, Blink, and Coursera. Updated May 25 Amazon deliveries for Lonya light-blue linen shirt and Billabong Fade 16 swim trunks and retained them for the assumed 30-day Amazon return window through 24 June. Updated Amazon dispatches for SKXZK 1 ml/cc 30G measuring tools and CMTOP khaki 7/8 pants; added Flyzoo magnetic kickstand iPhone 16 Plus case dispatched and arriving 28 May. Removed expired April 25 Amazon return-window entries whose return deadline passed on 25 May. Updated Apple subscription evidence from May 25 receipts: ChatGPT Plus renews 21 June 2026, and a 100 GB monthly App Store subscription renews 16 June 2026. No newer concrete AliExpress, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress shipment, USPS package, CTT Express, Netflix billing, Google/YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI direct billing, HueForge, Bjango, Muscle Booster, Movistar invoice, Leroy Merlin order, Banggood, Etsy, Wispr, Blink, or Coursera transactional signal was found; excluded newsletters, ads, login/security notices, payment-card notices, marketing/review mail, and project posts without concrete transactional state."
+    "source": "Gmail refresh on 2026-05-27 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, Leroy Merlin, Banggood, Etsy, Wispr, Blink, Coursera, and Autodesk. Added Amazon dispatches for Aottori brown V-neck tank top arriving 27 May and Leversic black medium-impact sports bra arriving 29 May. Added Amazon delayed order for eSUN grey PLA filament now expected 15-22 June. Updated Sykooria sports bra from return-window tracking to return authorization granted with Celeritas drop-off required by 22 June; no drop-off or refund follow-up was found. Updated HueForge one-time license/download access to v0.9.4 from the 26 May release email. Added Autodesk Fusion Hub access-ending signal for 26 July 2026 and Wispr Flow Pro trial access ending signal from 23 May. No newer concrete AliExpress, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress shipment, USPS package, CTT Express, Netflix billing, Google/YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI direct billing, Bjango, Muscle Booster billing, Movistar invoice, Leroy Merlin order, Banggood, Etsy, Blink, or Coursera transactional signal was found; excluded newsletters, ads, login/security notices, payment-card notices, marketing/review mail, USPS digests without actionable package tracking, and project posts without concrete transactional state."
   },
   "deliveries": [
     {
@@ -926,21 +926,26 @@
     },
     {
       "supplier": "Amazon",
-      "title": "Sykooria women's sports bra",
-      "status": "Delivered - return window open",
+      "title": "Sykooria women's sports bra return",
+      "status": "Return authorization granted",
       "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 22 May says this package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
+      "notes": "Amazon return email dated 26 May confirms the return request for order 407-6084577-0976344. Drop-off is required at any Celeritas Dropoff office by 22 June and the refund is issued after drop-off; no drop-off or refund follow-up was found in this refresh.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e501426023b763"
+        "url": "https://mail.google.com/mail/#all/19e63e394b56c553"
       },
       "items": [
         "Order 407-6084577-0976344",
         "Sykooria women's racerback sports bra, wine red, size L",
-        "Delivered 22 May 2026"
+        "Estimated refund EUR 11.04 to Amazon account balance",
+        "Celeritas drop-off required by 22 June 2026"
       ],
       "links": [
+        {
+          "label": "Manage Amazon return",
+          "url": "https://www.amazon.es/spr/returns/prep?orderId=407-6084577-0976344"
+        },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
@@ -948,9 +953,12 @@
       ],
       "id": "amazon-return-window-2026-05-22-407-6084577-0976344",
       "deliveredDate": "2026-05-22",
-      "returnByDate": "2026-06-21",
+      "returnByDate": "2026-06-22",
       "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
+      "returnWarningStartsAfterDays": 21,
+      "returnAuthorizationGranted": true,
+      "returnDropoffRequired": true,
+      "returnStatus": "return_authorized"
     },
     {
       "supplier": "Amazon",
@@ -1479,26 +1487,101 @@
           "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
+    },
+    {
+      "id": "amazon-dispatched-2026-05-27-407-0262743-4390778",
+      "supplier": "Amazon",
+      "title": "Aottori brown V-neck sleeveless tank top",
+      "status": "Dispatched",
+      "dueDate": "2026-05-27",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order and dispatch emails dated 26 May say order 407-0262743-4390778 shipped and is arriving Wednesday, 27 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e65d77f00a26d8"
+      },
+      "items": [
+        "Order 407-0262743-4390778",
+        "Aottori V-neck ribbed sleeveless tank top, brown, size S",
+        "Sold by LEHONG-EU",
+        "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-05-29-407-4434381-7854759",
+      "supplier": "Amazon",
+      "title": "Leversic black medium-impact sports bra",
+      "status": "Dispatched",
+      "dueDate": "2026-05-29",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order and dispatch emails dated 26 May say order 407-4434381-7854759 shipped; the dispatch email updated the arrival to Friday, 29 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e65b1b4408933b"
+      },
+      "items": [
+        "Order 407-4434381-7854759",
+        "Leversic wireless medium-impact sports bra with removable padding, black, size M",
+        "Sold by CHONGREN-EU",
+        "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-delayed-2026-06-22-171-2354700-1021906",
+      "supplier": "Amazon",
+      "title": "eSUN PLA Basic filament, grey 2-spool pack",
+      "status": "Delivery delayed",
+      "dueDate": "2026-06-22",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon delivery estimate update dated 26 May says this order is delayed and is now arriving Monday, 15 June - Monday, 22 June; Amazon says it will send a confirmation when the item ships.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e62a8bb2fc59a0"
+      },
+      "items": [
+        "Order 171-2354700-1021906",
+        "eSUN PLA Basic filament 1.75 mm, grey and grey, 1 kg x 2 spools",
+        "Updated expected delivery range 15-22 June 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
     }
   ],
   "licenses": [
     {
       "service": "HueForge",
-      "title": "HueForge v0.9.3.1 release and downloads",
+      "title": "HueForge v0.9.4 release and downloads",
       "status": "One-time digital purchase",
       "nextDate": null,
       "dateLabel": "No renewal date found",
       "timezone": "Europe/Madrid",
       "renewalState": "one_time",
-      "notes": "The Gmail trail only shows product-update and download-access mail for order #69471, so this looks like a one-time purchase rather than a recurring subscription.",
+      "notes": "Latest HueForge Store email dated 26 May says digital products for order #69471 have updates and v0.9.4 is available from the downloads page; this remains a one-time purchase rather than a recurring subscription.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d95fa5e19b48b3"
+        "url": "https://mail.google.com/mail/#all/19e667b82c7bdd30"
       },
       "items": [
-        "Windows, macOS, and Linux builds",
-        "Account downloads page",
-        "Plugins updated for HueForge v0.9.3+"
+        "HueForge v0.9.4 for all platforms",
+        "Windows installer HueForge-0.9.4-Personal-Setup.exe",
+        "Plugins updated and require HueForge v0.9.4+",
+        "Account downloads page"
       ],
       "links": [
         {
@@ -1946,6 +2029,64 @@
         {
           "label": "Manage Apple subscriptions",
           "url": "https://apps.apple.com/account/subscriptions"
+        }
+      ]
+    },
+    {
+      "service": "Autodesk Fusion",
+      "title": "Autodesk Fusion Team hub access",
+      "status": "Access ending unless activity resumes",
+      "nextDate": "2026-07-26",
+      "dateLabel": "Hub inaccessible starting Sunday, 26 July 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "action_required",
+      "warningWindowDays": 14,
+      "notes": "Autodesk email dated 27 May says Fusion hub \"Team hub - Elie Cohen\" will no longer be accessible starting 26 July 2026 due to extended inactivity. The message says other Fusion hubs are not impacted.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e66deff09d5374"
+      },
+      "items": [
+        "Fusion hub Team hub - Elie Cohen",
+        "Hub ID gmail5264156",
+        "Access-ending date provided by Autodesk",
+        "Other Fusion hubs not impacted"
+      ],
+      "links": [
+        {
+          "label": "Open Autodesk Fusion",
+          "url": "https://www.autodesk.com/products/fusion-360/overview"
+        }
+      ]
+    },
+    {
+      "service": "Wispr Flow",
+      "title": "Wispr Flow Pro trial",
+      "status": "Trial ending; returns to Basic",
+      "nextDate": "2026-05-24",
+      "dateLabel": "Trial access likely ended Sunday, 24 May 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "canceled",
+      "warningWindowDays": 7,
+      "notes": "Wispr Flow email dated 23 May says the Flow Pro free trial ends within the next day, that no charge will occur if no action is taken, and the account will automatically return to Flow Basic. The 24 May access-end date is inferred from that email because no exact date was provided.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e555e098305358"
+      },
+      "items": [
+        "Flow Pro free trial",
+        "Returns to Flow Basic without charge",
+        "Access-end date inferred from 23 May email",
+        "Basic account limits: 2k desktop words/week and 1k iPhone words/week"
+      ],
+      "links": [
+        {
+          "label": "Open Wispr Flow pricing",
+          "url": "https://wisprflow.ai/pricing"
+        },
+        {
+          "label": "Open Wispr Flow support",
+          "url": "https://wisprflow.ai/support"
         }
       ]
     }
