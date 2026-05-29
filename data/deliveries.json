@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-28",
+  "today": "2026-05-29",
   "metadata": {
-    "version": "v89.0",
-    "generatedAt": "2026-05-28T06:02:45+02:00",
+    "version": "v90.0",
+    "generatedAt": "2026-05-29T06:03:19+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-05-28 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, DIGI, Leroy Merlin, Banggood, Etsy, Wispr, Blink, Coursera, and Autodesk. Updated Amazon Aottori brown V-neck sleeveless tank top from dispatched to delivered on 27 May with return-window tracking through 26 June. Added DIGI May 2026 telecom invoice with EUR 27.27 total and direct debit scheduled for 28 May. No newer concrete AliExpress, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress shipment, USPS package, CTT Express, Netflix billing, Google/YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI direct billing, HueForge, Bjango, Muscle Booster billing, Movistar invoice, Leroy Merlin order, Banggood, Etsy, Blink, Coursera, or Autodesk transactional signal was found; excluded newsletters, ads, login/security notices, payment-card notices, marketing/review mail, and project posts without concrete transactional state."
+    "source": "Gmail refresh on 2026-05-29 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, DIGI, Leroy Merlin, Banggood, Etsy, Wispr, Blink, Coursera, and Autodesk. Updated Amazon Flyzoo iPhone 16 Plus case from dispatched to delivered on 28 May with return-window tracking through 27 June. Added a new Amazon Flyzoo iPhone 13/14 case order dispatched 29 May and arriving Sunday, 31 May. No newer concrete AliExpress, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress shipment, USPS package, CTT Express, Netflix billing, Apple billing, Google/YouTube billing, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI direct billing, HueForge, Bjango, Muscle Booster billing, Movistar invoice, DIGI invoice, Leroy Merlin order, Banggood, Etsy, Blink, Coursera, or Autodesk transactional signal was found; excluded newsletters, ads, login/security notices, data-export notices, payment-card notices, marketing/review mail, and project posts without concrete transactional state."
   },
   "deliveries": [
     {
@@ -1465,21 +1465,53 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-05-28-171-3942297-7539508",
+      "id": "amazon-return-window-2026-05-28-171-3942297-7539508",
       "supplier": "Amazon",
       "title": "Flyzoo magnetic kickstand iPhone 16 Plus case",
-      "status": "Dispatched",
-      "dueDate": "2026-05-28",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order and dispatch emails dated 25 May say order 171-3942297-7539508 shipped and is arriving Thursday, 28 May.",
+      "deliveredDate": "2026-05-28",
+      "returnByDate": "2026-06-27",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 28 May says order 171-3942297-7539508 was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e60a83f5dcdbfb"
+        "url": "https://mail.google.com/mail/#all/19e6f8d2b393c6c1"
       },
       "items": [
         "Order 171-3942297-7539508",
         "Flyzoo magnetic kickstand case for iPhone 16 Plus, clear blue",
-        "Sold by Flyzoo ES"
+        "Delivered 28 May 2026",
+        "Sold by Flyzoo ES",
+        "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-05-31-171-6355222-8121921",
+      "supplier": "Amazon",
+      "title": "Flyzoo magnetic kickstand iPhone 13/14 case",
+      "status": "Dispatched",
+      "dueDate": "2026-05-31",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 28 May and dispatch email dated 29 May say order 171-6355222-8121921 shipped and is arriving Sunday, 31 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e710bdf042f9cc"
+      },
+      "items": [
+        "Order 171-6355222-8121921",
+        "Flyzoo magnetic kickstand case for iPhone 13/14, clear black",
+        "Sold by Flyzoo ES",
+        "Quantity 1",
+        "Total EUR 18.99"
       ],
       "links": [
         {
