@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-29",
+  "today": "2026-05-30",
   "metadata": {
-    "version": "v90.0",
-    "generatedAt": "2026-05-29T06:03:19+02:00",
+    "version": "v91.0",
+    "generatedAt": "2026-05-30T11:45:00+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-05-29 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, DIGI, Leroy Merlin, Banggood, Etsy, Wispr, Blink, Coursera, and Autodesk. Updated Amazon Flyzoo iPhone 16 Plus case from dispatched to delivered on 28 May with return-window tracking through 27 June. Added a new Amazon Flyzoo iPhone 13/14 case order dispatched 29 May and arriving Sunday, 31 May. No newer concrete AliExpress, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress shipment, USPS package, CTT Express, Netflix billing, Apple billing, Google/YouTube billing, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI direct billing, HueForge, Bjango, Muscle Booster billing, Movistar invoice, DIGI invoice, Leroy Merlin order, Banggood, Etsy, Blink, Coursera, or Autodesk transactional signal was found; excluded newsletters, ads, login/security notices, data-export notices, payment-card notices, marketing/review mail, and project posts without concrete transactional state."
+    "source": "Gmail refresh on 2026-05-30 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, HueForge, Shottr, Apple, Google, YouTube, Wispr, and Autodesk. Removed Amazon delivered items whose assumed 30-day return windows expired on 29 May. Updated Amazon CMTOP khaki pants to out for delivery on 30 May, converted ECOOPTS slow cooker liners and the Leversic black sports bra to delivered return-window tracking, replaced the stale Amazon Subscribe & Save upcoming-delivery row with the 30 May delivered 14-item household bundle, and added new pending Amazon orders for Amazon Basics AA batteries, Lexar USB-C drives, Voqeen linen pants, and SUN SUENTILES sterile syringes. Added the new Shottr Basic one-time license email. Excluded newsletters, promotions, review requests, security notices, and generic product updates without concrete transactional state."
   },
   "deliveries": [
     {
@@ -201,87 +201,6 @@
       ]
     },
     {
-      "id": "amazon-return-window-2026-04-29-171-7026712-8751518",
-      "supplier": "Amazon",
-      "title": "BRITA, AQUILEA, and Joejis delivery bundle",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-04-29",
-      "returnByDate": "2026-05-29",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivered this three-item package on 29 April. This supersedes the earlier BRITA dispatched row.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dd8b4780d0e201"
-      },
-      "items": [
-        "BRITA Flow XXL filter tank",
-        "AQUILEA Digestive 30...",
-        "Joejis odor absorbing item"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-04-29-404-3097377-5584346",
-      "supplier": "Amazon",
-      "title": "Clement Faugier chestnut spread",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-04-29",
-      "returnByDate": "2026-05-29",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivered this item on 29 April; no return request was found in the scanned return/refund mail.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dd946152b445e2"
-      },
-      "items": [
-        "Clement Faugier chestnut spread, 992g"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-04-29-404-5725946-9481144",
-      "supplier": "Amazon",
-      "title": "Korres Argan and Colgate delivery bundle",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-04-29",
-      "returnByDate": "2026-05-29",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivered this two-item package on 29 April; no return request was found in the scanned return/refund mail.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dd9462eb2f23e8"
-      },
-      "items": [
-        "Korres Argan aceite avanzada coloration Very Light Blonde 9.0",
-        "COLGATE Max White Ultra Active Foam toothpaste"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
       "id": "amazon-return-window-2026-05-03-404-7119419-4151535",
       "supplier": "Amazon",
       "title": "Renova Skin Care Plus scented toilet paper (Qty 2)",
@@ -334,30 +253,6 @@
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "supplier": "Amazon",
-      "title": "COLGATE Max White Ultra Subscribe & Save",
-      "status": "Upcoming auto-delivery",
-      "dueDate": "2026-06-04",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon Subscribe & Save email dated 24 May says the next auto-delivery arrives by Thursday, 4 June, and the last day to manage delivery is Wednesday, 27 May.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e59cf595943463"
-      },
-      "items": [
-        "Subscribe & Save delivery arriving by 4 June 2026",
-        "Last day to manage delivery 27 May 2026",
-        "17 items in this delivery",
-        "Includes COLGATE Max White Ultra Active Foam toothpaste price update"
-      ],
-      "links": [
-        {
-          "label": "Manage Subscribe & Save",
-          "url": "https://www.amazon.es/gp/subscribe-and-save/manage"
         }
       ]
     },
@@ -1348,13 +1243,13 @@
       "id": "amazon-ordered-2026-05-29-407-1601896-5445103",
       "supplier": "Amazon",
       "title": "CMTOP women's summer cotton 7/8 pants, khaki",
-      "status": "Dispatched",
-      "dueDate": "2026-05-29",
+      "status": "Out for delivery",
+      "dueDate": "2026-05-30",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 25 May says order 407-1601896-5445103 shipped and is arriving Friday, 29 May.",
+      "notes": "Amazon out-for-delivery email dated 30 May says order 407-1601896-5445103 is arriving today.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e60534ede97edb"
+        "url": "https://mail.google.com/mail/#all/19e78302b0770889"
       },
       "items": [
         "Order 407-1601896-5445103",
@@ -1369,22 +1264,27 @@
       ]
     },
     {
-      "id": "amazon-ordered-2026-05-30-407-3930166-2189105",
+      "id": "amazon-return-window-2026-05-29-407-3930166-2189105",
       "supplier": "Amazon",
       "title": "ECOOPTS extra-large slow cooker liners",
-      "status": "Dispatched",
-      "dueDate": "2026-05-30",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 24 May says order 407-3930166-2189105 shipped and is arriving Saturday; the earlier order email listed the expected delivery as 30 May.",
+      "notes": "Amazon delivery email dated 29 May says order 407-3930166-2189105 was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e5a2f82dc1b9bb"
+        "url": "https://mail.google.com/mail/#all/19e7434173c99af2"
       },
       "items": [
         "Order 407-3930166-2189105",
         "ECOOPTS 20 extra-large slow cooker liners",
-        "Sold by ECOOPTS-ES"
-      ]
+        "Sold by ECOOPTS-ES",
+        "Delivered 29 May 2026"
+      ],
+      "deliveredDate": "2026-05-29",
+      "returnByDate": "2026-06-28",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-ordered-2026-06-03-171-1375320-3541901",
@@ -1551,29 +1451,34 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-05-29-407-4434381-7854759",
+      "id": "amazon-return-window-2026-05-29-407-4434381-7854759",
       "supplier": "Amazon",
       "title": "Leversic black medium-impact sports bra",
-      "status": "Dispatched",
-      "dueDate": "2026-05-29",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order and dispatch emails dated 26 May say order 407-4434381-7854759 shipped; the dispatch email updated the arrival to Friday, 29 May.",
+      "notes": "Amazon delivery email dated 29 May says order 407-4434381-7854759 was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e65b1b4408933b"
+        "url": "https://mail.google.com/mail/#all/19e743333aee9980"
       },
       "items": [
         "Order 407-4434381-7854759",
         "Leversic wireless medium-impact sports bra with removable padding, black, size M",
         "Sold by CHONGREN-EU",
-        "Quantity 1"
+        "Quantity 1",
+        "Delivered 29 May 2026"
       ],
       "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-05-29",
+      "returnByDate": "2026-06-28",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-delayed-2026-06-22-171-2354700-1021906",
@@ -1591,6 +1496,137 @@
         "Order 171-2354700-1021906",
         "eSUN PLA Basic filament 1.75 mm, grey and grey, 1 kg x 2 spools",
         "Updated expected delivery range 15-22 June 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-05-30-404-7487462-6225149",
+      "supplier": "Amazon",
+      "title": "Amazon Subscribe & Save 14-item household bundle",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-05-30",
+      "returnByDate": "2026-06-29",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 30 May says this 14-item Subscribe & Save package was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e77ad463bcaecb"
+      },
+      "items": [
+        "Order 404-7487462-6225149",
+        "WINKLE PLA Filament HD Glitter army green, 1 kg",
+        "CeraVe moisturizing cleansing gel",
+        "Burt's Bees night lip treatment",
+        "10 more household items in the same package",
+        "Delivered 30 May 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-05-30-408-7558105-1656301",
+      "supplier": "Amazon",
+      "title": "Amazon Basics AA alkaline batteries, 40 pack",
+      "status": "Dispatched",
+      "dueDate": "2026-05-30",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 30 May says order 408-7558105-1656301 shipped and is arriving today.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e76489de41bb7f"
+      },
+      "items": [
+        "Order 408-7558105-1656301",
+        "Amazon Basics AA alkaline batteries, pack of 40",
+        "Sold by Amazon.es",
+        "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-05-30-403-3783733-8614708",
+      "supplier": "Amazon",
+      "title": "Lexar D40E 64GB USB-C flash drives (Qty 2)",
+      "status": "Dispatched",
+      "dueDate": "2026-05-30",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 29 May and shipping email dated 30 May say order 403-3783733-8614708 shipped and is arriving today between 07:00 and 13:00.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e7644b8c3918cf"
+      },
+      "items": [
+        "Order 403-3783733-8614708",
+        "Lexar D40E 64GB USB 3.2 Gen 1 Type-C flash drive",
+        "Quantity 2",
+        "Sold by YISAVE TECHNOLOGY (HK)"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-06-02-407-9871091-4647510",
+      "supplier": "Amazon",
+      "title": "Voqeen women's linen pants, grey",
+      "status": "Dispatched",
+      "dueDate": "2026-06-02",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 29 May says order 407-9871091-4647510 shipped and is arriving Tuesday, 2 June.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e75fed7d3becd9"
+      },
+      "items": [
+        "Order 407-9871091-4647510",
+        "Voqeen women's linen pants, grey, size M",
+        "Sold by YCH_GO",
+        "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-06-05-407-5150659-9198760",
+      "supplier": "Amazon",
+      "title": "SUN SUENTILES 250 CC sterile syringes",
+      "status": "Ordered",
+      "dueDate": "2026-06-05",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order confirmation dated 29 May says order 407-5150659-9198760 is arriving 4 June to 5 June.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e75e8f75387e80"
+      },
+      "items": [
+        "Order 407-5150659-9198760",
+        "SUN SUENTILES 250 CC sterile syringes",
+        "Sold by CURAE SOLUTIONS SL",
+        "Quantity 1"
       ],
       "links": [
         {
@@ -1680,6 +1716,36 @@
         {
           "label": "Recover Photos By Elie order",
           "url": "https://ec92009.github.io/PhotosByElie/order.html"
+        }
+      ]
+    },
+    {
+      "service": "Shottr",
+      "title": "Shottr Basic license",
+      "status": "One-time digital purchase",
+      "nextDate": null,
+      "dateLabel": "No renewal date found",
+      "timezone": "Europe/Madrid",
+      "renewalState": "one_time",
+      "notes": "FastSpring checkout email dated 30 May provides a Shottr Basic one-time license key and receipt for order ELECTRICENDEAVO260530-4024-94127; no recurring renewal terms were provided.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e78110ba7c8d4e"
+      },
+      "items": [
+        "Order ELECTRICENDEAVO260530-4024-94127",
+        "Shottr Basic License x1",
+        "License key is in the source email",
+        "Amount paid EUR 10.66 via FastSpring"
+      ],
+      "links": [
+        {
+          "label": "Manage Shottr orders",
+          "url": "https://shottr.onfastspring.com/account/Cj2QwJPEQkG0oRQUNk3F2Q/BsBjV3GJSGc"
+        },
+        {
+          "label": "Open Shottr FAQ",
+          "url": "https://shottr.cc/kb/faq"
         }
       ]
     }
