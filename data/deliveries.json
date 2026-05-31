@@ -1,10 +1,10 @@
 {
   "today": "2026-05-31",
   "metadata": {
-    "version": "v92.0",
-    "generatedAt": "2026-05-31T05:04:00+02:00",
+    "version": "v92.1",
+    "generatedAt": "2026-05-31T05:04:49+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-05-31 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, DIGI, Leroy Merlin, Banggood, Etsy, Wispr, Blink, Coursera, Autodesk, Cloudflare, and Shottr. Included concrete signals only: Amazon delivered the CMTOP khaki pants on 30 May; Amazon confirmed Sykooria return drop-off and issued the refund, so the completed return was removed from urgent/open deliveries; Cloudflare registered photos-by-elie.com, designs-by-elie.com, and 3d-by-elie.com through 30 May 2027 with auto-renewal enabled and same-day invoices; Link recorded a 30 May OpenAI OpCo LLC purchase for ChatGPT Plus billing; Shottr license from the prior remote refresh remains current. No newer concrete AliExpress, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress shipment, USPS actionable package, CTT Express, Netflix billing, Apple billing, Google/YouTube billing, Shopify, Fly.io, Windy, Parallels, HueForge, Bjango, Muscle Booster billing, Movistar invoice, DIGI invoice, Leroy Merlin order, Banggood, Etsy, Blink, Coursera, or Autodesk state superseded existing records; excluded newsletters, ads, project posts, review requests, login/security notices, and generic product updates without concrete transactional state."
+    "source": "Gmail refresh on 2026-05-31 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, DIGI, Leroy Merlin, Banggood, Etsy, Wispr, Blink, Coursera, Autodesk, Cloudflare, and Shottr. Included concrete signals only: Amazon delivered the CMTOP khaki pants on 30 May; Amazon confirmed Sykooria return drop-off and issued the refund, so the completed return was removed from urgent/open deliveries; Cloudflare registered photos-by-elie.com, designs-by-elie.com, and 3d-by-elie.com through 30 May 2027 with auto-renewal enabled and same-day invoices; Link recorded a 30 May OpenAI OpCo LLC purchase for ChatGPT Plus billing; this same-day follow-up split a merged Amazon Basics row into a payment-verification AA order plus a separate dispatched AAA order and added new open Amazon orders for black Amazon Essentials chino shorts and a Lovasy pajama set. No newer concrete AliExpress, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress shipment, USPS actionable package, CTT Express, Netflix billing, Apple billing, Google/YouTube billing, Shopify, Fly.io, Windy, Parallels, HueForge, Bjango, Muscle Booster billing, Movistar invoice, DIGI invoice, Leroy Merlin order, Banggood, Etsy, Blink, Coursera, or Autodesk state superseded existing records; excluded newsletters, ads, project posts, review requests, login/security notices, and generic product updates without concrete transactional state."
   },
   "deliveries": [
     {
@@ -1504,24 +1504,57 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-05-30-408-7558105-1656301",
+      "id": "amazon-payment-hold-2026-05-29-408-7558105-1656301",
       "supplier": "Amazon",
       "title": "Amazon Basics AA alkaline batteries, 40 pack",
-      "status": "Dispatched",
-      "dueDate": "2026-05-30",
+      "status": "Pending payment verification",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 30 May says order 408-7558105-1656301 shipped and is arriving today.",
+      "notes": "Amazon payments email dated 29 May says order 408-7558105-1656301 is on hold pending payment verification and needs a payment-method update before shipment can continue.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e76489de41bb7f"
+        "url": "https://mail.google.com/mail/#all/19e748966afee518"
       },
       "items": [
         "Order 408-7558105-1656301",
         "Amazon Basics AA alkaline batteries, pack of 40",
+        "Quantity 1",
+        "Payment revision needed before shipment"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=408-7558105-1656301"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-05-30-403-5544693-0469916",
+      "supplier": "Amazon",
+      "title": "Amazon Basics AAA alkaline batteries, 40 pack",
+      "status": "Dispatched",
+      "dueDate": "2026-05-30",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 30 May says order 403-5544693-0469916 shipped and was arriving that day; no delivered follow-up was found in this refresh.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e76476c479b2fa"
+      },
+      "items": [
+        "Order 403-5544693-0469916",
+        "Amazon Basics AAA alkaline industrial batteries, pack of 40",
         "Sold by Amazon.es",
         "Quantity 1"
       ],
       "links": [
+        {
+          "label": "Track Amazon package",
+          "url": "https://www.amazon.es/progress-tracker/package?orderId=403-5544693-0469916"
+        },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
@@ -1547,6 +1580,35 @@
         "Sold by YISAVE TECHNOLOGY (HK)"
       ],
       "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-05-31-407-1306712-0455501",
+      "supplier": "Amazon",
+      "title": "Amazon Essentials men's classic cut chino shorts, black",
+      "status": "Dispatched",
+      "dueDate": "2026-05-31",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 30 May says order 407-1306712-0455501 shipped and is arriving tomorrow, 31 May.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e7a57262548625"
+      },
+      "items": [
+        "Order 407-1306712-0455501",
+        "Amazon Essentials men's classic cut chino shorts, black, 34W",
+        "Sold by Amazon.es",
+        "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Track Amazon package",
+          "url": "https://www.amazon.es/progress-tracker/package?orderId=407-1306712-0455501"
+        },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
@@ -1597,6 +1659,35 @@
         "Quantity 1"
       ],
       "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-06-06-407-3619788-2045147",
+      "supplier": "Amazon",
+      "title": "Lovasy women's summer pajama set, navy",
+      "status": "Ordered",
+      "dueDate": "2026-06-06",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order confirmation dated 30 May says order 407-3619788-2045147 is arriving 6 June.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e7a54f319ec405"
+      },
+      "items": [
+        "Order 407-3619788-2045147",
+        "Lovasy women's summer modal sleeveless pajama set, navy, size S",
+        "Sold by Lovasy Direct",
+        "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-3619788-2045147"
+        },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
