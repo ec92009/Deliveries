@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-30",
+  "today": "2026-05-31",
   "metadata": {
-    "version": "v91.0",
-    "generatedAt": "2026-05-30T11:45:00+02:00",
+    "version": "v92.0",
+    "generatedAt": "2026-05-31T05:04:00+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-05-30 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, HueForge, Shottr, Apple, Google, YouTube, Wispr, and Autodesk. Removed Amazon delivered items whose assumed 30-day return windows expired on 29 May. Updated Amazon CMTOP khaki pants to out for delivery on 30 May, converted ECOOPTS slow cooker liners and the Leversic black sports bra to delivered return-window tracking, replaced the stale Amazon Subscribe & Save upcoming-delivery row with the 30 May delivered 14-item household bundle, and added new pending Amazon orders for Amazon Basics AA batteries, Lexar USB-C drives, Voqeen linen pants, and SUN SUENTILES sterile syringes. Added the new Shottr Basic one-time license email. Excluded newsletters, promotions, review requests, security notices, and generic product updates without concrete transactional state."
+    "source": "Gmail refresh on 2026-05-31 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, DIGI, Leroy Merlin, Banggood, Etsy, Wispr, Blink, Coursera, Autodesk, Cloudflare, and Shottr. Included concrete signals only: Amazon delivered the CMTOP khaki pants on 30 May; Amazon confirmed Sykooria return drop-off and issued the refund, so the completed return was removed from urgent/open deliveries; Cloudflare registered photos-by-elie.com, designs-by-elie.com, and 3d-by-elie.com through 30 May 2027 with auto-renewal enabled and same-day invoices; Link recorded a 30 May OpenAI OpCo LLC purchase for ChatGPT Plus billing; Shottr license from the prior remote refresh remains current. No newer concrete AliExpress, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress shipment, USPS actionable package, CTT Express, Netflix billing, Apple billing, Google/YouTube billing, Shopify, Fly.io, Windy, Parallels, HueForge, Bjango, Muscle Booster billing, Movistar invoice, DIGI invoice, Leroy Merlin order, Banggood, Etsy, Blink, Coursera, or Autodesk state superseded existing records; excluded newsletters, ads, project posts, review requests, login/security notices, and generic product updates without concrete transactional state."
   },
   "deliveries": [
     {
@@ -821,42 +821,6 @@
     },
     {
       "supplier": "Amazon",
-      "title": "Sykooria women's sports bra return",
-      "status": "Return authorization granted",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon return email dated 26 May confirms the return request for order 407-6084577-0976344. Drop-off is required at any Celeritas Dropoff office by 22 June and the refund is issued after drop-off; no drop-off or refund follow-up was found in this refresh.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e63e394b56c553"
-      },
-      "items": [
-        "Order 407-6084577-0976344",
-        "Sykooria women's racerback sports bra, wine red, size L",
-        "Estimated refund EUR 11.04 to Amazon account balance",
-        "Celeritas drop-off required by 22 June 2026"
-      ],
-      "links": [
-        {
-          "label": "Manage Amazon return",
-          "url": "https://www.amazon.es/spr/returns/prep?orderId=407-6084577-0976344"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "id": "amazon-return-window-2026-05-22-407-6084577-0976344",
-      "deliveredDate": "2026-05-22",
-      "returnByDate": "2026-06-22",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "returnAuthorizationGranted": true,
-      "returnDropoffRequired": true,
-      "returnStatus": "return_authorized"
-    },
-    {
-      "supplier": "Amazon",
       "title": "iDesign iDry extra-large kitchen drying mat",
       "status": "Delivered - return window open",
       "dueDate": null,
@@ -1240,28 +1204,32 @@
       "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-ordered-2026-05-29-407-1601896-5445103",
+      "id": "amazon-return-window-2026-05-30-407-1601896-5445103",
       "supplier": "Amazon",
       "title": "CMTOP women's summer cotton 7/8 pants, khaki",
-      "status": "Out for delivery",
-      "dueDate": "2026-05-30",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon out-for-delivery email dated 30 May says order 407-1601896-5445103 is arriving today.",
+      "notes": "Amazon delivery email dated 30 May says the CMTOP khaki summer cotton 7/8 pants package was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e78302b0770889"
+        "url": "https://mail.google.com/mail/#all/19e7939edc7592a4"
       },
       "items": [
         "Order 407-1601896-5445103",
-        "CMTOP women's summer cotton 7/8 pants, khaki, size M",
-        "Sold by Lemens"
+        "CMTOP Women's Summer Cotton 7/8 Trousers, khaki, M",
+        "Delivered 30 May 2026"
       ],
       "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-05-30",
+      "returnByDate": "2026-06-29",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-return-window-2026-05-29-407-3930166-2189105",
@@ -1980,23 +1948,23 @@
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "Latest Apple receipt dated 25 May says ChatGPT Plus monthly renews on June 21, 2026 for the Apple account kellycohen11@gmail.com.",
+      "notes": "Latest Link receipt dated 30 May records a $20.00 OpenAI OpCo LLC purchase. The exact renewal date remains the Apple-provided June 21, 2026 date until a newer email provides a replacement access-end or renewal date.",
       "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e61cc158a2a800"
+        "label": "Latest billing email",
+        "url": "https://mail.google.com/mail/#all/19e79458eda52dc4"
       },
       "items": [
-        "Apple Order MSM97051BZ",
-        "ChatGPT Plus monthly",
-        "$19.99",
-        "Exact renewal date provided by Apple"
+        "OpenAI OpCo LLC purchase via Link",
+        "$20.00 billed 30 May 2026",
+        "Apple receipt still provides exact renewal date: 21 June 2026"
       ],
       "links": [
         {
           "label": "Manage Apple subscriptions",
           "url": "https://apps.apple.com/account/subscriptions"
         }
-      ]
+      ],
+      "lastBillingDate": "2026-05-30"
     },
     {
       "service": "Fly.io",
@@ -2218,6 +2186,87 @@
           "label": "Open Wispr Flow support",
           "url": "https://wisprflow.ai/support"
         }
+      ]
+    },
+    {
+      "status": "Active domain registration",
+      "nextDate": "2027-05-30",
+      "dateLabel": "Auto-renews Sunday, 30 May 2027",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 30,
+      "links": [
+        {
+          "label": "Manage Cloudflare domains",
+          "url": "https://dash.cloudflare.com/"
+        }
+      ],
+      "service": "Cloudflare photos-by-elie.com",
+      "title": "Cloudflare photos-by-elie.com domain registration",
+      "notes": "Cloudflare registration email dated 30 May says photos-by-elie.com is registered through 30 May 2027 and set to automatically renew; separate invoice IN-66815381 is due 30 May 2026 for $10.46.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e7a5d9edc57c77"
+      },
+      "items": [
+        "photos-by-elie.com",
+        "Invoice IN-66815381",
+        "$10.46 due 30 May 2026",
+        "Auto-renew enabled"
+      ]
+    },
+    {
+      "status": "Active domain registration",
+      "nextDate": "2027-05-30",
+      "dateLabel": "Auto-renews Sunday, 30 May 2027",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 30,
+      "links": [
+        {
+          "label": "Manage Cloudflare domains",
+          "url": "https://dash.cloudflare.com/"
+        }
+      ],
+      "service": "Cloudflare designs-by-elie.com",
+      "title": "Cloudflare designs-by-elie.com domain registration",
+      "notes": "Cloudflare registration email dated 30 May says designs-by-elie.com is registered through 30 May 2027 and set to automatically renew; separate invoice IN-66815402 is due 30 May 2026 for $10.46.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e7a5f88dfaf350"
+      },
+      "items": [
+        "designs-by-elie.com",
+        "Invoice IN-66815402",
+        "$10.46 due 30 May 2026",
+        "Auto-renew enabled"
+      ]
+    },
+    {
+      "status": "Active domain registration",
+      "nextDate": "2027-05-30",
+      "dateLabel": "Auto-renews Sunday, 30 May 2027",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 30,
+      "links": [
+        {
+          "label": "Manage Cloudflare domains",
+          "url": "https://dash.cloudflare.com/"
+        }
+      ],
+      "service": "Cloudflare 3d-by-elie.com",
+      "title": "Cloudflare 3d-by-elie.com domain registration",
+      "notes": "Cloudflare registration email dated 30 May says 3d-by-elie.com is registered through 30 May 2027 and set to automatically renew; separate invoice IN-66815423 is due 30 May 2026 for $10.46.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e7a60f361bf6da"
+      },
+      "items": [
+        "3d-by-elie.com",
+        "Invoice IN-66815423",
+        "$10.46 due 30 May 2026",
+        "Auto-renew enabled"
       ]
     }
   ],
