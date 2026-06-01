@@ -2,9 +2,9 @@
   "today": "2026-06-01",
   "metadata": {
     "version": "v93.0",
-    "generatedAt": "2026-06-01T06:04:00+02:00",
+    "generatedAt": "2026-06-01T05:06:07+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-06-01 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, DIGI, Leroy Merlin, Banggood, Etsy, Wispr, Blink, Coursera, Autodesk, Cloudflare, Shottr, and newly discovered Photos By Elie. Included concrete signals only: Amazon delivered the Flyzoo iPhone 13/14 case and Amazon Essentials black chino shorts on 31 May; Amazon dispatched Liposan Hyaluron Plus and Labello Sun Protect lip balms arriving 1 June; Stripe provided latest Photos By Elie download receipts on 31 May; Cloudflare activated the free plan for goldenyearstaxstrategy.com. Expired Amazon return-window rows with returnByDate before 1 June were removed. No newer concrete AliExpress, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress shipment, USPS actionable package, CTT Express, Netflix billing, Apple subscription billing, Google/YouTube billing, Shopify renewal, Fly.io, Windy, Parallels, HueForge, Bjango, Muscle Booster billing, Movistar invoice, DIGI invoice, Leroy Merlin order, Banggood, Etsy order, Blink, Coursera, Autodesk, or Shottr state superseded existing records; excluded newsletters, ads, project posts, review requests, login/security notices, calendar notifications, payment statements, and generic product updates without concrete transactional state."
+    "source": "Gmail refresh on 2026-06-01 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, DIGI, Leroy Merlin, Banggood, Etsy, Wispr, Blink, Coursera, Autodesk, Cloudflare, Shottr, and newly discovered Photos By Elie. Included concrete signals only: Amazon delivered the Flyzoo iPhone 13/14 case and Amazon Essentials black chino shorts on 31 May and both were retained for the assumed 30-day return window; Amazon dispatched Liposan Hyaluron Plus and Labello Sun Protect lip balms plus a second Voqeen pants order in black/white arriving 1 June; AliExpress confirmed delivery of order 3072515402983468 so the completed solar-wall-lights row was removed from open deliveries; Shopify Billing sent a 31 May bill for the Photos store and the next billing reminder was advanced to the new 30-day cycle; Stripe provided latest Photos By Elie download receipts on 31 May; Cloudflare activated the free plan for goldenyearstaxstrategy.com. Expired Amazon return-window rows with returnByDate before 1 June were removed. No newer concrete Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress shipment, USPS actionable package, CTT Express, Netflix billing, Apple subscription billing, Google/YouTube billing, Fly.io, Windy, Parallels, HueForge, Bjango, Muscle Booster billing, Movistar invoice, DIGI invoice, Leroy Merlin order, Banggood, Etsy order, Blink, Coursera, Autodesk, or Shottr state superseded existing records; excluded newsletters, ads, project posts, review requests, login/security notices, calendar notifications, payment statements, and generic product updates without concrete transactional state."
   },
   "deliveries": [
     {
@@ -1044,30 +1044,6 @@
       ]
     },
     {
-      "id": "aliexpress-awaiting-confirmation-3072515402983468",
-      "supplier": "AliExpress",
-      "title": "Solar LED outdoor wall lights, warm light set",
-      "status": "Awaiting receipt confirmation",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "AliExpress email dated 19 May says order 3072515402983468 will be marked completed soon and instructs the buyer to apply for returns/refunds promptly if the package was not received or was not as described. A 20 May review request followed for the same order.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e3fd5e5bf8c599"
-      },
-      "items": [
-        "Order 3072515402983468",
-        "Solar LED Outdoor Wall Light, 2Pcs Warm light, quantity 2",
-        "Order total EUR 7.73"
-      ],
-      "links": [
-        {
-          "label": "Open AliExpress orders",
-          "url": "https://www.aliexpress.com/p/order/index.html"
-        }
-      ]
-    },
-    {
       "id": "aliexpress-awaiting-confirmation-3072515403003468",
       "supplier": "AliExpress",
       "title": "Bambu Lab LED lamp kit, white shell",
@@ -1363,6 +1339,37 @@
       ]
     },
     {
+      "id": "amazon-return-window-2026-05-31-171-6355222-8121921",
+      "supplier": "Amazon",
+      "title": "Flyzoo magnetic kickstand iPhone 13/14 case",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-05-31",
+      "returnByDate": "2026-06-30",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 31 May says order 171-6355222-8121921 was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e7e3f5566d43d9"
+      },
+      "items": [
+        "Order 171-6355222-8121921",
+        "Flyzoo magnetic kickstand case for iPhone 13/14, clear black",
+        "Delivered 31 May 2026",
+        "Sold by Flyzoo ES",
+        "Quantity 1",
+        "Total EUR 18.99"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
       "id": "amazon-return-window-2026-05-27-407-0262743-4390778",
       "supplier": "Amazon",
       "title": "Aottori brown V-neck sleeveless tank top",
@@ -1561,6 +1568,40 @@
       ]
     },
     {
+      "id": "amazon-return-window-2026-05-31-407-1306712-0455501",
+      "supplier": "Amazon",
+      "title": "Amazon Essentials men's classic cut chino shorts, black",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-05-31",
+      "returnByDate": "2026-06-30",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 31 May says order 407-1306712-0455501 was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e7e3e4bd226c47"
+      },
+      "items": [
+        "Order 407-1306712-0455501",
+        "Amazon Essentials men's classic cut chino shorts, black, 34W",
+        "Delivered 31 May 2026",
+        "Sold by Amazon.es",
+        "Quantity 1"
+      ],
+      "links": [
+        {
+          "label": "Track Amazon package",
+          "url": "https://www.amazon.es/progress-tracker/package?orderId=407-1306712-0455501"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
       "id": "amazon-dispatched-2026-06-02-407-9871091-4647510",
       "supplier": "Amazon",
       "title": "Voqeen women's linen pants, grey",
@@ -1579,6 +1620,96 @@
         "Quantity 1"
       ],
       "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-06-01-407-2219547-4920368",
+      "supplier": "Amazon",
+      "title": "Voqeen summer pants, black/white",
+      "status": "Dispatched",
+      "dueDate": "2026-06-01",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order and dispatch emails dated 31 May say order 407-2219547-4920368 shipped and is arriving tomorrow, 1 June.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e7eda1373d8041"
+      },
+      "items": [
+        "Order 407-2219547-4920368",
+        "Voqeen summer pants, black/white, size S",
+        "Sold by YCH_GO",
+        "Quantity 1",
+        "Total EUR 23.99"
+      ],
+      "links": [
+        {
+          "label": "Track Amazon package",
+          "url": "https://www.amazon.es/progress-tracker/package?orderId=407-2219547-4920368"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-06-01-407-3273920-8872303",
+      "supplier": "Amazon",
+      "title": "Liposan Hyaluron Plus lip balm",
+      "status": "Dispatched",
+      "dueDate": "2026-06-01",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order and dispatch emails dated 31 May say order 407-3273920-8872303 shipped and is arriving tomorrow, 1 June.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e7faa287d7d591"
+      },
+      "items": [
+        "Order 407-3273920-8872303",
+        "Liposan Hyaluron Plus lip balm, rose",
+        "Sold by Amazon.es",
+        "Quantity 1",
+        "Total EUR 3.99"
+      ],
+      "links": [
+        {
+          "label": "Track Amazon package",
+          "url": "https://www.amazon.es/progress-tracker/package?orderId=407-3273920-8872303"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-06-01-407-6717563-1753149",
+      "supplier": "Amazon",
+      "title": "Labello Sun Protect SPF 50 lip treatment",
+      "status": "Dispatched",
+      "dueDate": "2026-06-01",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order and dispatch emails dated 31 May say order 407-6717563-1753149 shipped and is arriving tomorrow, 1 June.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e7fa98b739c55b"
+      },
+      "items": [
+        "Order 407-6717563-1753149",
+        "Labello Sun Protect SPF 50 lip treatment",
+        "Sold by Amazon.es",
+        "Quantity 1",
+        "Total EUR 3.70"
+      ],
+      "links": [
+        {
+          "label": "Track Amazon package",
+          "url": "https://www.amazon.es/progress-tracker/package?orderId=407-6717563-1753149"
+        },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
@@ -1973,19 +2104,19 @@
       "service": "Shopify",
       "title": "Shopify Photos store subscription",
       "status": "Active subscription",
-      "nextDate": "2026-05-31",
-      "dateLabel": "Estimated next 30-day billing cycle on Sunday, 31 May 2026",
+      "nextDate": "2026-06-30",
+      "dateLabel": "Estimated next 30-day billing cycle on Tuesday, 30 June 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "Shopify Billing email dated 1 May says the Photos store was charged $5.00 USD for a 30-day billing cycle. The next date is inferred from that 30-day billing cycle because no explicit renewal date was provided.",
+      "notes": "Latest Shopify Billing email dated 31 May says the Photos store was charged $5.00 USD for a 30-day billing cycle. No exact next renewal date was provided, so the next reminder date is inferred from that latest billing cycle.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19de27beb94fa44b"
+        "url": "https://mail.google.com/mail/#all/19e7ce7d7513cbc6"
       },
       "items": [
         "$5.00 USD subscription",
-        "30-day billing cycle starting May 1, 2026",
+        "30-day billing cycle starting May 31, 2026",
         "Mastercard ending in 9827",
         "Next date inferred from billing cycle"
       ],
