@@ -45,7 +45,7 @@ Subscription entries can include `renewalState` and `warningWindowDays` so the U
 
 The scheduled refresh should:
 
-1. Search Gmail for pending delivery updates from any convincing order, shipment, delivery, return, tracking, or marketplace email. Known suppliers such as Amazon, AliExpress, Temu, Bambu Lab, Kickstarter, Snapmaker, BIQU, and Tikamoon should still be searched explicitly, but the refresh should not reject real delivery signals just because the supplier is new.
+1. Search Gmail for pending delivery updates from any convincing order, shipment, delivery, return, tracking, or marketplace email. Known suppliers such as Amazon, AliExpress, Temu, Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Cloudflare, OpenAI, Netflix, Etsy, Shopify, and Shottr should still be searched explicitly, but the refresh should not reject real delivery signals just because the supplier is new.
 2. Update `data/deliveries.json`.
 3. Retain delivered Amazon items through their return window when `deliveredDate` is available; mark them orange once they are at least 21 days old and still returnable.
 4. Treat red return status strictly as an accepted return authorization that still requires the item to be brought or sent back for reimbursement. Do not keep completed drop-off/refund returns red.

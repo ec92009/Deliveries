@@ -24,6 +24,13 @@ const supplierClassMap = {
   Snapmaker: "supplier-snapmaker",
   BIQU: "supplier-biqu",
   Tikamoon: "supplier-tikamoon",
+  Cloudflare: "supplier-cloudflare",
+  OpenAI: "supplier-openai",
+  ChatGPT: "supplier-openai",
+  Netflix: "supplier-netflix",
+  Etsy: "supplier-etsy",
+  Shopify: "supplier-shopify",
+  Shottr: "supplier-shottr",
 };
 
 const modeButtons = {
@@ -35,6 +42,12 @@ const modeButtons = {
 let activeMode = "deliveries";
 let subscriptionFilter = "all";
 let deliveryFilter = "all";
+
+function getSupplierClass(name = "") {
+  const normalizedName = name.toLowerCase();
+  const match = Object.keys(supplierClassMap).find((supplier) => normalizedName.includes(supplier.toLowerCase()));
+  return match ? supplierClassMap[match] : "supplier-other";
+}
 
 function formatCalendarDate(date, zone = "Europe/Madrid") {
   return new Intl.DateTimeFormat("en-GB", {
@@ -422,7 +435,7 @@ function getModeConfig(mode, data) {
         countLabel: (records) => `${records.length} tracked`,
         emptyMessage: "No one-time license emails found yet.",
         tagLabel: (entry) => entry.service,
-        tagClass: () => "supplier-aliexpress",
+        tagClass: (entry) => getSupplierClass(entry.service),
         dateLabel: (entry) => formatLicenseDate(entry),
         sorter: compareLicenses,
         cardTone: () => null,
@@ -481,7 +494,7 @@ function getModeConfig(mode, data) {
         },
         emptyMessage: "No subscription emails found yet.",
         tagLabel: (entry) => entry.service,
-        tagClass: () => "supplier-aliexpress",
+        tagClass: (entry) => getSupplierClass(entry.service),
         dateLabel: (entry) => formatLicenseDate(entry),
         sorter: compareLicenses,
         cardTone: (entry) => getSubscriptionTone(entry, data.today),
@@ -495,13 +508,6 @@ function getModeConfig(mode, data) {
 
   return {
     summary: [
-      {
-        label: "All deliveries",
-        value: data.deliveries.length,
-        detail: "Across inbox-detected suppliers",
-        action: "all",
-        selected: deliveryFilter === "all",
-      },
       {
         label: "Return authorized",
         value: data.deliveries.filter((item) => getDeliveryTone(item, data.today) === "urgent").length,
@@ -534,6 +540,13 @@ function getModeConfig(mode, data) {
         selected: deliveryFilter === "return-soon",
         tone: "return-soon",
       },
+      {
+        label: "All deliveries",
+        value: data.deliveries.length,
+        detail: "Across inbox-detected suppliers",
+        action: "all",
+        selected: deliveryFilter === "all",
+      },
     ],
     panel: {
       entries: filteredDeliveries,
@@ -541,7 +554,7 @@ function getModeConfig(mode, data) {
       countLabel: (records) => `${records.length} shown`,
       emptyMessage: "No deliveries match this filter right now.",
       tagLabel: (entry) => entry.supplier,
-      tagClass: (entry) => supplierClassMap[entry.supplier] || "supplier-other",
+      tagClass: (entry) => getSupplierClass(entry.supplier),
       dateLabel: (entry) => formatDueDate(entry),
       sorter: compareDeliveries,
       cardTone: (entry) => getDeliveryTone(entry, data.today),

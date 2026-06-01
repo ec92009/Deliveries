@@ -1,10 +1,10 @@
 {
-  "today": "2026-05-31",
+  "today": "2026-06-01",
   "metadata": {
-    "version": "v92.1",
-    "generatedAt": "2026-05-31T05:04:49+02:00",
+    "version": "v93.0",
+    "generatedAt": "2026-06-01T06:04:00+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-05-31 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, DIGI, Leroy Merlin, Banggood, Etsy, Wispr, Blink, Coursera, Autodesk, Cloudflare, and Shottr. Included concrete signals only: Amazon delivered the CMTOP khaki pants on 30 May; Amazon confirmed Sykooria return drop-off and issued the refund, so the completed return was removed from urgent/open deliveries; Cloudflare registered photos-by-elie.com, designs-by-elie.com, and 3d-by-elie.com through 30 May 2027 with auto-renewal enabled and same-day invoices; Link recorded a 30 May OpenAI OpCo LLC purchase for ChatGPT Plus billing; this same-day follow-up split a merged Amazon Basics row into a payment-verification AA order plus a separate dispatched AAA order and added new open Amazon orders for black Amazon Essentials chino shorts and a Lovasy pajama set. No newer concrete AliExpress, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress shipment, USPS actionable package, CTT Express, Netflix billing, Apple billing, Google/YouTube billing, Shopify, Fly.io, Windy, Parallels, HueForge, Bjango, Muscle Booster billing, Movistar invoice, DIGI invoice, Leroy Merlin order, Banggood, Etsy, Blink, Coursera, or Autodesk state superseded existing records; excluded newsletters, ads, project posts, review requests, login/security notices, and generic product updates without concrete transactional state."
+    "source": "Gmail refresh on 2026-06-01 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, DIGI, Leroy Merlin, Banggood, Etsy, Wispr, Blink, Coursera, Autodesk, Cloudflare, Shottr, and newly discovered Photos By Elie. Included concrete signals only: Amazon delivered the Flyzoo iPhone 13/14 case and Amazon Essentials black chino shorts on 31 May; Amazon dispatched Liposan Hyaluron Plus and Labello Sun Protect lip balms arriving 1 June; Stripe provided latest Photos By Elie download receipts on 31 May; Cloudflare activated the free plan for goldenyearstaxstrategy.com. Expired Amazon return-window rows with returnByDate before 1 June were removed. No newer concrete AliExpress, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress shipment, USPS actionable package, CTT Express, Netflix billing, Apple subscription billing, Google/YouTube billing, Shopify renewal, Fly.io, Windy, Parallels, HueForge, Bjango, Muscle Booster billing, Movistar invoice, DIGI invoice, Leroy Merlin order, Banggood, Etsy order, Blink, Coursera, Autodesk, or Shottr state superseded existing records; excluded newsletters, ads, project posts, review requests, login/security notices, calendar notifications, payment statements, and generic product updates without concrete transactional state."
   },
   "deliveries": [
     {
@@ -1363,32 +1363,6 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-05-31-171-6355222-8121921",
-      "supplier": "Amazon",
-      "title": "Flyzoo magnetic kickstand iPhone 13/14 case",
-      "status": "Dispatched",
-      "dueDate": "2026-05-31",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 28 May and dispatch email dated 29 May say order 171-6355222-8121921 shipped and is arriving Sunday, 31 May.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e710bdf042f9cc"
-      },
-      "items": [
-        "Order 171-6355222-8121921",
-        "Flyzoo magnetic kickstand case for iPhone 13/14, clear black",
-        "Sold by Flyzoo ES",
-        "Quantity 1",
-        "Total EUR 18.99"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
       "id": "amazon-return-window-2026-05-27-407-0262743-4390778",
       "supplier": "Amazon",
       "title": "Aottori brown V-neck sleeveless tank top",
@@ -1587,35 +1561,6 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-05-31-407-1306712-0455501",
-      "supplier": "Amazon",
-      "title": "Amazon Essentials men's classic cut chino shorts, black",
-      "status": "Dispatched",
-      "dueDate": "2026-05-31",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 30 May says order 407-1306712-0455501 shipped and is arriving tomorrow, 31 May.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e7a57262548625"
-      },
-      "items": [
-        "Order 407-1306712-0455501",
-        "Amazon Essentials men's classic cut chino shorts, black, 34W",
-        "Sold by Amazon.es",
-        "Quantity 1"
-      ],
-      "links": [
-        {
-          "label": "Track Amazon package",
-          "url": "https://www.amazon.es/progress-tracker/package?orderId=407-1306712-0455501"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
       "id": "amazon-dispatched-2026-06-02-407-9871091-4647510",
       "supplier": "Amazon",
       "title": "Voqeen women's linen pants, grey",
@@ -1693,6 +1638,110 @@
           "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
+    },
+    {
+      "id": "amazon-return-window-2026-05-31-171-6355222-8121921",
+      "supplier": "Amazon",
+      "title": "Flyzoo magnetic kickstand iPhone 13/14 case",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-05-31",
+      "returnByDate": "2026-06-30",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 31 May says the Flyzoo magnetic kickstand iPhone 13/14 case was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e7e3f5566d43d9"
+      },
+      "items": [
+        "Order 171-6355222-8121921",
+        "Flyzoo Magnetic Kickstand Case for iPhone 13/14, clear black",
+        "Delivered 31 May 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-05-31-407-1306712-0455501",
+      "supplier": "Amazon",
+      "title": "Amazon Essentials classic chino shorts, black",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-05-31",
+      "returnByDate": "2026-06-30",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 31 May says the Amazon Essentials black classic chino shorts were delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e7e3e4bd226c47"
+      },
+      "items": [
+        "Order 407-1306712-0455501",
+        "Amazon Essentials Men's Classic Cut Chino Shorts, black, 34W",
+        "Delivered 31 May 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-06-01-407-3273920-8872303",
+      "supplier": "Amazon",
+      "title": "Liposan Hyaluron Plus rose lip balm",
+      "status": "Dispatched",
+      "dueDate": "2026-06-01",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 31 May says the package was dispatched and is arriving tomorrow.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e7faa287d7d591"
+      },
+      "items": [
+        "Order 407-3273920-8872303",
+        "Liposan Hyaluron Plus lip balm with hyaluronic acid, rose, 5 g",
+        "Arriving 1 June 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-06-01-407-6717563-1753149",
+      "supplier": "Amazon",
+      "title": "Labello Sun Protect SPF 50 lip balm",
+      "status": "Dispatched",
+      "dueDate": "2026-06-01",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 31 May says the package was dispatched and is arriving tomorrow.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e7fa98b739c55b"
+      },
+      "items": [
+        "Order 407-6717563-1753149",
+        "Labello Sun Protect SPF 50 waterproof lip treatment, 4.8 g",
+        "Arriving 1 June 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
     }
   ],
   "licenses": [
@@ -1760,21 +1809,21 @@
       "dateLabel": "No renewal date found",
       "timezone": "Europe/Madrid",
       "renewalState": "one_time",
-      "notes": "Stripe receipt dated 22 May provides download/recovery access for Photos By Elie order PBE-20260522-7A8D583B6E and shows a one-time $0.50 payment with no renewal terms.",
+      "notes": "Latest Stripe receipt dated 31 May provides download/recovery access for Photos By Elie order PBE-20260531-4D33BD1925 and shows a one-time $0.50 payment with no renewal terms. Earlier same-day receipts for PBE-20260531-6585F3BB2E and PBE-20260531-E9F75EECAB were also found.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e504bd63f10768"
+        "url": "https://mail.google.com/mail/#all/19e7e8b12f98f67b"
       },
       "items": [
-        "Receipt #1974-8947",
-        "Photos By Elie order PBE-20260522-7A8D583B6E",
-        "Chateau de Versailles JPG 3 MP and 1 MP downloads",
-        "Amount paid $0.50 via Apple Pay"
+        "Receipt #1785-6884",
+        "Photos By Elie order PBE-20260531-4D33BD1925",
+        "20181113 1748 16886 and 20181020 1143 19559 JPG 1 MP downloads",
+        "Amount paid $0.50 via Link"
       ],
       "links": [
         {
           "label": "Recover Photos By Elie order",
-          "url": "https://ec92009.github.io/PhotosByElie/order.html"
+          "url": "https://photos-by-elie.com/order.html"
         }
       ]
     },
@@ -2358,6 +2407,32 @@
         "Invoice IN-66815423",
         "$10.46 due 30 May 2026",
         "Auto-renew enabled"
+      ]
+    },
+    {
+      "service": "Cloudflare goldenyearstaxstrategy.com",
+      "title": "Cloudflare goldenyearstaxstrategy.com free plan",
+      "status": "Active free plan",
+      "nextDate": null,
+      "dateLabel": "No renewal date found",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 30,
+      "notes": "Cloudflare email dated 31 May says the free plan was purchased for goldenyearstaxstrategy.com. No paid renewal or access-end date was provided.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e7d1b5af70339a"
+      },
+      "items": [
+        "goldenyearstaxstrategy.com",
+        "Cloudflare Free Plan",
+        "No paid renewal date provided"
+      ],
+      "links": [
+        {
+          "label": "Manage Cloudflare domains",
+          "url": "https://dash.cloudflare.com/"
+        }
       ]
     }
   ],

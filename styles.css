@@ -16,6 +16,12 @@
   --snapmaker: #2f3440;
   --biqu: #1fb6ff;
   --tikamoon: #8b6f47;
+  --cloudflare: #f38020;
+  --openai: #10a37f;
+  --netflix: #e50914;
+  --etsy: #f1641e;
+  --shopify: #95bf47;
+  --shottr: #5b6cff;
   --supplier-other: #6f6257;
   --shadow: 0 24px 60px rgba(66, 45, 24, 0.12);
 }
@@ -380,6 +386,30 @@ h1 {
 
 .supplier-tikamoon {
   background: var(--tikamoon);
+}
+
+.supplier-cloudflare {
+  background: var(--cloudflare);
+}
+
+.supplier-openai {
+  background: var(--openai);
+}
+
+.supplier-netflix {
+  background: var(--netflix);
+}
+
+.supplier-etsy {
+  background: var(--etsy);
+}
+
+.supplier-shopify {
+  background: var(--shopify);
+}
+
+.supplier-shottr {
+  background: var(--shottr);
 }
 
 .supplier-other {
