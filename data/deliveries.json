@@ -1,10 +1,10 @@
 {
-  "today": "2026-06-01",
+  "today": "2026-06-02",
   "metadata": {
-    "version": "v93.0",
-    "generatedAt": "2026-06-01T05:06:07+02:00",
+    "version": "v94.0",
+    "generatedAt": "2026-06-02T08:10:13+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-06-01 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, DIGI, Leroy Merlin, Banggood, Etsy, Wispr, Blink, Coursera, Autodesk, Cloudflare, Shottr, and newly discovered Photos By Elie. Included concrete signals only: Amazon delivered the Flyzoo iPhone 13/14 case and Amazon Essentials black chino shorts on 31 May and both were retained for the assumed 30-day return window; Amazon dispatched Liposan Hyaluron Plus and Labello Sun Protect lip balms plus a second Voqeen pants order in black/white arriving 1 June; AliExpress confirmed delivery of order 3072515402983468 so the completed solar-wall-lights row was removed from open deliveries; Shopify Billing sent a 31 May bill for the Photos store and the next billing reminder was advanced to the new 30-day cycle; Stripe provided latest Photos By Elie download receipts on 31 May; Cloudflare activated the free plan for goldenyearstaxstrategy.com. Expired Amazon return-window rows with returnByDate before 1 June were removed. No newer concrete Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress shipment, USPS actionable package, CTT Express, Netflix billing, Apple subscription billing, Google/YouTube billing, Fly.io, Windy, Parallels, HueForge, Bjango, Muscle Booster billing, Movistar invoice, DIGI invoice, Leroy Merlin order, Banggood, Etsy order, Blink, Coursera, Autodesk, or Shottr state superseded existing records; excluded newsletters, ads, project posts, review requests, login/security notices, calendar notifications, payment statements, and generic product updates without concrete transactional state."
+    "source": "Gmail refresh on 2026-06-02 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, DIGI, Leroy Merlin, Banggood, Etsy, Wispr, Blink, Coursera, Autodesk, Cloudflare, Shottr, Stripe, Photos By Elie, and newly discovered Wise. Included concrete signals only: Amazon delivered the Liposan Hyaluron Plus and Labello Sun Protect lip balms on 1 June; Amazon granted a Voqeen pants return authorization with Celeritas drop-off required by 2 July; Amazon ordered Pikolinos Cantabria sneakers arriving 4 June; Amazon dispatched IEMAI PETG filament, Korres Argan coloration oil, and Vitabay Coenzyme Q10 arriving 4 June; Shopify Billing remained current from the newer 31 May bill already on origin/main. Preserved the origin/main refresh that removed completed AliExpress solar lights and advanced the Shopify Photos 30-day cycle. No newer concrete AliExpress, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS actionable package, CTT Express, Netflix billing, Apple subscription billing, Google/YouTube billing, Fly.io, Windy, Parallels, HueForge, Bjango, Muscle Booster billing, Movistar invoice, DIGI invoice, Leroy Merlin order, Banggood, Etsy order, Blink, Coursera, Autodesk, Cloudflare, Shottr, or Photos By Elie state superseded existing records; excluded newsletters, ads, review requests, transfer receipts, login/security notices, payment statements, promotion reminders, calendar notifications, and generic product/project updates without concrete transactional state."
   },
   "deliveries": [
     {
@@ -1044,6 +1044,30 @@
       ]
     },
     {
+      "id": "aliexpress-awaiting-confirmation-3072515402983468",
+      "supplier": "AliExpress",
+      "title": "Solar LED outdoor wall lights, warm light set",
+      "status": "Awaiting receipt confirmation",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "AliExpress email dated 19 May says order 3072515402983468 will be marked completed soon and instructs the buyer to apply for returns/refunds promptly if the package was not received or was not as described. A 20 May review request followed for the same order.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e3fd5e5bf8c599"
+      },
+      "items": [
+        "Order 3072515402983468",
+        "Solar LED Outdoor Wall Light, 2Pcs Warm light, quantity 2",
+        "Order total EUR 7.73"
+      ],
+      "links": [
+        {
+          "label": "Open AliExpress orders",
+          "url": "https://www.aliexpress.com/p/order/index.html"
+        }
+      ]
+    },
+    {
       "id": "aliexpress-awaiting-confirmation-3072515403003468",
       "supplier": "AliExpress",
       "title": "Bambu Lab LED lamp kit, white shell",
@@ -1284,18 +1308,19 @@
       "id": "amazon-subscribe-save-2026-06-04-407-3462102-1655552",
       "supplier": "Amazon",
       "title": "Vitabay Coenzyme Q10 Ubiquinol Subscribe & Save",
-      "status": "Upcoming auto-delivery",
+      "status": "Dispatched",
       "dueDate": "2026-06-04",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon Subscribe & Save email dated 23 May says a new auto-delivery was set up every 2 months and is arriving by Thursday, Jun 04.",
+      "notes": "Amazon dispatch email dated 1 June says the Vitabay Coenzyme Q10 Ubiquinol Subscribe & Save package was dispatched and is arriving Thursday, 4 June.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e53ccd4ecec21e"
+        "url": "https://mail.google.com/mail/#all/19e84c5af8f1d545"
       },
       "items": [
         "Order 407-3462102-1655552",
         "Vitabay Coenzyme Q10 Ubiquinol 200 mg, 60 capsules",
-        "Subscribe & Save every 2 months"
+        "Subscribe & Save delivery",
+        "Arriving 4 June 2026"
       ],
       "links": [
         {
@@ -1330,37 +1355,6 @@
         "Delivered 28 May 2026",
         "Sold by Flyzoo ES",
         "Quantity 1"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-31-171-6355222-8121921",
-      "supplier": "Amazon",
-      "title": "Flyzoo magnetic kickstand iPhone 13/14 case",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-31",
-      "returnByDate": "2026-06-30",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 31 May says order 171-6355222-8121921 was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e7e3f5566d43d9"
-      },
-      "items": [
-        "Order 171-6355222-8121921",
-        "Flyzoo magnetic kickstand case for iPhone 13/14, clear black",
-        "Delivered 31 May 2026",
-        "Sold by Flyzoo ES",
-        "Quantity 1",
-        "Total EUR 18.99"
       ],
       "links": [
         {
@@ -1568,40 +1562,6 @@
       ]
     },
     {
-      "id": "amazon-return-window-2026-05-31-407-1306712-0455501",
-      "supplier": "Amazon",
-      "title": "Amazon Essentials men's classic cut chino shorts, black",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-31",
-      "returnByDate": "2026-06-30",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 31 May says order 407-1306712-0455501 was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e7e3e4bd226c47"
-      },
-      "items": [
-        "Order 407-1306712-0455501",
-        "Amazon Essentials men's classic cut chino shorts, black, 34W",
-        "Delivered 31 May 2026",
-        "Sold by Amazon.es",
-        "Quantity 1"
-      ],
-      "links": [
-        {
-          "label": "Track Amazon package",
-          "url": "https://www.amazon.es/progress-tracker/package?orderId=407-1306712-0455501"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
       "id": "amazon-dispatched-2026-06-02-407-9871091-4647510",
       "supplier": "Amazon",
       "title": "Voqeen women's linen pants, grey",
@@ -1620,96 +1580,6 @@
         "Quantity 1"
       ],
       "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-dispatched-2026-06-01-407-2219547-4920368",
-      "supplier": "Amazon",
-      "title": "Voqeen summer pants, black/white",
-      "status": "Dispatched",
-      "dueDate": "2026-06-01",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon order and dispatch emails dated 31 May say order 407-2219547-4920368 shipped and is arriving tomorrow, 1 June.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e7eda1373d8041"
-      },
-      "items": [
-        "Order 407-2219547-4920368",
-        "Voqeen summer pants, black/white, size S",
-        "Sold by YCH_GO",
-        "Quantity 1",
-        "Total EUR 23.99"
-      ],
-      "links": [
-        {
-          "label": "Track Amazon package",
-          "url": "https://www.amazon.es/progress-tracker/package?orderId=407-2219547-4920368"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-dispatched-2026-06-01-407-3273920-8872303",
-      "supplier": "Amazon",
-      "title": "Liposan Hyaluron Plus lip balm",
-      "status": "Dispatched",
-      "dueDate": "2026-06-01",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon order and dispatch emails dated 31 May say order 407-3273920-8872303 shipped and is arriving tomorrow, 1 June.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e7faa287d7d591"
-      },
-      "items": [
-        "Order 407-3273920-8872303",
-        "Liposan Hyaluron Plus lip balm, rose",
-        "Sold by Amazon.es",
-        "Quantity 1",
-        "Total EUR 3.99"
-      ],
-      "links": [
-        {
-          "label": "Track Amazon package",
-          "url": "https://www.amazon.es/progress-tracker/package?orderId=407-3273920-8872303"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-dispatched-2026-06-01-407-6717563-1753149",
-      "supplier": "Amazon",
-      "title": "Labello Sun Protect SPF 50 lip treatment",
-      "status": "Dispatched",
-      "dueDate": "2026-06-01",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon order and dispatch emails dated 31 May say order 407-6717563-1753149 shipped and is arriving tomorrow, 1 June.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e7fa98b739c55b"
-      },
-      "items": [
-        "Order 407-6717563-1753149",
-        "Labello Sun Protect SPF 50 lip treatment",
-        "Sold by Amazon.es",
-        "Quantity 1",
-        "Total EUR 3.70"
-      ],
-      "links": [
-        {
-          "label": "Track Amazon package",
-          "url": "https://www.amazon.es/progress-tracker/package?orderId=407-6717563-1753149"
-        },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
@@ -1827,21 +1697,56 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-06-01-407-3273920-8872303",
+      "id": "amazon-return-authorized-2026-06-01-407-2219547-4920368",
       "supplier": "Amazon",
-      "title": "Liposan Hyaluron Plus rose lip balm",
-      "status": "Dispatched",
-      "dueDate": "2026-06-01",
+      "title": "Voqeen women's summer cotton pants return",
+      "status": "Return authorization granted",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 31 May says the package was dispatched and is arriving tomorrow.",
+      "deliveredDate": "2026-06-01",
+      "returnByDate": "2026-07-02",
+      "returnAuthorizationGranted": true,
+      "returnDropoffRequired": true,
+      "returnStatus": "return_authorized",
+      "notes": "Amazon delivered the Voqeen pants on 1 June, then confirmed the return request the same day. Drop-off is required at any Celeritas Dropoff office by 2 July for the EUR 23.99 refund to be issued after drop-off.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e7faa287d7d591"
+        "url": "https://mail.google.com/mail/#all/19e84c0dd4b19680"
       },
       "items": [
-        "Order 407-3273920-8872303",
-        "Liposan Hyaluron Plus lip balm with hyaluronic acid, rose, 5 g",
-        "Arriving 1 June 2026"
+        "Order 407-2219547-4920368",
+        "Voqeen women's cool elastic casual wide cotton trousers, black/white, S",
+        "Refund expected after Celeritas drop-off",
+        "Drop off by 2 July 2026"
+      ],
+      "links": [
+        {
+          "label": "Manage Amazon return",
+          "url": "https://www.amazon.es/spr/returns/cart?orderId=407-2219547-4920368"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-06-01-407-6717563-1753149",
+      "supplier": "Amazon",
+      "title": "Liposan Hyaluron Plus and Labello Sun Protect lip balms",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-06-01",
+      "returnByDate": "2026-07-01",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 1 June says the Liposan Hyaluron Plus and Labello Sun Protect package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e82ca8b67c6851"
+      },
+      "items": [
+        "Order 407-6717563-1753149",
+        "Liposan Hyaluron Plus rose lip balm, 5 g",
+        "Labello Sun Protect SPF 50 lip balm, 4.8 g",
+        "Delivered 1 June 2026"
       ],
       "links": [
         {
@@ -1851,21 +1756,70 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-06-01-407-6717563-1753149",
+      "id": "amazon-ordered-2026-06-04-407-7480563-1816306",
       "supplier": "Amazon",
-      "title": "Labello Sun Protect SPF 50 lip balm",
-      "status": "Dispatched",
-      "dueDate": "2026-06-01",
+      "title": "Pikolinos Cantabria leather sneakers, Race, 39 EU",
+      "status": "Ordered",
+      "dueDate": "2026-06-04",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 31 May says the package was dispatched and is arriving tomorrow.",
+      "notes": "Amazon order confirmation dated 1 June says the Pikolinos Cantabria leather sneakers were ordered and are arriving Thursday, 4 June.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e7fa98b739c55b"
+        "url": "https://mail.google.com/mail/#all/19e824f663c0addb"
       },
       "items": [
-        "Order 407-6717563-1753149",
-        "Labello Sun Protect SPF 50 waterproof lip treatment, 4.8 g",
-        "Arriving 1 June 2026"
+        "Order 407-7480563-1816306",
+        "Pikolinos CANTABRIA Leather Sneakers for Lady, Race, 39 EU",
+        "Sold by PIKOLINOS OFICIAL",
+        "Total EUR 119.95"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-06-04-171-5650224-4614751",
+      "supplier": "Amazon",
+      "title": "IEMAI transparent red glitter PETG filament 1 kg",
+      "status": "Dispatched",
+      "dueDate": "2026-06-04",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 1 June says the IEMAI PETG filament package was dispatched and is arriving Thursday, 4 June.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e84c8c841a20ac"
+      },
+      "items": [
+        "Order 171-5650224-4614751",
+        "IEMAI PETG Filament 1.75 mm, 1 kg, transparent red glitter",
+        "Sold by IEMAI EU"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-06-04-405-1671933-7963525",
+      "supplier": "Amazon",
+      "title": "Korres Argan Advanced Coloration oil 9.0",
+      "status": "Dispatched",
+      "dueDate": "2026-06-04",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 1 June says the Korres Argan Advanced Coloration oil package was dispatched and is arriving Thursday, 4 June.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e84c691ee50d13"
+      },
+      "items": [
+        "Order 405-1671933-7963525",
+        "Korres Argan Advanced Coloration Very Light Blonde 9.0 Oil, 145 ml",
+        "Sold by Amazon.es"
       ],
       "links": [
         {
@@ -2109,7 +2063,7 @@
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "Latest Shopify Billing email dated 31 May says the Photos store was charged $5.00 USD for a 30-day billing cycle. No exact next renewal date was provided, so the next reminder date is inferred from that latest billing cycle.",
+      "notes": "Latest Shopify Billing email dated 31 May says the Photos store was charged $5.00 USD for the 30-day billing cycle starting 31 May. The next date is inferred from that 30-day billing cycle because no explicit renewal date was provided.",
       "sourceEmail": {
         "label": "Source email",
         "url": "https://mail.google.com/mail/#all/19e7ce7d7513cbc6"
@@ -2123,7 +2077,7 @@
       "links": [
         {
           "label": "View Shopify bill",
-          "url": "https://vxvxk0-qd.myshopify.com/admin/settings/billing/invoice/523722516"
+          "url": "https://vxvxk0-qd.myshopify.com/admin/settings/billing"
         }
       ]
     },
