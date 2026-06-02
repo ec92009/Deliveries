@@ -1,10 +1,10 @@
 {
   "today": "2026-06-02",
   "metadata": {
-    "version": "v94.0",
-    "generatedAt": "2026-06-02T12:00:00+02:00",
+    "version": "v94.1",
+    "generatedAt": "2026-06-02T12:45:00+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-06-02 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, DIGI, Leroy Merlin, Banggood, Etsy, Wispr, Blink, Coursera, Autodesk, Cloudflare, Shottr, Stripe, Photos By Elie, and newly discovered Wise. Included concrete signals only: Amazon delivered the Liposan Hyaluron Plus and Labello Sun Protect lip balms on 1 June; Amazon granted a Voqeen pants return authorization with Celeritas drop-off required by 2 July; Amazon later dispatched the previously payment-held Amazon Basics AA battery order; Amazon ordered Pikolinos Cantabria sneakers arriving 4 June; Amazon dispatched IEMAI PETG filament, Korres Argan coloration oil, and Vitabay Coenzyme Q10 arriving 4 June; Shopify later emailed that the Photos store is scheduled to close on 29 June 2026; Cloudflare registered web-by-elie.com through 1 June 2027 with auto-renew enabled and a separate invoice due 1 June 2026. Preserved the origin/main refresh that removed completed AliExpress solar lights and advanced the Shopify Photos 30-day cycle. No newer concrete AliExpress, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS actionable package, CTT Express, Netflix billing, Apple subscription billing, Google/YouTube billing, Fly.io, Windy, Parallels, HueForge, Bjango, Muscle Booster billing, Movistar invoice, DIGI invoice, Leroy Merlin order, Banggood, Etsy order, Blink, Coursera, Autodesk, Cloudflare, Shottr, or Photos By Elie state superseded existing records; excluded newsletters, ads, review requests, transfer receipts, login/security notices, payment statements, promotion reminders, calendar notifications, and generic product/project updates without concrete transactional state."
+    "source": "Gmail source-watch-dashboard refresh on 2026-06-02 after the earlier v94.0 supplier refresh. Searched broad transactional/order, delivery, return, refund, invoice, subscription, license, and supplier terms including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Cloudflare, OpenAI, Netflix, Etsy, Shopify, Shottr, Wise, Stripe, and Photos By Elie. Included concrete new signals only: Amazon order 407-0466204-2122721 for four Senti2 moisturizing eye-drop bottles and Amazon order 407-9397662-6994720 for two NIVEA Repair & Care body moisturizers, both arriving 3 June 2026. Excluded Pinterest/Etsy recommendations, Etsy login/security and API notices, newsletters, review requests, transfer receipts, calendar notifications, and other non-dashboard noise."
   },
   "deliveries": [
     {
@@ -1823,6 +1823,92 @@
         "Sold by Amazon.es"
       ],
       "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "supplier": "Amazon",
+      "title": "Senti2 moisturizing eye drops, 10 ml (Qty 4)",
+      "status": "Ordered",
+      "dueDate": "2026-06-03",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order confirmation dated 2 June says four Senti2 moisturizing eye drops were ordered and are arriving tomorrow, 3 June.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e8767845d152e4"
+      },
+      "items": []
+    },
+    {
+      "supplier": "Amazon",
+      "title": "NIVEA Repair & Care body moisturizer, 400 ml (Qty 2)",
+      "status": "Ordered",
+      "dueDate": "2026-06-03",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order confirmation dated 2 June says two NIVEA Repair & Care body moisturizers were ordered and are arriving tomorrow, 3 June.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e876c65440aeb2"
+      },
+      "items": []
+    },
+    {
+      "id": "amazon-ordered-2026-06-03-407-0466204-2122721",
+      "supplier": "Amazon",
+      "title": "Senti2 moisturizing drops for dry eyes, 10 ml (Qty 4)",
+      "status": "Ordered",
+      "dueDate": "2026-06-03",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order confirmation dated 2 June says order 407-0466204-2122721 is arriving tomorrow, 3 June.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e8767845d152e4"
+      },
+      "items": [
+        "Order 407-0466204-2122721",
+        "Senti2 Moisturizing Drops for Dry Eyes, 10 ml",
+        "Quantity 4",
+        "Sold by Amazon.es",
+        "Total EUR 17.98"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-0466204-2122721"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-06-03-407-9397662-6994720",
+      "supplier": "Amazon",
+      "title": "NIVEA Repair & Care body moisturizer, 400 ml (Qty 2)",
+      "status": "Ordered",
+      "dueDate": "2026-06-03",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order confirmation dated 2 June says order 407-9397662-6994720 is arriving tomorrow, 3 June.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e876c65440aeb2"
+      },
+      "items": [
+        "Order 407-9397662-6994720",
+        "NIVEA Repair & Care Body Moisturizer / Face & Hand Cream, 400 ml",
+        "Quantity 2",
+        "Sold by Amazon.es",
+        "Total EUR 10.61"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-9397662-6994720"
+        },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
