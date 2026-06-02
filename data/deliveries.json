@@ -1,10 +1,10 @@
 {
   "today": "2026-06-02",
   "metadata": {
-    "version": "v94.1",
-    "generatedAt": "2026-06-02T11:25:49+02:00",
+    "version": "v94.2",
+    "generatedAt": "2026-06-02T22:23:30+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard refresh on 2026-06-02 after the earlier v94.0 supplier refresh. Searched broad transactional/order, delivery, return, refund, invoice, subscription, license, and supplier terms including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Cloudflare, OpenAI, Netflix, Etsy, Shopify, Shottr, Wise, Stripe, and Photos By Elie. Included concrete new signals only: Amazon order 407-0466204-2122721 for four Senti2 moisturizing eye-drop bottles and Amazon order 407-9397662-6994720 for two NIVEA Repair & Care body moisturizers, both arriving 3 June 2026. Excluded Pinterest/Etsy recommendations, Etsy login/security and API notices, newsletters, review requests, transfer receipts, calendar notifications, and other non-dashboard noise."
+    "source": "Gmail source-watch-dashboard refresh on 2026-06-02 evening. Searched focused same-day and 7-day source-watch terms plus broad transactional supplier/order terms. Included concrete new signals only: Etsy approved the shop-name change to PhotosByElieShop; Amazon dispatched Senti2 and NIVEA orders due 3 June; Amazon confirmed Voqeen return drop-off/refund for order 407-2219547-4920368; Amazon ordered then dispatched CMTOP navy pants due 3 June; Amazon placed a SUNLU Subscribe & Save order due 2 July and created the monthly subscription; Amazon put a new L'OR capsules order on payment-verification hold; Amazon ordered a replacement Voqeen black/white pants order due 3 June while a separate navy Voqeen order was canceled. Excluded newsletters, marketing, login/security codes, recommendation mail, transfer review prompts, and canceled orders with no active delivery."
   },
   "deliveries": [
     {
@@ -1668,36 +1668,6 @@
       ]
     },
     {
-      "id": "amazon-return-authorized-2026-06-01-407-2219547-4920368",
-      "supplier": "Amazon",
-      "title": "Voqeen women's summer cotton pants return",
-      "status": "Return authorization granted",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-06-01",
-      "returnByDate": "2026-07-02",
-      "returnAuthorizationGranted": true,
-      "returnDropoffRequired": true,
-      "returnStatus": "return_authorized",
-      "notes": "Amazon delivered the Voqeen pants on 1 June, then confirmed the return request the same day. Drop-off is required at any Celeritas Dropoff office by 2 July for the EUR 23.99 refund to be issued after drop-off.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e84c0dd4b19680"
-      },
-      "items": [
-        "Order 407-2219547-4920368",
-        "Voqeen women's cool elastic casual wide cotton trousers, black/white, S",
-        "Refund expected after Celeritas drop-off",
-        "Drop off by 2 July 2026"
-      ],
-      "links": [
-        {
-          "label": "Manage Amazon return",
-          "url": "https://www.amazon.es/spr/returns/cart?orderId=407-2219547-4920368"
-        }
-      ]
-    },
-    {
       "id": "amazon-dispatched-2026-05-30-408-7558105-1656301",
       "supplier": "Amazon",
       "title": "Amazon Basics AA alkaline batteries, 40 pack",
@@ -1833,13 +1803,13 @@
       "id": "amazon-ordered-2026-06-03-407-0466204-2122721",
       "supplier": "Amazon",
       "title": "Senti2 moisturizing drops for dry eyes, 10 ml (Qty 4)",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-06-03",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order confirmation dated 2 June says order 407-0466204-2122721 is arriving tomorrow, 3 June.",
+      "notes": "Amazon dispatch email dated 2 June says order 407-0466204-2122721 shipped and is arriving tomorrow, 3 June.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e8767845d152e4"
+        "url": "https://mail.google.com/mail/#all/19e8917a01ad84fa"
       },
       "items": [
         "Order 407-0466204-2122721",
@@ -1863,13 +1833,13 @@
       "id": "amazon-ordered-2026-06-03-407-9397662-6994720",
       "supplier": "Amazon",
       "title": "NIVEA Repair & Care body moisturizer, 400 ml (Qty 2)",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-06-03",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order confirmation dated 2 June says order 407-9397662-6994720 is arriving tomorrow, 3 June.",
+      "notes": "Amazon dispatch email dated 2 June says order 407-9397662-6994720 shipped and is arriving tomorrow, 3 June.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e876c65440aeb2"
+        "url": "https://mail.google.com/mail/#all/19e89181caa2b77f"
       },
       "items": [
         "Order 407-9397662-6994720",
@@ -1882,6 +1852,158 @@
         {
           "label": "View or edit order",
           "url": "https://www.amazon.es/your-orders/order-details?orderID=407-9397662-6994720"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-refunded-2026-06-02-407-2219547-4920368",
+      "supplier": "Amazon",
+      "title": "Voqeen women's summer cotton pants return",
+      "status": "Return dropped off; refund issued",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-06-01",
+      "returnStatus": "refund_issued",
+      "notes": "Amazon confirmed Celeritas drop-off on 2 June, then issued the EUR 23.99 refund to the Amazon account balance by 3 June. The return no longer requires a dashboard urgent drop-off alert.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e89bc5eadf8316"
+      },
+      "items": [
+        "Order 407-2219547-4920368",
+        "Voqeen women's cool elastic casual wide cotton trousers, black/white, S",
+        "Drop-off confirmed 2 June 2026",
+        "Refund issued to Amazon account balance by 3 June 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-06-03-407-8459831-4334720",
+      "supplier": "Amazon",
+      "title": "CMTOP women's summer cotton 7/8 pants, navy, S",
+      "status": "Dispatched",
+      "dueDate": "2026-06-03",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order confirmation dated 1 June and dispatch email dated 2 June say order 407-8459831-4334720 shipped and is arriving Wednesday, 3 June.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e89d1425197a7f"
+      },
+      "items": [
+        "Order 407-8459831-4334720",
+        "CMTOP Women's Summer Cotton 7/8 Trousers, navy, S",
+        "Sold by Lemens",
+        "Quantity 1",
+        "Total EUR 22.99"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-8459831-4334720"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-07-02-171-4326544-3833155",
+      "supplier": "Amazon",
+      "title": "SUNLU 4kg PLA+ filament transparent color pack",
+      "status": "Ordered via Subscribe & Save",
+      "dueDate": "2026-07-02",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order confirmation and Subscribe & Save email dated 2 June say order 171-4326544-3833155 is a monthly SUNLU auto-delivery arriving by Thursday, 2 July.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e896318667daf6"
+      },
+      "items": [
+        "Order 171-4326544-3833155",
+        "SUNLU 4kg Pack PLA+ Filament 1.75mm, transparent red/blue/green/yellow",
+        "Monthly Subscribe & Save",
+        "Sold by SUNLU-EU",
+        "Total EUR 47.49"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=171-4326544-3833155"
+        },
+        {
+          "label": "Manage Amazon subscriptions",
+          "url": "https://www.amazon.es/auto-deliveries"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-payment-hold-2026-06-02-402-1689404-7416323",
+      "supplier": "Amazon",
+      "title": "L'OR Ristretto coffee pods, 50 capsules (Qty 2)",
+      "status": "Payment verification needed",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "paymentActionRequired": true,
+      "notes": "Amazon payment-update email dated 2 June says order 402-1689404-7416323 is on hold pending payment verification and asks to update the payment method before it can ship.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e8923828c880de"
+      },
+      "items": [
+        "Order 402-1689404-7416323",
+        "L'OR Ristretto Coffee Pods, intensity 11, 50 Nespresso-compatible capsules",
+        "Quantity 2",
+        "Total EUR 30.04",
+        "Payment revision needed"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=402-1689404-7416323"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-06-03-407-5217803-4525124",
+      "supplier": "Amazon",
+      "title": "Voqeen women's linen pants, black/white, S",
+      "status": "Ordered",
+      "dueDate": "2026-06-03",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order confirmation dated 2 June says order 407-5217803-4525124 is arriving tomorrow, 3 June. A separate navy Voqeen order 407-4372965-6574705 was canceled and is not tracked as active.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e885986e265c17"
+      },
+      "items": [
+        "Order 407-5217803-4525124",
+        "Voqeen Women's Linen Pants, black/white, S",
+        "Sold by YCH_GO",
+        "Quantity 1",
+        "Total EUR 23.99"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-5217803-4525124"
         },
         {
           "label": "Open Amazon orders",
@@ -2605,6 +2727,32 @@
         {
           "label": "Manage Cloudflare domains",
           "url": "https://dash.cloudflare.com/"
+        }
+      ]
+    },
+    {
+      "service": "Amazon Subscribe & Save SUNLU PLA+",
+      "title": "SUNLU 4kg PLA+ filament monthly subscription",
+      "status": "Active monthly auto-delivery",
+      "nextDate": "2026-07-02",
+      "dateLabel": "Next delivery Thursday, 2 July 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 7,
+      "notes": "Amazon Subscribe & Save email dated 2 June says the SUNLU 4kg PLA+ filament auto-delivery is monthly and the first delivery arrives by 2 July 2026. It can be edited, skipped, or canceled from Manage Subscriptions.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e8962e3333477f"
+      },
+      "items": [
+        "SUNLU Pack 4KG Filamento PLA+ 1.75mm",
+        "Monthly frequency",
+        "First delivery by 2 July 2026"
+      ],
+      "links": [
+        {
+          "label": "Manage Amazon subscriptions",
+          "url": "https://www.amazon.es/auto-deliveries"
         }
       ]
     }
