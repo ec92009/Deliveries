@@ -2,9 +2,9 @@
   "today": "2026-06-02",
   "metadata": {
     "version": "v94.0",
-    "generatedAt": "2026-06-02T08:10:13+02:00",
+    "generatedAt": "2026-06-02T12:00:00+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail refresh on 2026-06-02 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, DIGI, Leroy Merlin, Banggood, Etsy, Wispr, Blink, Coursera, Autodesk, Cloudflare, Shottr, Stripe, Photos By Elie, and newly discovered Wise. Included concrete signals only: Amazon delivered the Liposan Hyaluron Plus and Labello Sun Protect lip balms on 1 June; Amazon granted a Voqeen pants return authorization with Celeritas drop-off required by 2 July; Amazon ordered Pikolinos Cantabria sneakers arriving 4 June; Amazon dispatched IEMAI PETG filament, Korres Argan coloration oil, and Vitabay Coenzyme Q10 arriving 4 June; Shopify Billing remained current from the newer 31 May bill already on origin/main. Preserved the origin/main refresh that removed completed AliExpress solar lights and advanced the Shopify Photos 30-day cycle. No newer concrete AliExpress, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS actionable package, CTT Express, Netflix billing, Apple subscription billing, Google/YouTube billing, Fly.io, Windy, Parallels, HueForge, Bjango, Muscle Booster billing, Movistar invoice, DIGI invoice, Leroy Merlin order, Banggood, Etsy order, Blink, Coursera, Autodesk, Cloudflare, Shottr, or Photos By Elie state superseded existing records; excluded newsletters, ads, review requests, transfer receipts, login/security notices, payment statements, promotion reminders, calendar notifications, and generic product/project updates without concrete transactional state."
+    "source": "Gmail refresh on 2026-06-02 using broad transactional searches for order, ordered, dispatched, shipped, shipment, tracking, in transit, out for delivery, delivered, return, refund, devolucion, reembolso, expedicion, livraison, license, renewal, subscription, billing, invoice, receipt, cancellation, and supplier coverage examples including Amazon, AliExpress, Temu, Bambu/Bambu Lab, Kickstarter, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS, CTT Express, Netflix, PayPal, Apple, Google, YouTube, Shopify, Fly.io, Windy, Parallels, ChatGPT/OpenAI, HueForge, Bjango, Muscle Booster, Movistar, DIGI, Leroy Merlin, Banggood, Etsy, Wispr, Blink, Coursera, Autodesk, Cloudflare, Shottr, Stripe, Photos By Elie, and newly discovered Wise. Included concrete signals only: Amazon delivered the Liposan Hyaluron Plus and Labello Sun Protect lip balms on 1 June; Amazon granted a Voqeen pants return authorization with Celeritas drop-off required by 2 July; Amazon later dispatched the previously payment-held Amazon Basics AA battery order; Amazon ordered Pikolinos Cantabria sneakers arriving 4 June; Amazon dispatched IEMAI PETG filament, Korres Argan coloration oil, and Vitabay Coenzyme Q10 arriving 4 June; Shopify later emailed that the Photos store is scheduled to close on 29 June 2026; Cloudflare registered web-by-elie.com through 1 June 2027 with auto-renew enabled and a separate invoice due 1 June 2026. Preserved the origin/main refresh that removed completed AliExpress solar lights and advanced the Shopify Photos 30-day cycle. No newer concrete AliExpress, Temu, Bambu/Bambu Lab direct, Kickstarter pledge/shipment, Snapmaker, BIQU, Tikamoon, Afremov/YunExpress, USPS actionable package, CTT Express, Netflix billing, Apple subscription billing, Google/YouTube billing, Fly.io, Windy, Parallels, HueForge, Bjango, Muscle Booster billing, Movistar invoice, DIGI invoice, Leroy Merlin order, Banggood, Etsy order, Blink, Coursera, Autodesk, Cloudflare, Shottr, or Photos By Elie state superseded existing records; excluded newsletters, ads, review requests, transfer receipts, login/security notices, payment statements, promotion reminders, calendar notifications, and generic product/project updates without concrete transactional state."
   },
   "deliveries": [
     {
@@ -1479,35 +1479,6 @@
       ]
     },
     {
-      "id": "amazon-payment-hold-2026-05-29-408-7558105-1656301",
-      "supplier": "Amazon",
-      "title": "Amazon Basics AA alkaline batteries, 40 pack",
-      "status": "Pending payment verification",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon payments email dated 29 May says order 408-7558105-1656301 is on hold pending payment verification and needs a payment-method update before shipment can continue.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e748966afee518"
-      },
-      "items": [
-        "Order 408-7558105-1656301",
-        "Amazon Basics AA alkaline batteries, pack of 40",
-        "Quantity 1",
-        "Payment revision needed before shipment"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=408-7558105-1656301"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
       "id": "amazon-dispatched-2026-05-30-403-5544693-0469916",
       "supplier": "Amazon",
       "title": "Amazon Basics AAA alkaline batteries, 40 pack",
@@ -1723,6 +1694,36 @@
         {
           "label": "Manage Amazon return",
           "url": "https://www.amazon.es/spr/returns/cart?orderId=407-2219547-4920368"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-05-30-408-7558105-1656301",
+      "supplier": "Amazon",
+      "title": "Amazon Basics AA alkaline batteries, 40 pack",
+      "status": "Dispatched",
+      "dueDate": "2026-05-30",
+      "timezone": "Europe/Madrid",
+      "notes": "A later Amazon dispatch email dated 30 May says order 408-7558105-1656301 shipped and was arriving that day, so the earlier payment-verification hold was resolved.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e76489de41bb7f"
+      },
+      "items": [
+        "Order 408-7558105-1656301",
+        "Amazon Basics AA alkaline batteries, pack of 40",
+        "Sold by Amazon.es",
+        "Quantity 1",
+        "Total EUR 9.21"
+      ],
+      "links": [
+        {
+          "label": "Track Amazon package",
+          "url": "https://www.amazon.es/progress-tracker/package?orderId=408-7558105-1656301"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
     },
@@ -2057,22 +2058,22 @@
     {
       "service": "Shopify",
       "title": "Shopify Photos store subscription",
-      "status": "Active subscription",
-      "nextDate": "2026-06-30",
-      "dateLabel": "Estimated next 30-day billing cycle on Tuesday, 30 June 2026",
+      "status": "Canceled subscription",
+      "nextDate": "2026-06-29",
+      "dateLabel": "Access ends Monday, 29 June 2026",
       "timezone": "Europe/Madrid",
-      "renewalState": "active",
+      "renewalState": "canceled",
       "warningWindowDays": 7,
-      "notes": "Latest Shopify Billing email dated 31 May says the Photos store was charged $5.00 USD for the 30-day billing cycle starting 31 May. The next date is inferred from that 30-day billing cycle because no explicit renewal date was provided.",
+      "notes": "A later Shopify Billing email dated 1 June says the Photos store is scheduled to close on 29 June 2026 and access remains available until then. Shopify also warns a final invoice may still be charged on 29 June 2026 for usage-based fees.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e7ce7d7513cbc6"
+        "url": "https://mail.google.com/mail/#all/19e838ec2376298e"
       },
       "items": [
-        "$5.00 USD subscription",
-        "30-day billing cycle starting May 31, 2026",
-        "Mastercard ending in 9827",
-        "Next date inferred from billing cycle"
+        "Store closes 29 June 2026",
+        "Access remains available until closure",
+        "Final invoice may still be charged on 29 June 2026 for usage-based fees",
+        "Data preserved for 2 years if reactivated"
       ],
       "links": [
         {
@@ -2512,6 +2513,33 @@
         "goldenyearstaxstrategy.com",
         "Cloudflare Free Plan",
         "No paid renewal date provided"
+      ],
+      "links": [
+        {
+          "label": "Manage Cloudflare domains",
+          "url": "https://dash.cloudflare.com/"
+        }
+      ]
+    },
+    {
+      "service": "Cloudflare web-by-elie.com",
+      "title": "Cloudflare web-by-elie.com domain registration",
+      "status": "Active domain registration",
+      "nextDate": "2027-06-01",
+      "dateLabel": "Auto-renews Tuesday, 1 June 2027",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 30,
+      "notes": "Cloudflare registration email dated 1 June says web-by-elie.com is registered through 1 June 2027 and set to automatically renew; a separate invoice email says invoice IN-66947979 was due 1 June 2026 for $10.46.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e84241e49de0ab"
+      },
+      "items": [
+        "web-by-elie.com",
+        "Invoice IN-66947979",
+        "$10.46 due 1 June 2026",
+        "Auto-renew enabled"
       ],
       "links": [
         {
