@@ -1,8 +1,8 @@
 {
   "today": "2026-06-03",
   "metadata": {
-    "version": "v95.0",
-    "generatedAt": "2026-06-03T06:22:00+02:00",
+    "version": "v95.1",
+    "generatedAt": "2026-06-03T06:06:39+02:00",
     "timezone": "Europe/Madrid",
     "source": "Gmail source-watch-dashboard refresh on 2026-06-03 morning. Searched focused same-day and 7-day source-watch terms plus broad transactional supplier/order terms. Included concrete new supplier signals only: Amazon dispatched L'OR Ristretto coffee pods after the payment-verification hold cleared, Amazon dispatched SUN SUENTILES sterile syringes, and Amazon dispatched the Voqeen black/white replacement pants order. Removed Amazon return-window rows that expired before 2026-06-03. Excluded newsletters, marketing, login/security codes, recommendation mail, and non-transactional service updates."
   },
