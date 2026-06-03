@@ -1,10 +1,10 @@
 {
-  "today": "2026-06-02",
+  "today": "2026-06-03",
   "metadata": {
-    "version": "v94.2",
-    "generatedAt": "2026-06-02T22:23:30+02:00",
+    "version": "v95.0",
+    "generatedAt": "2026-06-03T06:22:00+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard refresh on 2026-06-02 evening. Searched focused same-day and 7-day source-watch terms plus broad transactional supplier/order terms. Included concrete new signals only: Etsy approved the shop-name change to PhotosByElieShop; Amazon dispatched Senti2 and NIVEA orders due 3 June; Amazon confirmed Voqeen return drop-off/refund for order 407-2219547-4920368; Amazon ordered then dispatched CMTOP navy pants due 3 June; Amazon placed a SUNLU Subscribe & Save order due 2 July and created the monthly subscription; Amazon put a new L'OR capsules order on payment-verification hold; Amazon ordered a replacement Voqeen black/white pants order due 3 June while a separate navy Voqeen order was canceled. Excluded newsletters, marketing, login/security codes, recommendation mail, transfer review prompts, and canceled orders with no active delivery."
+    "source": "Gmail source-watch-dashboard refresh on 2026-06-03 morning. Searched focused same-day and 7-day source-watch terms plus broad transactional supplier/order terms. Included concrete new supplier signals only: Amazon dispatched L'OR Ristretto coffee pods after the payment-verification hold cleared, Amazon dispatched SUN SUENTILES sterile syringes, and Amazon dispatched the Voqeen black/white replacement pants order. Removed Amazon return-window rows that expired before 2026-06-03. Excluded newsletters, marketing, login/security codes, recommendation mail, and non-transactional service updates."
   },
   "deliveries": [
     {
@@ -197,34 +197,6 @@
         {
           "label": "Manage Amazon return",
           "url": "https://www.amazon.es/spr/returns/cart?orderId=171-6934092-7868309"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-03-404-7119419-4151535",
-      "supplier": "Amazon",
-      "title": "Renova Skin Care Plus scented toilet paper (Qty 2)",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-03",
-      "returnByDate": "2026-06-02",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivered this package on 3 May and handed it to the resident; no return request was found in the scanned return/refund mail.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dee113407781a4"
-      },
-      "items": [
-        "Order 404-7119419-4151535",
-        "Renova Skin Care Plus scented decorated toilet paper, 6 rolls",
-        "Quantity 2"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
     },
@@ -1558,16 +1530,16 @@
       ]
     },
     {
-      "id": "amazon-ordered-2026-06-05-407-5150659-9198760",
+      "id": "amazon-dispatched-2026-06-05-407-5150659-9198760",
       "supplier": "Amazon",
       "title": "SUN SUENTILES 250 CC sterile syringes",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-06-05",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order confirmation dated 29 May says order 407-5150659-9198760 is arriving 4 June to 5 June.",
+      "notes": "Amazon dispatch email dated 2 June says order 407-5150659-9198760 shipped and is arriving 4 June - 5 June.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e75e8f75387e80"
+        "url": "https://mail.google.com/mail/#all/19e8a7f02923bef3"
       },
       "items": [
         "Order 407-5150659-9198760",
@@ -1951,17 +1923,16 @@
       ]
     },
     {
-      "id": "amazon-payment-hold-2026-06-02-402-1689404-7416323",
+      "id": "amazon-dispatched-2026-06-02-402-1689404-7416323",
       "supplier": "Amazon",
       "title": "L'OR Ristretto coffee pods, 50 capsules (Qty 2)",
-      "status": "Payment verification needed",
+      "status": "Dispatched",
       "dueDate": null,
       "timezone": "Europe/Madrid",
-      "paymentActionRequired": true,
-      "notes": "Amazon payment-update email dated 2 June says order 402-1689404-7416323 is on hold pending payment verification and asks to update the payment method before it can ship.",
+      "notes": "Amazon dispatch email dated 2 June says order 402-1689404-7416323 shipped after the payment-verification hold cleared and was arriving the same day. No delivered follow-up was found in this refresh.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e8923828c880de"
+        "url": "https://mail.google.com/mail/#all/19e8a9475fed7791"
       },
       "items": [
         "Order 402-1689404-7416323",
@@ -1982,16 +1953,16 @@
       ]
     },
     {
-      "id": "amazon-ordered-2026-06-03-407-5217803-4525124",
+      "id": "amazon-dispatched-2026-06-03-407-5217803-4525124",
       "supplier": "Amazon",
       "title": "Voqeen women's linen pants, black/white, S",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-06-03",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order confirmation dated 2 June says order 407-5217803-4525124 is arriving tomorrow, 3 June. A separate navy Voqeen order 407-4372965-6574705 was canceled and is not tracked as active.",
+      "notes": "Amazon order confirmation and dispatch email dated 2 June say order 407-5217803-4525124 shipped and is arriving Wednesday, 3 June. A separate navy Voqeen order 407-4372965-6574705 was canceled and is not tracked as active.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e885986e265c17"
+        "url": "https://mail.google.com/mail/#all/19e8a191759117db"
       },
       "items": [
         "Order 407-5217803-4525124",
