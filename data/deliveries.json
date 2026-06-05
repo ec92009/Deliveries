@@ -1,10 +1,10 @@
 {
-  "today": "2026-06-04",
+  "today": "2026-06-05",
   "metadata": {
-    "version": "v96.0",
-    "generatedAt": "2026-06-04T06:04:00+02:00",
+    "version": "v97.0",
+    "generatedAt": "2026-06-05T06:08:00+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard refresh on 2026-06-04 morning. Searched focused same-day/since-last-run and 7-day source-watch terms plus broad transactional supplier/order terms. Included concrete supplier signals only: Amazon delivered L'OR Ristretto coffee pods, Senti2 drops, NIVEA moisturizer, CMTOP navy pants, and Voqeen black/white pants; added dispatched Amazon Franck Provost shampoo and Tahe Magic Rizos shampoo; added LentillasSi/CTT Express shipment; added Vitavea probiotic Subscribe & Save order/subscription and noted one older probiotic subscription cancellation; flagged an Amazon syringe order as potentially delayed after a seller message. Excluded newsletters, marketing, login/security codes, recommendation mail, and non-transactional service updates."
+    "source": "Gmail source-watch-dashboard refresh on 2026-06-05 morning. Searched new mail since the prior consolidated run plus 7-day lookbacks for Adeslas, S1, Manou, Pinterest, and broad transactional supplier/order terms. Included concrete supplier signals only: Amazon delivered Franck Provost shampoo, Korres coloration oil, Vitabay Coenzyme Q10, and IEMAI PETG filament on 4 June; added dispatched Amazon GP Conditioner contact-lens solution; added delayed Amazon Colgate Purple Reveal toothpaste; updated LentillasSi/CTT Express shipment to out for delivery; removed one expired passive Amazon return-window row. Excluded newsletters, marketing, login/security notices, Pinterest recommendations, Adeslas promotions, and non-actionable healthcare/admin false positives."
   },
   "deliveries": [
     {
@@ -249,33 +249,6 @@
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-05-403-0901995-1751521",
-      "supplier": "Amazon",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "title": "Thsucords USB C extension cable 0.5 m",
-      "status": "Delivered - return window open",
-      "deliveredDate": "2026-05-05",
-      "returnByDate": "2026-06-04",
-      "notes": "Amazon delivered this USB-C extension cable on 5 May and says the parcel was handed to the resident; no return request was found in the scanned return/refund mail.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19df87e834eafb40"
-      },
-      "items": [
-        "Order 403-0901995-1751521",
-        "Thsucords USB C extension cable 0.5 m, USB 3.2 20 Gbps"
       ]
     },
     {
@@ -1277,33 +1250,37 @@
       ]
     },
     {
-      "id": "amazon-subscribe-save-2026-06-04-407-3462102-1655552",
+      "id": "amazon-return-window-2026-06-04-407-3462102-1655552",
       "supplier": "Amazon",
-      "title": "Vitabay Coenzyme Q10 Ubiquinol Subscribe & Save",
-      "status": "Dispatched",
-      "dueDate": "2026-06-04",
+      "title": "Vitabay Coenzyme Q10 Ubiquinol 200 mg, 60 capsules",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 1 June says the Vitabay Coenzyme Q10 Ubiquinol Subscribe & Save package was dispatched and is arriving Thursday, 4 June.",
+      "notes": "Amazon delivery email dated 4 June says the package containing Vitabay Coenzyme Q10, Korres coloration oil, and IEMAI PETG filament was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e84c5af8f1d545"
+        "url": "https://mail.google.com/mail/#all/19e93208bad32980"
       },
       "items": [
         "Order 407-3462102-1655552",
         "Vitabay Coenzyme Q10 Ubiquinol 200 mg, 60 capsules",
         "Subscribe & Save delivery",
-        "Arriving 4 June 2026"
+        "Delivered 4 June 2026"
       ],
       "links": [
         {
-          "label": "Manage Amazon subscriptions",
-          "url": "https://www.amazon.es/auto-deliveries"
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-3462102-1655552"
         },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-06-04",
+      "returnByDate": "2026-07-04",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-return-window-2026-05-28-171-3942297-7539508",
@@ -1724,52 +1701,70 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-06-04-171-5650224-4614751",
+      "id": "amazon-return-window-2026-06-04-171-5650224-4614751",
       "supplier": "Amazon",
       "title": "IEMAI transparent red glitter PETG filament 1 kg",
-      "status": "Dispatched",
-      "dueDate": "2026-06-04",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 1 June says the IEMAI PETG filament package was dispatched and is arriving Thursday, 4 June.",
+      "notes": "Amazon delivery email dated 4 June says the package containing IEMAI PETG filament, Korres coloration oil, and Vitabay Coenzyme Q10 was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e84c8c841a20ac"
+        "url": "https://mail.google.com/mail/#all/19e93208bad32980"
       },
       "items": [
         "Order 171-5650224-4614751",
         "IEMAI PETG Filament 1.75 mm, 1 kg, transparent red glitter",
-        "Sold by IEMAI EU"
+        "Sold by IEMAI EU",
+        "Delivered 4 June 2026"
       ],
       "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=171-5650224-4614751"
+        },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-06-04",
+      "returnByDate": "2026-07-04",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-06-04-405-1671933-7963525",
+      "id": "amazon-return-window-2026-06-04-405-1671933-7963525",
       "supplier": "Amazon",
       "title": "Korres Argan Advanced Coloration oil 9.0",
-      "status": "Dispatched",
-      "dueDate": "2026-06-04",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 1 June says the Korres Argan Advanced Coloration oil package was dispatched and is arriving Thursday, 4 June.",
+      "notes": "Amazon delivery email dated 4 June says the package containing Korres Argan Advanced Coloration oil, Vitabay Coenzyme Q10, and IEMAI PETG filament was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e84c691ee50d13"
+        "url": "https://mail.google.com/mail/#all/19e93208bad32980"
       },
       "items": [
         "Order 405-1671933-7963525",
         "Korres Argan Advanced Coloration Very Light Blonde 9.0 Oil, 145 ml",
-        "Sold by Amazon.es"
+        "Sold by Amazon.es",
+        "Delivered 4 June 2026"
       ],
       "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=405-1671933-7963525"
+        },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-06-04",
+      "returnByDate": "2026-07-04",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-return-window-2026-06-03-407-0466204-2122721",
@@ -1993,23 +1988,24 @@
       "returnByDate": "2026-07-03"
     },
     {
-      "id": "amazon-dispatched-2026-06-04-407-2390657-3550729",
+      "id": "amazon-return-window-2026-06-04-407-2390657-3550729",
       "supplier": "Amazon",
       "title": "Franck Provost Expert Nutri-Frizz sulfate-free shampoo",
-      "status": "Dispatched",
-      "dueDate": "2026-06-04",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 3 June says order 407-2390657-3550729 shipped and is arriving Thursday, 4 June.",
+      "notes": "Amazon delivery email dated 4 June says the Franck Provost Expert Nutri-Frizz shampoo package was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e8e8af9d2a89a4"
+        "url": "https://mail.google.com/mail/#all/19e93207270e360b"
       },
       "items": [
         "Order 407-2390657-3550729",
         "Franck Provost Expert Nutri-Frizz professional sulfate-free shampoo for dry or curly hair",
         "Sold by Amazon.es",
         "Quantity 1",
-        "Total EUR 8.13"
+        "Total EUR 8.13",
+        "Delivered 4 June 2026"
       ],
       "links": [
         {
@@ -2020,7 +2016,11 @@
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-06-04",
+      "returnByDate": "2026-07-04",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-dispatched-2026-06-05-407-5309612-8694704",
@@ -2056,20 +2056,20 @@
       "id": "lentillassi-shipped-2026-06-04-268520202",
       "supplier": "LentillasSi",
       "title": "LentillasSi order 268520202",
-      "status": "Shipped with CTT Express",
+      "status": "Out for delivery with CTT Express",
       "dueDate": "2026-06-04",
       "timezone": "Europe/Madrid",
-      "notes": "LentillasSi shipping email dated 3 June says order 268520202 shipped with CTT Express tracking 0043320043329700363013 and should arrive within 24 business hours. CTT also sent a 3 June notice with expected delivery on 4 June.",
+      "notes": "LentillasSi shipping email dated 3 June says order 268520202 shipped with CTT Express tracking 0043320043329700363013. CTT Express sent a 4 June notice saying the package was in delivery for the destination address.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e8cb6ac5a944dd"
+        "url": "https://mail.google.com/mail/#all/19e9177d971780e6"
       },
       "trackingNumber": "0043320043329700363013",
       "items": [
         "Order 268520202",
         "Carrier CTT Express",
         "Tracking 0043320043329700363013",
-        "Expected delivery 2026-06-04"
+        "Out for delivery 4 June 2026"
       ],
       "links": [
         {
@@ -2110,6 +2110,66 @@
         {
           "label": "Manage Subscribe & Save",
           "url": "https://www.amazon.es/auto-deliveries"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-06-05-407-1833922-8862750",
+      "supplier": "Amazon",
+      "title": "GP Conditioner rigid gas-permeable contact lens solution, 3 x 120 ml",
+      "status": "Dispatched",
+      "dueDate": "2026-06-05",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order and dispatch emails dated 4 June say order 407-1833922-8862750 for GP Conditioner contact lens solution shipped and is arriving 5 June - 8 June.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e91ca812aa309e"
+      },
+      "items": [
+        "Order 407-1833922-8862750",
+        "GP Conditioner Pack of 3 x 120 ml for rigid and gas-permeable contact lenses",
+        "Sold by Farma Market",
+        "Quantity 1",
+        "Total EUR 22.99"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-1833922-8862750"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-delayed-2026-06-08-402-1748041-4498704",
+      "supplier": "Amazon",
+      "title": "Colgate Max White Purple Reveal toothpaste, 4 x 75 ml",
+      "status": "Delayed",
+      "dueDate": "2026-06-08",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon delivery estimate update dated 4 June says shipment 402-1748041-4498704 is delayed and now arriving Monday, 8 June 2026 - Saturday, 12 December 2026. The dashboard uses the earliest new ETA as the due date and records the long fallback window in the item details.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e90e3915111a2c"
+      },
+      "items": [
+        "Order 402-1748041-4498704",
+        "Colgate Max White Purple Reveal Whitening Toothpaste, 4 x 75 ml",
+        "Quantity 1",
+        "Total EUR 11.96",
+        "ETA range 8 June 2026 - 12 December 2026"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=402-1748041-4498704"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
     }
