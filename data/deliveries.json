@@ -2,7 +2,7 @@
   "today": "2026-06-06",
   "metadata": {
     "version": "v98.0",
-    "generatedAt": "2026-06-06T06:20:00+02:00",
+    "generatedAt": "2026-06-06T06:08:00+02:00",
     "timezone": "Europe/Madrid",
     "source": "Gmail source-watch-dashboard refresh on 2026-06-06 morning. Searched new mail since the prior consolidated run plus 7-day lookbacks for Adeslas, S1, Manou, Pinterest, and broad transactional supplier/order terms. Included concrete supplier signals only: Amazon delivered Lovasy pajamas on 5 June; added dispatched Amazon NIVEA and Colgate Max White Whitens orders; added ordered Amazon Phyto hair colour and replacement Colgate Purple Reveal orders; removed the cancelled delayed Colgate Purple Reveal order; recorded Korres Subscribe & Save cancellation; added USPS Informed Delivery Apple package tracking; removed two expired passive Amazon return-window rows. Excluded newsletters, marketing, login/security notices, recommendation/review prompts, sent AC quote messages, Adeslas promotions, and non-actionable healthcare/admin false positives."
   },
