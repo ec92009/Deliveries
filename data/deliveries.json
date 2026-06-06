@@ -1,10 +1,10 @@
 {
-  "today": "2026-06-05",
+  "today": "2026-06-06",
   "metadata": {
-    "version": "v97.0",
-    "generatedAt": "2026-06-05T06:08:00+02:00",
+    "version": "v98.0",
+    "generatedAt": "2026-06-06T06:20:00+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard refresh on 2026-06-05 morning. Searched new mail since the prior consolidated run plus 7-day lookbacks for Adeslas, S1, Manou, Pinterest, and broad transactional supplier/order terms. Included concrete supplier signals only: Amazon delivered Franck Provost shampoo, Korres coloration oil, Vitabay Coenzyme Q10, and IEMAI PETG filament on 4 June; added dispatched Amazon GP Conditioner contact-lens solution; added delayed Amazon Colgate Purple Reveal toothpaste; updated LentillasSi/CTT Express shipment to out for delivery; removed one expired passive Amazon return-window row. Excluded newsletters, marketing, login/security notices, Pinterest recommendations, Adeslas promotions, and non-actionable healthcare/admin false positives."
+    "source": "Gmail source-watch-dashboard refresh on 2026-06-06 morning. Searched new mail since the prior consolidated run plus 7-day lookbacks for Adeslas, S1, Manou, Pinterest, and broad transactional supplier/order terms. Included concrete supplier signals only: Amazon delivered Lovasy pajamas on 5 June; added dispatched Amazon NIVEA and Colgate Max White Whitens orders; added ordered Amazon Phyto hair colour and replacement Colgate Purple Reveal orders; removed the cancelled delayed Colgate Purple Reveal order; recorded Korres Subscribe & Save cancellation; added USPS Informed Delivery Apple package tracking; removed two expired passive Amazon return-window rows. Excluded newsletters, marketing, login/security notices, recommendation/review prompts, sent AC quote messages, Adeslas promotions, and non-actionable healthcare/admin false positives."
   },
   "deliveries": [
     {
@@ -102,34 +102,6 @@
       "items": []
     },
     {
-      "id": "amazon-return-window-2026-05-06-403-7619849-5556316",
-      "supplier": "Amazon",
-      "title": "Flintronic Super Glue, 3 Bottles 50 g",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-06",
-      "returnByDate": "2026-06-05",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 6 May says the Flintronic Super Glue package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dfdbe59ab9499a"
-      },
-      "items": [
-        "Order 403-7619849-5556316",
-        "Flintronic Super Glue, 3 bottles 50 g",
-        "Delivered 6 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
       "supplier": "Leonid Afremov",
       "title": "Cafe Parisienne On Europa painting",
       "status": "Shipped",
@@ -197,34 +169,6 @@
         {
           "label": "Manage Amazon return",
           "url": "https://www.amazon.es/spr/returns/cart?orderId=171-6934092-7868309"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-06-403-4386843-8350719",
-      "supplier": "Amazon",
-      "title": "DEEPLEE PLA+ 2.0 yellow filament 1 kg",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-06",
-      "returnByDate": "2026-06-05",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 6 May says the DEEPLEE yellow PLA+ package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19dfdbdc019b32cc"
-      },
-      "items": [
-        "Order 403-4386843-8350719",
-        "DEEPLEE PLA+ 2.0 1.75 mm, 1 kg yellow",
-        "Delivered 6 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
     },
@@ -1532,35 +1476,6 @@
       ]
     },
     {
-      "id": "amazon-ordered-2026-06-06-407-3619788-2045147",
-      "supplier": "Amazon",
-      "title": "Lovasy women's summer pajama set, navy",
-      "status": "Ordered",
-      "dueDate": "2026-06-06",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon order confirmation dated 30 May says order 407-3619788-2045147 is arriving 6 June.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e7a54f319ec405"
-      },
-      "items": [
-        "Order 407-3619788-2045147",
-        "Lovasy women's summer modal sleeveless pajama set, navy, size S",
-        "Sold by Lovasy Direct",
-        "Quantity 1"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-3619788-2045147"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
       "id": "amazon-return-window-2026-05-31-171-6355222-8121921",
       "supplier": "Amazon",
       "title": "Flyzoo magnetic kickstand iPhone 13/14 case",
@@ -2144,32 +2059,201 @@
       ]
     },
     {
-      "id": "amazon-delayed-2026-06-08-402-1748041-4498704",
+      "id": "amazon-return-window-2026-06-05-407-3619788-2045147",
       "supplier": "Amazon",
-      "title": "Colgate Max White Purple Reveal toothpaste, 4 x 75 ml",
-      "status": "Delayed",
-      "dueDate": "2026-06-08",
+      "title": "Lovasy women's summer pajama set, navy",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery estimate update dated 4 June says shipment 402-1748041-4498704 is delayed and now arriving Monday, 8 June 2026 - Saturday, 12 December 2026. The dashboard uses the earliest new ETA as the due date and records the long fallback window in the item details.",
+      "deliveredDate": "2026-06-05",
+      "returnByDate": "2026-07-05",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 5 June says order 407-3619788-2045147 was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e90e3915111a2c"
+        "url": "https://mail.google.com/mail/#all/19e984b75fc2fe5f"
       },
       "items": [
-        "Order 402-1748041-4498704",
-        "Colgate Max White Purple Reveal Whitening Toothpaste, 4 x 75 ml",
-        "Quantity 1",
-        "Total EUR 11.96",
-        "ETA range 8 June 2026 - 12 December 2026"
+        "Order 407-3619788-2045147",
+        "Lovasy women's summer modal sleeveless pajama set, navy, size S",
+        "Sold by Lovasy Direct",
+        "Delivered 5 June 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-06-05-407-4891415-4908365",
+      "supplier": "Amazon",
+      "title": "NIVEA Repair & Care body moisturizer, 400 ml (Qty 2)",
+      "status": "Dispatched",
+      "dueDate": "2026-06-05",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order and dispatch emails dated 5 June say order 407-4891415-4908365 for two NIVEA Repair & Care 400 ml moisturizers shipped and was arriving that day. No delivered follow-up was found in this refresh.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e99eb9b6666a6c"
+      },
+      "items": [
+        "Order 407-4891415-4908365",
+        "NIVEA Repair & Care Body Moisturizer / Face & Hand Cream, 400 ml",
+        "Quantity 2",
+        "Sold by Amazon.es",
+        "Total EUR 10.61"
       ],
       "links": [
         {
           "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=402-1748041-4498704"
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-4891415-4908365"
         },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-06-06-407-0802648-8220313",
+      "supplier": "Amazon",
+      "title": "Colgate Max White Whitens and Protects toothpaste, 4 x 75 ml",
+      "status": "Dispatched",
+      "dueDate": "2026-06-06",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order and dispatch emails dated 5 June say order 407-0802648-8220313 shipped and is arriving 6 June.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e99582b35e5ad9"
+      },
+      "items": [
+        "Order 407-0802648-8220313",
+        "Colgate Max White Whitens and Protects Toothpaste, 4 x 75 ml",
+        "Sold by Amazon.es",
+        "Quantity 1",
+        "Total EUR 10.60"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-0802648-8220313"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-06-11-407-4502819-3772338",
+      "supplier": "Amazon",
+      "title": "Phyto Paris permanent hair colour 8.3 light golden blonde (Qty 2)",
+      "status": "Ordered",
+      "dueDate": "2026-06-11",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order confirmation dated 5 June says order 407-4502819-3772338 for two Phyto Paris permanent hair colour boxes is arriving Thursday, 11 June.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e98342f5d8f510"
+      },
+      "items": [
+        "Order 407-4502819-3772338",
+        "Phyto Paris Permanent Hair Colour 8.3 Light Golden Blonde",
+        "Quantity 2",
+        "Sold by Amazon.es",
+        "Total EUR 19.20"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-4502819-3772338"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-06-12-407-0785995-3695530",
+      "supplier": "Amazon",
+      "title": "Colgate Max White Purple Reveal toothpaste, 4 x 75 ml (Qty 2)",
+      "status": "Ordered",
+      "dueDate": "2026-06-12",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order confirmation dated 5 June says order 407-0785995-3695530 for two Colgate Max White Purple Reveal packs is arriving 12 June. This replaces the separately cancelled delayed order 402-1748041-4498704.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e96eb382d591fc"
+      },
+      "items": [
+        "Order 407-0785995-3695530",
+        "Colgate Max White Purple Reveal Whitening Toothpaste, 4 x 75 ml",
+        "Quantity 2",
+        "Sold by Amazon.es",
+        "Total EUR 19.52",
+        "Prior delayed order 402-1748041-4498704 cancelled without charge on 5 June 2026"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-0785995-3695530"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-subscription-cancelled-2026-06-05-korres-coloration-9-0",
+      "supplier": "Amazon",
+      "title": "Korres Argan Advanced Coloration Very Light Blonde Subscribe & Save",
+      "status": "Subscription canceled",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon Subscribe & Save email dated 5 June says the Korres Argan Advanced Coloration Very Light Blonde subscription was cancelled; recurring deliveries stop unless already dispatched.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e98316684c1e9b"
+      },
+      "items": [
+        "Korres Argan Advanced Coloration Very Light Blonde 9.0",
+        "Subscribe & Save schedule was 2 units every 2 months",
+        "Cancelled 5 June 2026"
+      ],
+      "links": [
+        {
+          "label": "Manage Amazon subscriptions",
+          "url": "https://www.amazon.es/auto-deliveries"
+        }
+      ]
+    },
+    {
+      "id": "usps-apple-package-2026-06-05-9205590262395374571325",
+      "supplier": "Apple / USPS",
+      "title": "Apple inbound USPS package",
+      "status": "Expected via USPS",
+      "dueDate": "2026-06-05",
+      "timezone": "Europe/Madrid",
+      "notes": "USPS Informed Delivery digest dated 5 June shows one inbound package from Apple expected that day with tracking 9205590262395374571325.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e983f0bce0277a"
+      },
+      "trackingNumber": "9205590262395374571325",
+      "items": [
+        "USPS tracking 9205590262395374571325",
+        "Sender shown as Apple",
+        "Expected 5 June 2026 in USPS Informed Delivery"
+      ],
+      "links": [
+        {
+          "label": "Track with USPS",
+          "url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9205590262395374571325"
         }
       ]
     }
