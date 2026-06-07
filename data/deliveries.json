@@ -1,10 +1,10 @@
 {
-  "today": "2026-06-06",
+  "today": "2026-06-07",
   "metadata": {
-    "version": "v98.0",
-    "generatedAt": "2026-06-06T06:08:00+02:00",
+    "version": "v99.0",
+    "generatedAt": "2026-06-07T06:10:00+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard refresh on 2026-06-06 morning. Searched new mail since the prior consolidated run plus 7-day lookbacks for Adeslas, S1, Manou, Pinterest, and broad transactional supplier/order terms. Included concrete supplier signals only: Amazon delivered Lovasy pajamas on 5 June; added dispatched Amazon NIVEA and Colgate Max White Whitens orders; added ordered Amazon Phyto hair colour and replacement Colgate Purple Reveal orders; removed the cancelled delayed Colgate Purple Reveal order; recorded Korres Subscribe & Save cancellation; added USPS Informed Delivery Apple package tracking; removed two expired passive Amazon return-window rows. Excluded newsletters, marketing, login/security notices, recommendation/review prompts, sent AC quote messages, Adeslas promotions, and non-actionable healthcare/admin false positives."
+    "source": "Gmail source-watch-dashboard refresh on 2026-06-07 morning. Searched new mail since the prior consolidated run plus 7-day lookbacks for Adeslas, S1, Manou, Pinterest, and broad transactional supplier/order terms. Included concrete supplier signals only: Amazon delivered the NIVEA Repair & Care moisturizer and Colgate Max White Whitens toothpaste orders on 6 June; Cloudflare issued invoice IN-67394252 for $2.97 due 6 June and confirmed the purchase; YRIS announced service discontinuation on 31 July 2026; removed three expired passive Amazon return-window rows. Excluded newsletters, marketing, login/security notices, recommendations, USPS digest with zero packages, OpenAI macOS security-update notice, Adeslas promotions, sent AC quote messages, and non-actionable healthcare/admin false positives."
   },
   "deliveries": [
     {
@@ -299,92 +299,6 @@
         "Order 171-2480271-8953128",
         "MIGUBIGU 10 pieces locking pins 4x40 mm",
         "Delivered 8 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-07-407-4258297-0284344",
-      "supplier": "Amazon",
-      "title": "Ufesa juicer and Yuson Girl shirts bundle",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-07",
-      "returnByDate": "2026-06-06",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 7 May says the Ufesa/Yuson four-item package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e030a63d6bcaa1"
-      },
-      "items": [
-        "Order 407-4258297-0284344",
-        "Ufesa Vitality electric arm juicer",
-        "Three Yuson Girl Hawaiian/vintage printed shirts",
-        "Delivered 7 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-07-404-6099955-6218744",
-      "supplier": "Amazon",
-      "title": "ALPIDEX T-Shirt 5-pack and ONLY ONLWONDER denim jacket",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-07",
-      "returnByDate": "2026-06-06",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 7 May says the ALPIDEX T-shirt and ONLY denim-jacket package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e030936fe583eb"
-      },
-      "items": [
-        "Order 404-6099955-6218744",
-        "ALPIDEX men's T-shirt 5-pack, desert, size M",
-        "ONLY ONLWONDER white denim jacket, size S",
-        "Delivered 7 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-07-171-6119443-4263557",
-      "supplier": "Amazon",
-      "title": "Kssiaz bamboo sofa arm tray",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-07",
-      "returnByDate": "2026-06-06",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 7 May says the Kssiaz sofa arm tray package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e03092f6d441f0"
-      },
-      "items": [
-        "Order 171-6119443-4263557",
-        "Kssiaz bamboo folding sofa arm tray, light brown",
-        "Delivered 7 May 2026"
       ],
       "links": [
         {
@@ -2088,16 +2002,16 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-06-05-407-4891415-4908365",
+      "id": "amazon-return-window-2026-06-06-407-4891415-4908365",
       "supplier": "Amazon",
       "title": "NIVEA Repair & Care body moisturizer, 400 ml (Qty 2)",
-      "status": "Dispatched",
-      "dueDate": "2026-06-05",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order and dispatch emails dated 5 June say order 407-4891415-4908365 for two NIVEA Repair & Care 400 ml moisturizers shipped and was arriving that day. No delivered follow-up was found in this refresh.",
+      "notes": "Amazon delivery email dated 6 June says order 407-4891415-4908365 for two NIVEA Repair & Care 400 ml moisturizers was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e99eb9b6666a6c"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19e9ce8c1754b695"
       },
       "items": [
         "Order 407-4891415-4908365",
@@ -2115,19 +2029,23 @@
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-06-06",
+      "returnByDate": "2026-07-06",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-06-06-407-0802648-8220313",
+      "id": "amazon-return-window-2026-06-06-407-0802648-8220313",
       "supplier": "Amazon",
       "title": "Colgate Max White Whitens and Protects toothpaste, 4 x 75 ml",
-      "status": "Dispatched",
-      "dueDate": "2026-06-06",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order and dispatch emails dated 5 June say order 407-0802648-8220313 shipped and is arriving 6 June.",
+      "notes": "Amazon delivery email dated 6 June says order 407-0802648-8220313 for Colgate Max White Whitens and Protects toothpaste was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e99582b35e5ad9"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19e9ce7b1fb88117"
       },
       "items": [
         "Order 407-0802648-8220313",
@@ -2145,7 +2063,11 @@
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-06-06",
+      "returnByDate": "2026-07-06",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-ordered-2026-06-11-407-4502819-3772338",
@@ -3055,6 +2977,66 @@
         {
           "label": "Manage Subscribe & Save",
           "url": "https://www.amazon.es/auto-deliveries"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare-invoice-2026-06-06-in-67394252",
+      "service": "Cloudflare account billing",
+      "title": "Cloudflare invoice IN-67394252",
+      "status": "Paid invoice",
+      "nextDate": "2026-06-06",
+      "dateLabel": "Paid Saturday, 6 June 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "one_time",
+      "warningWindowDays": 7,
+      "notes": "Cloudflare invoice email dated 6 June says invoice IN-67394252 for $2.97 was due that day, followed by a purchase-confirmed email for the same amount paid with Apple Pay. The email does not identify a specific domain or service, so this is tracked as account-level billing.",
+      "sourceEmail": {
+        "label": "Invoice email",
+        "url": "https://mail.google.com/mail/#all/19e9c9c481008b4d"
+      },
+      "items": [
+        "Invoice IN-67394252",
+        "$2.97 due 6 June 2026",
+        "Purchase confirmed with Apple Pay",
+        "No specific domain/service named in email"
+      ],
+      "links": [
+        {
+          "label": "Open Cloudflare billing",
+          "url": "https://dash.cloudflare.com/"
+        }
+      ],
+      "lastBillingDate": "2026-06-06"
+    },
+    {
+      "id": "yris-service-discontinuation-2026-07-31",
+      "service": "YRIS digital identity",
+      "title": "YRIS service discontinuation",
+      "status": "Service ending; migration needed",
+      "nextDate": "2026-07-31",
+      "dateLabel": "Service ends Friday, 31 July 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "action_required",
+      "warningWindowDays": 30,
+      "notes": "YRIS email dated 6 June says the YRIS service will be discontinued on 31 July 2026 and recommends switching to another digital identity solution such as France Identité or another FranceConnect-compatible provider.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19e9bb2789c63c51"
+      },
+      "items": [
+        "YRIS service discontinued on 31 July 2026",
+        "Switch digital identity provider before discontinuation",
+        "France Identité suggested for eligible users"
+      ],
+      "links": [
+        {
+          "label": "Open YRIS",
+          "url": "https://www.yris.eu/"
+        },
+        {
+          "label": "Open FranceConnect",
+          "url": "https://franceconnect.gouv.fr/"
         }
       ]
     }
