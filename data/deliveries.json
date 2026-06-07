@@ -2,7 +2,7 @@
   "today": "2026-06-07",
   "metadata": {
     "version": "v99.0",
-    "generatedAt": "2026-06-07T06:10:00+02:00",
+    "generatedAt": "2026-06-07T06:06:10+02:00",
     "timezone": "Europe/Madrid",
     "source": "Gmail source-watch-dashboard refresh on 2026-06-07 morning. Searched new mail since the prior consolidated run plus 7-day lookbacks for Adeslas, S1, Manou, Pinterest, and broad transactional supplier/order terms. Included concrete supplier signals only: Amazon delivered the NIVEA Repair & Care moisturizer and Colgate Max White Whitens toothpaste orders on 6 June; Cloudflare issued invoice IN-67394252 for $2.97 due 6 June and confirmed the purchase; YRIS announced service discontinuation on 31 July 2026; removed three expired passive Amazon return-window rows. Excluded newsletters, marketing, login/security notices, recommendations, USPS digest with zero packages, OpenAI macOS security-update notice, Adeslas promotions, sent AC quote messages, and non-actionable healthcare/admin false positives."
   },
