@@ -1,10 +1,10 @@
 {
-  "today": "2026-06-07",
+  "today": "2026-06-08",
   "metadata": {
-    "version": "v99.0",
-    "generatedAt": "2026-06-07T06:06:10+02:00",
+    "version": "v100.0",
+    "generatedAt": "2026-06-08T15:45:00+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard refresh on 2026-06-07 morning. Searched new mail since the prior consolidated run plus 7-day lookbacks for Adeslas, S1, Manou, Pinterest, and broad transactional supplier/order terms. Included concrete supplier signals only: Amazon delivered the NIVEA Repair & Care moisturizer and Colgate Max White Whitens toothpaste orders on 6 June; Cloudflare issued invoice IN-67394252 for $2.97 due 6 June and confirmed the purchase; YRIS announced service discontinuation on 31 July 2026; removed three expired passive Amazon return-window rows. Excluded newsletters, marketing, login/security notices, recommendations, USPS digest with zero packages, OpenAI macOS security-update notice, Adeslas promotions, sent AC quote messages, and non-actionable healthcare/admin false positives."
+    "source": "Gmail source-watch-dashboard refresh on 2026-06-08 afternoon. Searched new mail since the last recorded consolidated run plus 7-day lookbacks for Adeslas, S1, Manou, Pinterest, and broad transactional supplier/order terms. Included concrete supplier signals only: Amazon L'Oreal Professionnel hair mask ordered/dispatched/out for delivery on 8 June, eSUN PLA grey filament dispatched with a 13 June ETA, Colgate Max White Purple Reveal dispatched with a 9 June ETA, and L'OR Ristretto Subscribe & Save reminder with next delivery by 18 June and price increase to EUR 15.86. Removed two expired passive Amazon return-window rows. Excluded newsletters, marketing, login/security notices, review prompts, Wise personal transfers, Adeslas policy reply from supplier data, and non-actionable healthcare/admin/developer false positives."
   },
   "deliveries": [
     {
@@ -243,62 +243,6 @@
         "Order 407-2347723-1756353",
         "Crewhpo summer short-sleeve pajama set",
         "Delivered 9 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-08-171-5490823-1741961",
-      "supplier": "Amazon",
-      "title": "DEEPLEE PLA+ 2.0 peach pink filament 1 kg",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-08",
-      "returnByDate": "2026-06-07",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 8 May says the DEEPLEE peach-pink PLA+ package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e07e86485b8c10"
-      },
-      "items": [
-        "Order 171-5490823-1741961",
-        "DEEPLEE PLA+ 2.0 peach pink filament, 1 kg",
-        "Delivered 8 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-08-171-2480271-8953128",
-      "supplier": "Amazon",
-      "title": "MIGUBIGU 10-piece locking pins set",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-08",
-      "returnByDate": "2026-06-07",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 8 May says the MIGUBIGU locking pins package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e07e832a962483"
-      },
-      "items": [
-        "Order 171-2480271-8953128",
-        "MIGUBIGU 10 pieces locking pins 4x40 mm",
-        "Delivered 8 May 2026"
       ],
       "links": [
         {
@@ -1231,23 +1175,30 @@
       "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-delayed-2026-06-22-171-2354700-1021906",
+      "id": "amazon-dispatched-2026-06-13-171-2354700-1021906",
       "supplier": "Amazon",
       "title": "eSUN PLA Basic filament, grey 2-spool pack",
-      "status": "Delivery delayed",
-      "dueDate": "2026-06-22",
+      "status": "Dispatched",
+      "dueDate": "2026-06-13",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery estimate update dated 26 May says this order is delayed and is now arriving Monday, 15 June - Monday, 22 June; Amazon says it will send a confirmation when the item ships.",
+      "notes": "Amazon dispatch email dated 8 June says order 171-2354700-1021906 has shipped and is arriving Saturday, 13 June. This supersedes the older delayed-delivery estimate.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e62a8bb2fc59a0"
+        "url": "https://mail.google.com/mail/#all/19ea67b3c93ab59e"
       },
       "items": [
         "Order 171-2354700-1021906",
         "eSUN PLA Basic filament 1.75 mm, grey and grey, 1 kg x 2 spools",
-        "Updated expected delivery range 15-22 June 2026"
+        "Sold by eSUN Official Store",
+        "Quantity 1",
+        "Total EUR 15.79",
+        "Arriving Saturday, 13 June 2026"
       ],
       "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=171-2354700-1021906"
+        },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
@@ -2100,16 +2051,16 @@
       ]
     },
     {
-      "id": "amazon-ordered-2026-06-12-407-0785995-3695530",
+      "id": "amazon-dispatched-2026-06-09-407-0785995-3695530",
       "supplier": "Amazon",
       "title": "Colgate Max White Purple Reveal toothpaste, 4 x 75 ml (Qty 2)",
-      "status": "Ordered",
-      "dueDate": "2026-06-12",
+      "status": "Dispatched",
+      "dueDate": "2026-06-09",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order confirmation dated 5 June says order 407-0785995-3695530 for two Colgate Max White Purple Reveal packs is arriving 12 June. This replaces the separately cancelled delayed order 402-1748041-4498704.",
+      "notes": "Amazon dispatch email dated 7 June says order 407-0785995-3695530 has shipped and is arriving Tuesday, 9 June. This replaces the earlier ordered-only row and the separately cancelled delayed order 402-1748041-4498704.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e96eb382d591fc"
+        "url": "https://mail.google.com/mail/#all/19ea2267e45a5039"
       },
       "items": [
         "Order 407-0785995-3695530",
@@ -2117,6 +2068,7 @@
         "Quantity 2",
         "Sold by Amazon.es",
         "Total EUR 19.52",
+        "Arriving Tuesday, 9 June 2026",
         "Prior delayed order 402-1748041-4498704 cancelled without charge on 5 June 2026"
       ],
       "links": [
@@ -2176,6 +2128,67 @@
         {
           "label": "Track with USPS",
           "url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9205590262395374571325"
+        }
+      ]
+    },
+    {
+      "id": "amazon-out-for-delivery-2026-06-08-407-3407122-5226769",
+      "supplier": "Amazon",
+      "title": "L'Oreal Professionnel Absolut Repair hair mask, 250 ml",
+      "status": "Out for delivery",
+      "dueDate": "2026-06-08",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order confirmation dated 7 June and dispatch/out-for-delivery emails dated 7-8 June say order 407-3407122-5226769 for L'Oreal Professionnel Absolut Repair hair mask is arriving today.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19ea697bd46a7151"
+      },
+      "items": [
+        "Order 407-3407122-5226769",
+        "L'Oreal Professionnel Reconstructive Treatment Mask for dry and damaged hair, Absolut Repair, 250 ml",
+        "Sold by Amazon.es",
+        "Quantity 1",
+        "Total EUR 18.63",
+        "Out for delivery 8 June 2026"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-3407122-5226769"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-subscribe-save-upcoming-2026-06-18-lor-ristretto",
+      "supplier": "Amazon",
+      "title": "L'OR Ristretto coffee pods Subscribe & Save upcoming delivery",
+      "status": "Upcoming Subscribe & Save delivery",
+      "dueDate": "2026-06-18",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon Subscribe & Save reminder dated 7 June says the next L'OR Ristretto auto-delivery is arriving by Thursday, 18 June. Last day to manage delivery is Wednesday, 10 June; price increased from EUR 15.02 to EUR 15.86 after discount change from 10% to 5%.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19ea0b092be138db"
+      },
+      "items": [
+        "L'OR Capsulas de Cafe Ristretto, intensity 11",
+        "Quantity 2 units every 2 weeks",
+        "New price EUR 15.86 after 5% Subscribe & Save discount",
+        "Last day to manage delivery: 10 June 2026",
+        "Arriving by 18 June 2026"
+      ],
+      "links": [
+        {
+          "label": "Manage Amazon subscriptions",
+          "url": "https://www.amazon.es/auto-deliveries"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
     }
@@ -3037,6 +3050,34 @@
         {
           "label": "Open FranceConnect",
           "url": "https://franceconnect.gouv.fr/"
+        }
+      ]
+    },
+    {
+      "id": "amazon-subscribe-save-lor-ristretto-2026-06-18",
+      "service": "Amazon Subscribe & Save",
+      "title": "L'OR Ristretto coffee pods auto-delivery",
+      "status": "Active auto-delivery; price changed",
+      "nextDate": "2026-06-18",
+      "dateLabel": "Next delivery by Thursday, 18 June 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 7,
+      "notes": "Amazon Subscribe & Save reminder dated 7 June says the L'OR Ristretto subscription sends 2 units every 2 weeks, next delivery by 18 June, last manageable day 10 June, and price changed from EUR 15.02 to EUR 15.86 after discount changed from 10% to 5%.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19ea0b092be138db"
+      },
+      "items": [
+        "L'OR Capsulas de Cafe Ristretto, intensity 11",
+        "2 units every 2 weeks",
+        "New price EUR 15.86",
+        "Last day to manage delivery: 10 June 2026"
+      ],
+      "links": [
+        {
+          "label": "Manage Subscribe & Save",
+          "url": "https://www.amazon.es/auto-deliveries"
         }
       ]
     }
