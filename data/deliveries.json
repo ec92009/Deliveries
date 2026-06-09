@@ -1,10 +1,10 @@
 {
-  "today": "2026-06-08",
+  "today": "2026-06-09",
   "metadata": {
-    "version": "v100.0",
-    "generatedAt": "2026-06-08T15:45:00+02:00",
+    "version": "v101.0",
+    "generatedAt": "2026-06-09T06:18:00+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard refresh on 2026-06-08 afternoon. Searched new mail since the last recorded consolidated run plus 7-day lookbacks for Adeslas, S1, Manou, Pinterest, and broad transactional supplier/order terms. Included concrete supplier signals only: Amazon L'Oreal Professionnel hair mask ordered/dispatched/out for delivery on 8 June, eSUN PLA grey filament dispatched with a 13 June ETA, Colgate Max White Purple Reveal dispatched with a 9 June ETA, and L'OR Ristretto Subscribe & Save reminder with next delivery by 18 June and price increase to EUR 15.86. Removed two expired passive Amazon return-window rows. Excluded newsletters, marketing, login/security notices, review prompts, Wise personal transfers, Adeslas policy reply from supplier data, and non-actionable healthcare/admin/developer false positives."
+    "source": "Gmail source-watch-dashboard refresh on 2026-06-09 morning. Searched new mail since the previous consolidated run plus 7-day lookbacks for Adeslas, S1, Manou, Pinterest, and broad transactional supplier/order terms. Included concrete supplier signals only: Amazon delivered the L'Oreal Professionnel hair mask on 8 June, and Amazon ordered Ziyonix 105L storage bags plus Motul Perfect Leather M3 cleaner on 8 June with 11 June ETAs. Removed expired passive Amazon return-window rows through 9 June. Excluded newsletters, marketing, login/security notices, recommendations, and non-actionable healthcare/admin/developer false positives."
   },
   "deliveries": [
     {
@@ -187,62 +187,6 @@
         "Order 403-0346876-9134748",
         "Only & Sons Onsloom jeans, Dark Blue Denim, 33W / 30L",
         "Quantity 2"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-09-171-7693667-1676301",
-      "supplier": "Amazon",
-      "title": "eSUN PLA Filamento 1.75mm (2x Dark Red)",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-09",
-      "returnByDate": "2026-06-08",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 9 May says the eSUN PLA package was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e0cc2da4423882"
-      },
-      "items": [
-        "Order 171-7693667-1676301",
-        "eSUN PLA Basic filament, dark red, 2 spools",
-        "Delivered 9 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-09-407-2347723-1756353",
-      "supplier": "Amazon",
-      "title": "Crewhpo women's summer short sleeve pajamas",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-09",
-      "returnByDate": "2026-06-08",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 9 May says the Crewhpo pajamas package was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e0cc271d92dcd5"
-      },
-      "items": [
-        "Order 407-2347723-1756353",
-        "Crewhpo summer short-sleeve pajama set",
-        "Delivered 9 May 2026"
       ],
       "links": [
         {
@@ -2132,16 +2076,20 @@
       ]
     },
     {
-      "id": "amazon-out-for-delivery-2026-06-08-407-3407122-5226769",
+      "id": "amazon-return-window-2026-06-08-407-3407122-5226769",
       "supplier": "Amazon",
       "title": "L'Oreal Professionnel Absolut Repair hair mask, 250 ml",
-      "status": "Out for delivery",
-      "dueDate": "2026-06-08",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order confirmation dated 7 June and dispatch/out-for-delivery emails dated 7-8 June say order 407-3407122-5226769 for L'Oreal Professionnel Absolut Repair hair mask is arriving today.",
+      "deliveredDate": "2026-06-08",
+      "returnByDate": "2026-07-08",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 8 June says order 407-3407122-5226769 for L'Oreal Professionnel Absolut Repair hair mask was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19ea697bd46a7151"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19ea7dcb1cafb3b6"
       },
       "items": [
         "Order 407-3407122-5226769",
@@ -2149,7 +2097,7 @@
         "Sold by Amazon.es",
         "Quantity 1",
         "Total EUR 18.63",
-        "Out for delivery 8 June 2026"
+        "Delivered 8 June 2026"
       ],
       "links": [
         {
@@ -2185,6 +2133,68 @@
         {
           "label": "Manage Amazon subscriptions",
           "url": "https://www.amazon.es/auto-deliveries"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-06-08-407-2421521-9454769",
+      "supplier": "Amazon",
+      "title": "Ziyonix 105L large storage bags, 2 pack",
+      "status": "Ordered",
+      "dueDate": "2026-06-11",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order confirmation dated 8 June says order 407-2421521-9454769 for Ziyonix 105L large storage bags is arriving Thursday, 11 June.",
+      "sourceEmail": {
+        "label": "Order email",
+        "url": "https://mail.google.com/mail/#all/19ea7fe0faa82fe4"
+      },
+      "items": [
+        "Order 407-2421521-9454769",
+        "Ziyonix 2 Pieces Large Storage Bags, 105L Oxford fabric moving/storage bags with zipper",
+        "Sold by zhiyuanhao",
+        "Quantity 1",
+        "Total EUR 14.99",
+        "Arriving Thursday 11 June 2026"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-2421521-9454769"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-06-08-407-0474239-8123530",
+      "supplier": "Amazon",
+      "title": "Motul Perfect Leather M3 cleaner, 250 ml",
+      "status": "Ordered",
+      "dueDate": "2026-06-11",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order confirmation dated 8 June says order 407-0474239-8123530 for Motul Perfect Leather M3 cleaner is arriving Thursday, 11 June.",
+      "sourceEmail": {
+        "label": "Order email",
+        "url": "https://mail.google.com/mail/#all/19ea802d95cafc3f"
+      },
+      "items": [
+        "Order 407-0474239-8123530",
+        "Motul Cream Leather Cleaner / MC Care Perfect Leather M3, 250 ml",
+        "Sold by Amazon.es",
+        "Quantity 1",
+        "Total EUR 7.72",
+        "Arriving Thursday 11 June 2026"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-0474239-8123530"
         },
         {
           "label": "Open Amazon orders",
