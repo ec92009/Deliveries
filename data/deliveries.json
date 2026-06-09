@@ -2,7 +2,7 @@
   "today": "2026-06-09",
   "metadata": {
     "version": "v101.0",
-    "generatedAt": "2026-06-09T06:18:00+02:00",
+    "generatedAt": "2026-06-09T06:06:28+02:00",
     "timezone": "Europe/Madrid",
     "source": "Gmail source-watch-dashboard refresh on 2026-06-09 morning. Searched new mail since the previous consolidated run plus 7-day lookbacks for Adeslas, S1, Manou, Pinterest, and broad transactional supplier/order terms. Included concrete supplier signals only: Amazon delivered the L'Oreal Professionnel hair mask on 8 June, and Amazon ordered Ziyonix 105L storage bags plus Motul Perfect Leather M3 cleaner on 8 June with 11 June ETAs. Removed expired passive Amazon return-window rows through 9 June. Excluded newsletters, marketing, login/security notices, recommendations, and non-actionable healthcare/admin/developer false positives."
   },
