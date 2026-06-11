@@ -1,10 +1,10 @@
 {
-  "today": "2026-06-10",
+  "today": "2026-06-11",
   "metadata": {
-    "version": "v102.0",
-    "generatedAt": "2026-06-10T06:10:00+02:00",
+    "version": "v103.0",
+    "generatedAt": "2026-06-11T07:41:10+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard refresh on 2026-06-10 morning. Searched new mail since the previous consolidated run plus 7-day lookbacks for Adeslas, S1, Manou, Pinterest, and broad transactional supplier/order terms. Included concrete supplier signals only: Amazon delivered Colgate Max White Purple Reveal on 9 June; Amazon dispatched POLIBOY furniture oil, hometrixx tablecloth, and SUNLU PLA+ filament; Amazon ordered BLUE SWAN photo paper; Photos By Elie issued new paid digital-download receipts. Excluded newsletters, promotions, login/security/data-share notices, USPS digest with zero packages, Cloudflare registrar contact forwarding, and non-actionable healthcare/admin/developer false positives."
+    "source": "Gmail source-watch-dashboard refresh on 2026-06-11 morning. Searched new mail since the previous consolidated run plus 7-day lookbacks for Adeslas, S1, Manou, Pinterest, and broad transactional supplier/order terms. Included concrete supplier signals only: Amazon dispatched Motul, Ziyonix, and BLUE SWAN orders for 11 June, and ordered/dispatched Luminia glass cleaner for 12 June. Excluded newsletters, promotions, login/security notices, political mail, account-summary mail, and non-actionable healthcare/admin/developer false positives."
   },
   "deliveries": [
     {
@@ -2140,16 +2140,16 @@
       ]
     },
     {
-      "id": "amazon-ordered-2026-06-08-407-2421521-9454769",
+      "id": "amazon-dispatched-2026-06-11-407-2421521-9454769",
       "supplier": "Amazon",
       "title": "Ziyonix 105L large storage bags, 2 pack",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-06-11",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order confirmation dated 8 June says order 407-2421521-9454769 for Ziyonix 105L large storage bags is arriving Thursday, 11 June.",
+      "notes": "Amazon dispatch email dated 11 June says order 407-2421521-9454769 has shipped and is arriving today.",
       "sourceEmail": {
-        "label": "Order email",
-        "url": "https://mail.google.com/mail/#all/19ea7fe0faa82fe4"
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19eb40d13b3db8f3"
       },
       "items": [
         "Order 407-2421521-9454769",
@@ -2157,7 +2157,7 @@
         "Sold by zhiyuanhao",
         "Quantity 1",
         "Total EUR 14.99",
-        "Arriving Thursday 11 June 2026"
+        "Arriving today, 11 June 2026"
       ],
       "links": [
         {
@@ -2171,16 +2171,16 @@
       ]
     },
     {
-      "id": "amazon-ordered-2026-06-08-407-0474239-8123530",
+      "id": "amazon-dispatched-2026-06-11-407-0474239-8123530",
       "supplier": "Amazon",
       "title": "Motul Perfect Leather M3 cleaner, 250 ml",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-06-11",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order confirmation dated 8 June says order 407-0474239-8123530 for Motul Perfect Leather M3 cleaner is arriving Thursday, 11 June.",
+      "notes": "Amazon dispatch email dated 11 June says order 407-0474239-8123530 has shipped and is arriving today.",
       "sourceEmail": {
-        "label": "Order email",
-        "url": "https://mail.google.com/mail/#all/19ea802d95cafc3f"
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19eb40d6c0b564d2"
       },
       "items": [
         "Order 407-0474239-8123530",
@@ -2188,7 +2188,7 @@
         "Sold by Amazon.es",
         "Quantity 1",
         "Total EUR 7.72",
-        "Arriving Thursday 11 June 2026"
+        "Arriving today, 11 June 2026"
       ],
       "links": [
         {
@@ -2264,16 +2264,16 @@
       ]
     },
     {
-      "id": "amazon-ordered-2026-06-11-171-5882181-9087564",
+      "id": "amazon-dispatched-2026-06-11-171-5882181-9087564",
       "supplier": "Amazon",
       "title": "BLUE SWAN A4 laser photo paper, 200 sheets",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-06-11",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order confirmation dated 9 June says order 171-5882181-9087564 for BLUE SWAN glossy A4 laser photo paper is arriving Thursday, 11 June.",
+      "notes": "Amazon dispatch email dated 11 June says order 171-5882181-9087564 has shipped and is arriving today.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19eac52960da2893"
+        "url": "https://mail.google.com/mail/#all/19eb40c9b170b1bb"
       },
       "items": [
         "Order 171-5882181-9087564",
@@ -2281,12 +2281,43 @@
         "Sold by BlueSwan-Hamburg",
         "Quantity 1",
         "Total EUR 18.20",
-        "Arriving Thursday, 11 June 2026"
+        "Arriving today, 11 June 2026"
       ],
       "links": [
         {
           "label": "View or edit order",
           "url": "https://www.amazon.es/your-orders/order-details?orderID=171-5882181-9087564"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-06-12-407-2974737-7436339",
+      "supplier": "Amazon",
+      "title": "Luminia glass cleaner, 750 ml",
+      "status": "Dispatched",
+      "dueDate": "2026-06-12",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order and dispatch emails dated 10 June say order 407-2974737-7436339 for Luminia glass cleaner has shipped and is arriving Friday, 12 June.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19eb31553ef4bff9"
+      },
+      "items": [
+        "Order 407-2974737-7436339",
+        "Luminia Glass Cleaner Product, 750 ml",
+        "Sold by Amazon.es",
+        "Quantity 1",
+        "Total EUR 2.45",
+        "Arriving Friday, 12 June 2026"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-2974737-7436339"
         },
         {
           "label": "Open Amazon orders",
