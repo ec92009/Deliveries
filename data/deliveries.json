@@ -1,10 +1,10 @@
 {
-  "today": "2026-06-11",
+  "today": "2026-06-12",
   "metadata": {
-    "version": "v103.0",
-    "generatedAt": "2026-06-11T07:41:10+02:00",
+    "version": "v104.0",
+    "generatedAt": "2026-06-12T06:01:59+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard refresh on 2026-06-11 morning. Searched new mail since the previous consolidated run plus 7-day lookbacks for Adeslas, S1, Manou, Pinterest, and broad transactional supplier/order terms. Included concrete supplier signals only: Amazon dispatched Motul, Ziyonix, and BLUE SWAN orders for 11 June, and ordered/dispatched Luminia glass cleaner for 12 June. Excluded newsletters, promotions, login/security notices, political mail, account-summary mail, and non-actionable healthcare/admin/developer false positives."
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-12 morning. Searched broad transactional supplier/order terms since the previous consolidated run plus 7-day supplier lookbacks. Included concrete supplier signals only: Amazon delivered Luminia, SUNLU PLA+, BLUE SWAN photo paper, Motul leather cleaner, Ziyonix storage bags, and Phyto hair colour on 11 June, and dispatched Amazon Essentials dark-olive chino shorts for 12 June. Removed one expired passive Amazon return-window row. Excluded newsletters, promotions, login/security notices, political mail, property alerts, recommendation mail, and non-actionable non-transactional messages."
   },
   "deliveries": [
     {
@@ -217,34 +217,6 @@
         "DEEPLEE PLA+ 2.0 warm yellow filament, 1 kg",
         "DEEPLEE PLA+ 2.0 pink filament kit, 2 kg",
         "Delivered 13 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-12-407-4671819-5804354",
-      "supplier": "Amazon",
-      "title": "DiCUNO E27 corn LED bulbs, 10W warm white",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-12",
-      "returnByDate": "2026-06-11",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 12 May says the DiCUNO E27 corn LED bulb package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e1c03c5cd497e3"
-      },
-      "items": [
-        "Order 407-4671819-5804354",
-        "DiCUNO LED E27 corn bulbs, 10W, 1200 lm, warm white 2700K, pack of 2",
-        "Delivered 12 May 2026"
       ],
       "links": [
         {
@@ -1614,35 +1586,32 @@
       "returnByDate": "2026-07-03"
     },
     {
-      "id": "amazon-dispatched-2026-06-11-171-4326544-3833155",
+      "id": "amazon-return-window-2026-06-11-171-4326544-3833155",
       "supplier": "Amazon",
       "title": "SUNLU 4kg PLA+ filament transparent color pack",
-      "status": "Dispatched",
-      "dueDate": "2026-06-11",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 9 June says order 171-4326544-3833155 has shipped and is arriving Thursday, 11 June. This supersedes the earlier Subscribe & Save ordered-only dashboard row that had shown a 2 July ETA.",
+      "notes": "Amazon delivery email dated 11 June says the SUNLU 4kg PLA+ filament order was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19eae20bbc254489"
+        "url": "https://mail.google.com/mail/#all/19eb7319822c2d2f"
       },
       "items": [
         "Order 171-4326544-3833155",
         "SUNLU 4kg Pack PLA+ Filament 1.75 mm, transparent red/blue/green/yellow",
-        "Sold by SUNLU-EU",
-        "Quantity 1",
-        "Total EUR 49.99",
-        "Arriving Thursday, 11 June 2026"
+        "Delivered 11 June 2026"
       ],
       "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=171-4326544-3833155"
-        },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-06-11",
+      "returnByDate": "2026-07-11",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-return-window-2026-06-03-402-1689404-7416323",
@@ -1962,34 +1931,33 @@
       "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-ordered-2026-06-11-407-4502819-3772338",
+      "id": "amazon-return-window-2026-06-11-407-4502819-3772338",
       "supplier": "Amazon",
       "title": "Phyto Paris permanent hair colour 8.3 light golden blonde (Qty 2)",
-      "status": "Ordered",
-      "dueDate": "2026-06-11",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order confirmation dated 5 June says order 407-4502819-3772338 for two Phyto Paris permanent hair colour boxes is arriving Thursday, 11 June.",
+      "notes": "Amazon delivery email dated 11 June says the Phyto Paris hair colour order was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e98342f5d8f510"
+        "url": "https://mail.google.com/mail/#all/19eb7316c6bc99aa"
       },
       "items": [
         "Order 407-4502819-3772338",
         "Phyto Paris Permanent Hair Colour 8.3 Light Golden Blonde",
         "Quantity 2",
-        "Sold by Amazon.es",
-        "Total EUR 19.20"
+        "Delivered 11 June 2026"
       ],
       "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-4502819-3772338"
-        },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-06-11",
+      "returnByDate": "2026-07-11",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-return-window-2026-06-09-407-0785995-3695530",
@@ -2140,66 +2108,60 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-06-11-407-2421521-9454769",
+      "id": "amazon-return-window-2026-06-11-407-2421521-9454769",
       "supplier": "Amazon",
       "title": "Ziyonix 105L large storage bags, 2 pack",
-      "status": "Dispatched",
-      "dueDate": "2026-06-11",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 11 June says order 407-2421521-9454769 has shipped and is arriving today.",
+      "notes": "Amazon delivery email dated 11 June says the Ziyonix 105L storage bags package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19eb40d13b3db8f3"
+        "url": "https://mail.google.com/mail/#all/19eb73194598c6dd"
       },
       "items": [
         "Order 407-2421521-9454769",
         "Ziyonix 2 Pieces Large Storage Bags, 105L Oxford fabric moving/storage bags with zipper",
-        "Sold by zhiyuanhao",
-        "Quantity 1",
-        "Total EUR 14.99",
-        "Arriving today, 11 June 2026"
+        "Delivered 11 June 2026"
       ],
       "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-2421521-9454769"
-        },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-06-11",
+      "returnByDate": "2026-07-11",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-06-11-407-0474239-8123530",
+      "id": "amazon-return-window-2026-06-11-407-0474239-8123530",
       "supplier": "Amazon",
       "title": "Motul Perfect Leather M3 cleaner, 250 ml",
-      "status": "Dispatched",
-      "dueDate": "2026-06-11",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 11 June says order 407-0474239-8123530 has shipped and is arriving today.",
+      "notes": "Amazon delivery email dated 11 June says the Motul Perfect Leather M3 cleaner package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19eb40d6c0b564d2"
+        "url": "https://mail.google.com/mail/#all/19eb73194598c6dd"
       },
       "items": [
         "Order 407-0474239-8123530",
         "Motul Cream Leather Cleaner / MC Care Perfect Leather M3, 250 ml",
-        "Sold by Amazon.es",
-        "Quantity 1",
-        "Total EUR 7.72",
-        "Arriving today, 11 June 2026"
+        "Delivered 11 June 2026"
       ],
       "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-0474239-8123530"
-        },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-06-11",
+      "returnByDate": "2026-07-11",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-dispatched-2026-06-13-407-9536656-3740364",
@@ -2264,60 +2226,85 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-06-11-171-5882181-9087564",
+      "id": "amazon-return-window-2026-06-11-171-5882181-9087564",
       "supplier": "Amazon",
       "title": "BLUE SWAN A4 laser photo paper, 200 sheets",
-      "status": "Dispatched",
-      "dueDate": "2026-06-11",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 11 June says order 171-5882181-9087564 has shipped and is arriving today.",
+      "notes": "Amazon delivery email dated 11 June says the BLUE SWAN A4 laser photo paper package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19eb40c9b170b1bb"
+        "url": "https://mail.google.com/mail/#all/19eb73194598c6dd"
       },
       "items": [
         "Order 171-5882181-9087564",
         "BLUE SWAN Papel Fotografico Laser A4, 200 sheets, 105 g/m2, glossy both sides",
-        "Sold by BlueSwan-Hamburg",
-        "Quantity 1",
-        "Total EUR 18.20",
-        "Arriving today, 11 June 2026"
+        "Delivered 11 June 2026"
       ],
       "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=171-5882181-9087564"
-        },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-06-11",
+      "returnByDate": "2026-07-11",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-06-12-407-2974737-7436339",
+      "id": "amazon-return-window-2026-06-11-407-2974737-7436339",
       "supplier": "Amazon",
       "title": "Luminia glass cleaner, 750 ml",
-      "status": "Dispatched",
-      "dueDate": "2026-06-12",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order and dispatch emails dated 10 June say order 407-2974737-7436339 for Luminia glass cleaner has shipped and is arriving Friday, 12 June.",
+      "notes": "Amazon delivery email dated 11 June says the Luminia glass cleaner order was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19eb31553ef4bff9"
+        "url": "https://mail.google.com/mail/#all/19eb732915d8a810"
       },
       "items": [
         "Order 407-2974737-7436339",
         "Luminia Glass Cleaner Product, 750 ml",
+        "Delivered 11 June 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "deliveredDate": "2026-06-11",
+      "returnByDate": "2026-07-11",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-dispatched-2026-06-12-407-1489304-0583547",
+      "supplier": "Amazon",
+      "title": "Amazon Essentials classic chino shorts, dark olive",
+      "status": "Dispatched",
+      "dueDate": "2026-06-12",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 11 June says order 407-1489304-0583547 has shipped and is arriving Friday, 12 June.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19eb7a85d4bc3aa8"
+      },
+      "items": [
+        "Order 407-1489304-0583547",
+        "Amazon Essentials Men's Classic Cut Chino Shorts, Dark Olive, 34W",
         "Sold by Amazon.es",
         "Quantity 1",
-        "Total EUR 2.45",
+        "Total EUR 23.80",
         "Arriving Friday, 12 June 2026"
       ],
       "links": [
         {
           "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-2974737-7436339"
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-1489304-0583547"
         },
         {
           "label": "Open Amazon orders",
