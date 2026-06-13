@@ -1,10 +1,10 @@
 {
-  "today": "2026-06-12",
+  "today": "2026-06-13",
   "metadata": {
-    "version": "v104.0",
-    "generatedAt": "2026-06-12T06:01:59+02:00",
+    "version": "v105.0",
+    "generatedAt": "2026-06-13T06:20:00+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-12 morning. Searched broad transactional supplier/order terms since the previous consolidated run plus 7-day supplier lookbacks. Included concrete supplier signals only: Amazon delivered Luminia, SUNLU PLA+, BLUE SWAN photo paper, Motul leather cleaner, Ziyonix storage bags, and Phyto hair colour on 11 June, and dispatched Amazon Essentials dark-olive chino shorts for 12 June. Removed one expired passive Amazon return-window row. Excluded newsletters, promotions, login/security notices, political mail, property alerts, recommendation mail, and non-actionable non-transactional messages."
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-13 morning. Searched new mail since the 2026-06-12 consolidated run plus focused 7-day lookbacks. Included concrete supplier signals only: Amazon delivered order 407-1489304-0583547, Amazon Essentials dark-olive chino shorts, on 12 June. Removed one expired passive Amazon return-window row. Excluded review prompts, USPS digests with zero packages, recommendations, newsletters, promotions, login/security notices, political mail, property alerts, and non-actionable healthcare/admin/developer false positives."
   },
   "deliveries": [
     {
@@ -187,36 +187,6 @@
         "Order 403-0346876-9134748",
         "Only & Sons Onsloom jeans, Dark Blue Denim, 33W / 30L",
         "Quantity 2"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-13-171-7341428-1921963",
-      "supplier": "Amazon",
-      "title": "DEEPLEE PLA+ warm yellow and pink filament bundle",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-13",
-      "returnByDate": "2026-06-12",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 13 May says the DEEPLEE warm-yellow PLA+ spool and pink two-spool kit package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e21d480f36bcbd"
-      },
-      "items": [
-        "Order 171-7341428-1921963",
-        "Order 171-8124367-2846749 also appeared in the tracking link",
-        "DEEPLEE PLA+ 2.0 warm yellow filament, 1 kg",
-        "DEEPLEE PLA+ 2.0 pink filament kit, 2 kg",
-        "Delivered 13 May 2026"
       ],
       "links": [
         {
@@ -2282,16 +2252,16 @@
       "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-06-12-407-1489304-0583547",
+      "id": "amazon-return-window-2026-06-12-407-1489304-0583547",
       "supplier": "Amazon",
       "title": "Amazon Essentials classic chino shorts, dark olive",
-      "status": "Dispatched",
-      "dueDate": "2026-06-12",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 11 June says order 407-1489304-0583547 has shipped and is arriving Friday, 12 June.",
+      "notes": "Amazon delivery email dated 12 June says the Amazon Essentials dark-olive classic chino shorts were delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19eb7a85d4bc3aa8"
+        "url": "https://mail.google.com/mail/#all/19ebbf9b995416d6"
       },
       "items": [
         "Order 407-1489304-0583547",
@@ -2299,18 +2269,18 @@
         "Sold by Amazon.es",
         "Quantity 1",
         "Total EUR 23.80",
-        "Arriving Friday, 12 June 2026"
+        "Delivered 12 June 2026"
       ],
       "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-1489304-0583547"
-        },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-06-12",
+      "returnByDate": "2026-07-12",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     }
   ],
   "licenses": [
