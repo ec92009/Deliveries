@@ -1,10 +1,10 @@
 {
-  "today": "2026-06-13",
+  "today": "2026-06-15",
   "metadata": {
-    "version": "v105.0",
-    "generatedAt": "2026-06-13T06:20:00+02:00",
+    "version": "v107.0",
+    "generatedAt": "2026-06-15T06:21:00+02:00",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-13 morning. Searched new mail since the 2026-06-12 consolidated run plus focused 7-day lookbacks. Included concrete supplier signals only: Amazon delivered order 407-1489304-0583547, Amazon Essentials dark-olive chino shorts, on 12 June. Removed one expired passive Amazon return-window row. Excluded review prompts, USPS digests with zero packages, recommendations, newsletters, promotions, login/security notices, political mail, property alerts, and non-actionable healthcare/admin/developer false positives."
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-15 morning. Searched new mail since the last completed scan plus focused 7-day lookbacks. Included concrete Amazon signals: eSUN PLA Basic delivered 13 June; hometrixx tablecloth and POLIBOY furniture oil delivered 13 June; L'OR Ristretto pods and Aseniza shorts delivered 14 June; new Aseniza shorts order arriving 15 June; Aboca Aliviolas Fisiolax Subscribe & Save delivery due 25 June with price/discount change. Removed one expired passive Amazon return-window row. Excluded newsletters, promotions, recommendations, login/security notices, political mail, property alerts, and non-actionable healthcare/admin/developer false positives."
   },
   "deliveries": [
     {
@@ -222,37 +222,6 @@
       "returnByDate": "2026-06-21",
       "returnWindowDays": 30,
       "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-05-14-407-7417132-3328365",
-      "supplier": "Amazon",
-      "title": "Haibang women's summer crop top",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-14",
-      "returnByDate": "2026-06-13",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 14 May says the Haibang crop top package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e269b2cfb52d32"
-      },
-      "items": [
-        "Order 407-7417132-3328365",
-        "Haibang women's summer crop top / camiseta sin mangas",
-        "Sold by Haibang Store",
-        "Quantity 1",
-        "Total EUR 11.99",
-        "Delivered 14 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
     },
     {
       "id": "amazon-return-window-2026-05-16-19e313ea3ebbddc2",
@@ -1064,13 +1033,13 @@
       "id": "amazon-dispatched-2026-06-13-171-2354700-1021906",
       "supplier": "Amazon",
       "title": "eSUN PLA Basic filament, grey 2-spool pack",
-      "status": "Dispatched",
-      "dueDate": "2026-06-13",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 8 June says order 171-2354700-1021906 has shipped and is arriving Saturday, 13 June. This supersedes the older delayed-delivery estimate.",
+      "notes": "Amazon delivery email dated 13 June says order 171-2354700-1021906 for eSUN PLA Basic grey 2-spool filament was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19ea67b3c93ab59e"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19ec14c2f208f94e"
       },
       "items": [
         "Order 171-2354700-1021906",
@@ -1078,7 +1047,7 @@
         "Sold by eSUN Official Store",
         "Quantity 1",
         "Total EUR 15.79",
-        "Arriving Saturday, 13 June 2026"
+        "Delivered 13 June 2026"
       ],
       "links": [
         {
@@ -1089,7 +1058,11 @@
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-06-13",
+      "returnByDate": "2026-07-13",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-return-window-2026-05-30-404-7487462-6225149",
@@ -2137,52 +2110,19 @@
       "id": "amazon-dispatched-2026-06-13-407-9536656-3740364",
       "supplier": "Amazon",
       "title": "POLIBOY colourless furniture oil, 200 ml",
-      "status": "Dispatched",
-      "dueDate": "2026-06-13",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 10 June says order 407-9536656-3740364 has shipped and is arriving Saturday, 13 June.",
+      "notes": "Amazon delivery email dated 13 June says the package containing the hometrixx tablecloth and POLIBOY furniture oil was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19eaf88f4bcb08b4"
-      },
-      "items": [
-        "Order 407-9536656-3740364",
-        "POLIBOY Furniture Oil, nourishing colourless wood oil, 200 ml",
-        "Sold by Kaladia ES",
-        "Quantity 1",
-        "Total EUR 8.50",
-        "Arriving Saturday, 13 June 2026"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-9536656-3740364"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-dispatched-2026-06-13-407-0838423-1975548",
-      "supplier": "Amazon",
-      "title": "hometrixx blue lemon birds tablecloth 152 x 264 cm",
-      "status": "Dispatched",
-      "dueDate": "2026-06-13",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon order confirmation dated 9 June originally said order 407-0838423-1975548 would arrive Monday; a later 10 June dispatch email says it has shipped and is now arriving Saturday, 13 June.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19eaf87f7f085756"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19ec14d26a1f0911"
       },
       "items": [
         "Order 407-0838423-1975548",
-        "hometrixx Summer rectangular stain-resistant blue lemon birds tablecloth, 152 x 264 cm",
-        "Sold by Hometrixx EU",
+        "POLIBOY Furniture Oil, nourishing colourless wood oil, 200 ml",
         "Quantity 1",
-        "Total EUR 18.99",
-        "Arriving Saturday, 13 June 2026"
+        "Delivered 13 June 2026"
       ],
       "links": [
         {
@@ -2193,7 +2133,46 @@
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-06-13",
+      "returnByDate": "2026-07-13",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-dispatched-2026-06-13-407-0838423-1975548",
+      "supplier": "Amazon",
+      "title": "hometrixx blue lemon birds tablecloth 152 x 264 cm",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon delivery email dated 13 June says the package containing the hometrixx tablecloth and POLIBOY furniture oil was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19ec14d26a1f0911"
+      },
+      "items": [
+        "Order 407-0838423-1975548",
+        "hometrixx Summer rectangular stain-resistant blue lemon birds tablecloth, 152 x 264 cm",
+        "Sold by Hometrixx EU",
+        "Quantity 1",
+        "Total EUR 18.99",
+        "Delivered 13 June 2026"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-0838423-1975548"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "deliveredDate": "2026-06-13",
+      "returnByDate": "2026-07-13",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-return-window-2026-06-11-171-5882181-9087564",
@@ -2281,6 +2260,102 @@
       "returnByDate": "2026-07-12",
       "returnWindowDays": 30,
       "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-return-window-2026-06-14-404-2299878-6375538",
+      "supplier": "Amazon",
+      "title": "L'OR Ristretto coffee pods and Aseniza cotton shorts",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-06-14",
+      "returnByDate": "2026-07-14",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 14 June says the package for order 404-2299878-6375538 containing L'OR Ristretto coffee pods and Aseniza cotton shorts was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19ec5fb2131e238f"
+      },
+      "items": [
+        "Order 404-2299878-6375538",
+        "L'OR Ristretto Coffee Pods, intensity 11, 50 Nespresso-compatible capsules",
+        "Quantity 2",
+        "Aseniza 100% cotton short pyjama pants / home shorts",
+        "Quantity 1",
+        "Delivered 14 June 2026"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=404-2299878-6375538"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-06-15-407-0723767-8707550",
+      "supplier": "Amazon",
+      "title": "Aseniza cotton short pyjama pants / home shorts",
+      "status": "Ordered",
+      "dueDate": "2026-06-15",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order confirmation dated 15 June says order 407-0723767-8707550 for Aseniza 100% cotton short pyjama pants/home shorts is arriving tomorrow relative to the email, Monday 15 June. No delivery follow-up was found in this refresh.",
+      "sourceEmail": {
+        "label": "Order email",
+        "url": "https://mail.google.com/mail/#all/19ec84213d9fa2f2"
+      },
+      "items": [
+        "Order 407-0723767-8707550",
+        "Aseniza Shorts Man 100% Cotton Short Pants Pyjama Man Elastic Summer Solid Color Short Pants Home 2 pieces",
+        "Sold by ZEZHONGGE-EU",
+        "Quantity 1",
+        "Total EUR 17.99",
+        "Arriving 15 June 2026"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-0723767-8707550"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-subscribe-save-upcoming-2026-06-25-aboca-aliviolas-fisiolax",
+      "supplier": "Amazon",
+      "title": "Aboca Aliviolas Fisiolax Subscribe & Save upcoming delivery",
+      "status": "Upcoming Subscribe & Save delivery",
+      "dueDate": "2026-06-25",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon Subscribe & Save reminder dated 14 June says the next Aboca Aliviolas Fisiolax auto-delivery is arriving by Thursday, 25 June. Last day to manage delivery is Wednesday, 17 June; price changed from EUR 16.10 after 5% discount to EUR 16.95 with no discount.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19ec34f51c20bfa9"
+      },
+      "items": [
+        "Aboca Aliviolas Fisiolax food supplement",
+        "1 unit every 3 weeks",
+        "New price EUR 16.95",
+        "Last day to manage delivery: 17 June 2026",
+        "Arriving by 25 June 2026"
+      ],
+      "links": [
+        {
+          "label": "Manage Amazon subscriptions",
+          "url": "https://www.amazon.es/auto-deliveries"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
     }
   ],
   "licenses": [
@@ -3164,6 +3239,34 @@
         "2 units every 2 weeks",
         "New price EUR 15.86",
         "Last day to manage delivery: 10 June 2026"
+      ],
+      "links": [
+        {
+          "label": "Manage Subscribe & Save",
+          "url": "https://www.amazon.es/auto-deliveries"
+        }
+      ]
+    },
+    {
+      "id": "amazon-subscribe-save-aboca-aliviolas-fisiolax-2026-06-25",
+      "service": "Amazon Subscribe & Save",
+      "title": "Aboca Aliviolas Fisiolax auto-delivery",
+      "status": "Active auto-delivery; price changed",
+      "nextDate": "2026-06-25",
+      "dateLabel": "Next delivery by Thursday, 25 June 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 7,
+      "notes": "Amazon Subscribe & Save reminder dated 14 June says the Aboca Aliviolas Fisiolax subscription sends 1 unit every 3 weeks, next delivery by 25 June, last manageable day 17 June, and price changed from EUR 16.10 after 5% discount to EUR 16.95 with no discount.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19ec34f51c20bfa9"
+      },
+      "items": [
+        "Aboca Aliviolas Fisiolax food supplement",
+        "1 unit every 3 weeks",
+        "New price EUR 16.95",
+        "Last day to manage delivery: 17 June 2026"
       ],
       "links": [
         {
