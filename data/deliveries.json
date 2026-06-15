@@ -1,9 +1,10 @@
 {
   "today": "2026-06-15",
   "metadata": {
-    "version": "v107.1",
+    "version": "v107.2",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-15 morning. Searched new mail since the last completed scan plus focused 7-day lookbacks. Included concrete Amazon signals: eSUN PLA Basic delivered 13 June; hometrixx tablecloth and POLIBOY furniture oil delivered 13 June; L'OR Ristretto pods and Aseniza shorts delivered 14 June; new Aseniza shorts order arriving 15 June; Aboca Aliviolas Fisiolax Subscribe & Save delivery due 25 June with price/discount change. Removed one expired passive Amazon return-window row. Excluded newsletters, promotions, recommendations, login/security notices, political mail, property alerts, and non-actionable healthcare/admin/developer false positives."
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-15 morning. Searched new mail since the last completed scan plus focused 7-day lookbacks. Included concrete Amazon signals: eSUN PLA Basic delivered 13 June; hometrixx tablecloth and POLIBOY furniture oil delivered 13 June; L'OR Ristretto pods and Aseniza shorts delivered 14 June; new Aseniza shorts order arriving 15 June; Aboca Aliviolas Fisiolax Subscribe & Save delivery due 25 June with price/discount change. Removed one expired passive Amazon return-window row. Excluded newsletters, promotions, recommendations, login/security notices, political mail, property alerts, and non-actionable healthcare/admin/developer false positives.",
+    "generatedAt": "2026-06-15T06:05:15+02:00"
   },
   "deliveries": [
     {
