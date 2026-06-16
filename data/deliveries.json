@@ -1,10 +1,10 @@
 {
-  "today": "2026-06-15",
+  "today": "2026-06-16",
   "metadata": {
-    "version": "v107.2",
+    "version": "v108.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-15 morning. Searched new mail since the last completed scan plus focused 7-day lookbacks. Included concrete Amazon signals: eSUN PLA Basic delivered 13 June; hometrixx tablecloth and POLIBOY furniture oil delivered 13 June; L'OR Ristretto pods and Aseniza shorts delivered 14 June; new Aseniza shorts order arriving 15 June; Aboca Aliviolas Fisiolax Subscribe & Save delivery due 25 June with price/discount change. Removed one expired passive Amazon return-window row. Excluded newsletters, promotions, recommendations, login/security notices, political mail, property alerts, and non-actionable healthcare/admin/developer false positives.",
-    "generatedAt": "2026-06-15T06:05:15+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-16 morning. Searched new mail since the last completed scan plus focused 7-day lookbacks. Included concrete supplier signals: Amazon Aseniza shorts order 407-0723767-8707550 dispatched and arriving 16 June; Netflix EUR 8.99 payment via PayPal dated 15 June / received 16 June, rolling the active monthly subscription forward. Excluded newsletters, promotions, recommendations, login/security notices, political mail, property alerts, and non-actionable healthcare/admin/developer false positives.",
+    "generatedAt": "2026-06-16T06:03:32+02:00"
   },
   "deliveries": [
     {
@@ -2297,16 +2297,16 @@
       ]
     },
     {
-      "id": "amazon-ordered-2026-06-15-407-0723767-8707550",
+      "id": "amazon-dispatched-2026-06-15-407-0723767-8707550",
       "supplier": "Amazon",
       "title": "Aseniza cotton short pyjama pants / home shorts",
-      "status": "Ordered",
-      "dueDate": "2026-06-15",
+      "status": "Dispatched",
+      "dueDate": "2026-06-16",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order confirmation dated 15 June says order 407-0723767-8707550 for Aseniza 100% cotton short pyjama pants/home shorts is arriving tomorrow relative to the email, Monday 15 June. No delivery follow-up was found in this refresh.",
+      "notes": "Amazon dispatch email dated 15 June says order 407-0723767-8707550 for Aseniza 100% cotton short pyjama pants/home shorts was dispatched and is arriving tomorrow, 16 June. No delivery follow-up was found in this refresh.",
       "sourceEmail": {
-        "label": "Order email",
-        "url": "https://mail.google.com/mail/#all/19ec84213d9fa2f2"
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19ecb7f6f21f39a1"
       },
       "items": [
         "Order 407-0723767-8707550",
@@ -2314,7 +2314,8 @@
         "Sold by ZEZHONGGE-EU",
         "Quantity 1",
         "Total EUR 17.99",
-        "Arriving 15 June 2026"
+        "Dispatched 15 June 2026",
+        "Arriving 16 June 2026"
       ],
       "links": [
         {
@@ -2560,29 +2561,30 @@
       "service": "Netflix",
       "title": "Netflix Standard with ads",
       "status": "Active subscription",
-      "nextDate": "2026-06-16",
-      "dateLabel": "Next billing date Tuesday, 16 June 2026",
+      "nextDate": "2026-07-16",
+      "dateLabel": "Next expected billing date Thursday, 16 July 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "Latest Netflix membership email dated 16 May says the plan is Standard with ads, the monthly price is increasing from EUR 6.99 to EUR 8.99 starting June 16, 2026, and the next billing date is June 16, 2026. A PayPal receipt dated 15 May confirms the latest EUR 6.99 Netflix payment.",
+      "notes": "PayPal receipt received 16 June records a EUR 8.99 payment to Netflix Servicios dated 15 June 2026. The prior Netflix membership email says the plan is Standard with ads and monthly billing moved to EUR 8.99 from the June cycle, so the next billing date is inferred as 16 July 2026 until Netflix sends a newer exact billing-date notice.",
       "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e2e4565ede7ddc"
+        "label": "Latest PayPal receipt",
+        "url": "https://mail.google.com/mail/#all/19ecde604653e3a8"
       },
       "items": [
         "Standard with ads",
-        "EUR 8.99 per month starting 16 June 2026",
-        "Previous payment EUR 6.99 via PayPal on 15 May 2026",
-        "PayPal Billing ID B-7GH834550U855515G",
-        "Exact next billing date provided by Netflix"
+        "EUR 8.99 monthly plan price from June 2026 cycle",
+        "Paid EUR 8.99 via PayPal on 15 June 2026",
+        "PayPal transaction 6TY44979G0167521F",
+        "Prior Netflix email provided exact June billing date; July date inferred from monthly cadence"
       ],
       "links": [
         {
           "label": "Manage Netflix membership",
           "url": "https://www.netflix.com/account/membership"
         }
-      ]
+      ],
+      "lastBillingDate": "2026-06-15"
     },
     {
       "service": "Shopify",
