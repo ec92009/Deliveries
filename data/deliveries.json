@@ -1,10 +1,10 @@
 {
-  "today": "2026-06-16",
+  "today": "2026-06-17",
   "metadata": {
-    "version": "v108.0",
+    "version": "v109.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-16 morning. Searched new mail since the last completed scan plus focused 7-day lookbacks. Included concrete supplier signals: Amazon Aseniza shorts order 407-0723767-8707550 dispatched and arriving 16 June; Netflix EUR 8.99 payment via PayPal dated 15 June / received 16 June, rolling the active monthly subscription forward. Excluded newsletters, promotions, recommendations, login/security notices, political mail, property alerts, and non-actionable healthcare/admin/developer false positives.",
-    "generatedAt": "2026-06-16T06:03:32+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-17 morning. Searched new mail since the last completed scan plus focused 7-day lookbacks. Included concrete supplier signals: Amazon Aseniza order 407-0723767-8707550 delivered 16 June, Amazon Yuson Hawaiian shirt order 407-1104425-5207565 arriving 18 June, Amazon Blendura shower head order 171-2825363-8313143 dispatched and arriving 17 June, and Apple App Store 100 GB monthly subscription renewed with next renewal 16 July. Removed expired passive Amazon return-window rows from 16 May deliveries. Excluded newsletters, promotions, recommendations, login/security notices, PayPal statements, personal transfers, property alerts, and non-actionable healthcare/admin/developer false positives.",
+    "generatedAt": "2026-06-17T06:03:38+02:00"
   },
   "deliveries": [
     {
@@ -222,64 +222,6 @@
       "returnByDate": "2026-06-21",
       "returnWindowDays": 30,
       "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-05-16-19e313ea3ebbddc2",
-      "supplier": "Amazon",
-      "title": "Cuperinox teapot and L'OR Ristretto capsules",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-16",
-      "returnByDate": "2026-06-15",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 16 May says the package containing the Cuperinox teapot and L'OR Ristretto capsules was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e313ea3ebbddc2"
-      },
-      "items": [
-        "Order 171-7521334-8372342",
-        "Cuperinox glass tea pot with infuser, 750 ml",
-        "Order 403-1450261-2164327",
-        "L'OR Cafe Ristretto capsules, intensity 11, 50 capsules",
-        "Delivered 16 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-16-407-4027928-7236326",
-      "supplier": "Amazon",
-      "title": "Aottori women's summer sleeveless top",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-16",
-      "returnByDate": "2026-06-15",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 16 May says the Aottori top package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e313e01e566f14"
-      },
-      "items": [
-        "Order 407-4027928-7236326",
-        "Aottori sleeveless V-neck tank top, light green, size S",
-        "Delivered 16 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
     },
     {
       "supplier": "Amazon",
@@ -2297,16 +2239,20 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-06-15-407-0723767-8707550",
+      "id": "amazon-return-window-2026-06-16-407-0723767-8707550",
       "supplier": "Amazon",
       "title": "Aseniza cotton short pyjama pants / home shorts",
-      "status": "Dispatched",
-      "dueDate": "2026-06-16",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 15 June says order 407-0723767-8707550 for Aseniza 100% cotton short pyjama pants/home shorts was dispatched and is arriving tomorrow, 16 June. No delivery follow-up was found in this refresh.",
+      "deliveredDate": "2026-06-16",
+      "returnByDate": "2026-07-16",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 16 June says order 407-0723767-8707550 for Aseniza 100% cotton short pyjama pants/home shorts was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19ecb7f6f21f39a1"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19ed0f46373a647b"
       },
       "items": [
         "Order 407-0723767-8707550",
@@ -2315,12 +2261,77 @@
         "Quantity 1",
         "Total EUR 17.99",
         "Dispatched 15 June 2026",
-        "Arriving 16 June 2026"
+        "Delivered 16 June 2026",
+        "Return window assumed through 16 July 2026"
       ],
       "links": [
         {
           "label": "View or edit order",
           "url": "https://www.amazon.es/your-orders/order-details?orderID=407-0723767-8707550"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-06-16-407-1104425-5207565",
+      "supplier": "Amazon",
+      "title": "Yuson Girl Hawaiian short-sleeve shirt",
+      "status": "Ordered",
+      "dueDate": "2026-06-18",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order confirmation email dated 16 June says order 407-1104425-5207565 for a Yuson Girl Hawaiian short-sleeve shirt was ordered and is arriving tomorrow, 18 June.",
+      "sourceEmail": {
+        "label": "Order email",
+        "url": "https://mail.google.com/mail/#all/19ed2bedcc2f9ecd"
+      },
+      "items": [
+        "Order 407-1104425-5207565",
+        "Yuson Girl Hawaiian Shirt Men Funky Hawaiian Shirt Short Sleeve Shirts Summer Aloha Printed Button Down Shirt Holiday Printed Beach Casual Hawaiian Shirt (A, M)",
+        "Sold by YusonGirl",
+        "Quantity 1",
+        "Total EUR 18.99",
+        "Ordered 16 June 2026",
+        "Arriving 18 June 2026"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-1104425-5207565"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-06-17-171-2825363-8313143",
+      "supplier": "Amazon",
+      "title": "Blendura filtered high-pressure shower head",
+      "status": "Dispatched",
+      "dueDate": "2026-06-17",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 17 June says order 171-2825363-8313143 for the Blendura filtered high-pressure shower head was dispatched and is arriving today, 17 June.",
+      "sourceEmail": {
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19ed2f7b3d99454d"
+      },
+      "items": [
+        "Order 171-2825363-8313143",
+        "Blendura Shower Head with Filter, High Pressure Anti-Limescale Shower Head with 1.5 m Hose, 5 modes",
+        "Sold by Amazon.es",
+        "Quantity 1",
+        "Total EUR 13.99",
+        "Dispatched 17 June 2026",
+        "Arriving 17 June 2026"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=171-2825363-8313143"
         },
         {
           "label": "Open Amazon orders",
@@ -2864,21 +2875,22 @@
       "service": "Apple App Store 100 GB",
       "title": "Apple 100 GB monthly subscription",
       "status": "Active subscription",
-      "nextDate": "2026-06-16",
-      "dateLabel": "Renews Tuesday, 16 June 2026",
+      "nextDate": "2026-07-16",
+      "dateLabel": "Renews Thursday, 16 July 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "Apple receipt dated 25 May says the 100 GB monthly subscription renews on June 16, 2026 for the Apple account ac92009@gmail.com.",
+      "notes": "Apple receipt dated 16 June says the 100 GB monthly subscription renewed for USD 1.99 and renews next on July 16, 2026 for the Apple account ac92009@gmail.com.",
       "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e61d37c7da2342"
+        "label": "Latest billing email",
+        "url": "https://mail.google.com/mail/#all/19ed07e66bdb0e98"
       },
       "items": [
-        "Apple Order MSXW6N5Y5W",
+        "Apple Order MSXW9BTG30",
         "100 GB monthly subscription",
         "$1.99",
-        "Exact renewal date provided by Apple"
+        "Billed 16 June 2026",
+        "Exact renewal date provided by Apple: 16 July 2026"
       ],
       "links": [
         {
