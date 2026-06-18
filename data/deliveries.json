@@ -1,10 +1,10 @@
 {
-  "today": "2026-06-17",
+  "today": "2026-06-18",
   "metadata": {
-    "version": "v109.0",
+    "version": "v110.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-17 morning. Searched new mail since the last completed scan plus focused 7-day lookbacks. Included concrete supplier signals: Amazon Aseniza order 407-0723767-8707550 delivered 16 June, Amazon Yuson Hawaiian shirt order 407-1104425-5207565 arriving 18 June, Amazon Blendura shower head order 171-2825363-8313143 dispatched and arriving 17 June, and Apple App Store 100 GB monthly subscription renewed with next renewal 16 July. Removed expired passive Amazon return-window rows from 16 May deliveries. Excluded newsletters, promotions, recommendations, login/security notices, PayPal statements, personal transfers, property alerts, and non-actionable healthcare/admin/developer false positives.",
-    "generatedAt": "2026-06-17T06:03:38+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-18 morning. Searched new mail since the last completed scan plus focused 7-day lookbacks. Included concrete supplier signals: Amazon Blendura shower head order 171-2825363-8313143 delivered 17 June, and Amazon Yuson Hawaiian shirt order 407-1104425-5207565 dispatched for 18 June delivery. Excluded newsletters, promotions, recommendations, login/security notices, financial eBills/promos, personal transfers, property alerts, and non-actionable healthcare/admin/developer false positives.",
+    "generatedAt": "2026-06-18T06:15:00+02:00"
   },
   "deliveries": [
     {
@@ -2276,16 +2276,16 @@
       ]
     },
     {
-      "id": "amazon-ordered-2026-06-16-407-1104425-5207565",
+      "id": "amazon-dispatched-2026-06-17-407-1104425-5207565",
       "supplier": "Amazon",
       "title": "Yuson Girl Hawaiian short-sleeve shirt",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-06-18",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order confirmation email dated 16 June says order 407-1104425-5207565 for a Yuson Girl Hawaiian short-sleeve shirt was ordered and is arriving tomorrow, 18 June.",
+      "notes": "Amazon dispatch email dated 17 June says order 407-1104425-5207565 for the Yuson Girl Hawaiian short-sleeve shirt was dispatched and is arriving 18 June.",
       "sourceEmail": {
-        "label": "Order email",
-        "url": "https://mail.google.com/mail/#all/19ed2bedcc2f9ecd"
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19ed3d7629b7801a"
       },
       "items": [
         "Order 407-1104425-5207565",
@@ -2294,6 +2294,7 @@
         "Quantity 1",
         "Total EUR 18.99",
         "Ordered 16 June 2026",
+        "Dispatched 17 June 2026",
         "Arriving 18 June 2026"
       ],
       "links": [
@@ -2308,16 +2309,16 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-06-17-171-2825363-8313143",
+      "id": "amazon-return-window-2026-06-17-171-2825363-8313143",
       "supplier": "Amazon",
       "title": "Blendura filtered high-pressure shower head",
-      "status": "Dispatched",
-      "dueDate": "2026-06-17",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 17 June says order 171-2825363-8313143 for the Blendura filtered high-pressure shower head was dispatched and is arriving today, 17 June.",
+      "notes": "Amazon delivery email dated 17 June says order 171-2825363-8313143 for the Blendura filtered high-pressure shower head was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19ed2f7b3d99454d"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19ed5b2f2cd82070"
       },
       "items": [
         "Order 171-2825363-8313143",
@@ -2326,7 +2327,8 @@
         "Quantity 1",
         "Total EUR 13.99",
         "Dispatched 17 June 2026",
-        "Arriving 17 June 2026"
+        "Delivered 17 June 2026",
+        "Return window assumed through 17 July 2026"
       ],
       "links": [
         {
@@ -2337,7 +2339,11 @@
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-06-17",
+      "returnByDate": "2026-07-17",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-subscribe-save-upcoming-2026-06-25-aboca-aliviolas-fisiolax",
