@@ -1,10 +1,10 @@
 {
-  "today": "2026-06-18",
+  "today": "2026-06-19",
   "metadata": {
-    "version": "v110.0",
+    "version": "v111.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-18 morning. Searched new mail since the last completed scan plus focused 7-day lookbacks. Included concrete supplier signals: Amazon Blendura shower head order 171-2825363-8313143 delivered 17 June, and Amazon Yuson Hawaiian shirt order 407-1104425-5207565 dispatched for 18 June delivery. Excluded newsletters, promotions, recommendations, login/security notices, financial eBills/promos, personal transfers, property alerts, and non-actionable healthcare/admin/developer false positives.",
-    "generatedAt": "2026-06-18T06:15:00+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-19 morning. Searched new mail since the last completed scan plus focused 7-day lookbacks. Included concrete supplier signals: Amazon Yuson Hawaiian shirt order 407-1104425-5207565 delivered 18 June; removed expired passive Amazon return-window rows through 2026-06-18. Excluded newsletters, promotions, recommendations, login/security notices, personal transfers, financial promos/statements, property alerts, and non-actionable healthcare/admin/developer false positives.",
+    "generatedAt": "2026-06-19T06:10:00+02:00"
   },
   "deliveries": [
     {
@@ -250,90 +250,6 @@
       "returnByDate": "2026-06-21",
       "returnWindowDays": 30,
       "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-05-19-407-1268155-0006727",
-      "supplier": "Amazon",
-      "title": "Amazon Essentials men's classic chino shorts",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-19",
-      "returnByDate": "2026-06-18",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 19 May says the package containing this item was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e3fae689d28333"
-      },
-      "items": [
-        "Order 407-1268155-0006727",
-        "Amazon Essentials men's classic chino shorts, dark navy, 34W",
-        "Delivered 19 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-19-407-7394578-2143540",
-      "supplier": "Amazon",
-      "title": "HG Natural Stone Countertop Cleaner 500 ml",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-19",
-      "returnByDate": "2026-06-18",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 19 May says the five-item package containing this item was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e3fae689d28333"
-      },
-      "items": [
-        "Order 407-7394578-2143540",
-        "HG Natural Stone Countertop Cleaner / Limpiador Encimeras Piedra Natural, 500 ml",
-        "Delivered 19 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-19-407-8231125-4905917",
-      "supplier": "Amazon",
-      "title": "Aottori women's summer sleeveless V-neck top",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-19",
-      "returnByDate": "2026-06-18",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 19 May says the five-item package containing this item was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e3fae689d28333"
-      },
-      "items": [
-        "Order 407-8231125-4905917",
-        "Aottori sleeveless V-neck tank top, pink, size S",
-        "Delivered 19 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
     },
     {
       "supplier": "Amazon",
@@ -2276,16 +2192,20 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-06-17-407-1104425-5207565",
+      "id": "amazon-return-window-2026-06-18-407-1104425-5207565",
       "supplier": "Amazon",
       "title": "Yuson Girl Hawaiian short-sleeve shirt",
-      "status": "Dispatched",
-      "dueDate": "2026-06-18",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 17 June says order 407-1104425-5207565 for the Yuson Girl Hawaiian short-sleeve shirt was dispatched and is arriving 18 June.",
+      "deliveredDate": "2026-06-18",
+      "returnByDate": "2026-07-18",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 18 June says order 407-1104425-5207565 for the Yuson Girl Hawaiian short-sleeve shirt was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19ed3d7629b7801a"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19edb364c6b434ea"
       },
       "items": [
         "Order 407-1104425-5207565",
@@ -2295,7 +2215,8 @@
         "Total EUR 18.99",
         "Ordered 16 June 2026",
         "Dispatched 17 June 2026",
-        "Arriving 18 June 2026"
+        "Delivered 18 June 2026",
+        "Return window assumed through 18 July 2026"
       ],
       "links": [
         {
