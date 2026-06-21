@@ -1,10 +1,10 @@
 {
-  "today": "2026-06-19",
+  "today": "2026-06-21",
   "metadata": {
-    "version": "v111.1",
+    "version": "v113.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-19 morning. Searched new mail since the last completed scan plus focused 7-day lookbacks. Included concrete supplier signals: Amazon Yuson Hawaiian shirt order 407-1104425-5207565 delivered 18 June; removed expired passive Amazon return-window rows through 2026-06-18. Excluded newsletters, promotions, recommendations, login/security notices, personal transfers, financial promos/statements, property alerts, and non-actionable healthcare/admin/developer false positives.",
-    "generatedAt": "2026-06-19T06:04:30+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-21 morning. Searched new mail since the previous consolidated run plus focused 7-day lookbacks. Included concrete supplier signal: USPS Informed Delivery shows one inbound package expected 2026-06-22 with tracking 9400150105798106520236; removed passive Amazon return-window rows that expired 2026-06-20. Excluded newsletters, promotions, recommendations, login/security notices, personal transfers, political mail, property/social alerts, rental-agreement notices, AWS onboarding marketing, and non-actionable healthcare/admin/developer false positives.",
+    "generatedAt": "2026-06-21T06:03:40+02:00"
   },
   "deliveries": [
     {
@@ -304,90 +304,6 @@
       "id": "amazon-return-window-2026-05-22-407-3458547-1497140",
       "deliveredDate": "2026-05-22",
       "returnByDate": "2026-06-21",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-05-21-407-8659239-0437148",
-      "supplier": "Amazon",
-      "title": "MoFiz women's 3/4 pajama pants",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 21 May says the package containing the women's pajama pants and two more items was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e4a9c68d331fe9"
-      },
-      "items": [
-        "Order 407-8659239-0437148",
-        "MoFiz women's 3/4 pajama pants / Mujer Pantalones de pijama mujer 3/4 largos, azul gris claro, size S",
-        "Delivered 21 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-05-21",
-      "returnByDate": "2026-06-20",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-05-21-171-6099261-0685951",
-      "supplier": "Amazon",
-      "title": "4-piece 8 mm shank wood router/bur set",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 21 May says the package containing the 4-piece wood router/bur set and two more items was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e4a9c68d331fe9"
-      },
-      "items": [
-        "Order 171-6099261-0685951",
-        "4 Piezas Juego 8mm Vastago Fresas para Madera / 4 Piece Set 8 mm Shank Wood Burs",
-        "Delivered 21 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-05-21",
-      "returnByDate": "2026-06-20",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-05-21-171-7302036-4390748",
-      "supplier": "Amazon",
-      "title": "Treki 8 mm bearing router bit",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 21 May says the package containing the Treki router bit and two more items was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e4a9c68d331fe9"
-      },
-      "items": [
-        "Order 171-7302036-4390748",
-        "Treki Fresa de Enrasar con Rodamiento de 8mm Vastago / bearing router bit",
-        "Delivered 21 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-05-21",
-      "returnByDate": "2026-06-20",
       "returnWindowDays": 30,
       "returnWarningStartsAfterDays": 21
     },
@@ -2293,6 +2209,31 @@
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "usps-inbound-package-2026-06-22-9400150105798106520236",
+      "supplier": "USPS",
+      "title": "USPS inbound package 9400150105798106520236",
+      "status": "Expected via USPS",
+      "dueDate": "2026-06-22",
+      "timezone": "Europe/Madrid",
+      "notes": "USPS Informed Delivery digest dated 20 June shows one inbound package expected Monday, 22 June, with tracking 9400150105798106520236. Sender was not listed in the digest.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19ee5752f49eda4b"
+      },
+      "trackingNumber": "9400150105798106520236",
+      "items": [
+        "USPS tracking 9400150105798106520236",
+        "Sender not listed in USPS digest",
+        "Expected 22 June 2026 in USPS Informed Delivery"
+      ],
+      "links": [
+        {
+          "label": "Track with USPS",
+          "url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9400150105798106520236"
         }
       ]
     }
