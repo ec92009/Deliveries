@@ -1,10 +1,10 @@
 {
-  "today": "2026-06-21",
+  "today": "2026-06-30",
   "metadata": {
-    "version": "v113.0",
+    "version": "v122.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-21 morning. Searched new mail since the previous consolidated run plus focused 7-day lookbacks. Included concrete supplier signal: USPS Informed Delivery shows one inbound package expected 2026-06-22 with tracking 9400150105798106520236; removed passive Amazon return-window rows that expired 2026-06-20. Excluded newsletters, promotions, recommendations, login/security notices, personal transfers, political mail, property/social alerts, rental-agreement notices, AWS onboarding marketing, and non-actionable healthcare/admin/developer false positives.",
-    "generatedAt": "2026-06-21T06:03:40+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-30. Searched new mail since 2026-06-23 plus focused 7-day lookbacks. Included concrete supplier signals: Amazon Aboca, Shopper/Lovasy, COOFANDY/Pantene/L'OR delivery updates; COOFANDY PAT3 ordered for 2026-07-01; L'OR Subscribe & Save now every 2 months due 2026-09-03; Movistar and two DIGI June invoices. Removed passive Amazon return-window rows that expired before 2026-06-30. Excluded newsletters, promotions, recommendations, login/security notices, political mail, USPS digests with 0 packages, ride/rental receipts outside dashboard scope, and non-actionable healthcare/admin/developer false positives.",
+    "generatedAt": "2026-06-30T00:46:00+02:00"
   },
   "deliveries": [
     {
@@ -196,230 +196,6 @@
       ]
     },
     {
-      "supplier": "Amazon",
-      "title": "JOMIX summer clogs",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 22 May says this package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e5014efa0945a8"
-      },
-      "items": [
-        "Order 407-4923254-5644333",
-        "JOMIX Zuecos Mujer Verano con plantilla extraible de balancin / Clogs Woman Summer",
-        "Delivered 22 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "id": "amazon-return-window-2026-05-22-407-4923254-5644333",
-      "deliveredDate": "2026-05-22",
-      "returnByDate": "2026-06-21",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "supplier": "Amazon",
-      "title": "Lonya men's linen short-sleeve shirt",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 22 May says this package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e501494d588801"
-      },
-      "items": [
-        "Order 407-1065802-2296335",
-        "Lonya men's linen short-sleeve shirt, navy blue, size M",
-        "Delivered 22 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "id": "amazon-return-window-2026-05-22-407-1065802-2296335",
-      "deliveredDate": "2026-05-22",
-      "returnByDate": "2026-06-21",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "supplier": "Amazon",
-      "title": "Leversic women's medium impact sports bra",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 22 May says this package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e501426023b763"
-      },
-      "items": [
-        "Order 407-1235158-3267538",
-        "Leversic women's medium impact sports bra, green, size M",
-        "Delivered 22 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "id": "amazon-return-window-2026-05-22-407-1235158-3267538",
-      "deliveredDate": "2026-05-22",
-      "returnByDate": "2026-06-21",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "supplier": "Amazon",
-      "title": "iDesign iDry extra-large kitchen drying mat",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 22 May says this package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e50145fafce449"
-      },
-      "items": [
-        "Order 407-3458547-1497140",
-        "iDesign iDry kitchen mat, extra-large, pewter/ivory",
-        "Delivered 22 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "id": "amazon-return-window-2026-05-22-407-3458547-1497140",
-      "deliveredDate": "2026-05-22",
-      "returnByDate": "2026-06-21",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-05-22-407-4447555-2726757",
-      "supplier": "Amazon",
-      "title": "Amazon Essentials men's classic chino shorts",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 22 May says this package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e50145fafce449"
-      },
-      "items": [
-        "Order 407-4447555-2726757",
-        "Amazon Essentials men's classic fit chino shorts, khaki, 34W",
-        "Delivered 22 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-05-22",
-      "returnByDate": "2026-06-21",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-05-22-407-8669568-2297127",
-      "supplier": "Amazon",
-      "title": "SUNKISS adult diapers, 32 count",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 22 May says this package was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e4efd1f34e4b06"
-      },
-      "items": [
-        "Order 407-8669568-2297127",
-        "SUNKISS adult diapers women, maximum protection, beige, size M, 32 units",
-        "Delivered 22 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-05-22",
-      "returnByDate": "2026-06-21",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-05-25-407-9319321-4144309",
-      "supplier": "Amazon",
-      "title": "Billabong men's Fade 16 swim trunks",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 25 May says the Billabong Fade 16 swim trunks package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e5eff713acb65b"
-      },
-      "items": [
-        "Order 407-9319321-4144309",
-        "Billabong men's Fade 16 swim trunks",
-        "Delivered 25 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-05-25",
-      "returnByDate": "2026-06-24",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-05-25-403-4141750-1024325",
-      "supplier": "Amazon",
-      "title": "Lonya men's linen shirt, light blue",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 25 May says the Lonya light-blue linen shirt was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e5f0010b57477a"
-      },
-      "items": [
-        "Order 403-4141750-1024325",
-        "Lonya men's short-sleeve linen shirt, light blue, size M",
-        "Delivered 25 May 2026"
-      ],
-      "deliveredDate": "2026-05-25",
-      "returnByDate": "2026-06-24",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
       "id": "aliexpress-awaiting-confirmation-3072515402983468",
       "supplier": "AliExpress",
       "title": "Solar LED outdoor wall lights, warm light set",
@@ -466,169 +242,6 @@
           "url": "https://www.aliexpress.com/p/order/index.html"
         }
       ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-24-407-6196575-8197133",
-      "supplier": "Amazon",
-      "title": "Aottori women's sleeveless V-neck tank top, orange",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 24 May says the Aottori orange V-neck tank top was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e597c42e2fcfb3"
-      },
-      "items": [
-        "Order 407-6196575-8197133",
-        "Aottori orange V-neck sleeveless tank top, size S",
-        "Delivered 24 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-05-24",
-      "returnByDate": "2026-06-23",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-05-24-407-2685818-0938715-colgate",
-      "supplier": "Amazon",
-      "title": "Colgate Max White One toothpaste, pack of 2",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 24 May says the Colgate Max White One toothpaste pack was delivered that day with the Lonya khaki linen shirt and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e597bdd3d64db4"
-      },
-      "items": [
-        "Order 407-2685818-0938715",
-        "Colgate Max White One toothpaste, pack of 2 x 75 ml",
-        "Delivered 24 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-05-24",
-      "returnByDate": "2026-06-23",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-05-24-407-2685818-0938715-lonya-khaki",
-      "supplier": "Amazon",
-      "title": "Lonya men's linen shirt, khaki",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 24 May says the Lonya khaki short-sleeve linen shirt was delivered that day with the Colgate toothpaste and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e597bdd3d64db4"
-      },
-      "items": [
-        "Order 407-2685818-0938715",
-        "Lonya men's short-sleeve linen shirt, khaki, size M",
-        "Delivered 24 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-05-24",
-      "returnByDate": "2026-06-23",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-05-24-407-3162228-2673113",
-      "supplier": "Amazon",
-      "title": "CMTOP women's summer cotton 7/8 pants, navy",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 24 May says the navy CMTOP cotton 7/8 pants were delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e597c3c69e7048"
-      },
-      "items": [
-        "Order 407-3162228-2673113",
-        "CMTOP women's summer cotton 7/8 pants, navy, size M",
-        "Delivered 24 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-05-24",
-      "returnByDate": "2026-06-23",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-05-30-407-1601896-5445103",
-      "supplier": "Amazon",
-      "title": "CMTOP women's summer cotton 7/8 pants, khaki",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 30 May says the CMTOP khaki summer cotton 7/8 pants package was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e7939edc7592a4"
-      },
-      "items": [
-        "Order 407-1601896-5445103",
-        "CMTOP Women's Summer Cotton 7/8 Trousers, khaki, M",
-        "Delivered 30 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-05-30",
-      "returnByDate": "2026-06-29",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-05-29-407-3930166-2189105",
-      "supplier": "Amazon",
-      "title": "ECOOPTS extra-large slow cooker liners",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 29 May says order 407-3930166-2189105 was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e7434173c99af2"
-      },
-      "items": [
-        "Order 407-3930166-2189105",
-        "ECOOPTS 20 extra-large slow cooker liners",
-        "Sold by ECOOPTS-ES",
-        "Delivered 29 May 2026"
-      ],
-      "deliveredDate": "2026-05-29",
-      "returnByDate": "2026-06-28",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-ordered-2026-06-03-171-1375320-3541901",
@@ -714,96 +327,6 @@
       "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-return-window-2026-05-28-171-3942297-7539508",
-      "supplier": "Amazon",
-      "title": "Flyzoo magnetic kickstand iPhone 16 Plus case",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-28",
-      "returnByDate": "2026-06-27",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 28 May says order 171-3942297-7539508 was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e6f8d2b393c6c1"
-      },
-      "items": [
-        "Order 171-3942297-7539508",
-        "Flyzoo magnetic kickstand case for iPhone 16 Plus, clear blue",
-        "Delivered 28 May 2026",
-        "Sold by Flyzoo ES",
-        "Quantity 1"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-27-407-0262743-4390778",
-      "supplier": "Amazon",
-      "title": "Aottori brown V-neck sleeveless tank top",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-27",
-      "returnByDate": "2026-06-26",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 27 May says order 407-0262743-4390778 was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e69f1c0d554a89"
-      },
-      "items": [
-        "Order 407-0262743-4390778",
-        "Aottori V-neck ribbed sleeveless tank top, brown, size S",
-        "Delivered 27 May 2026",
-        "Sold by LEHONG-EU",
-        "Quantity 1"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-29-407-4434381-7854759",
-      "supplier": "Amazon",
-      "title": "Leversic black medium-impact sports bra",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 29 May says order 407-4434381-7854759 was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e743333aee9980"
-      },
-      "items": [
-        "Order 407-4434381-7854759",
-        "Leversic wireless medium-impact sports bra with removable padding, black, size M",
-        "Sold by CHONGREN-EU",
-        "Quantity 1",
-        "Delivered 29 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-05-29",
-      "returnByDate": "2026-06-28",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
       "id": "amazon-dispatched-2026-06-13-171-2354700-1021906",
       "supplier": "Amazon",
       "title": "eSUN PLA Basic filament, grey 2-spool pack",
@@ -837,37 +360,6 @@
       "returnByDate": "2026-07-13",
       "returnWindowDays": 30,
       "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-05-30-404-7487462-6225149",
-      "supplier": "Amazon",
-      "title": "Amazon Subscribe & Save 14-item household bundle",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-30",
-      "returnByDate": "2026-06-29",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 30 May says this 14-item Subscribe & Save package was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e77ad463bcaecb"
-      },
-      "items": [
-        "Order 404-7487462-6225149",
-        "WINKLE PLA Filament HD Glitter army green, 1 kg",
-        "CeraVe moisturizing cleansing gel",
-        "Burt's Bees night lip treatment",
-        "10 more household items in the same package",
-        "Delivered 30 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
     },
     {
       "id": "amazon-dispatched-2026-05-30-403-5544693-0469916",
@@ -1795,36 +1287,6 @@
       ]
     },
     {
-      "id": "amazon-subscribe-save-upcoming-2026-06-18-lor-ristretto",
-      "supplier": "Amazon",
-      "title": "L'OR Ristretto coffee pods Subscribe & Save upcoming delivery",
-      "status": "Upcoming Subscribe & Save delivery",
-      "dueDate": "2026-06-18",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon Subscribe & Save reminder dated 7 June says the next L'OR Ristretto auto-delivery is arriving by Thursday, 18 June. Last day to manage delivery is Wednesday, 10 June; price increased from EUR 15.02 to EUR 15.86 after discount change from 10% to 5%.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19ea0b092be138db"
-      },
-      "items": [
-        "L'OR Capsulas de Cafe Ristretto, intensity 11",
-        "Quantity 2 units every 2 weeks",
-        "New price EUR 15.86 after 5% Subscribe & Save discount",
-        "Last day to manage delivery: 10 June 2026",
-        "Arriving by 18 June 2026"
-      ],
-      "links": [
-        {
-          "label": "Manage Amazon subscriptions",
-          "url": "https://www.amazon.es/auto-deliveries"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
       "id": "amazon-return-window-2026-06-11-407-2421521-9454769",
       "supplier": "Amazon",
       "title": "Ziyonix 105L large storage bags, 2 pack",
@@ -2183,36 +1645,6 @@
       "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-subscribe-save-upcoming-2026-06-25-aboca-aliviolas-fisiolax",
-      "supplier": "Amazon",
-      "title": "Aboca Aliviolas Fisiolax Subscribe & Save upcoming delivery",
-      "status": "Upcoming Subscribe & Save delivery",
-      "dueDate": "2026-06-25",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon Subscribe & Save reminder dated 14 June says the next Aboca Aliviolas Fisiolax auto-delivery is arriving by Thursday, 25 June. Last day to manage delivery is Wednesday, 17 June; price changed from EUR 16.10 after 5% discount to EUR 16.95 with no discount.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19ec34f51c20bfa9"
-      },
-      "items": [
-        "Aboca Aliviolas Fisiolax food supplement",
-        "1 unit every 3 weeks",
-        "New price EUR 16.95",
-        "Last day to manage delivery: 17 June 2026",
-        "Arriving by 25 June 2026"
-      ],
-      "links": [
-        {
-          "label": "Manage Amazon subscriptions",
-          "url": "https://www.amazon.es/auto-deliveries"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
       "id": "usps-inbound-package-2026-06-22-9400150105798106520236",
       "supplier": "USPS",
       "title": "USPS inbound package 9400150105798106520236",
@@ -2234,6 +1666,118 @@
         {
           "label": "Track with USPS",
           "url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9400150105798106520236"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-06-23-402-4997913-7659564",
+      "supplier": "Amazon",
+      "title": "Aboca Aliviolas Fisiolax, 90 tablets",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon delivery email dated 23 June says order 402-4997913-7659564 was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19ef46c63d631686"
+      },
+      "items": [
+        "Order 402-4997913-7659564",
+        "Aboca Aliviolas Fisiolax food supplement, 90 tablets",
+        "Delivered 23 June 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "deliveredDate": "2026-06-23",
+      "returnByDate": "2026-07-23",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-return-window-2026-06-25-407-9390277-3613124",
+      "supplier": "Amazon",
+      "title": "Shopper purse organizer and Lovasy red pajama set",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon delivery email dated 25 June says order 407-9390277-3613124 was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19efe48cd0621894"
+      },
+      "items": [
+        "Order 407-9390277-3613124",
+        "Shopper Purse Organizer, interior purse pocket",
+        "Lovasy summer modal sleeveless pajama set, red wine, size S",
+        "Delivered 25 June 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "deliveredDate": "2026-06-25",
+      "returnByDate": "2026-07-25",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-return-window-2026-06-26-407-4778941-7662731",
+      "supplier": "Amazon",
+      "title": "COOFANDY PAT2 shirt, Pantene serum, and L'OR Ristretto pods",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon delivery email dated 26 June says order 407-4778941-7662731 was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19f03bed8c4b4d46"
+      },
+      "items": [
+        "Order 407-4778941-7662731",
+        "COOFANDY Hawaiian shirt, PAT2, size M",
+        "Pantene Pro-V Miracles Hydration and Shine Serum, 70 ml",
+        "L'OR Ristretto coffee pods, 50 capsules, quantity 8",
+        "Delivered 26 June 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "deliveredDate": "2026-06-26",
+      "returnByDate": "2026-07-26",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-ordered-2026-06-25-407-6700631-9949936",
+      "supplier": "Amazon",
+      "title": "COOFANDY Hawaiian shirt, PAT3, size M",
+      "status": "Ordered",
+      "dueDate": "2026-07-01",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 25 June says order 407-6700631-9949936 is arriving Wednesday, interpreted as 1 July 2026 from the message date. No dispatch or delivery follow-up was found in this refresh.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19efe2b61eba68b6"
+      },
+      "items": [
+        "Order 407-6700631-9949936",
+        "COOFANDY Hawaiian shirt, Pat 3, size M",
+        "Total EUR 24.99",
+        "Arriving Wednesday, 1 July 2026"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
     }
@@ -2686,19 +2230,19 @@
       "service": "Movistar",
       "title": "Movistar telecom service invoice",
       "status": "Invoice available",
-      "nextDate": "2026-05-25",
-      "dateLabel": "Invoice dated Monday, 25 May 2026",
+      "nextDate": "2026-06-25",
+      "dateLabel": "Invoice dated Thursday, 25 June 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "Movistar email dated 22 May says the 25 May 2026 bill is available and the total to pay is EUR 98.75. The email provides an invoice date, not an explicit renewal or access-end date.",
+      "notes": "Movistar email dated 24 June says the 25 June 2026 bill is available and the total to pay is EUR 97.00. The email provides an invoice date, not an explicit renewal or access-end date.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e4e03ad294b3bd"
+        "url": "https://mail.google.com/mail/#all/19ef7e5a440b103d"
       },
       "items": [
-        "Factura del 25/05/2026",
-        "Total to pay EUR 98.75",
+        "Factura del 25/06/2026",
+        "Total to pay EUR 97.00",
         "Invoice PDF attached in source email"
       ],
       "links": [
@@ -2710,26 +2254,27 @@
           "label": "Open Mi Movistar app info",
           "url": "https://app.movistar.es/atencion-cliente/app-mi-movistar"
         }
-      ]
+      ],
+      "lastBillingDate": "2026-06-25"
     },
     {
       "service": "DIGI",
       "title": "DIGI telecom service invoice",
       "status": "Invoice available",
-      "nextDate": "2026-05-28",
-      "dateLabel": "Direct debit scheduled Thursday, 28 May 2026",
+      "nextDate": "2026-06-29",
+      "dateLabel": "Direct debit scheduled Monday, 29 June 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "DIGI email dated 27 May says the May 2026 bill is available, the total is EUR 27.27, and the direct debit will be charged to the bank account on 28 May 2026. The email provides a charge date, not an explicit renewal or access-end date.",
+      "notes": "DIGI email dated 28 June says the June 2026 bill is available, the total is EUR 38.00, and the direct debit will be charged to the bank account on 29 June 2026. The email provides a charge date, not an explicit renewal or access-end date.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e68209079b51c3"
+        "url": "https://mail.google.com/mail/#all/19f0ce230e88e6a3"
       },
       "items": [
-        "Factura de mayo de 2026",
-        "Total EUR 27.27",
-        "Direct debit scheduled 28/05/2026",
+        "Factura de junio de 2026",
+        "Total EUR 38.00",
+        "Direct debit scheduled 29/06/2026",
         "Invoice PDF attached in source email"
       ],
       "links": [
@@ -2737,7 +2282,8 @@
           "label": "Open Mi DIGI",
           "url": "https://midigi.digimobil.es/"
         }
-      ]
+      ],
+      "lastBillingDate": "2026-06-29"
     },
     {
       "service": "Apple App Store 100 GB",
@@ -3102,25 +2648,25 @@
       ]
     },
     {
-      "id": "amazon-subscribe-save-lor-ristretto-2026-06-18",
+      "id": "amazon-subscribe-save-lor-ristretto-2026-09-03",
       "service": "Amazon Subscribe & Save",
       "title": "L'OR Ristretto coffee pods auto-delivery",
-      "status": "Active auto-delivery; price changed",
-      "nextDate": "2026-06-18",
-      "dateLabel": "Next delivery by Thursday, 18 June 2026",
+      "status": "Active auto-delivery",
+      "nextDate": "2026-09-03",
+      "dateLabel": "Next delivery by Thursday, 3 September 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
-      "warningWindowDays": 7,
-      "notes": "Amazon Subscribe & Save reminder dated 7 June says the L'OR Ristretto subscription sends 2 units every 2 weeks, next delivery by 18 June, last manageable day 10 June, and price changed from EUR 15.02 to EUR 15.86 after discount changed from 10% to 5%.",
+      "warningWindowDays": 14,
+      "notes": "Amazon Subscribe & Save email dated 25 June says a new L'OR Ristretto auto-delivery was created, delivers every 2 months, and arrives by Thursday, 3 September 2026. A same-day Amazon order email also recorded 8 packs for EUR 84.10.",
       "sourceEmail": {
         "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19ea0b092be138db"
+        "url": "https://mail.google.com/mail/#all/19efd9e7ba4dba31"
       },
       "items": [
-        "L'OR Capsulas de Cafe Ristretto, intensity 11",
-        "2 units every 2 weeks",
-        "New price EUR 15.86",
-        "Last day to manage delivery: 10 June 2026"
+        "L'OR Ristretto coffee pods, 50 capsules",
+        "Every 2 months",
+        "Next delivery by 3 September 2026",
+        "Can be edited, skipped, or canceled from Subscribe & Save"
       ],
       "links": [
         {
@@ -3130,25 +2676,25 @@
       ]
     },
     {
-      "id": "amazon-subscribe-save-aboca-aliviolas-fisiolax-2026-06-25",
+      "id": "amazon-subscribe-save-aboca-aliviolas-fisiolax-2026-07-16",
       "service": "Amazon Subscribe & Save",
       "title": "Aboca Aliviolas Fisiolax auto-delivery",
-      "status": "Active auto-delivery; price changed",
-      "nextDate": "2026-06-25",
-      "dateLabel": "Next delivery by Thursday, 25 June 2026",
+      "status": "Active auto-delivery",
+      "nextDate": "2026-07-16",
+      "dateLabel": "Next expected delivery Thursday, 16 July 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
-      "warningWindowDays": 7,
-      "notes": "Amazon Subscribe & Save reminder dated 14 June says the Aboca Aliviolas Fisiolax subscription sends 1 unit every 3 weeks, next delivery by 25 June, last manageable day 17 June, and price changed from EUR 16.10 after 5% discount to EUR 16.95 with no discount.",
+      "warningWindowDays": 14,
+      "notes": "Amazon delivery email dated 23 June confirms the 25 June-cycle Aboca Aliviolas Fisiolax delivery arrived early. The prior subscription reminder said the frequency is every 3 weeks, so the next delivery is inferred as 16 July 2026 until a newer exact reminder arrives.",
       "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19ec34f51c20bfa9"
+        "label": "Latest delivery email",
+        "url": "https://mail.google.com/mail/#all/19ef46c63d631686"
       },
       "items": [
         "Aboca Aliviolas Fisiolax food supplement",
-        "1 unit every 3 weeks",
-        "New price EUR 16.95",
-        "Last day to manage delivery: 17 June 2026"
+        "Delivered 23 June 2026",
+        "Every 3 weeks",
+        "Next date inferred from cadence"
       ],
       "links": [
         {
@@ -3156,6 +2702,35 @@
           "url": "https://www.amazon.es/auto-deliveries"
         }
       ]
+    },
+    {
+      "id": "digi-telecom-service-invoice-2026-06-29-secondary",
+      "service": "DIGI",
+      "title": "DIGI secondary telecom service invoice",
+      "status": "Invoice available",
+      "nextDate": "2026-06-29",
+      "dateLabel": "Direct debit scheduled Monday, 29 June 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 7,
+      "notes": "Second DIGI email dated 28 June says another June 2026 bill is available, the total is EUR 26.61, and the direct debit will be charged to the bank account on 29 June 2026. The email provides a charge date, not an explicit renewal or access-end date.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19f0dbef5aca6336"
+      },
+      "items": [
+        "Factura de junio de 2026",
+        "Total EUR 26.61",
+        "Direct debit scheduled 29/06/2026",
+        "Invoice PDF attached in source email"
+      ],
+      "links": [
+        {
+          "label": "Open Mi DIGI",
+          "url": "https://midigi.digimobil.es/"
+        }
+      ],
+      "lastBillingDate": "2026-06-29"
     }
   ],
   "emptySuppliers": []
