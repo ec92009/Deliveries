@@ -1,10 +1,10 @@
 {
   "today": "2026-06-30",
   "metadata": {
-    "version": "v122.0",
+    "version": "v122.1",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-30. Searched new mail since 2026-06-23 plus focused 7-day lookbacks. Included concrete supplier signals: Amazon Aboca, Shopper/Lovasy, COOFANDY/Pantene/L'OR delivery updates; COOFANDY PAT3 ordered for 2026-07-01; L'OR Subscribe & Save now every 2 months due 2026-09-03; Movistar and two DIGI June invoices. Removed passive Amazon return-window rows that expired before 2026-06-30. Excluded newsletters, promotions, recommendations, login/security notices, political mail, USPS digests with 0 packages, ride/rental receipts outside dashboard scope, and non-actionable healthcare/admin/developer false positives.",
-    "generatedAt": "2026-06-30T00:46:00+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-30 afternoon. Searched focused watch rows plus Spam coverage and supplier/order mail after the prior run with 7-day lookbacks. Included concrete supplier signals: Amazon return authorization for Shopper Purse Organizer with Celeritas drop-off by 2026-07-26, and Shopify Photos store closure confirmation. Split the Shopper/Lovasy delivered row so only the purse organizer is marked as return-authorized, kept Lovasy in return-window tracking, and removed passive Amazon return-window rows expiring on 2026-06-30. Excluded newsletters, promotions, recommendations, login/security notices, phishing-like Spam, ride/rental receipts outside dashboard scope, and non-actionable healthcare/admin/developer false positives.",
+    "generatedAt": "2026-06-30T16:46:37+02:00"
   },
   "deliveries": [
     {
@@ -457,62 +457,6 @@
         "SUN SUENTILES 250 CC sterile syringes",
         "Sold by CURAE SOLUTIONS SL",
         "Quantity 1"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-31-171-6355222-8121921",
-      "supplier": "Amazon",
-      "title": "Flyzoo magnetic kickstand iPhone 13/14 case",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-31",
-      "returnByDate": "2026-06-30",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 31 May says the Flyzoo magnetic kickstand iPhone 13/14 case was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e7e3f5566d43d9"
-      },
-      "items": [
-        "Order 171-6355222-8121921",
-        "Flyzoo Magnetic Kickstand Case for iPhone 13/14, clear black",
-        "Delivered 31 May 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-05-31-407-1306712-0455501",
-      "supplier": "Amazon",
-      "title": "Amazon Essentials classic chino shorts, black",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-05-31",
-      "returnByDate": "2026-06-30",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 31 May says the Amazon Essentials black classic chino shorts were delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e7e3e4bd226c47"
-      },
-      "items": [
-        "Order 407-1306712-0455501",
-        "Amazon Essentials Men's Classic Cut Chino Shorts, black, 34W",
-        "Delivered 31 May 2026"
       ],
       "links": [
         {
@@ -1698,20 +1642,56 @@
       "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-return-window-2026-06-25-407-9390277-3613124",
+      "id": "amazon-return-authorized-2026-06-30-407-9390277-3613124-shopper-purse-organizer",
       "supplier": "Amazon",
-      "title": "Shopper purse organizer and Lovasy red pajama set",
+      "title": "Shopper Purse Organizer return",
+      "status": "Return authorization granted",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "returnByDate": "2026-07-26",
+      "returnAuthorizationGranted": true,
+      "returnDropoffRequired": true,
+      "returnStatus": "return_authorized",
+      "notes": "Amazon return confirmation email dated 30 June says the return request is confirmed for the Shopper Purse Organizer from order 407-9390277-3613124. Take it to any Celeritas Dropoff office by 26 July; estimated refund is EUR 12.49 to Amazon account balance after drop-off.",
+      "sourceEmail": {
+        "label": "Return confirmation email",
+        "url": "https://mail.google.com/mail/#all/19f18ed0156933ef"
+      },
+      "items": [
+        "Order 407-9390277-3613124",
+        "Shopper Purse Organizer, interior purse pocket",
+        "Drop off by 26 July 2026",
+        "Estimated refund EUR 12.49 to Amazon account balance"
+      ],
+      "links": [
+        {
+          "label": "Manage Amazon return",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-9390277-3613124"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-06-25-407-9390277-3613124-lovasy-red-pajama",
+      "supplier": "Amazon",
+      "title": "Lovasy red wine summer pajama set",
       "status": "Delivered - return window open",
       "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 25 June says order 407-9390277-3613124 was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window.",
+      "deliveredDate": "2026-06-25",
+      "returnByDate": "2026-07-25",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 25 June says order 407-9390277-3613124 was delivered that day and handed to the resident. A later 30 June return confirmation applies only to the Shopper Purse Organizer from the same order, so the Lovasy pajama set remains in passive return-window tracking.",
       "sourceEmail": {
         "label": "Source email",
         "url": "https://mail.google.com/mail/#all/19efe48cd0621894"
       },
       "items": [
         "Order 407-9390277-3613124",
-        "Shopper Purse Organizer, interior purse pocket",
         "Lovasy summer modal sleeveless pajama set, red wine, size S",
         "Delivered 25 June 2026"
       ],
@@ -1720,11 +1700,7 @@
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ],
-      "deliveredDate": "2026-06-25",
-      "returnByDate": "2026-07-25",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
+      ]
     },
     {
       "id": "amazon-return-window-2026-06-26-407-4778941-7662731",
@@ -2012,27 +1988,26 @@
     {
       "service": "Shopify",
       "title": "Shopify Photos store subscription",
-      "status": "Canceled subscription",
-      "nextDate": "2026-06-29",
-      "dateLabel": "Access ends Monday, 29 June 2026",
+      "status": "Store closed; restorable",
+      "nextDate": null,
+      "dateLabel": "Closed Tuesday, 30 June 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "canceled",
       "warningWindowDays": 7,
-      "notes": "A later Shopify Billing email dated 1 June says the Photos store is scheduled to close on 29 June 2026 and access remains available until then. Shopify also warns a final invoice may still be charged on 29 June 2026 for usage-based fees.",
+      "notes": "Shopify Billing email dated 30 June confirms the Photos store was closed. Shopify says the store can be restored with data and settings preserved if reopened within 2 years, and warns to cancel any external app subscriptions separately to avoid unwanted charges.",
       "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e838ec2376298e"
+        "label": "Closure confirmation email",
+        "url": "https://mail.google.com/mail/#all/19f17501246e227e"
       },
       "items": [
-        "Store closes 29 June 2026",
-        "Access remains available until closure",
-        "Final invoice may still be charged on 29 June 2026 for usage-based fees",
-        "Data preserved for 2 years if reactivated"
+        "Photos store closed 30 June 2026",
+        "Store data and settings can be restored within 2 years",
+        "Cancel any external app subscriptions separately if applicable"
       ],
       "links": [
         {
-          "label": "View Shopify bill",
-          "url": "https://vxvxk0-qd.myshopify.com/admin/settings/billing"
+          "label": "Open Shopify admin",
+          "url": "https://vxvxk0-qd.myshopify.com/admin"
         }
       ]
     },
