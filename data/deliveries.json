@@ -1,10 +1,10 @@
 {
-  "today": "2026-06-30",
+  "today": "2026-07-02",
   "metadata": {
-    "version": "v122.1",
+    "version": "v124.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-06-30 afternoon. Searched focused watch rows plus Spam coverage and supplier/order mail after the prior run with 7-day lookbacks. Included concrete supplier signals: Amazon return authorization for Shopper Purse Organizer with Celeritas drop-off by 2026-07-26, and Shopify Photos store closure confirmation. Split the Shopper/Lovasy delivered row so only the purse organizer is marked as return-authorized, kept Lovasy in return-window tracking, and removed passive Amazon return-window rows expiring on 2026-06-30. Excluded newsletters, promotions, recommendations, login/security notices, phishing-like Spam, ride/rental receipts outside dashboard scope, and non-actionable healthcare/admin/developer false positives.",
-    "generatedAt": "2026-06-30T16:46:37+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-02. Searched focused watch rows plus Spam coverage and supplier/order mail after the prior run with 7-day lookbacks. Included concrete supplier signals: Amazon Vitavea Subscribe & Save item canceled as unavailable, Shopper Purse Organizer return dropped off and refunded, COOFANDY PAT3 shirt delivered, new Amazon orders/dispatches for Bkrdty bag organizer, VMUTGA reception bells, Horbaach cranberry capsules, Flexipro electric bed, ERGO furniture protection, and a Colgate payment-verification hold; Etsy June statement ready with payment due by 2026-07-15 if a balance remains. Removed passive Amazon return-window row expiring 2026-07-01. Excluded newsletters, promotions, login/security notices, phishing/noise Spam, USPS digest with 0 packages, Wise personal transfer notice, and non-actionable healthcare/admin/developer false positives.",
+    "generatedAt": "2026-07-02T06:06:11+02:00"
   },
   "deliveries": [
     {
@@ -496,35 +496,6 @@
       ]
     },
     {
-      "id": "amazon-return-window-2026-06-01-407-6717563-1753149",
-      "supplier": "Amazon",
-      "title": "Liposan Hyaluron Plus and Labello Sun Protect lip balms",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-06-01",
-      "returnByDate": "2026-07-01",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 1 June says the Liposan Hyaluron Plus and Labello Sun Protect package was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e82ca8b67c6851"
-      },
-      "items": [
-        "Order 407-6717563-1753149",
-        "Liposan Hyaluron Plus rose lip balm, 5 g",
-        "Labello Sun Protect SPF 50 lip balm, 4.8 g",
-        "Delivered 1 June 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
       "id": "amazon-ordered-2026-06-04-407-7480563-1816306",
       "supplier": "Amazon",
       "title": "Pikolinos Cantabria leather sneakers, Race, 39 EU",
@@ -926,28 +897,28 @@
       ]
     },
     {
-      "id": "amazon-ordered-2026-07-02-407-0050761-1901162",
+      "id": "amazon-canceled-2026-07-02-407-0050761-1901162",
       "supplier": "Amazon",
       "title": "Vitavea gut probiotics and prebiotics, 90 capsules",
-      "status": "Ordered via Subscribe & Save",
-      "dueDate": "2026-07-02",
+      "status": "Canceled by Amazon - unavailable",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order confirmation dated 3 June says order 407-0050761-1901162 was placed for Vitavea Gut Probiotics & Prebiotics and is arriving 2 July. The paired Subscribe & Save email says the recurring delivery is every 2 months.",
+      "notes": "Amazon cancellation email dated 2 July says order 407-0050761-1901162 for Vitavea Gut Probiotics & Prebiotics was canceled because the item could not be obtained. If charged, Amazon says it will refund within one to two business days. This replaces the earlier Subscribe & Save arriving-2-July row.",
       "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e8c0fb1299c612"
+        "label": "Cancellation email",
+        "url": "https://mail.google.com/mail/#all/19f20f44908ef2c0"
       },
       "items": [
         "Order 407-0050761-1901162",
         "Gut Probiotics & Prebiotics, 20 strains + chicory inulin, 20 billion CFU, 90 vegan capsules, Vitavea",
-        "Sold by Havea",
+        "Amazon canceled due to lack of availability",
         "Quantity 1",
-        "Total EUR 0.00",
-        "Subscribe & Save every 2 months"
+        "Listed price EUR 9.90",
+        "Earlier Subscribe & Save cadence was every 2 months"
       ],
       "links": [
         {
-          "label": "View or edit order",
+          "label": "View order details",
           "url": "https://www.amazon.es/your-orders/order-details?orderID=407-0050761-1901162"
         },
         {
@@ -1642,32 +1613,27 @@
       "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-return-authorized-2026-06-30-407-9390277-3613124-shopper-purse-organizer",
+      "id": "amazon-return-refunded-2026-07-01-407-9390277-3613124-shopper-purse-organizer",
       "supplier": "Amazon",
       "title": "Shopper Purse Organizer return",
-      "status": "Return authorization granted",
+      "status": "Return dropped off; refund issued",
       "dueDate": null,
       "timezone": "Europe/Madrid",
-      "returnByDate": "2026-07-26",
-      "returnAuthorizationGranted": true,
-      "returnDropoffRequired": true,
-      "returnStatus": "return_authorized",
-      "notes": "Amazon return confirmation email dated 30 June says the return request is confirmed for the Shopper Purse Organizer from order 407-9390277-3613124. Take it to any Celeritas Dropoff office by 26 July; estimated refund is EUR 12.49 to Amazon account balance after drop-off.",
+      "deliveredDate": "2026-06-25",
+      "returnStatus": "refund_issued",
+      "notes": "Amazon confirmed Celeritas drop-off on 1 July, then issued the EUR 12.49 refund to the Amazon account balance by 1 July. The return no longer requires a dashboard urgent drop-off alert.",
       "sourceEmail": {
-        "label": "Return confirmation email",
-        "url": "https://mail.google.com/mail/#all/19f18ed0156933ef"
+        "label": "Refund confirmation email",
+        "url": "https://mail.google.com/mail/#all/19f1de3be71167d3"
       },
       "items": [
         "Order 407-9390277-3613124",
         "Shopper Purse Organizer, interior purse pocket",
-        "Drop off by 26 July 2026",
-        "Estimated refund EUR 12.49 to Amazon account balance"
+        "Drop-off confirmed 1 July 2026",
+        "Refund issued to Amazon account balance by 1 July 2026",
+        "Refund amount EUR 12.49"
       ],
       "links": [
-        {
-          "label": "Manage Amazon return",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-9390277-3613124"
-        },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
@@ -1733,24 +1699,185 @@
       "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-ordered-2026-06-25-407-6700631-9949936",
+      "id": "amazon-return-window-2026-07-01-407-6700631-9949936",
       "supplier": "Amazon",
       "title": "COOFANDY Hawaiian shirt, PAT3, size M",
-      "status": "Ordered",
-      "dueDate": "2026-07-01",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 25 June says order 407-6700631-9949936 is arriving Wednesday, interpreted as 1 July 2026 from the message date. No dispatch or delivery follow-up was found in this refresh.",
+      "deliveredDate": "2026-07-01",
+      "returnByDate": "2026-07-31",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 1 July says order 407-6700631-9949936 for the COOFANDY PAT3 Hawaiian shirt was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19efe2b61eba68b6"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f1e321bbd49e78"
       },
       "items": [
         "Order 407-6700631-9949936",
-        "COOFANDY Hawaiian shirt, Pat 3, size M",
-        "Total EUR 24.99",
-        "Arriving Wednesday, 1 July 2026"
+        "COOFANDY Men's Hawaiian Shirts 100% Cotton, Pat 3, size M",
+        "Delivered 1 July 2026"
       ],
       "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-6700631-9949936"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-07-01-408-8547949-1582736",
+      "supplier": "Amazon",
+      "title": "Bkrdty beige felt bag organizer",
+      "status": "Ordered",
+      "dueDate": "2026-07-03",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 1 July says order 408-8547949-1582736 for the Bkrdty beige felt bag organizer is arriving Friday, interpreted as 3 July 2026 from the message date.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19f1e328ad48c7ba"
+      },
+      "items": [
+        "Order 408-8547949-1582736",
+        "Bkrdty Beige Felt Bag Organizer Cosmetic Purse Organizer with detachable zipper bag and keychain",
+        "Sold by BOSSTER",
+        "Quantity 1",
+        "Total EUR 15.19",
+        "Arriving Friday, 3 July 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=408-8547949-1582736"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-07-01-408-5159306-9934721",
+      "supplier": "Amazon",
+      "title": "amuéblate Flexipro articulated electric bed",
+      "status": "Ordered",
+      "dueDate": "2026-07-10",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 1 July says order 408-5159306-9934721 for the amuéblate Flexipro articulated electric bed is arriving 10 July. A separate earlier bed order 408-8039128-4639544 was canceled without charge, so this row tracks the replacement active order.",
+      "sourceEmail": {
+        "label": "Source email",
+        "url": "https://mail.google.com/mail/#all/19f1e36bde01df7c"
+      },
+      "items": [
+        "Order 408-5159306-9934721",
+        "amuéblate online Flexipro articulated electric bed, 135 x 190",
+        "Sold by Amazon.es",
+        "Quantity 1",
+        "Total EUR 505.58",
+        "Arriving 10 July 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=408-5159306-9934721"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-payment-verification-2026-07-01-407-5750207-7790742",
+      "supplier": "Amazon",
+      "title": "Colgate Max White Ultra Active Foam toothpaste",
+      "status": "Payment verification needed",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon payment update email dated 1 July says order 407-5750207-7790742 is on hold pending payment verification and asks to update the payment method.",
+      "sourceEmail": {
+        "label": "Payment update email",
+        "url": "https://mail.google.com/mail/#all/19f1e9ad98de1be2"
+      },
+      "items": [
+        "Order 407-5750207-7790742",
+        "COLGATE Max White Ultra Active Foam Whitening Toothpaste with Fluoride, 50 ml",
+        "Quantity 1",
+        "Total EUR 4.60",
+        "Payment revision needed"
+      ],
+      "links": [
+        {
+          "label": "View or edit order",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-5750207-7790742"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-07-01-408-7155153-6597934",
+      "supplier": "Amazon",
+      "title": "VMUTGA 2-piece reception bell set",
+      "status": "Dispatched",
+      "dueDate": "2026-07-02",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 1 July says order 408-7155153-6597934 for the VMUTGA 2-piece reception bell set was dispatched and is arriving tomorrow, interpreted as 2 July 2026.",
+      "sourceEmail": {
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19f1f2a3cee14b3a"
+      },
+      "items": [
+        "Order 408-7155153-6597934",
+        "VMUTGA 2 Pcs Reception Bell, yellow/blue",
+        "Sold by LAZARICAARTSHOP",
+        "Quantity 1",
+        "Total EUR 7.49",
+        "Arriving 2 July 2026"
+      ],
+      "links": [
+        {
+          "label": "Track package",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=408-7155153-6597934"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-07-01-407-7693326-7110757",
+      "supplier": "Amazon",
+      "title": "Horbaach cranberry capsules",
+      "status": "Dispatched",
+      "dueDate": "2026-07-05",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 1 July says order 407-7693326-7110757 for Horbaach cranberry capsules was dispatched and is arriving Sunday, interpreted as 5 July 2026 from the message date.",
+      "sourceEmail": {
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19f1f067193e07a3"
+      },
+      "items": [
+        "Order 407-7693326-7110757",
+        "Cranberry Capsules 50,000 mg with Vitamin C 200 mg, 180 vegan capsules, Horbaach",
+        "Sold by Horbaach",
+        "Quantity 1",
+        "Total EUR 12.82",
+        "Arriving Sunday, 5 July 2026"
+      ],
+      "links": [
+        {
+          "label": "Track package",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-7693326-7110757"
+        },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
@@ -2706,6 +2833,63 @@
         }
       ],
       "lastBillingDate": "2026-06-29"
+    },
+    {
+      "id": "ergo-furniture-protection-2026-07-01-408-1038851-3425150",
+      "service": "ERGO furniture protection",
+      "title": "ERGO 3-year furniture product protection",
+      "status": "Active protection plan",
+      "nextDate": "2029-07-01",
+      "dateLabel": "3-year protection from Wednesday, 1 July 2026 purchase",
+      "timezone": "Europe/Madrid",
+      "renewalState": "one_time",
+      "warningWindowDays": 30,
+      "notes": "Amazon order and seller-disclosure emails dated 1 July provide ERGO 3 years of Furniture Product protection for the Flexipro electric bed. The email delivery is tied to order 408-1038851-3425150 and shows no separate renewal terms.",
+      "sourceEmail": {
+        "label": "Important disclosures email",
+        "url": "https://mail.google.com/mail/#all/19f1e683637b5f98"
+      },
+      "items": [
+        "Order 408-1038851-3425150",
+        "ERGO 3 years of Furniture Product protection from EUR 500.00 to EUR 549.99",
+        "Linked to Flexipro electric bed purchase",
+        "Email delivery",
+        "No separate recurring renewal terms found"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "etsy-photosbyelieshop-statement-2026-06",
+      "service": "Etsy",
+      "title": "Etsy PhotosByElieShop June statement",
+      "status": "Statement ready; payment due if balance remains",
+      "nextDate": "2026-07-15",
+      "dateLabel": "Payment due Wednesday, 15 July 2026 if balance remains",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 7,
+      "notes": "Etsy Billing email dated 1 July says the June 2026 statement for PhotosByElieShop is ready. The email does not expose the amount, but says any statement balance must be paid in full by 15 July 2026 to avoid overdue restrictions.",
+      "sourceEmail": {
+        "label": "Statement email",
+        "url": "https://mail.google.com/mail/#all/19f1db32fa95ea4c"
+      },
+      "items": [
+        "PhotosByElieShop June 2026 statement",
+        "Amount not shown in email body",
+        "Payment due by 15 July 2026 if a balance remains",
+        "Overdue accounts may have shop privileges restricted"
+      ],
+      "links": [
+        {
+          "label": "Open Etsy payment account",
+          "url": "https://www.etsy.com/your/account/payments"
+        }
+      ]
     }
   ],
   "emptySuppliers": []
