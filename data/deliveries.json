@@ -1,10 +1,10 @@
 {
-  "today": "2026-07-03",
+  "today": "2026-07-05",
   "metadata": {
-    "version": "v125.0",
+    "version": "v127.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-03. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon VMUTGA reception bells delivered, Parodontax/Pronto/Korres package delivered, Colgate payment-verification hold moved to dispatched, new Twinzen pillowcase and Liposan/Eucerin lip protector orders, and dispatches for Eucerin Hyaluron-Filler, Colgate Max White One, L'OR Ristretto, CeraVe cleanser refill, L'Oreal Revitalift eye serum, Hellmann's barbecue sauce, Vitabay Coenzyme Q10, and ProFusion tyre repair liquid. Excluded newsletters, recommendations, review prompts, political/promotional mail, fake/phishing Spam, and non-actionable S1/Manou false positives.",
-    "generatedAt": "2026-07-03T06:00:00+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-05. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon Bkrdty, Colgate Max White Ultra, grouped Eucerin/Colgate/L'OR/CeraVe/L'Oreal/Hellmann's/Vitabay package, ProFusion, and Liposan/Eucerin deliveries; Amazon Aboca Subscribe & Save upcoming delivery; Apple iCloud+ monthly renewal. Removed passive Amazon return-window rows expired before 2026-07-05. Excluded newsletters, recommendations, political/promotional mail, phishing Spam, and non-actionable S1/Manou false positives.",
+    "generatedAt": "2026-07-05T08:35:00+02:00"
   },
   "deliveries": [
     {
@@ -294,39 +294,6 @@
       ]
     },
     {
-      "id": "amazon-return-window-2026-06-04-407-3462102-1655552",
-      "supplier": "Amazon",
-      "title": "Vitabay Coenzyme Q10 Ubiquinol 200 mg, 60 capsules",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 4 June says the package containing Vitabay Coenzyme Q10, Korres coloration oil, and IEMAI PETG filament was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e93208bad32980"
-      },
-      "items": [
-        "Order 407-3462102-1655552",
-        "Vitabay Coenzyme Q10 Ubiquinol 200 mg, 60 capsules",
-        "Subscribe & Save delivery",
-        "Delivered 4 June 2026"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-3462102-1655552"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-06-04",
-      "returnByDate": "2026-07-04",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
       "id": "amazon-dispatched-2026-06-13-171-2354700-1021906",
       "supplier": "Amazon",
       "title": "eSUN PLA Basic filament, grey 2-spool pack",
@@ -521,136 +488,6 @@
       ]
     },
     {
-      "id": "amazon-return-window-2026-06-04-171-5650224-4614751",
-      "supplier": "Amazon",
-      "title": "IEMAI transparent red glitter PETG filament 1 kg",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 4 June says the package containing IEMAI PETG filament, Korres coloration oil, and Vitabay Coenzyme Q10 was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e93208bad32980"
-      },
-      "items": [
-        "Order 171-5650224-4614751",
-        "IEMAI PETG Filament 1.75 mm, 1 kg, transparent red glitter",
-        "Sold by IEMAI EU",
-        "Delivered 4 June 2026"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=171-5650224-4614751"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-06-04",
-      "returnByDate": "2026-07-04",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-06-04-405-1671933-7963525",
-      "supplier": "Amazon",
-      "title": "Korres Argan Advanced Coloration oil 9.0",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 4 June says the package containing Korres Argan Advanced Coloration oil, Vitabay Coenzyme Q10, and IEMAI PETG filament was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e93208bad32980"
-      },
-      "items": [
-        "Order 405-1671933-7963525",
-        "Korres Argan Advanced Coloration Very Light Blonde 9.0 Oil, 145 ml",
-        "Sold by Amazon.es",
-        "Delivered 4 June 2026"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=405-1671933-7963525"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-06-04",
-      "returnByDate": "2026-07-04",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-06-03-407-0466204-2122721",
-      "supplier": "Amazon",
-      "title": "Senti2 moisturizing drops for dry eyes, 10 ml (Qty 4)",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 3 June says the Senti2 moisturizing drops package for order 407-0466204-2122721 was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e8df1100fd8744"
-      },
-      "items": [
-        "Order 407-0466204-2122721",
-        "Senti2 Moisturizing Drops for Dry Eyes, 10 ml",
-        "Quantity 4",
-        "Sold by Amazon.es",
-        "Total EUR 17.98"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-0466204-2122721"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-06-03",
-      "returnByDate": "2026-07-03"
-    },
-    {
-      "id": "amazon-return-window-2026-06-03-407-9397662-6994720",
-      "supplier": "Amazon",
-      "title": "NIVEA Repair & Care body moisturizer, 400 ml (Qty 2)",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 3 June was titled as delivered for two NIVEA Repair & Care items plus the Senti2 package and included the NIVEA item title; retained for the assumed 30-day Amazon return window while preserving the original NIVEA dispatch order reference 407-9397662-6994720.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e8df1100fd8744"
-      },
-      "items": [
-        "Order 407-9397662-6994720",
-        "NIVEA Repair & Care Body Moisturizer / Face & Hand Cream, 400 ml",
-        "Quantity 2",
-        "Sold by Amazon.es",
-        "Total EUR 10.61"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-9397662-6994720"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-06-03",
-      "returnByDate": "2026-07-03"
-    },
-    {
       "id": "amazon-return-refunded-2026-06-02-407-2219547-4920368",
       "supplier": "Amazon",
       "title": "Voqeen women's summer cotton pants return",
@@ -678,38 +515,6 @@
       ]
     },
     {
-      "id": "amazon-return-window-2026-06-03-407-8459831-4334720",
-      "supplier": "Amazon",
-      "title": "CMTOP women's summer cotton 7/8 pants, navy, S",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 3 June says the CMTOP navy summer cotton 7/8 pants package for order 407-8459831-4334720 was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e8df1cc8358a76"
-      },
-      "items": [
-        "Order 407-8459831-4334720",
-        "CMTOP Women's Summer Cotton 7/8 Trousers, navy, S",
-        "Sold by Lemens",
-        "Quantity 1",
-        "Total EUR 22.99"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-8459831-4334720"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-06-03",
-      "returnByDate": "2026-07-03"
-    },
-    {
       "id": "amazon-return-window-2026-06-11-171-4326544-3833155",
       "supplier": "Amazon",
       "title": "SUNLU 4kg PLA+ filament transparent color pack",
@@ -734,105 +539,6 @@
       ],
       "deliveredDate": "2026-06-11",
       "returnByDate": "2026-07-11",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-06-03-402-1689404-7416323",
-      "supplier": "Amazon",
-      "title": "L'OR Ristretto coffee pods, 50 capsules (Qty 2)",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 3 June says the L'OR Ristretto coffee pods package for order 402-1689404-7416323 was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e8df05e214ac8b"
-      },
-      "items": [
-        "Order 402-1689404-7416323",
-        "L'OR Ristretto Coffee Pods, intensity 11, 50 Nespresso-compatible capsules",
-        "Quantity 2",
-        "Total EUR 30.04",
-        "Payment revision needed"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=402-1689404-7416323"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-06-03",
-      "returnByDate": "2026-07-03"
-    },
-    {
-      "id": "amazon-return-window-2026-06-03-407-5217803-4525124",
-      "supplier": "Amazon",
-      "title": "Voqeen women's linen pants, black/white, S",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 3 June says the Voqeen black/white linen pants package for order 407-5217803-4525124 was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e8df15ac119588"
-      },
-      "items": [
-        "Order 407-5217803-4525124",
-        "Voqeen Women's Linen Pants, black/white, S",
-        "Sold by YCH_GO",
-        "Quantity 1",
-        "Total EUR 23.99"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-5217803-4525124"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-06-03",
-      "returnByDate": "2026-07-03"
-    },
-    {
-      "id": "amazon-return-window-2026-06-04-407-2390657-3550729",
-      "supplier": "Amazon",
-      "title": "Franck Provost Expert Nutri-Frizz sulfate-free shampoo",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 4 June says the Franck Provost Expert Nutri-Frizz shampoo package was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e93207270e360b"
-      },
-      "items": [
-        "Order 407-2390657-3550729",
-        "Franck Provost Expert Nutri-Frizz professional sulfate-free shampoo for dry or curly hair",
-        "Sold by Amazon.es",
-        "Quantity 1",
-        "Total EUR 8.13",
-        "Delivered 4 June 2026"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-2390657-3550729"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-06-04",
-      "returnByDate": "2026-07-04",
       "returnWindowDays": 30,
       "returnWarningStartsAfterDays": 21
     },
@@ -1731,37 +1437,6 @@
       ]
     },
     {
-      "id": "amazon-ordered-2026-07-01-408-8547949-1582736",
-      "supplier": "Amazon",
-      "title": "Bkrdty beige felt bag organizer",
-      "status": "Ordered",
-      "dueDate": "2026-07-03",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 1 July says order 408-8547949-1582736 for the Bkrdty beige felt bag organizer is arriving Friday, interpreted as 3 July 2026 from the message date.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19f1e328ad48c7ba"
-      },
-      "items": [
-        "Order 408-8547949-1582736",
-        "Bkrdty Beige Felt Bag Organizer Cosmetic Purse Organizer with detachable zipper bag and keychain",
-        "Sold by BOSSTER",
-        "Quantity 1",
-        "Total EUR 15.19",
-        "Arriving Friday, 3 July 2026"
-      ],
-      "links": [
-        {
-          "label": "View order details",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=408-8547949-1582736"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
       "id": "amazon-ordered-2026-07-01-408-5159306-9934721",
       "supplier": "Amazon",
       "title": "amuéblate Flexipro articulated electric bed",
@@ -1785,36 +1460,6 @@
         {
           "label": "View order details",
           "url": "https://www.amazon.es/your-orders/order-details?orderID=408-5159306-9934721"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-dispatched-2026-07-02-407-5750207-7790742",
-      "supplier": "Amazon",
-      "title": "Colgate Max White Ultra Active Foam toothpaste",
-      "status": "Dispatched",
-      "dueDate": "2026-07-03",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 3 July says order 407-5750207-7790742 was dispatched and is arriving today, replacing the prior payment-verification hold row.",
-      "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f256c614edca64"
-      },
-      "items": [
-        "Order 407-5750207-7790742",
-        "COLGATE Max White Ultra Active Foam Whitening Toothpaste with Fluoride, 50 ml",
-        "Sold by Amazon.es",
-        "Quantity 1",
-        "Total EUR 4.60"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-5750207-7790742"
         },
         {
           "label": "Open Amazon orders",
@@ -1953,269 +1598,218 @@
       ]
     },
     {
-      "id": "amazon-ordered-2026-07-02-407-7910803-0685916",
+      "id": "amazon-return-window-2026-07-03-408-8547949-1582736",
       "supplier": "Amazon",
-      "title": "Liposan SPF 50 and Eucerin pH5 lip protectors",
-      "status": "Ordered",
-      "dueDate": "2026-07-04",
+      "title": "Bkrdty beige felt bag organizer",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 2 July says order 407-7910803-0685916 for Liposan SPF 50 and Eucerin pH5 lip protectors is arriving Saturday, interpreted as 4 July 2026 from the message date.",
+      "notes": "Amazon delivery email dated 3 July says order 408-8547949-1582736 for the Bkrdty beige felt bag organizer was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
-        "label": "Order email",
-        "url": "https://mail.google.com/mail/#all/19f229809dd4be03"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f288d6495f9ca0"
       },
       "items": [
-        "Order 407-7910803-0685916",
-        "Liposan Sun Protect SPF 50 lip balm, 4.8 g",
-        "Eucerin pH5 Lip Protector, 4.8 g",
-        "Quantity 1 each",
-        "Total EUR 5.60"
+        "Order 408-8547949-1582736",
+        "Bkrdty Beige Felt Bag Organizer Cosmetic Purse Organizer with detachable zipper bag and keychain",
+        "Delivered 3 July 2026"
       ],
       "links": [
         {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-7910803-0685916"
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=408-8547949-1582736"
         },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-07-03",
+      "returnByDate": "2026-08-02",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-07-02-402-2348155-0257128",
+      "id": "amazon-return-window-2026-07-03-407-5750207-7790742",
       "supplier": "Amazon",
-      "title": "Eucerin Hyaluron-Filler + Elasticity Night cream",
-      "status": "Dispatched",
-      "dueDate": "2026-07-03",
+      "title": "Colgate Max White Ultra Active Foam toothpaste",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 2 July says order 402-2348155-0257128 for Eucerin Hyaluron-Filler + Elasticity Night was dispatched and is arriving tomorrow, interpreted as 3 July 2026.",
+      "notes": "Amazon delivery email dated 3 July says order 407-5750207-7790742 for Colgate Max White Ultra Active Foam toothpaste was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f21a075f953fbf"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f288e59ac17836"
       },
       "items": [
-        "Order 402-2348155-0257128",
-        "Eucerin Hyaluron-Filler + Elasticity Night, 50 ml",
-        "Sold by Amazon.es",
-        "Quantity 1",
-        "Total EUR 27.96"
+        "Order 407-5750207-7790742",
+        "COLGATE Max White Ultra Active Foam Whitening Toothpaste with Fluoride, 50 ml",
+        "Delivered 3 July 2026"
       ],
       "links": [
         {
-          "label": "View or edit order",
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-5750207-7790742"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "deliveredDate": "2026-07-03",
+      "returnByDate": "2026-08-02",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-return-window-2026-07-03-402-2348155-0257128-group",
+      "supplier": "Amazon",
+      "title": "Eucerin, Colgate, L'OR, CeraVe, L'Oreal, Hellmann's, and Vitabay package",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon grouped delivery email dated 3 July says the package containing Eucerin Hyaluron-Filler, Colgate Max White One, L'OR Ristretto, CeraVe cleanser, L'Oreal Revitalift, Hellmann's barbecue sauce, and Vitabay Q10 items was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f288e2244d425d"
+      },
+      "items": [
+        "Order 402-2348155-0257128 - Eucerin Hyaluron-Filler + Elasticity Night cream, 50 ml",
+        "Order 402-0179842-6895528 - Colgate Max White One toothpaste, 4 x 75 ml",
+        "Order 171-8394819-5729943 - L'OR Ristretto coffee pods, 50 capsules, quantity 2",
+        "Order 403-6347435-3604316 - CeraVe moisturizing cleanser refill",
+        "Order 404-1587796-5856303 - L'Oreal Paris Revitalift Filler eye serum, 20 ml",
+        "Order 405-7988105-3768347 - Hellmann's barbecue sauce, 285 g, quantity 2",
+        "Order 404-1911115-1298703 - Vitabay Coenzyme Q10 Ubiquinol, 60 capsules",
+        "Delivered 3 July 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
           "url": "https://www.amazon.es/your-orders/order-details?orderID=402-2348155-0257128"
         },
         {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-dispatched-2026-07-02-402-0179842-6895528",
-      "supplier": "Amazon",
-      "title": "Colgate Max White One toothpaste, 4 x 75 ml",
-      "status": "Dispatched",
-      "dueDate": "2026-07-03",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 2 July says order 402-0179842-6895528 for Colgate Max White One toothpaste was dispatched and is arriving tomorrow, interpreted as 3 July 2026.",
-      "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f21a084ebe143e"
-      },
-      "items": [
-        "Order 402-0179842-6895528",
-        "Colgate Max White One Whitening Toothpaste, pack of 4 x 75 ml",
-        "Sold by Amazon.es",
-        "Quantity 1",
-        "Total EUR 7.90"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
+          "label": "View order details",
           "url": "https://www.amazon.es/your-orders/order-details?orderID=402-0179842-6895528"
         },
         {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-dispatched-2026-07-02-171-8394819-5729943",
-      "supplier": "Amazon",
-      "title": "L'OR Ristretto coffee pods, 50 capsules (Qty 2)",
-      "status": "Dispatched",
-      "dueDate": "2026-07-03",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 2 July says order 171-8394819-5729943 for two L'OR Ristretto coffee pod packs was dispatched and is arriving tomorrow, interpreted as 3 July 2026.",
-      "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f219fae3dc78fb"
-      },
-      "items": [
-        "Order 171-8394819-5729943",
-        "L'OR Ristretto Coffee Pods, intensity 11, 50 Nespresso-compatible capsules",
-        "Quantity 2",
-        "Sold by Amazon.es",
-        "Total EUR 21.02"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
+          "label": "View order details",
           "url": "https://www.amazon.es/your-orders/order-details?orderID=171-8394819-5729943"
         },
         {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-dispatched-2026-07-02-403-6347435-3604316",
-      "supplier": "Amazon",
-      "title": "CeraVe moisturizing cleanser refill",
-      "status": "Dispatched",
-      "dueDate": "2026-07-03",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 2 July says order 403-6347435-3604316 for CeraVe moisturizing cleanser refill was dispatched and is arriving tomorrow, interpreted as 3 July 2026.",
-      "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f219e6631f4478"
-      },
-      "items": [
-        "Order 403-6347435-3604316",
-        "CeraVe Moisturizing Cleanser Refill for normal to dry skin",
-        "Sold by Amazon.es",
-        "Quantity 1",
-        "Total EUR 8.54"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
+          "label": "View order details",
           "url": "https://www.amazon.es/your-orders/order-details?orderID=403-6347435-3604316"
         },
         {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-dispatched-2026-07-02-404-1587796-5856303",
-      "supplier": "Amazon",
-      "title": "L'Oreal Paris Revitalift Filler eye serum",
-      "status": "Dispatched",
-      "dueDate": "2026-07-03",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 2 July says order 404-1587796-5856303 for L'Oreal Paris Revitalift Filler eye serum was dispatched and is arriving tomorrow, interpreted as 3 July 2026.",
-      "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f219ddea61e0f7"
-      },
-      "items": [
-        "Order 404-1587796-5856303",
-        "L'Oreal Paris Revitalift Filler eye serum with hyaluronic acid and caffeine, 20 ml",
-        "Sold by Amazon.es",
-        "Quantity 1",
-        "Total EUR 11.56"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
+          "label": "View order details",
           "url": "https://www.amazon.es/your-orders/order-details?orderID=404-1587796-5856303"
         },
         {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-dispatched-2026-07-02-405-7988105-3768347",
-      "supplier": "Amazon",
-      "title": "Hellmann's barbecue sauce, 285 g (Qty 2)",
-      "status": "Dispatched",
-      "dueDate": "2026-07-03",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 2 July says order 405-7988105-3768347 for two Hellmann's barbecue sauces was dispatched and is arriving tomorrow, interpreted as 3 July 2026.",
-      "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f219d71a632c2b"
-      },
-      "items": [
-        "Order 405-7988105-3768347",
-        "Hellmann's Barbecue Sauce Bocabajo, 285 g",
-        "Quantity 2",
-        "Sold by Amazon.es",
-        "Total EUR 3.11"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
+          "label": "View order details",
           "url": "https://www.amazon.es/your-orders/order-details?orderID=405-7988105-3768347"
         },
         {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-dispatched-2026-07-02-404-1911115-1298703",
-      "supplier": "Amazon",
-      "title": "Vitabay Coenzyme Q10 Ubiquinol, 60 capsules",
-      "status": "Dispatched",
-      "dueDate": "2026-07-03",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 2 July says order 404-1911115-1298703 for Vitabay Coenzyme Q10 Ubiquinol was dispatched and is arriving tomorrow, interpreted as 3 July 2026.",
-      "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f21a0b2c786740"
-      },
-      "items": [
-        "Order 404-1911115-1298703",
-        "Vitabay Coenzyme Q10 Ubiquinol 200 mg, 60 capsules",
-        "Sold by Vitabay",
-        "Quantity 1",
-        "Total EUR 25.49"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
+          "label": "View order details",
           "url": "https://www.amazon.es/your-orders/order-details?orderID=404-1911115-1298703"
         },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-07-03",
+      "returnByDate": "2026-08-02",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-07-02-171-2040788-1870746",
+      "id": "amazon-return-window-2026-07-03-171-2040788-1870746",
       "supplier": "Amazon",
       "title": "ProFusion anti-puncture tyre repair liquid",
-      "status": "Dispatched",
-      "dueDate": "2026-07-07",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 2 July gave an ETA of 6-7 July for order 171-2040788-1870746; the later dispatch email confirmed the ProFusion anti-puncture liquid shipped. Due date uses the end of the stated ETA range.",
+      "notes": "Amazon delivery email dated 3 July says order 171-2040788-1870746 for the ProFusion anti-puncture tyre repair liquid was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f21f950cb30872"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f288d5dd9230a5"
       },
       "items": [
         "Order 171-2040788-1870746",
         "ProFusion anti-puncture liquid for tubeless tyres, 450 ml",
-        "Sold by Autolive Group",
-        "Quantity 1",
-        "Total EUR 10.40",
-        "Original order ETA 6-7 July 2026"
+        "Delivered 3 July 2026"
       ],
       "links": [
         {
-          "label": "View or edit order",
+          "label": "View order details",
           "url": "https://www.amazon.es/your-orders/order-details?orderID=171-2040788-1870746"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "deliveredDate": "2026-07-03",
+      "returnByDate": "2026-08-02",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-return-window-2026-07-04-407-7910803-0685916",
+      "supplier": "Amazon",
+      "title": "Liposan SPF 50 and Eucerin pH5 lip protectors",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon delivery email dated 4 July says order 407-7910803-0685916 for Liposan SPF 50 and Eucerin pH5 lip protectors was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f2dcabfca29621"
+      },
+      "items": [
+        "Order 407-7910803-0685916",
+        "Liposan Sun Protect SPF 50 lip balm, 4.8 g",
+        "Eucerin pH5 Lip Protector, 4.8 g",
+        "Delivered 4 July 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-7910803-0685916"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "deliveredDate": "2026-07-04",
+      "returnByDate": "2026-08-03",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-subscribe-save-upcoming-2026-07-16-aboca-aliviolas",
+      "supplier": "Amazon",
+      "title": "Aboca Aliviolas Fisiolax Subscribe & Save upcoming delivery",
+      "status": "Upcoming Subscribe & Save delivery",
+      "dueDate": "2026-07-16",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon Subscribe & Save reminder dated 5 July says the next Aboca Aliviolas Fisiolax auto-delivery totals EUR 16.95, arrives by Thursday 16 July, and can be managed until Wednesday 8 July.",
+      "sourceEmail": {
+        "label": "Subscribe & Save reminder",
+        "url": "https://mail.google.com/mail/#all/19f2ff4c660da725"
+      },
+      "items": [
+        "Aboca Aliviolas Fisiolax food supplement, 90 tablets",
+        "1 unit every 3 weeks",
+        "Order total EUR 16.95",
+        "Arriving by 16 July 2026",
+        "Last day to manage delivery: 8 July 2026"
+      ],
+      "links": [
+        {
+          "label": "Manage Subscribe & Save",
+          "url": "https://www.amazon.es/auto-deliveries"
         },
         {
           "label": "Open Amazon orders",
@@ -3229,6 +2823,39 @@
           "url": "https://www.etsy.com/your/account/payments"
         }
       ]
+    },
+    {
+      "service": "Apple iCloud",
+      "title": "iCloud+ with 2 TB monthly plan",
+      "status": "Active subscription",
+      "nextDate": "2026-08-04",
+      "dateLabel": "Next renewal Tuesday, 4 August 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 7,
+      "notes": "Apple receipt dated 4 July 2026 confirms the iCloud+ 2 TB monthly plan renewed for USD 9.99 and says it renews again on 4 August 2026.",
+      "sourceEmail": {
+        "label": "Apple receipt",
+        "url": "https://mail.google.com/mail/#all/19f2dd8704b937c3"
+      },
+      "items": [
+        "Apple receipt order MN0HSK083F",
+        "Document 664156658270",
+        "iCloud+ with 2 TB monthly plan",
+        "USD 9.99 charged 4 July 2026",
+        "Renews 4 August 2026"
+      ],
+      "links": [
+        {
+          "label": "Manage Apple subscriptions",
+          "url": "https://apps.apple.com/account/subscriptions"
+        },
+        {
+          "label": "Apple purchase history",
+          "url": "https://apps.apple.com/account/purchases"
+        }
+      ],
+      "lastBillingDate": "2026-07-04"
     }
   ],
   "emptySuppliers": []
