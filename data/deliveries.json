@@ -1,10 +1,10 @@
 {
-  "today": "2026-07-05",
+  "today": "2026-07-06",
   "metadata": {
-    "version": "v127.0",
+    "version": "v128.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-05. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon Bkrdty, Colgate Max White Ultra, grouped Eucerin/Colgate/L'OR/CeraVe/L'Oreal/Hellmann's/Vitabay package, ProFusion, and Liposan/Eucerin deliveries; Amazon Aboca Subscribe & Save upcoming delivery; Apple iCloud+ monthly renewal. Removed passive Amazon return-window rows expired before 2026-07-05. Excluded newsletters, recommendations, political/promotional mail, phishing Spam, and non-actionable S1/Manou false positives.",
-    "generatedAt": "2026-07-05T08:35:00+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-06. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon Twinzen and Horbaach deliveries, VIVIENNE SABO and COSTWAY orders, and Aboca Subscribe & Save confirmation. Removed passive Amazon return-window rows expired before 2026-07-06. Excluded newsletters, recommendations, review prompts, personal transfers, political/promotional mail, phishing Spam, and non-actionable S1/Manou false positives.",
+    "generatedAt": "2026-07-06T06:05:06+02:00"
   },
   "deliveries": [
     {
@@ -657,35 +657,6 @@
           "label": "View or edit order",
           "url": "https://www.amazon.es/your-orders/order-details?orderID=407-1833922-8862750"
         },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-06-05-407-3619788-2045147",
-      "supplier": "Amazon",
-      "title": "Lovasy women's summer pajama set, navy",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-06-05",
-      "returnByDate": "2026-07-05",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 5 June says order 407-3619788-2045147 was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e984b75fc2fe5f"
-      },
-      "items": [
-        "Order 407-3619788-2045147",
-        "Lovasy women's summer modal sleeveless pajama set, navy, size S",
-        "Sold by Lovasy Direct",
-        "Delivered 5 June 2026"
-      ],
-      "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
@@ -1503,37 +1474,6 @@
       "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-07-01-407-7693326-7110757",
-      "supplier": "Amazon",
-      "title": "Horbaach cranberry capsules",
-      "status": "Dispatched",
-      "dueDate": "2026-07-05",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 1 July says order 407-7693326-7110757 for Horbaach cranberry capsules was dispatched and is arriving Sunday, interpreted as 5 July 2026 from the message date.",
-      "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f1f067193e07a3"
-      },
-      "items": [
-        "Order 407-7693326-7110757",
-        "Cranberry Capsules 50,000 mg with Vitamin C 200 mg, 180 vegan capsules, Horbaach",
-        "Sold by Horbaach",
-        "Quantity 1",
-        "Total EUR 12.82",
-        "Arriving Sunday, 5 July 2026"
-      ],
-      "links": [
-        {
-          "label": "Track package",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-7693326-7110757"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
       "id": "amazon-return-window-2026-07-02-408-8235377-9809142",
       "supplier": "Amazon",
       "title": "Parodontax toothpaste, Pronto wood repair, and Korres coloration oil",
@@ -1566,36 +1506,6 @@
       "returnByDate": "2026-08-01",
       "returnWindowDays": 30,
       "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-ordered-2026-07-02-407-7814783-4853162",
-      "supplier": "Amazon",
-      "title": "Twinzen pink cotton jersey pillowcases, 40 x 70 cm",
-      "status": "Ordered",
-      "dueDate": "2026-07-05",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 2 July says order 407-7814783-4853162 for Twinzen pink pillowcases is arriving Sunday, interpreted as 5 July 2026 from the message date.",
-      "sourceEmail": {
-        "label": "Order email",
-        "url": "https://mail.google.com/mail/#all/19f24de4542cd50a"
-      },
-      "items": [
-        "Order 407-7814783-4853162",
-        "Twinzen pillowcase 40 x 70 cm, set of 2, pink, 100% cotton jersey",
-        "Sold by BMS Espana",
-        "Quantity 1",
-        "Total EUR 11.14"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-7814783-4853162"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
     },
     {
       "id": "amazon-return-window-2026-07-03-408-8547949-1582736",
@@ -1810,6 +1720,131 @@
         {
           "label": "Manage Subscribe & Save",
           "url": "https://www.amazon.es/auto-deliveries"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-07-05-407-7814783-4853162",
+      "supplier": "Amazon",
+      "title": "Twinzen pink cotton jersey pillowcases, 40 x 70 cm",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon delivery email dated 5 July says order 407-7814783-4853162 for Twinzen pink pillowcases was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f31d538871ad0a"
+      },
+      "items": [
+        "Order 407-7814783-4853162",
+        "Twinzen pillowcase 40 x 70 cm, set of 2, pink, 100% cotton jersey",
+        "Delivered 5 July 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-7814783-4853162"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "deliveredDate": "2026-07-05",
+      "returnByDate": "2026-08-04",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-return-window-2026-07-05-407-7693326-7110757",
+      "supplier": "Amazon",
+      "title": "Horbaach cranberry capsules",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon delivery email dated 5 July says order 407-7693326-7110757 for Horbaach cranberry capsules was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f31d6139ad0bd1"
+      },
+      "items": [
+        "Order 407-7693326-7110757",
+        "Cranberry Capsules 50,000 mg with Vitamin C 200 mg, 180 vegan capsules, Horbaach",
+        "Delivered 5 July 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-7693326-7110757"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "deliveredDate": "2026-07-05",
+      "returnByDate": "2026-08-04",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-ordered-2026-07-05-407-6349138-0548302",
+      "supplier": "Amazon",
+      "title": "VIVIENNE SABO Cabaret Premiere purple mascara",
+      "status": "Ordered",
+      "dueDate": "2026-07-11",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 5 July says order 407-6349138-0548302 for VIVIENNE SABO Cabaret Premiere purple mascara is arriving Saturday, interpreted as 11 July 2026 from the message date.",
+      "sourceEmail": {
+        "label": "Order email",
+        "url": "https://mail.google.com/mail/#all/19f315b512e86657"
+      },
+      "items": [
+        "Order 407-6349138-0548302",
+        "VIVIENNE SABO Cabaret Premiere Volume Purple Mascara, 10 ml",
+        "Sold by ITC - International Trade Consult",
+        "Quantity 1",
+        "Total EUR 9.95"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-6349138-0548302"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-07-05-171-5729294-9020337",
+      "supplier": "Amazon",
+      "title": "COSTWAY double parasol, coffee",
+      "status": "Ordered",
+      "dueDate": "2026-07-14",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 5 July says order 171-5729294-9020337 for the COSTWAY double parasol is arriving 14-15 July 2026; due date uses the first date in that range.",
+      "sourceEmail": {
+        "label": "Order email",
+        "url": "https://mail.google.com/mail/#all/19f3203d8f831520"
+      },
+      "items": [
+        "Order 171-5729294-9020337",
+        "COSTWAY Double Parasol 4.25 x 2.6 m, coffee",
+        "Sold by FDS GmbH",
+        "Quantity 1",
+        "Total EUR 108.99",
+        "Arrival range 14-15 July 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=171-5729294-9020337"
         },
         {
           "label": "Open Amazon orders",
@@ -2720,16 +2755,17 @@
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 14,
-      "notes": "Amazon delivery email dated 23 June confirms the 25 June-cycle Aboca Aliviolas Fisiolax delivery arrived early. The prior subscription reminder said the frequency is every 3 weeks, so the next delivery is inferred as 16 July 2026 until a newer exact reminder arrives.",
+      "notes": "Amazon Subscribe & Save reminder dated 5 July confirms the next Aboca Aliviolas Fisiolax auto-delivery totals EUR 16.95, arrives by Thursday 16 July, and can be managed until Wednesday 8 July.",
       "sourceEmail": {
-        "label": "Latest delivery email",
-        "url": "https://mail.google.com/mail/#all/19ef46c63d631686"
+        "label": "Subscribe & Save reminder",
+        "url": "https://mail.google.com/mail/#all/19f2ff4c660da725"
       },
       "items": [
         "Aboca Aliviolas Fisiolax food supplement",
-        "Delivered 23 June 2026",
-        "Every 3 weeks",
-        "Next date inferred from cadence"
+        "1 unit every 3 weeks",
+        "Order total EUR 16.95",
+        "Arriving by 16 July 2026",
+        "Last day to manage delivery: 8 July 2026"
       ],
       "links": [
         {
