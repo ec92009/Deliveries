@@ -1,10 +1,10 @@
 {
-  "today": "2026-07-06",
+  "today": "2026-07-07",
   "metadata": {
-    "version": "v128.0",
+    "version": "v129.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-06. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon Twinzen and Horbaach deliveries, VIVIENNE SABO and COSTWAY orders, and Aboca Subscribe & Save confirmation. Removed passive Amazon return-window rows expired before 2026-07-06. Excluded newsletters, recommendations, review prompts, personal transfers, political/promotional mail, phishing Spam, and non-actionable S1/Manou false positives.",
-    "generatedAt": "2026-07-06T06:05:06+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-07. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon COSTWAY double parasol dispatch arriving 14-15 July and Cloudflare invoice IN-70635757 paid with Apple Pay. Removed two passive Amazon return-window rows expired before 2026-07-07. Excluded newsletters, recommendations, review prompts, personal transfers, political/promotional mail, phishing Spam, and non-actionable S1/Manou false positives.",
+    "generatedAt": "2026-07-07T06:04:46+02:00"
   },
   "deliveries": [
     {
@@ -662,74 +662,6 @@
           "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
-    },
-    {
-      "id": "amazon-return-window-2026-06-06-407-4891415-4908365",
-      "supplier": "Amazon",
-      "title": "NIVEA Repair & Care body moisturizer, 400 ml (Qty 2)",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 6 June says order 407-4891415-4908365 for two NIVEA Repair & Care 400 ml moisturizers was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Delivery email",
-        "url": "https://mail.google.com/mail/#all/19e9ce8c1754b695"
-      },
-      "items": [
-        "Order 407-4891415-4908365",
-        "NIVEA Repair & Care Body Moisturizer / Face & Hand Cream, 400 ml",
-        "Quantity 2",
-        "Sold by Amazon.es",
-        "Total EUR 10.61"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-4891415-4908365"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-06-06",
-      "returnByDate": "2026-07-06",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-return-window-2026-06-06-407-0802648-8220313",
-      "supplier": "Amazon",
-      "title": "Colgate Max White Whitens and Protects toothpaste, 4 x 75 ml",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 6 June says order 407-0802648-8220313 for Colgate Max White Whitens and Protects toothpaste was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Delivery email",
-        "url": "https://mail.google.com/mail/#all/19e9ce7b1fb88117"
-      },
-      "items": [
-        "Order 407-0802648-8220313",
-        "Colgate Max White Whitens and Protects Toothpaste, 4 x 75 ml",
-        "Sold by Amazon.es",
-        "Quantity 1",
-        "Total EUR 10.60"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-0802648-8220313"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-06-06",
-      "returnByDate": "2026-07-06",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-return-window-2026-06-11-407-4502819-3772338",
@@ -1822,16 +1754,16 @@
       ]
     },
     {
-      "id": "amazon-ordered-2026-07-05-171-5729294-9020337",
+      "id": "amazon-dispatched-2026-07-06-171-5729294-9020337",
       "supplier": "Amazon",
       "title": "COSTWAY double parasol, coffee",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-07-14",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 5 July says order 171-5729294-9020337 for the COSTWAY double parasol is arriving 14-15 July 2026; due date uses the first date in that range.",
+      "notes": "Amazon dispatch email dated 6 July says order 171-5729294-9020337 for the COSTWAY double parasol was dispatched and is arriving 14-15 July 2026; due date uses the first date in that range.",
       "sourceEmail": {
-        "label": "Order email",
-        "url": "https://mail.google.com/mail/#all/19f3203d8f831520"
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19f3689181fe8d04"
       },
       "items": [
         "Order 171-5729294-9020337",
@@ -1839,6 +1771,7 @@
         "Sold by FDS GmbH",
         "Quantity 1",
         "Total EUR 108.99",
+        "Dispatched 6 July 2026",
         "Arrival range 14-15 July 2026"
       ],
       "links": [
@@ -2892,6 +2825,35 @@
         }
       ],
       "lastBillingDate": "2026-07-04"
+    },
+    {
+      "id": "cloudflare-invoice-2026-07-06-in-70635757",
+      "service": "Cloudflare account billing",
+      "title": "Cloudflare invoice IN-70635757",
+      "status": "Paid invoice",
+      "nextDate": "2026-07-06",
+      "dateLabel": "Paid Monday, 6 July 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "one_time",
+      "warningWindowDays": 7,
+      "notes": "Cloudflare invoice email dated 6 July says invoice IN-70635757 for $5.99 was due that day, followed by a purchase-confirmed email for the same amount paid with Apple Pay. The email does not identify a specific domain or service, so this is tracked as account-level billing.",
+      "sourceEmail": {
+        "label": "Invoice email",
+        "url": "https://mail.google.com/mail/#all/19f378392b3ff097"
+      },
+      "items": [
+        "Invoice IN-70635757",
+        "$5.99 due 6 July 2026",
+        "Purchase confirmed with Apple Pay",
+        "No specific domain/service named in email"
+      ],
+      "links": [
+        {
+          "label": "Open Cloudflare billing",
+          "url": "https://dash.cloudflare.com/"
+        }
+      ],
+      "lastBillingDate": "2026-07-06"
     }
   ],
   "emptySuppliers": []
