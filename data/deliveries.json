@@ -1,10 +1,10 @@
 {
-  "today": "2026-07-07",
+  "today": "2026-07-08",
   "metadata": {
-    "version": "v129.0",
+    "version": "v130.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-07. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon COSTWAY double parasol dispatch arriving 14-15 July and Cloudflare invoice IN-70635757 paid with Apple Pay. Removed two passive Amazon return-window rows expired before 2026-07-07. Excluded newsletters, recommendations, review prompts, personal transfers, political/promotional mail, phishing Spam, and non-actionable S1/Manou false positives.",
-    "generatedAt": "2026-07-07T06:04:46+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-08. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signal: Amazon VIVIENNE SABO Cabaret Premiere purple mascara dispatch arriving 2026-07-11. No expired passive Amazon return-window rows required removal before 2026-07-08. Excluded newsletters, recommendations, review prompts, political/promotional mail, phishing Spam, and non-actionable S1/Manou false positives.",
+    "generatedAt": "2026-07-08T06:02:43+02:00"
   },
   "deliveries": [
     {
@@ -1724,16 +1724,16 @@
       "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-ordered-2026-07-05-407-6349138-0548302",
+      "id": "amazon-dispatched-2026-07-11-407-6349138-0548302",
       "supplier": "Amazon",
       "title": "VIVIENNE SABO Cabaret Premiere purple mascara",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-07-11",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 5 July says order 407-6349138-0548302 for VIVIENNE SABO Cabaret Premiere purple mascara is arriving Saturday, interpreted as 11 July 2026 from the message date.",
+      "notes": "Amazon dispatch email dated 7 July says order 407-6349138-0548302 for VIVIENNE SABO Cabaret Premiere purple mascara shipped and is arriving Saturday, interpreted as 11 July 2026 from the message date.",
       "sourceEmail": {
-        "label": "Order email",
-        "url": "https://mail.google.com/mail/#all/19f315b512e86657"
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19f3b7a22d89f5d1"
       },
       "items": [
         "Order 407-6349138-0548302",
