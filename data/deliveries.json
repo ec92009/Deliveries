@@ -1,10 +1,10 @@
 {
-  "today": "2026-07-08",
+  "today": "2026-07-09",
   "metadata": {
-    "version": "v130.0",
+    "version": "v131.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-08. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signal: Amazon VIVIENNE SABO Cabaret Premiere purple mascara dispatch arriving 2026-07-11. No expired passive Amazon return-window rows required removal before 2026-07-08. Excluded newsletters, recommendations, review prompts, political/promotional mail, phishing Spam, and non-actionable S1/Manou false positives.",
-    "generatedAt": "2026-07-08T06:02:43+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-09. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon Colgate order arriving 2026-07-10, Amazon Armagnac order arriving 2026-07-13 to 2026-07-14, and Booking.com EUR 130 San Diego flight refund sent 2026-07-08. Removed one passive Amazon return-window row expired before 2026-07-09. Excluded newsletters, recommendations, review prompts, political/promotional mail, phishing/fake-renewal Spam, USPS digests with 0 packages, account statements without actionable order state, and non-actionable S1/Manou false positives.",
+    "generatedAt": "2026-07-09T06:03:43+02:00"
   },
   "deliveries": [
     {
@@ -772,41 +772,6 @@
         {
           "label": "Track with USPS",
           "url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9205590262395374571325"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-06-08-407-3407122-5226769",
-      "supplier": "Amazon",
-      "title": "L'Oreal Professionnel Absolut Repair hair mask, 250 ml",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-06-08",
-      "returnByDate": "2026-07-08",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 8 June says order 407-3407122-5226769 for L'Oreal Professionnel Absolut Repair hair mask was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Delivery email",
-        "url": "https://mail.google.com/mail/#all/19ea7dcb1cafb3b6"
-      },
-      "items": [
-        "Order 407-3407122-5226769",
-        "L'Oreal Professionnel Reconstructive Treatment Mask for dry and damaged hair, Absolut Repair, 250 ml",
-        "Sold by Amazon.es",
-        "Quantity 1",
-        "Total EUR 18.63",
-        "Delivered 8 June 2026"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-3407122-5226769"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
     },
@@ -1784,6 +1749,89 @@
           "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
+    },
+    {
+      "id": "amazon-ordered-2026-07-08-407-8513823-0244344",
+      "supplier": "Amazon",
+      "title": "Colgate Max White Ultra Active Foam toothpaste",
+      "status": "Ordered",
+      "dueDate": "2026-07-10",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 8 July says order 407-8513823-0244344 for Colgate Max White Ultra Active Foam toothpaste is arriving Friday, interpreted as 10 July 2026 from the message date.",
+      "sourceEmail": {
+        "label": "Order email",
+        "url": "https://mail.google.com/mail/#all/19f42f0e8761be76"
+      },
+      "items": [
+        "Order 407-8513823-0244344",
+        "COLGATE Max White Ultra Active Foam Whitening Toothpaste with Fluoride, 50 ml",
+        "Sold by Amazon.es",
+        "Quantity 1",
+        "Total EUR 4.74",
+        "Arriving 10 July 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-8513823-0244344"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-07-08-407-2277813-7865904",
+      "supplier": "Amazon",
+      "title": "Armagnac Larressingle VS 40%, 70 cl",
+      "status": "Ordered",
+      "dueDate": "2026-07-13",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 8 July says order 407-2277813-7865904 for Armagnac Larressingle VS is arriving 13-14 July 2026; due date uses the first date in that range.",
+      "sourceEmail": {
+        "label": "Order email",
+        "url": "https://mail.google.com/mail/#all/19f42efc1ae4bf8e"
+      },
+      "items": [
+        "Order 407-2277813-7865904",
+        "ARMAGNAC LARRESSINGLE VS 40% 70 CL",
+        "Sold by Hellowcost Europe 1",
+        "Quantity 1",
+        "Total EUR 24.90",
+        "Arrival range 13-14 July 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-2277813-7865904"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "booking-refund-sent-2026-07-08-san-diego-flight",
+      "supplier": "Booking.com",
+      "title": "San Diego flight booking partial refund",
+      "status": "Refund sent",
+      "dueDate": "2026-07-15",
+      "timezone": "Europe/Madrid",
+      "notes": "Booking.com email dated 8 July says a EUR 130.00 refund was sent to the original payment method for the San Diego flight booking, with the rest of the booking still valid. It usually takes 2-5 business days to appear, so 15 July 2026 is used as the latest expected posting date.",
+      "sourceEmail": {
+        "label": "Refund email",
+        "url": "https://mail.google.com/mail/#all/19f41db0ef8f14a7"
+      },
+      "items": [
+        "Refund amount EUR 130.00",
+        "Refund sent 8 July 2026",
+        "Original payment method",
+        "Málaga to San Diego and return flight booking remains valid",
+        "Expected posting window 2-5 business days"
+      ],
+      "links": []
     }
   ],
   "licenses": [
