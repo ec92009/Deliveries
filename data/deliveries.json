@@ -4,7 +4,7 @@
     "version": "v133.0",
     "timezone": "Europe/Madrid",
     "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-11. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon Colgate toothpaste delivered on 2026-07-10, Amazon Lovasy light-blue pajama set dispatched for 2026-07-12, Cloudflare invoice IN-71121507 for $4.35 due 2026-07-11 with purchase confirmed by Apple Pay, and Etsy PhotosByElieShop June bill reminder for $10.80 due before restrictions on 2026-07-21. Removed one passive Amazon return-window row expired before 2026-07-11; kept the overdue Magefesa authorized return because it remains an active return action. Excluded newsletters, recommendations, review prompts, political/promotional mail, phishing/fake-order Spam, USPS digest with 0 packages, account statements without actionable order state, and non-actionable S1/Manou false positives.",
-    "generatedAt": "2026-07-11T06:10:00+02:00"
+    "generatedAt": "2026-07-11T06:04:54+02:00"
   },
   "deliveries": [
     {
