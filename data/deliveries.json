@@ -1,10 +1,10 @@
 {
-  "today": "2026-07-13",
+  "today": "2026-07-14",
   "metadata": {
-    "version": "v135.0",
+    "version": "v136.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-13. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon Lovasy light-blue pajama set delivered on 2026-07-12; Amazon Outsunny parasol base dispatched for 2026-07-15 to 2026-07-16; Amazon ProFusion anti-puncture fluid ordered for 2026-07-15 to 2026-07-16; Amazon ARZOPA portable monitor dispatched for 2026-07-13; Amazon Armagnac order corrected to dispatched; Autodesk Fusion Team hub access-ending reminder updated to 2026-07-27. Removed passive Amazon return-window rows expired before 2026-07-13. Excluded newsletters, recommendations, review prompts, political/promotional mail, fake/phishing Spam, USPS digests with 0 packages, and non-actionable S1/Manou false positives.",
-    "generatedAt": "2026-07-13T06:08:00+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-14. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon ARZOPA portable monitor delivered on 2026-07-13; Amazon ProFusion anti-puncture fluid dispatched for 2026-07-15 to 2026-07-16. Removed passive Amazon return-window rows expired before 2026-07-14. Excluded newsletters, recommendations, review prompts, political/promotional mail, fake/phishing Spam, USPS digests with 0 packages, login/security codes, and non-actionable S1/Manou false positives.",
+    "generatedAt": "2026-07-14T06:06:00+02:00"
   },
   "deliveries": [
     {
@@ -292,41 +292,6 @@
           "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
-    },
-    {
-      "id": "amazon-dispatched-2026-06-13-171-2354700-1021906",
-      "supplier": "Amazon",
-      "title": "eSUN PLA Basic filament, grey 2-spool pack",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 13 June says order 171-2354700-1021906 for eSUN PLA Basic grey 2-spool filament was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Delivery email",
-        "url": "https://mail.google.com/mail/#all/19ec14c2f208f94e"
-      },
-      "items": [
-        "Order 171-2354700-1021906",
-        "eSUN PLA Basic filament 1.75 mm, grey and grey, 1 kg x 2 spools",
-        "Sold by eSUN Official Store",
-        "Quantity 1",
-        "Total EUR 15.79",
-        "Delivered 13 June 2026"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=171-2354700-1021906"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-06-13",
-      "returnByDate": "2026-07-13",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-dispatched-2026-05-30-403-5544693-0469916",
@@ -683,74 +648,6 @@
           "url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9205590262395374571325"
         }
       ]
-    },
-    {
-      "id": "amazon-dispatched-2026-06-13-407-9536656-3740364",
-      "supplier": "Amazon",
-      "title": "POLIBOY colourless furniture oil, 200 ml",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 13 June says the package containing the hometrixx tablecloth and POLIBOY furniture oil was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Delivery email",
-        "url": "https://mail.google.com/mail/#all/19ec14d26a1f0911"
-      },
-      "items": [
-        "Order 407-0838423-1975548",
-        "POLIBOY Furniture Oil, nourishing colourless wood oil, 200 ml",
-        "Quantity 1",
-        "Delivered 13 June 2026"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-0838423-1975548"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-06-13",
-      "returnByDate": "2026-07-13",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
-      "id": "amazon-dispatched-2026-06-13-407-0838423-1975548",
-      "supplier": "Amazon",
-      "title": "hometrixx blue lemon birds tablecloth 152 x 264 cm",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 13 June says the package containing the hometrixx tablecloth and POLIBOY furniture oil was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Delivery email",
-        "url": "https://mail.google.com/mail/#all/19ec14d26a1f0911"
-      },
-      "items": [
-        "Order 407-0838423-1975548",
-        "hometrixx Summer rectangular stain-resistant blue lemon birds tablecloth, 152 x 264 cm",
-        "Sold by Hometrixx EU",
-        "Quantity 1",
-        "Total EUR 18.99",
-        "Delivered 13 June 2026"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-0838423-1975548"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-06-13",
-      "returnByDate": "2026-07-13",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-return-window-2026-06-14-404-2299878-6375538",
@@ -1727,16 +1624,16 @@
       ]
     },
     {
-      "id": "amazon-ordered-2026-07-12-408-9435261-1480330",
+      "id": "amazon-dispatched-2026-07-13-408-9435261-1480330",
       "supplier": "Amazon",
       "title": "ProFusion anti-puncture tyre repair liquid",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-07-15",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 12 July says order 408-9435261-1480330 for ProFusion anti-puncture tyre repair liquid is arriving 15-16 July 2026; due date uses the first date in that range. No dispatch email was found for this order in the current run.",
+      "notes": "Amazon dispatch email dated 13 July says order 408-9435261-1480330 for ProFusion anti-puncture tyre repair liquid was dispatched and remains expected 15-16 July 2026; due date uses the first date in that range.",
       "sourceEmail": {
-        "label": "Order email",
-        "url": "https://mail.google.com/mail/#all/19f58112a994582e"
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19f5aff416ce0a9f"
       },
       "items": [
         "Order 408-9435261-1480330",
@@ -1744,6 +1641,7 @@
         "Sold by Autolive Group",
         "Quantity 1",
         "Total EUR 10.40",
+        "Dispatched 13 July 2026",
         "Arrival range 15-16 July 2026"
       ],
       "links": [
@@ -1758,16 +1656,16 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-07-13-408-6642073-0286754",
+      "id": "amazon-return-window-2026-07-13-408-6642073-0286754",
       "supplier": "Amazon",
       "title": "ARZOPA 16-inch 2.5K portable monitor",
-      "status": "Dispatched",
-      "dueDate": "2026-07-13",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 12 July and dispatch email dated 13 July say order 408-6642073-0286754 for the ARZOPA 16-inch 2.5K portable monitor was dispatched and is arriving 13 July 2026 between 7 am and 1 pm.",
+      "notes": "Amazon delivery email dated 13 July says order 408-6642073-0286754 for the ARZOPA 16-inch 2.5K portable monitor was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f58e5f4d70ac85"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f5ab20843460d3"
       },
       "items": [
         "Order 408-6642073-0286754",
@@ -1775,8 +1673,7 @@
         "Sold by NanqingLtd",
         "Quantity 1",
         "Total EUR 139.99",
-        "Dispatched 13 July 2026",
-        "Arriving 13 July 2026, 7 am-1 pm"
+        "Delivered 13 July 2026"
       ],
       "links": [
         {
@@ -1787,7 +1684,11 @@
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-07-13",
+      "returnByDate": "2026-08-12",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     }
   ],
   "licenses": [
