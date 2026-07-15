@@ -1,10 +1,10 @@
 {
-  "today": "2026-07-14",
+  "today": "2026-07-15",
   "metadata": {
-    "version": "v136.0",
+    "version": "v137.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-14. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon ARZOPA portable monitor delivered on 2026-07-13; Amazon ProFusion anti-puncture fluid dispatched for 2026-07-15 to 2026-07-16. Removed passive Amazon return-window rows expired before 2026-07-14. Excluded newsletters, recommendations, review prompts, political/promotional mail, fake/phishing Spam, USPS digests with 0 packages, login/security codes, and non-actionable S1/Manou false positives.",
-    "generatedAt": "2026-07-14T06:06:00+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-15. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon ProFusion anti-puncture fluid delivered on 2026-07-14; Amazon Swimmm disposable swim diapers and Blendura high-pressure shower head ordered, dispatched, and delivered on 2026-07-14; Amazon Aboca Aliviolas payment verification needed. Removed one passive Amazon return-window row expired before 2026-07-15. Excluded newsletters, recommendations, review prompts, political/promotional mail, account-routing notices, fake/phishing Spam, USPS digests with 0 packages, and non-actionable S1/Manou false positives.",
+    "generatedAt": "2026-07-15T06:06:00+02:00"
   },
   "deliveries": [
     {
@@ -650,41 +650,6 @@
       ]
     },
     {
-      "id": "amazon-return-window-2026-06-14-404-2299878-6375538",
-      "supplier": "Amazon",
-      "title": "L'OR Ristretto coffee pods and Aseniza cotton shorts",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-06-14",
-      "returnByDate": "2026-07-14",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 14 June says the package for order 404-2299878-6375538 containing L'OR Ristretto coffee pods and Aseniza cotton shorts was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Delivery email",
-        "url": "https://mail.google.com/mail/#all/19ec5fb2131e238f"
-      },
-      "items": [
-        "Order 404-2299878-6375538",
-        "L'OR Ristretto Coffee Pods, intensity 11, 50 Nespresso-compatible capsules",
-        "Quantity 2",
-        "Aseniza 100% cotton short pyjama pants / home shorts",
-        "Quantity 1",
-        "Delivered 14 June 2026"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=404-2299878-6375538"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
       "id": "amazon-return-window-2026-06-16-407-0723767-8707550",
       "supplier": "Amazon",
       "title": "Aseniza cotton short pyjama pants / home shorts",
@@ -1258,36 +1223,6 @@
       "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-subscribe-save-upcoming-2026-07-16-aboca-aliviolas",
-      "supplier": "Amazon",
-      "title": "Aboca Aliviolas Fisiolax Subscribe & Save upcoming delivery",
-      "status": "Upcoming Subscribe & Save delivery",
-      "dueDate": "2026-07-16",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon Subscribe & Save reminder dated 5 July says the next Aboca Aliviolas Fisiolax auto-delivery totals EUR 16.95, arrives by Thursday 16 July, and can be managed until Wednesday 8 July.",
-      "sourceEmail": {
-        "label": "Subscribe & Save reminder",
-        "url": "https://mail.google.com/mail/#all/19f2ff4c660da725"
-      },
-      "items": [
-        "Aboca Aliviolas Fisiolax food supplement, 90 tablets",
-        "1 unit every 3 weeks",
-        "Order total EUR 16.95",
-        "Arriving by 16 July 2026",
-        "Last day to manage delivery: 8 July 2026"
-      ],
-      "links": [
-        {
-          "label": "Manage Subscribe & Save",
-          "url": "https://www.amazon.es/auto-deliveries"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
       "id": "amazon-return-window-2026-07-05-407-7814783-4853162",
       "supplier": "Amazon",
       "title": "Twinzen pink cotton jersey pillowcases, 40 x 70 cm",
@@ -1624,38 +1559,6 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-07-13-408-9435261-1480330",
-      "supplier": "Amazon",
-      "title": "ProFusion anti-puncture tyre repair liquid",
-      "status": "Dispatched",
-      "dueDate": "2026-07-15",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 13 July says order 408-9435261-1480330 for ProFusion anti-puncture tyre repair liquid was dispatched and remains expected 15-16 July 2026; due date uses the first date in that range.",
-      "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f5aff416ce0a9f"
-      },
-      "items": [
-        "Order 408-9435261-1480330",
-        "ProFusion Anti-Puncture Fluid for tubeless tyre repair, 450 ml",
-        "Sold by Autolive Group",
-        "Quantity 1",
-        "Total EUR 10.40",
-        "Dispatched 13 July 2026",
-        "Arrival range 15-16 July 2026"
-      ],
-      "links": [
-        {
-          "label": "View order details",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=408-9435261-1480330"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
       "id": "amazon-return-window-2026-07-13-408-6642073-0286754",
       "supplier": "Amazon",
       "title": "ARZOPA 16-inch 2.5K portable monitor",
@@ -1689,6 +1592,141 @@
       "returnByDate": "2026-08-12",
       "returnWindowDays": 30,
       "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-return-window-2026-07-14-408-9435261-1480330",
+      "supplier": "Amazon",
+      "title": "ProFusion anti-puncture tyre repair liquid",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-07-14",
+      "returnByDate": "2026-08-13",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 14 July says order 408-9435261-1480330 for ProFusion anti-puncture tyre repair liquid was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window. This replaces the earlier dispatched/arriving row.",
+      "sourceEmail": {
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f614288de03a92"
+      },
+      "items": [
+        "Order 408-9435261-1480330",
+        "ProFusion Anti-Puncture Fluid for tubeless tyre repair, 450 ml",
+        "Delivered 14 July 2026",
+        "Return window assumed through 13 August 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=408-9435261-1480330"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-07-14-407-9586580-6073909",
+      "supplier": "Amazon",
+      "title": "Blendura high-pressure shower head",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-07-14",
+      "returnByDate": "2026-08-13",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon order and dispatch emails dated 14 July say order 407-9586580-6073909 for the Blendura high-pressure filtered shower head was dispatched and arriving the same day; a later combined delivery email says the Blendura and Swimmm package was delivered on 14 July and handed to the resident.",
+      "sourceEmail": {
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f61bcf01e12e43"
+      },
+      "items": [
+        "Order 407-9586580-6073909",
+        "Blendura High Pressure Shower Head, Water Filter High Pressure Shower with 5 Modes, 3-layer filtration shower head and stones",
+        "Sold by Amazon.es",
+        "Quantity 1",
+        "Total EUR 10.99",
+        "Delivered 14 July 2026",
+        "Return window assumed through 13 August 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-9586580-6073909"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-return-window-2026-07-14-407-8882426-2736361",
+      "supplier": "Amazon",
+      "title": "Swimmm disposable swim diapers, adult medium",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "deliveredDate": "2026-07-14",
+      "returnByDate": "2026-08-13",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon order and dispatch emails dated 14 July say order 407-8882426-2736361 for Swimmm adult medium disposable swim diapers was dispatched and arriving the same day; a later combined delivery email says the Swimmm and Blendura package was delivered on 14 July and handed to the resident.",
+      "sourceEmail": {
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f61bcf01e12e43"
+      },
+      "items": [
+        "Order 407-8882426-2736361",
+        "Swimmm Disposable Swim Diapers for Adults, Medium (M)",
+        "Sold by DryOnline",
+        "Quantity 1",
+        "Total EUR 39.99",
+        "Delivered 14 July 2026",
+        "Return window assumed through 13 August 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-8882426-2736361"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-payment-hold-2026-07-14-407-8779554-1117913",
+      "supplier": "Amazon",
+      "title": "Aboca Aliviolas Fisiolax payment verification",
+      "status": "Payment verification needed",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon payment update dated 14 July says order 407-8779554-1117913 for Aboca Aliviolas Fisiolax is on hold pending payment verification and asks to update the payment method. This replaces the earlier upcoming Subscribe & Save delivery row until a dispatch or cancellation email arrives.",
+      "sourceEmail": {
+        "label": "Payment update email",
+        "url": "https://mail.google.com/mail/#all/19f5fc1a572d695f"
+      },
+      "items": [
+        "Order 407-8779554-1117913",
+        "Aboca Aliviolas Fisiolax food supplement, 90 tablets",
+        "Quantity 1",
+        "Total EUR 16.95",
+        "Payment revision needed as of 14 July 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-8779554-1117913"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
     }
   ],
   "licenses": [
