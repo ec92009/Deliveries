@@ -4,7 +4,7 @@
     "version": "v137.0",
     "timezone": "Europe/Madrid",
     "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-15. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon ProFusion anti-puncture fluid delivered on 2026-07-14; Amazon Swimmm disposable swim diapers and Blendura high-pressure shower head ordered, dispatched, and delivered on 2026-07-14; Amazon Aboca Aliviolas payment verification needed. Removed one passive Amazon return-window row expired before 2026-07-15. Excluded newsletters, recommendations, review prompts, political/promotional mail, account-routing notices, fake/phishing Spam, USPS digests with 0 packages, and non-actionable S1/Manou false positives.",
-    "generatedAt": "2026-07-15T06:06:00+02:00"
+    "generatedAt": "2026-07-15T06:04:22+02:00"
   },
   "deliveries": [
     {
