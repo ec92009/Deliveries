@@ -1,10 +1,10 @@
 {
-  "today": "2026-07-15",
+  "today": "2026-07-18",
   "metadata": {
-    "version": "v137.0",
+    "version": "v140.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-15. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon ProFusion anti-puncture fluid delivered on 2026-07-14; Amazon Swimmm disposable swim diapers and Blendura high-pressure shower head ordered, dispatched, and delivered on 2026-07-14; Amazon Aboca Aliviolas payment verification needed. Removed one passive Amazon return-window row expired before 2026-07-15. Excluded newsletters, recommendations, review prompts, political/promotional mail, account-routing notices, fake/phishing Spam, USPS digests with 0 packages, and non-actionable S1/Manou false positives.",
-    "generatedAt": "2026-07-15T06:04:22+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-18. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon Aboca delivered; Amazon Flexipro return pickup/refund pending; Amazon HEDUGO, RIPT, and Arquivet dispatches arriving 18 July; Amazon XL lost/undeliverable support follow-ups; ERGO protection refund; Etsy PhotosByElieShop bill paid; Netflix PayPal renewal payment; Apple 100 GB renewal receipt; Squarespace scheduled cancellation and price update; OpenAI duplicate-billing support request; Snapmaker U1 Top Cover project-level fulfillment update. Removed passive Amazon return-window rows expired before 2026-07-18 and excluded newsletters, promotions, login/security notices, phishing/fake Spam, USPS digests with 0 packages, and non-actionable S1/Manou false positives.",
+    "generatedAt": "2026-07-18T06:08:07+02:00"
   },
   "deliveries": [
     {
@@ -650,43 +650,6 @@
       ]
     },
     {
-      "id": "amazon-return-window-2026-06-16-407-0723767-8707550",
-      "supplier": "Amazon",
-      "title": "Aseniza cotton short pyjama pants / home shorts",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-06-16",
-      "returnByDate": "2026-07-16",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 16 June says order 407-0723767-8707550 for Aseniza 100% cotton short pyjama pants/home shorts was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Delivery email",
-        "url": "https://mail.google.com/mail/#all/19ed0f46373a647b"
-      },
-      "items": [
-        "Order 407-0723767-8707550",
-        "Aseniza Shorts Man 100% Cotton Short Pants Pyjama Man Elastic Summer Solid Color Short Pants Home 2 pieces",
-        "Sold by ZEZHONGGE-EU",
-        "Quantity 1",
-        "Total EUR 17.99",
-        "Dispatched 15 June 2026",
-        "Delivered 16 June 2026",
-        "Return window assumed through 16 July 2026"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-0723767-8707550"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
       "id": "amazon-return-window-2026-06-18-407-1104425-5207565",
       "supplier": "Amazon",
       "title": "Yuson Girl Hawaiian short-sleeve shirt",
@@ -723,43 +686,6 @@
           "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
-    },
-    {
-      "id": "amazon-return-window-2026-06-17-171-2825363-8313143",
-      "supplier": "Amazon",
-      "title": "Blendura filtered high-pressure shower head",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 17 June says order 171-2825363-8313143 for the Blendura filtered high-pressure shower head was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Delivery email",
-        "url": "https://mail.google.com/mail/#all/19ed5b2f2cd82070"
-      },
-      "items": [
-        "Order 171-2825363-8313143",
-        "Blendura Shower Head with Filter, High Pressure Anti-Limescale Shower Head with 1.5 m Hose, 5 modes",
-        "Sold by Amazon.es",
-        "Quantity 1",
-        "Total EUR 13.99",
-        "Dispatched 17 June 2026",
-        "Delivered 17 June 2026",
-        "Return window assumed through 17 July 2026"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=171-2825363-8313143"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-06-17",
-      "returnByDate": "2026-07-17",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "usps-inbound-package-2026-06-22-9400150105798106520236",
@@ -925,37 +851,6 @@
         {
           "label": "View order details",
           "url": "https://www.amazon.es/your-orders/order-details?orderID=407-6700631-9949936"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-ordered-2026-07-01-408-5159306-9934721",
-      "supplier": "Amazon",
-      "title": "amuéblate Flexipro articulated electric bed",
-      "status": "Ordered",
-      "dueDate": "2026-07-10",
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 1 July says order 408-5159306-9934721 for the amuéblate Flexipro articulated electric bed is arriving 10 July. A separate earlier bed order 408-8039128-4639544 was canceled without charge, so this row tracks the replacement active order.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19f1e36bde01df7c"
-      },
-      "items": [
-        "Order 408-5159306-9934721",
-        "amuéblate online Flexipro articulated electric bed, 135 x 190",
-        "Sold by Amazon.es",
-        "Quantity 1",
-        "Total EUR 505.58",
-        "Arriving 10 July 2026"
-      ],
-      "links": [
-        {
-          "label": "View order details",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=408-5159306-9934721"
         },
         {
           "label": "Open Amazon orders",
@@ -1502,31 +1397,6 @@
       ]
     },
     {
-      "id": "etsy-bill-reminder-2026-07-10-photosbyelieshop-june-2026",
-      "supplier": "Etsy",
-      "title": "PhotosByElieShop June 2026 bill reminder",
-      "status": "Payment due - restrictions warning",
-      "dueDate": "2026-07-21",
-      "timezone": "Europe/Madrid",
-      "notes": "Etsy Billing reminder dated 10 July says the June 2026 bill was due on 1 July and the $10.80 statement balance has not been fully paid. Etsy warns shop privileges may be restricted if the bill is not paid in full by 21 July 2026.",
-      "sourceEmail": {
-        "label": "Billing reminder email",
-        "url": "https://mail.google.com/mail/#all/19f4b400474e63c0"
-      },
-      "items": [
-        "PhotosByElieShop June 2026 bill",
-        "Statement balance $10.80",
-        "Original due date 1 July 2026",
-        "Pay by 21 July 2026 to avoid shop-privilege restrictions"
-      ],
-      "links": [
-        {
-          "label": "Open Etsy billing",
-          "url": "https://www.etsy.com/your/bill"
-        }
-      ]
-    },
-    {
       "id": "amazon-dispatched-2026-07-12-408-8387981-8032354",
       "supplier": "Amazon",
       "title": "Outsunny parasol base with refillable weights",
@@ -1699,23 +1569,26 @@
       ]
     },
     {
-      "id": "amazon-payment-hold-2026-07-14-407-8779554-1117913",
+      "id": "amazon-return-window-2026-07-16-407-8779554-1117913",
       "supplier": "Amazon",
-      "title": "Aboca Aliviolas Fisiolax payment verification",
-      "status": "Payment verification needed",
+      "title": "Aboca Aliviolas Fisiolax, 90 tablets",
+      "status": "Delivered - return window open",
       "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon payment update dated 14 July says order 407-8779554-1117913 for Aboca Aliviolas Fisiolax is on hold pending payment verification and asks to update the payment method. This replaces the earlier upcoming Subscribe & Save delivery row until a dispatch or cancellation email arrives.",
+      "deliveredDate": "2026-07-16",
+      "returnByDate": "2026-08-15",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21,
+      "notes": "Amazon delivery email dated 16 July says order 407-8779554-1117913 for Aboca Aliviolas Fisiolax was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window. This replaces the earlier payment-verification hold row.",
       "sourceEmail": {
-        "label": "Payment update email",
-        "url": "https://mail.google.com/mail/#all/19f5fc1a572d695f"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f6b1cccff2360c"
       },
       "items": [
         "Order 407-8779554-1117913",
         "Aboca Aliviolas Fisiolax food supplement, 90 tablets",
-        "Quantity 1",
-        "Total EUR 16.95",
-        "Payment revision needed as of 14 July 2026"
+        "Delivered 16 July 2026",
+        "Return window assumed through 15 August 2026"
       ],
       "links": [
         {
@@ -1727,6 +1600,191 @@
           "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
+    },
+    {
+      "id": "amazon-return-pickup-2026-07-15-408-5159306-9934721",
+      "supplier": "Amazon",
+      "title": "amuéblate Flexipro articulated electric bed return",
+      "status": "Return authorization granted - pickup pending",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "returnAuthorizationGranted": true,
+      "returnStatus": "authorized",
+      "notes": "Amazon return confirmation dated 15 July says order 408-5159306-9934721 for the Flexipro articulated electric bed has a free Celeritas carrier pickup return and an estimated EUR 505.58 refund to the original payment method after pickup. Keep urgent until pickup/refund completion is confirmed.",
+      "sourceEmail": {
+        "label": "Return confirmation email",
+        "url": "https://mail.google.com/mail/#all/19f64908ed33b13c"
+      },
+      "items": [
+        "Order 408-5159306-9934721",
+        "amuéblate online Flexipro articulated electric bed",
+        "Free Celeritas carrier pickup return",
+        "Estimated refund EUR 505.58 after pickup",
+        "Package should be ready for carrier collection"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=408-5159306-9934721"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-07-18-408-9557931-1943503",
+      "supplier": "Amazon",
+      "title": "HEDUGO 15-16 inch black laptop sleeve",
+      "status": "Dispatched",
+      "dueDate": "2026-07-18",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 17 July says order 408-9557931-1943503 was dispatched and is arriving tomorrow, so the dashboard due date is 18 July 2026.",
+      "sourceEmail": {
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19f720c8f75c2d27"
+      },
+      "items": [
+        "Order 408-9557931-1943503",
+        "HEDUGO Laptop Sleeve with zipper accessory pocket, black",
+        "Quantity 1",
+        "Total EUR 11.99",
+        "Dispatched 17 July 2026",
+        "Arriving 18 July 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=408-9557931-1943503"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-07-18-407-2817077-6613132",
+      "supplier": "Amazon",
+      "title": "RIPT Essentials navy/turquoise swim trunks",
+      "status": "Dispatched",
+      "dueDate": "2026-07-18",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 17 July says order 407-2817077-6613132 was dispatched and is arriving tomorrow, so the dashboard due date is 18 July 2026.",
+      "sourceEmail": {
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19f718c79629e407"
+      },
+      "items": [
+        "Order 407-2817077-6613132",
+        "RIPT Essentials men's swim trunks, navy/turquoise, size M",
+        "Quantity 1",
+        "Total EUR 14.95",
+        "Dispatched 17 July 2026",
+        "Arriving 18 July 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-2817077-6613132"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-07-18-407-0410103-1149932",
+      "supplier": "Amazon",
+      "title": "Arquivet beef tender meat sticks for dogs",
+      "status": "Dispatched",
+      "dueDate": "2026-07-18",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 17 July says order 407-0410103-1149932 was dispatched and is arriving tomorrow, so the dashboard due date is 18 July 2026.",
+      "sourceEmail": {
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19f718b6a30f6a25"
+      },
+      "items": [
+        "Order 407-0410103-1149932",
+        "Arquivet Tender Meat Sticks Beef 500 g dog treats",
+        "Quantity 1",
+        "Total EUR 6.99",
+        "Dispatched 17 July 2026",
+        "Arriving 18 July 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-0410103-1149932"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-xl-delivery-support-2026-07-16-a3t4o4x4ilnv3l",
+      "supplier": "Amazon",
+      "title": "Amazon XL delivery support: possible lost item",
+      "status": "Reply needed - choose replacement or refund",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon XL Specialist email dated 16 July says an item may be lost in transit and asks whether to send a replacement or process a refund. The email body does not identify the order/item, so this row tracks the support action separately until it can be matched or resolved.",
+      "sourceEmail": {
+        "label": "Amazon support email",
+        "url": "https://mail.google.com/mail/#all/19f6b7e73c8070b6"
+      },
+      "items": [
+        "Amazon XL Specialist case A3T4O4X4ILNV3L",
+        "Possible lost-in-transit item",
+        "Amazon offered replacement or refund",
+        "Order/item not identified in the email body"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon customer service",
+          "url": "https://www.amazon.es/hz/contact-us/foresight/hubgateway"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "actionRequired": true
+    },
+    {
+      "id": "amazon-xl-undeliverable-refund-request-2026-07-16-a1ur7woiovza7a",
+      "supplier": "Amazon",
+      "title": "Amazon XL undeliverable item refund follow-up",
+      "status": "Refund requested by email but reply bounced",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon XL Specialist email dated 16 July says a parcel was marked undeliverable and offered replacement or refund. A 17 July sent reply requested a refund, but Amazon bounced the reply because that address does not accept incoming email; follow up through Amazon customer service if the refund is not visible.",
+      "sourceEmail": {
+        "label": "Amazon support thread",
+        "url": "https://mail.google.com/mail/#all/19f6b948419fca98"
+      },
+      "items": [
+        "Amazon XL Specialist case A1UR7WOIOVZA7A",
+        "Carrier marked parcel undeliverable",
+        "Refund requested by reply on 17 July 2026",
+        "Reply bounced from no-incoming email address"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon customer service",
+          "url": "https://www.amazon.es/hz/contact-us/foresight/hubgateway"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "actionRequired": true
     }
   ],
   "licenses": [
@@ -1931,22 +1989,21 @@
       "service": "Netflix",
       "title": "Netflix Standard with ads",
       "status": "Active subscription",
-      "nextDate": "2026-07-16",
-      "dateLabel": "Next expected billing date Thursday, 16 July 2026",
+      "nextDate": "2026-08-15",
+      "dateLabel": "Next inferred billing Saturday, 15 August 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "PayPal receipt received 16 June records a EUR 8.99 payment to Netflix Servicios dated 15 June 2026. The prior Netflix membership email says the plan is Standard with ads and monthly billing moved to EUR 8.99 from the June cycle, so the next billing date is inferred as 16 July 2026 until Netflix sends a newer exact billing-date notice.",
+      "notes": "PayPal receipt dated 15 July records a EUR 8.99 payment to Netflix Servicios. The prior Netflix membership email says the plan is Standard with ads, so the next billing date is inferred as 15 August 2026 until Netflix sends a newer exact billing-date notice.",
       "sourceEmail": {
-        "label": "Latest PayPal receipt",
-        "url": "https://mail.google.com/mail/#all/19ecde604653e3a8"
+        "label": "PayPal receipt",
+        "url": "https://mail.google.com/mail/#all/19f689028e0054fe"
       },
       "items": [
-        "Standard with ads",
-        "EUR 8.99 monthly plan price from June 2026 cycle",
-        "Paid EUR 8.99 via PayPal on 15 June 2026",
-        "PayPal transaction 6TY44979G0167521F",
-        "Prior Netflix email provided exact June billing date; July date inferred from monthly cadence"
+        "Netflix Standard with ads",
+        "PayPal payment EUR 8.99 on 15 July 2026",
+        "Invoice ID 66641854672148063",
+        "Next billing inferred from monthly cadence"
       ],
       "links": [
         {
@@ -1954,7 +2011,7 @@
           "url": "https://www.netflix.com/account/membership"
         }
       ],
-      "lastBillingDate": "2026-06-15"
+      "lastBillingDate": "2026-07-15"
     },
     {
       "service": "Shopify",
@@ -2235,29 +2292,30 @@
       "service": "Apple App Store 100 GB",
       "title": "Apple 100 GB monthly subscription",
       "status": "Active subscription",
-      "nextDate": "2026-07-16",
-      "dateLabel": "Renews Thursday, 16 July 2026",
+      "nextDate": "2026-08-16",
+      "dateLabel": "Next renewal Sunday, 16 August 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "Apple receipt dated 16 June says the 100 GB monthly subscription renewed for USD 1.99 and renews next on July 16, 2026 for the Apple account ac92009@gmail.com.",
+      "notes": "Apple receipt dated 16 July 2026 confirms the App Store 100 GB monthly subscription renewed for USD 1.99 and says it renews again on 16 August 2026.",
       "sourceEmail": {
-        "label": "Latest billing email",
-        "url": "https://mail.google.com/mail/#all/19ed07e66bdb0e98"
+        "label": "Apple receipt",
+        "url": "https://mail.google.com/mail/#all/19f6a8e3af5acb28"
       },
       "items": [
-        "Apple Order MSXW9BTG30",
+        "Apple receipt order MSXWDQYSZS",
+        "Document 776162329327",
         "100 GB monthly subscription",
-        "$1.99",
-        "Billed 16 June 2026",
-        "Exact renewal date provided by Apple: 16 July 2026"
+        "USD 1.99 charged 16 July 2026",
+        "Renews 16 August 2026"
       ],
       "links": [
         {
           "label": "Manage Apple subscriptions",
           "url": "https://apps.apple.com/account/subscriptions"
         }
-      ]
+      ],
+      "lastBillingDate": "2026-07-16"
     },
     {
       "service": "Autodesk Fusion",
@@ -2683,58 +2741,60 @@
       "id": "ergo-furniture-protection-2026-07-01-408-1038851-3425150",
       "service": "ERGO furniture protection",
       "title": "ERGO 3-year furniture product protection",
-      "status": "Active protection plan",
-      "nextDate": "2029-07-01",
-      "dateLabel": "3-year protection from Wednesday, 1 July 2026 purchase",
+      "status": "Refund issued",
+      "nextDate": "2026-07-17",
+      "dateLabel": "Refund credited Friday, 17 July 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "one_time",
       "warningWindowDays": 30,
-      "notes": "Amazon order and seller-disclosure emails dated 1 July provide ERGO 3 years of Furniture Product protection for the Flexipro electric bed. The email delivery is tied to order 408-1038851-3425150 and shows no separate renewal terms.",
+      "notes": "Amazon refund email dated 17 July says the ERGO 3-year furniture protection for order 408-1038851-3425150 was refunded for EUR 12.31 after a customer return. The refund was credited to the payment method/gift-card balance and should appear within 5-7 business days.",
       "sourceEmail": {
-        "label": "Important disclosures email",
-        "url": "https://mail.google.com/mail/#all/19f1e683637b5f98"
+        "label": "Refund email",
+        "url": "https://mail.google.com/mail/#all/19f7137ef61310b0"
       },
       "items": [
         "Order 408-1038851-3425150",
-        "ERGO 3 years of Furniture Product protection from EUR 500.00 to EUR 549.99",
-        "Linked to Flexipro electric bed purchase",
-        "Email delivery",
-        "No separate recurring renewal terms found"
+        "ERGO 3 years of Furniture Product protection",
+        "Refund amount EUR 12.31",
+        "Reason: customer return",
+        "Refund email dated 17 July 2026"
       ],
       "links": [
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "lastBillingDate": "2026-07-17"
     },
     {
       "id": "etsy-photosbyelieshop-statement-2026-06",
       "service": "Etsy",
       "title": "Etsy PhotosByElieShop June statement",
-      "status": "Statement ready; payment due if balance remains",
-      "nextDate": "2026-07-15",
-      "dateLabel": "Payment due Wednesday, 15 July 2026 if balance remains",
+      "status": "Paid",
+      "nextDate": "2026-07-16",
+      "dateLabel": "Paid Thursday, 16 July 2026",
       "timezone": "Europe/Madrid",
-      "renewalState": "active",
+      "renewalState": "one_time",
       "warningWindowDays": 7,
-      "notes": "Etsy Billing email dated 1 July says the June 2026 statement for PhotosByElieShop is ready. The email does not expose the amount, but says any statement balance must be paid in full by 15 July 2026 to avoid overdue restrictions.",
+      "notes": "Etsy Billing email dated 16 July says the PhotosByElieShop June bill payment was received and the account balance was adjusted. The payment charged $10.80 to the card on file, superseding the earlier overdue/payment-due reminders.",
       "sourceEmail": {
-        "label": "Statement email",
-        "url": "https://mail.google.com/mail/#all/19f1db32fa95ea4c"
+        "label": "Payment received email",
+        "url": "https://mail.google.com/mail/#all/19f6a7a7f5e93a68"
       },
       "items": [
-        "PhotosByElieShop June 2026 statement",
-        "Amount not shown in email body",
-        "Payment due by 15 July 2026 if a balance remains",
-        "Overdue accounts may have shop privileges restricted"
+        "PhotosByElieShop June 2026 bill",
+        "Payment received 16 July 2026",
+        "Amount $10.80",
+        "Account balance adjusted"
       ],
       "links": [
         {
           "label": "Open Etsy payment account",
           "url": "https://www.etsy.com/your/account/payments"
         }
-      ]
+      ],
+      "lastBillingDate": "2026-07-16"
     },
     {
       "service": "Apple iCloud",
@@ -2797,6 +2857,104 @@
         }
       ],
       "lastBillingDate": "2026-07-06"
+    },
+    {
+      "id": "squarespace-golden-years-tax-strategy-2027-03-16",
+      "service": "Squarespace",
+      "title": "Golden Years Tax Strategy website subscription",
+      "status": "Cancellation scheduled; service ends",
+      "nextDate": "2027-03-16",
+      "dateLabel": "Service ends Tuesday, 16 March 2027",
+      "timezone": "Europe/Madrid",
+      "renewalState": "canceled",
+      "warningWindowDays": 30,
+      "notes": "Squarespace email dated 17 July says cancellation is scheduled for the Golden Years Tax Strategy site and service will end on 16 March 2027 at the conclusion of the current annual Personal billing term. A same-day price-update email says the annual Personal plan price would become $228.00 at the next renewal after 13 August 2026, but cancellation is now scheduled.",
+      "sourceEmail": {
+        "label": "Cancellation email",
+        "url": "https://mail.google.com/mail/#all/19f70914d61a2331"
+      },
+      "items": [
+        "Golden Years Tax Strategy site",
+        "Annual Personal website plan",
+        "Current billing term value $192.00",
+        "Cancellation scheduled",
+        "Service ends 16 March 2027",
+        "New annual price would be $228.00 at next renewal if reactivated/continued"
+      ],
+      "links": [
+        {
+          "label": "Open Squarespace billing",
+          "url": "https://account.squarespace.com/"
+        },
+        {
+          "label": "Open Squarespace support",
+          "url": "https://support.squarespace.com/"
+        }
+      ]
+    },
+    {
+      "id": "openai-billing-support-case-11545866-2026-07-17",
+      "service": "OpenAI",
+      "title": "ChatGPT duplicate-billing support case",
+      "status": "Support requested billing details",
+      "nextDate": null,
+      "dateLabel": "Support case updated Friday, 17 July 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "action_required",
+      "warningWindowDays": 30,
+      "notes": "OpenAI Support summary email dated 17 July says case 11545866 concerns duplicate ChatGPT subscription charges. Support reviewed web subscription invoices and requested bank descriptors, confirmation of any Apple/Google subscriptions, and duplicate posting details. No refund or subscription cancellation was confirmed in this email.",
+      "sourceEmail": {
+        "label": "Support email",
+        "url": "https://mail.google.com/mail/#all/19f705bb135fe150"
+      },
+      "items": [
+        "Case 11545866",
+        "Duplicate ChatGPT subscription charges reported",
+        "Support requested bank descriptors and Apple/Google subscription confirmation",
+        "No refund confirmed yet"
+      ],
+      "links": [
+        {
+          "label": "Open OpenAI support",
+          "url": "https://help.openai.com/"
+        },
+        {
+          "label": "Open ChatGPT plan settings",
+          "url": "https://chatgpt.com/#settings/Subscription"
+        }
+      ]
+    },
+    {
+      "id": "kickstarter-snapmaker-u1-top-cover-2026-07-17",
+      "service": "Kickstarter / Snapmaker",
+      "title": "Snapmaker U1 Top Cover fulfillment update",
+      "status": "Batch fulfillment underway",
+      "nextDate": "2026-09-01",
+      "dateLabel": "Primary delivery window starts September 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "active",
+      "warningWindowDays": 14,
+      "notes": "Kickstarter update dated 17 July says Snapmaker U1 Top Cover mass production and batch fulfillment have begun. Delivery timing depends on reward tier, destination, and backer order, with September expected as the primary delivery window for most backers in the first shipment wave. This is a project-level fulfillment update, not an individual tracking email.",
+      "sourceEmail": {
+        "label": "Kickstarter update",
+        "url": "https://mail.google.com/mail/#all/19f70505e0fb0c50"
+      },
+      "items": [
+        "Snapmaker U1 Top Cover production and shipping begun",
+        "Fulfilled by reward tier and backer order as inventory reaches overseas warehouses",
+        "September 2026 expected as primary first-wave delivery window for most backers",
+        "No individual tracking number in this email"
+      ],
+      "links": [
+        {
+          "label": "Open Snapmaker U1 shipment schedule",
+          "url": "https://wiki.snapmaker.com/en/FAQ/U1_Top_Cover_Shipment_Schedule#kickstarter-top-cover-shipping-schedule"
+        },
+        {
+          "label": "Open Kickstarter",
+          "url": "https://www.kickstarter.com/"
+        }
+      ]
     }
   ],
   "emptySuppliers": []
