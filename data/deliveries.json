@@ -1,10 +1,10 @@
 {
-  "today": "2026-07-18",
+  "today": "2026-07-19",
   "metadata": {
-    "version": "v140.0",
+    "version": "v141.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-18. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon Aboca delivered; Amazon Flexipro return pickup/refund pending; Amazon HEDUGO, RIPT, and Arquivet dispatches arriving 18 July; Amazon XL lost/undeliverable support follow-ups; ERGO protection refund; Etsy PhotosByElieShop bill paid; Netflix PayPal renewal payment; Apple 100 GB renewal receipt; Squarespace scheduled cancellation and price update; OpenAI duplicate-billing support request; Snapmaker U1 Top Cover project-level fulfillment update. Removed passive Amazon return-window rows expired before 2026-07-18 and excluded newsletters, promotions, login/security notices, phishing/fake Spam, USPS digests with 0 packages, and non-actionable S1/Manou false positives.",
-    "generatedAt": "2026-07-18T06:08:07+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-19. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon HEDUGO laptop sleeve delivered; Amazon RIPT swim trunks and Arquivet dog treats delivered; OpenAI duplicate-billing support canceled the Apple-relay ChatGPT subscription and refunded the most recent duplicate charge from a Spam-classified support summary. Excluded newsletters, promotions, login/security notices, phishing/fake Spam, USPS digests without packages, and non-actionable S1/Manou false positives.",
+    "generatedAt": "2026-07-19T06:04:28+02:00"
   },
   "deliveries": [
     {
@@ -1634,24 +1634,25 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-07-18-408-9557931-1943503",
+      "id": "amazon-return-window-2026-07-18-408-9557931-1943503",
       "supplier": "Amazon",
       "title": "HEDUGO 15-16 inch black laptop sleeve",
-      "status": "Dispatched",
-      "dueDate": "2026-07-18",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 17 July says order 408-9557931-1943503 was dispatched and is arriving tomorrow, so the dashboard due date is 18 July 2026.",
+      "notes": "Amazon delivery email dated 18 July says order 408-9557931-1943503 for the HEDUGO black 15-16 inch laptop sleeve was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window. This replaces the earlier dispatched/arriving row.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f720c8f75c2d27"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f756133099e4d5"
       },
       "items": [
         "Order 408-9557931-1943503",
         "HEDUGO Laptop Sleeve with zipper accessory pocket, black",
+        "Sold by HEDUGO",
         "Quantity 1",
         "Total EUR 11.99",
-        "Dispatched 17 July 2026",
-        "Arriving 18 July 2026"
+        "Delivered 18 July 2026",
+        "Return window assumed through 17 August 2026"
       ],
       "links": [
         {
@@ -1662,27 +1663,32 @@
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-07-18",
+      "returnByDate": "2026-08-17",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-07-18-407-2817077-6613132",
+      "id": "amazon-return-window-2026-07-18-407-2817077-6613132-ript-swim-trunks",
       "supplier": "Amazon",
       "title": "RIPT Essentials navy/turquoise swim trunks",
-      "status": "Dispatched",
-      "dueDate": "2026-07-18",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 17 July says order 407-2817077-6613132 was dispatched and is arriving tomorrow, so the dashboard due date is 18 July 2026.",
+      "notes": "Amazon delivery email dated 18 July says order 407-2817077-6613132 for RIPT Essentials swim trunks was delivered that day and handed to the resident; retained for the assumed 30-day Amazon return window. This replaces the earlier dispatched/arriving row.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f718c79629e407"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f756157e1fe5e9"
       },
       "items": [
         "Order 407-2817077-6613132",
         "RIPT Essentials men's swim trunks, navy/turquoise, size M",
+        "Sold by Amazon.es",
         "Quantity 1",
         "Total EUR 14.95",
-        "Dispatched 17 July 2026",
-        "Arriving 18 July 2026"
+        "Delivered 18 July 2026",
+        "Return window assumed through 17 August 2026"
       ],
       "links": [
         {
@@ -1693,27 +1699,32 @@
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-07-18",
+      "returnByDate": "2026-08-17",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-07-18-407-0410103-1149932",
+      "id": "amazon-return-window-2026-07-18-407-0410103-1149932-arquivet-dog-treats",
       "supplier": "Amazon",
       "title": "Arquivet beef tender meat sticks for dogs",
-      "status": "Dispatched",
-      "dueDate": "2026-07-18",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 17 July says order 407-0410103-1149932 was dispatched and is arriving tomorrow, so the dashboard due date is 18 July 2026.",
+      "notes": "Amazon delivery email dated 18 July says the package containing Arquivet beef tender meat sticks was delivered and handed to the resident; retained for the assumed 30-day Amazon return window. The earlier dispatch email identified this item as order 407-0410103-1149932.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f718b6a30f6a25"
+        "label": "Combined delivery email",
+        "url": "https://mail.google.com/mail/#all/19f756157e1fe5e9"
       },
       "items": [
         "Order 407-0410103-1149932",
         "Arquivet Tender Meat Sticks Beef 500 g dog treats",
+        "Sold by Amazon.es",
         "Quantity 1",
         "Total EUR 6.99",
-        "Dispatched 17 July 2026",
-        "Arriving 18 July 2026"
+        "Delivered 18 July 2026",
+        "Return window assumed through 17 August 2026"
       ],
       "links": [
         {
@@ -1724,7 +1735,11 @@
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-07-18",
+      "returnByDate": "2026-08-17",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-xl-delivery-support-2026-07-16-a3t4o4x4ilnv3l",
@@ -2893,25 +2908,26 @@
       ]
     },
     {
-      "id": "openai-billing-support-case-11545866-2026-07-17",
+      "id": "openai-billing-support-case-11549207-2026-07-18",
       "service": "OpenAI",
       "title": "ChatGPT duplicate-billing support case",
-      "status": "Support requested billing details",
+      "status": "Duplicate subscription canceled; latest refund issued",
       "nextDate": null,
-      "dateLabel": "Support case updated Friday, 17 July 2026",
+      "dateLabel": "Resolved Saturday, 18 July 2026",
       "timezone": "Europe/Madrid",
-      "renewalState": "action_required",
+      "renewalState": "canceled",
       "warningWindowDays": 30,
-      "notes": "OpenAI Support summary email dated 17 July says case 11545866 concerns duplicate ChatGPT subscription charges. Support reviewed web subscription invoices and requested bank descriptors, confirmation of any Apple/Google subscriptions, and duplicate posting details. No refund or subscription cancellation was confirmed in this email.",
+      "notes": "OpenAI Support summary email dated 18 July says case 11549207 canceled the Apple-relay ChatGPT subscription and refunded the most recent duplicate charge. Support refused earlier refunds under its duplicate-subscription policy, so this record is no longer waiting on requested billing details.",
       "sourceEmail": {
-        "label": "Support email",
-        "url": "https://mail.google.com/mail/#all/19f705bb135fe150"
+        "label": "Support summary email",
+        "url": "https://mail.google.com/mail/#all/19f7559600243866"
       },
       "items": [
-        "Case 11545866",
-        "Duplicate ChatGPT subscription charges reported",
-        "Support requested bank descriptors and Apple/Google subscription confirmation",
-        "No refund confirmed yet"
+        "Case 11549207",
+        "Duplicate ChatGPT charges tied to separate sign-in identities",
+        "Apple-relay subscription canceled by support",
+        "Most recent duplicate charge refunded",
+        "Earlier refunds refused by support policy"
       ],
       "links": [
         {
