@@ -1,10 +1,10 @@
 {
-  "today": "2026-07-19",
+  "today": "2026-07-21",
   "metadata": {
-    "version": "v141.0",
+    "version": "v143.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-19. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon HEDUGO laptop sleeve delivered; Amazon RIPT swim trunks and Arquivet dog treats delivered; OpenAI duplicate-billing support canceled the Apple-relay ChatGPT subscription and refunded the most recent duplicate charge from a Spam-classified support summary. Excluded newsletters, promotions, login/security notices, phishing/fake Spam, USPS digests without packages, and non-actionable S1/Manou false positives.",
-    "generatedAt": "2026-07-19T06:04:28+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-21. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon RIPT swim trunks delivered on 20 July; Amazon AEMCHDM crepe tools dispatched/arriving 21 July; Amazon Cyanboard cyanoacrylate activator ordered/arriving 22 July; Apple Card/OpenAI duplicate-billing dispute evidence is due 30 July and reply emails bounced; Apple Card opened an Amazon transaction dispute with temporary credit. Excluded newsletters, promotions, login/security notices, phishing/fake Spam, USPS digests without packages, Wise personal transfer notices, and non-actionable S1/Manou false positives.",
+    "generatedAt": "2026-07-21T06:04:38+02:00"
   },
   "deliveries": [
     {
@@ -646,44 +646,6 @@
         {
           "label": "Track with USPS",
           "url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9205590262395374571325"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-06-18-407-1104425-5207565",
-      "supplier": "Amazon",
-      "title": "Yuson Girl Hawaiian short-sleeve shirt",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-06-18",
-      "returnByDate": "2026-07-18",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 18 June says order 407-1104425-5207565 for the Yuson Girl Hawaiian short-sleeve shirt was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Delivery email",
-        "url": "https://mail.google.com/mail/#all/19edb364c6b434ea"
-      },
-      "items": [
-        "Order 407-1104425-5207565",
-        "Yuson Girl Hawaiian Shirt Men Funky Hawaiian Shirt Short Sleeve Shirts Summer Aloha Printed Button Down Shirt Holiday Printed Beach Casual Hawaiian Shirt (A, M)",
-        "Sold by YusonGirl",
-        "Quantity 1",
-        "Total EUR 18.99",
-        "Ordered 16 June 2026",
-        "Dispatched 17 June 2026",
-        "Delivered 18 June 2026",
-        "Return window assumed through 18 July 2026"
-      ],
-      "links": [
-        {
-          "label": "View or edit order",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-1104425-5207565"
-        },
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
     },
@@ -1800,6 +1762,101 @@
         }
       ],
       "actionRequired": true
+    },
+    {
+      "id": "amazon-return-window-2026-07-20-407-3548218-2281113-ript-swim-trunks",
+      "supplier": "Amazon",
+      "title": "RIPT Essentials blue/green tie-dye swim trunks",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon delivery email dated 20 July says order 407-3548218-2281113 for RIPT Essentials swim trunks was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f800918ee83122"
+      },
+      "items": [
+        "Order 407-3548218-2281113",
+        "RIPT Essentials men's swim trunks, blue/green tie dye, size M",
+        "Delivered 20 July 2026",
+        "Return window assumed through 19 August 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-3548218-2281113"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "deliveredDate": "2026-07-20",
+      "returnByDate": "2026-08-19",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-dispatched-2026-07-21-407-8525317-5726747-aemchdm-crepe-tools",
+      "supplier": "Amazon",
+      "title": "AEMCHDM crepe spreader and tools set",
+      "status": "Dispatched",
+      "dueDate": "2026-07-21",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 20 July and dispatch email sent late 20 July/early 21 July local time say order 407-8525317-5726747 for the AEMCHDM crepe tools was dispatched and is arriving today.",
+      "sourceEmail": {
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19f8193d30fe6d67"
+      },
+      "items": [
+        "Order 407-8525317-5726747",
+        "AEMCHDM 3 pieces crepe and spreader set",
+        "Sold by AEMCHDM",
+        "Quantity 1",
+        "Total EUR 10.99",
+        "Arriving 21 July 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-8525317-5726747"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-07-20-408-9247104-8160330-cyanboard-activator",
+      "supplier": "Amazon",
+      "title": "Cyanboard cyanoacrylate activator pack of 3",
+      "status": "Ordered",
+      "dueDate": "2026-07-22",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order email dated 20 July says order 408-9247104-8160330 for Cyanboard cyanoacrylate activator is arriving Wednesday.",
+      "sourceEmail": {
+        "label": "Order email",
+        "url": "https://mail.google.com/mail/#all/19f8104faa6d02e5"
+      },
+      "items": [
+        "Order 408-9247104-8160330",
+        "Cyanboard pack of 3 cyanoacrylate activator, 200 ml",
+        "Sold by Azahar Group",
+        "Quantity 1",
+        "Total EUR 19.99",
+        "Arriving 22 July 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=408-9247104-8160330"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
     }
   ],
   "licenses": [
@@ -2971,6 +3028,71 @@
           "url": "https://www.kickstarter.com/"
         }
       ]
+    },
+    {
+      "id": "openai-apple-card-dispute-evidence-2026-07-20",
+      "service": "OpenAI / Apple Card",
+      "title": "ChatGPT duplicate-charge Apple Card disputes",
+      "status": "Evidence requested; reply emails bounced",
+      "nextDate": "2026-07-30",
+      "dateLabel": "Evidence due Thursday, 30 July 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "action_needed",
+      "warningWindowDays": 10,
+      "notes": "Apple Card Support emails dated 20 July request supporting evidence by 30 July for three disputed OpenAI ChatGPT subscription charges from April, May, and June 2026. The user sent replies for all three cases, but Apple Card delivery-failure emails immediately said the replies could not be delivered, so follow-up through Apple Card chat/phone is still needed.",
+      "sourceEmail": {
+        "label": "Apple Card evidence request",
+        "url": "https://mail.google.com/mail/#all/19f8031118d86d4f"
+      },
+      "items": [
+        "D-24949420: Apr 11, 2026, Openai *chatgpt Subscr, $99.93 temporary credit",
+        "D-24949417: May 11, 2026, Openai *chatgpt Subscr, $100.38 temporary credit",
+        "D-24949419: Jun 11, 2026, Openai *chatgpt Subscr, $98.41 temporary credit",
+        "Requested evidence: merchant correspondence, cancellation proof, and proof the recurring transaction was not intended",
+        "Three reply attempts bounced on 20 July 2026"
+      ],
+      "links": [
+        {
+          "label": "Apple Card support",
+          "url": "https://support.apple.com/apple-card"
+        },
+        {
+          "label": "Open OpenAI support",
+          "url": "https://help.openai.com/"
+        }
+      ],
+      "lastBillingDate": "2026-07-20"
+    },
+    {
+      "id": "apple-card-amazon-dispute-2026-07-20-d-24962537",
+      "service": "Apple Card / Amazon",
+      "title": "Amazon transaction dispute D-24962537",
+      "status": "Accepted and opened",
+      "nextDate": "2026-09-30",
+      "dateLabel": "Investigation due by Wednesday, 30 September 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "waiting",
+      "warningWindowDays": 14,
+      "notes": "Apple Card Support email dated 20 July says Goldman Sachs opened dispute D-24962537 for a 1 July Amazon transaction, issued a temporary credit, and requires no additional action unless they request more information.",
+      "sourceEmail": {
+        "label": "Dispute opened email",
+        "url": "https://mail.google.com/mail/#all/19f7f5298f560f6c"
+      },
+      "items": [
+        "Dispute D-24962537",
+        "Merchant: amazon* xi0ys2t95",
+        "Transaction date: 1 July 2026",
+        "Disputed amount: $578.33",
+        "Temporary credit issued",
+        "No additional action currently required"
+      ],
+      "links": [
+        {
+          "label": "Apple Card support",
+          "url": "https://support.apple.com/apple-card"
+        }
+      ],
+      "lastBillingDate": "2026-07-20"
     }
   ],
   "emptySuppliers": []
