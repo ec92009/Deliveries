@@ -1,10 +1,10 @@
 {
-  "today": "2026-07-21",
+  "today": "2026-07-22",
   "metadata": {
-    "version": "v143.0",
+    "version": "v144.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-21. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon RIPT swim trunks delivered on 20 July; Amazon AEMCHDM crepe tools dispatched/arriving 21 July; Amazon Cyanboard cyanoacrylate activator ordered/arriving 22 July; Apple Card/OpenAI duplicate-billing dispute evidence is due 30 July and reply emails bounced; Apple Card opened an Amazon transaction dispute with temporary credit. Excluded newsletters, promotions, login/security notices, phishing/fake Spam, USPS digests without packages, Wise personal transfer notices, and non-actionable S1/Manou false positives.",
-    "generatedAt": "2026-07-21T06:04:38+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-22. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon AEMCHDM crepe tools delivered on 21 July; Amazon Cyanboard cyanoacrylate activator dispatched for 22 July; Amazon Universal AC remote ordered/dispatched for 22 July; Apple ChatGPT Plus receipt renews 21 August; Spam-classified AI Chat for Search shutdown notice cancels subscription and says service ends 20 August with possible prorated refund. Excluded newsletters, promotions, login/security notices, phishing/fake Spam, USPS digests without packages, and non-actionable S1/Manou false positives.",
+    "generatedAt": "2026-07-22T06:03:54+02:00"
   },
   "deliveries": [
     {
@@ -1797,24 +1797,23 @@
       "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-07-21-407-8525317-5726747-aemchdm-crepe-tools",
+      "id": "amazon-return-window-2026-07-21-407-8525317-5726747-aemchdm-crepe-tools",
       "supplier": "Amazon",
       "title": "AEMCHDM crepe spreader and tools set",
-      "status": "Dispatched",
-      "dueDate": "2026-07-21",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 20 July and dispatch email sent late 20 July/early 21 July local time say order 407-8525317-5726747 for the AEMCHDM crepe tools was dispatched and is arriving today.",
+      "notes": "Amazon delivery email dated 21 July says order 407-8525317-5726747 for the AEMCHDM crepe tools was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window. This replaces the earlier dispatched/arriving row.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f8193d30fe6d67"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f847d2a4872df3"
       },
       "items": [
         "Order 407-8525317-5726747",
         "AEMCHDM 3 pieces crepe and spreader set",
-        "Sold by AEMCHDM",
         "Quantity 1",
-        "Total EUR 10.99",
-        "Arriving 21 July 2026"
+        "Delivered 21 July 2026",
+        "Return window assumed through 20 August 2026"
       ],
       "links": [
         {
@@ -1825,19 +1824,23 @@
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-07-21",
+      "returnByDate": "2026-08-20",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-ordered-2026-07-20-408-9247104-8160330-cyanboard-activator",
+      "id": "amazon-dispatched-2026-07-21-408-9247104-8160330-cyanboard-activator",
       "supplier": "Amazon",
       "title": "Cyanboard cyanoacrylate activator pack of 3",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-07-22",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order email dated 20 July says order 408-9247104-8160330 for Cyanboard cyanoacrylate activator is arriving Wednesday.",
+      "notes": "Amazon dispatch email dated 21 July says order 408-9247104-8160330 for Cyanboard cyanoacrylate activator was dispatched and is arriving Wednesday, 22 July.",
       "sourceEmail": {
-        "label": "Order email",
-        "url": "https://mail.google.com/mail/#all/19f8104faa6d02e5"
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19f84272c84df761"
       },
       "items": [
         "Order 408-9247104-8160330",
@@ -1851,6 +1854,37 @@
         {
           "label": "View order details",
           "url": "https://www.amazon.es/your-orders/order-details?orderID=408-9247104-8160330"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-07-22-171-9471545-3126707-universal-ac-remote",
+      "supplier": "Amazon",
+      "title": "Universal AC K-1028E remote control",
+      "status": "Dispatched",
+      "dueDate": "2026-07-22",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order and dispatch emails dated 21/22 July say order 171-9471545-3126707 for the Universal Air Conditioning Controller K-1028E remote was dispatched and is arriving today.",
+      "sourceEmail": {
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19f874309e69c5b8"
+      },
+      "items": [
+        "Order 171-9471545-3126707",
+        "Universal Air Conditioning Controller K-1028E remote control",
+        "Sold by INTENZA MELISSA",
+        "Quantity 1",
+        "Total EUR 8.99",
+        "Arriving 22 July 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=171-9471545-3126707"
         },
         {
           "label": "Open Amazon orders",
@@ -2198,20 +2232,21 @@
       "service": "ChatGPT Plus (Apple)",
       "title": "ChatGPT Plus monthly subscription",
       "status": "Active subscription",
-      "nextDate": "2026-06-21",
-      "dateLabel": "Renews Sunday, 21 June 2026",
+      "nextDate": "2026-08-21",
+      "dateLabel": "Renews Friday, 21 August 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "Latest Link receipt dated 30 May records a $20.00 OpenAI OpCo LLC purchase. The exact renewal date remains the Apple-provided June 21, 2026 date until a newer email provides a replacement access-end or renewal date.",
+      "notes": "Apple receipt dated 21 July 2026 records ChatGPT Plus monthly renewal for $19.99 and says the subscription renews on August 21, 2026.",
       "sourceEmail": {
-        "label": "Latest billing email",
-        "url": "https://mail.google.com/mail/#all/19e79458eda52dc4"
+        "label": "Apple receipt",
+        "url": "https://mail.google.com/mail/#all/19f87b8c166de0e5"
       },
       "items": [
-        "OpenAI OpCo LLC purchase via Link",
-        "$20.00 billed 30 May 2026",
-        "Apple receipt still provides exact renewal date: 21 June 2026"
+        "Apple account: kellycohen11@gmail.com",
+        "ChatGPT Plus monthly subscription",
+        "$19.99 billed 21 July 2026",
+        "Renews 21 August 2026"
       ],
       "links": [
         {
@@ -2219,7 +2254,7 @@
           "url": "https://apps.apple.com/account/subscriptions"
         }
       ],
-      "lastBillingDate": "2026-05-30"
+      "lastBillingDate": "2026-07-21"
     },
     {
       "service": "Fly.io",
@@ -3093,6 +3128,35 @@
         }
       ],
       "lastBillingDate": "2026-07-20"
+    },
+    {
+      "id": "ai-chat-for-search-discontinuation-2026-08-20",
+      "service": "AI Chat for Search",
+      "title": "AI Chat for Search subscription shutdown",
+      "status": "Service discontinuing; subscription canceled",
+      "nextDate": "2026-08-20",
+      "dateLabel": "Service ends Thursday, 20 August 2026",
+      "timezone": "Europe/Madrid",
+      "renewalState": "canceled",
+      "warningWindowDays": 30,
+      "notes": "Spam-classified notice dated 21 July says AI Chat for Search will shut down permanently on 20 August 2026, the subscription has been canceled, no further charges will be made, and any active subscription should receive an automatic prorated refund confirmation.",
+      "sourceEmail": {
+        "label": "Shutdown notice",
+        "url": "https://mail.google.com/mail/#all/19f83ad3629499df"
+      },
+      "items": [
+        "Service shuts down 20 August 2026",
+        "Subscription canceled; no further charges",
+        "Automatic prorated refund promised if subscription is active",
+        "User data can be exported before shutdown and will then be deleted"
+      ],
+      "links": [
+        {
+          "label": "Export account data",
+          "url": "https://webapp.aichat4search.com/data-export"
+        }
+      ],
+      "lastBillingDate": "2026-07-21"
     }
   ],
   "emptySuppliers": []
