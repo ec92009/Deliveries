@@ -1,10 +1,10 @@
 {
-  "today": "2026-07-22",
+  "today": "2026-07-23",
   "metadata": {
-    "version": "v144.0",
+    "version": "v145.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-22. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon AEMCHDM crepe tools delivered on 21 July; Amazon Cyanboard cyanoacrylate activator dispatched for 22 July; Amazon Universal AC remote ordered/dispatched for 22 July; Apple ChatGPT Plus receipt renews 21 August; Spam-classified AI Chat for Search shutdown notice cancels subscription and says service ends 20 August with possible prorated refund. Excluded newsletters, promotions, login/security notices, phishing/fake Spam, USPS digests without packages, and non-actionable S1/Manou false positives.",
-    "generatedAt": "2026-07-22T06:03:54+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-23. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon Cyanboard cyanoacrylate activator and Universal AC remote delivered on 22 July; Amazon DecoKing fitted sheet and Aldous melatonin dispatched for 24 July; Google AI Pro 5 TB renewed through Google Play/PayPal on 22 July. Excluded newsletters, promotions, login/security notices, phishing/fake Spam, personal payments, USPS-style fake package Spam, and non-actionable S1/Manou false positives.",
+    "generatedAt": "2026-07-23T06:03:50+02:00"
   },
   "deliveries": [
     {
@@ -1831,24 +1831,23 @@
       "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-07-21-408-9247104-8160330-cyanboard-activator",
+      "id": "amazon-return-window-2026-07-22-408-9247104-8160330-cyanboard-activator",
       "supplier": "Amazon",
       "title": "Cyanboard cyanoacrylate activator pack of 3",
-      "status": "Dispatched",
-      "dueDate": "2026-07-22",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 21 July says order 408-9247104-8160330 for Cyanboard cyanoacrylate activator was dispatched and is arriving Wednesday, 22 July.",
+      "notes": "Amazon delivery email dated 22 July says order 408-9247104-8160330 for Cyanboard cyanoacrylate activator was delivered that day and handed to resident; retained for the assumed 30-day Amazon return window. This replaces the earlier dispatched/arriving row.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f84272c84df761"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f8998abefa3179"
       },
       "items": [
         "Order 408-9247104-8160330",
         "Cyanboard pack of 3 cyanoacrylate activator, 200 ml",
-        "Sold by Azahar Group",
         "Quantity 1",
-        "Total EUR 19.99",
-        "Arriving 22 July 2026"
+        "Delivered 22 July 2026",
+        "Return window assumed through 21 August 2026"
       ],
       "links": [
         {
@@ -1859,32 +1858,101 @@
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-07-22",
+      "returnByDate": "2026-08-21",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-07-22-171-9471545-3126707-universal-ac-remote",
+      "id": "amazon-return-window-2026-07-22-171-9471545-3126707-universal-ac-remote",
       "supplier": "Amazon",
       "title": "Universal AC K-1028E remote control",
-      "status": "Dispatched",
-      "dueDate": "2026-07-22",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order and dispatch emails dated 21/22 July say order 171-9471545-3126707 for the Universal Air Conditioning Controller K-1028E remote was dispatched and is arriving today.",
+      "notes": "Amazon delivery email dated 22 July says order 171-9471545-3126707 for the Universal Air Conditioning Controller K-1028E remote was delivered that day and left in the letterbox; retained for the assumed 30-day Amazon return window. This replaces the earlier dispatched/arriving row.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f874309e69c5b8"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f8a146c674731c"
       },
       "items": [
         "Order 171-9471545-3126707",
         "Universal Air Conditioning Controller K-1028E remote control",
-        "Sold by INTENZA MELISSA",
         "Quantity 1",
-        "Total EUR 8.99",
-        "Arriving 22 July 2026"
+        "Delivered 22 July 2026",
+        "Return window assumed through 21 August 2026"
       ],
       "links": [
         {
           "label": "View order details",
           "url": "https://www.amazon.es/your-orders/order-details?orderID=171-9471545-3126707"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "deliveredDate": "2026-07-22",
+      "returnByDate": "2026-08-21",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-dispatched-2026-07-22-407-4070080-6872320-decoking-fitted-sheet",
+      "supplier": "Amazon",
+      "title": "DecoKing chocolate fitted sheet",
+      "status": "Dispatched",
+      "dueDate": "2026-07-24",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order and dispatch emails dated 22 July say order 407-4070080-6872320 for the DecoKing fitted sheet was dispatched and is arriving Friday, 24 July.",
+      "sourceEmail": {
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19f8ac0dee632f54"
+      },
+      "items": [
+        "Order 407-4070080-6872320",
+        "DecoKing fitted sheet 200x200-200x220 cm, chocolate brown amber",
+        "Sold by shop_decoking",
+        "Quantity 1",
+        "Total EUR 22.72",
+        "Arriving 24 July 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-4070080-6872320"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-07-22-407-6087361-5796365-aldous-melatonin",
+      "supplier": "Amazon",
+      "title": "Aldous melatonin tablets 500 count",
+      "status": "Dispatched",
+      "dueDate": "2026-07-24",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon order and dispatch emails dated 22 July say order 407-6087361-5796365 for Aldous 1 mg melatonin tablets was dispatched and is arriving Friday, 24 July.",
+      "sourceEmail": {
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19f8b647594a178f"
+      },
+      "items": [
+        "Order 407-6087361-5796365",
+        "Aldous pure melatonin 1 mg, 500 tablets",
+        "Sold by Amazon.es",
+        "Quantity 1",
+        "Total EUR 19.51",
+        "Arriving 24 July 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-6087361-5796365"
         },
         {
           "label": "Open Amazon orders",
@@ -2149,22 +2217,23 @@
       "service": "Google",
       "title": "Google AI Pro 5 TB",
       "status": "Active subscription",
-      "nextDate": "2026-06-22",
-      "dateLabel": "Estimated monthly renewal on Monday, 22 June 2026",
+      "nextDate": "2026-08-22",
+      "dateLabel": "Estimated monthly renewal on Saturday, 22 August 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "Latest Google Play receipt dated 22 May says the Google AI Pro 5 TB subscription continues, is auto-renewing, and costs $19.99/month. The receipt does not provide an exact next renewal date, so the next date is inferred from the monthly billing cadence.",
+      "notes": "Google Play receipt and PayPal payment email dated 22 July say the Google AI Pro 5 TB subscription continues, is auto-renewing, and was charged $19.99/month via PayPal. The receipt does not provide an exact next renewal date, so the next date is inferred from the monthly billing cadence.",
       "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19e4fa7987ab5dd3"
+        "label": "Google Play receipt",
+        "url": "https://mail.google.com/mail/#all/19f89cb8bd459adf"
       },
       "items": [
         "Google AI Pro (5 TB)",
         "$19.99 per month",
         "Auto-renewing subscription",
-        "Order SOP.3372-6229-2747-02753..11",
-        "22 May Google Play receipt is the latest billing signal",
+        "Order SOP.3372-6229-2747-02753..13",
+        "PayPal transaction 1DX400834L4072015",
+        "22 July Google Play receipt is the latest billing signal",
         "Next date inferred from monthly receipt"
       ],
       "links": [
@@ -2172,7 +2241,8 @@
           "label": "Manage Google Play subscriptions",
           "url": "https://play.google.com/store/account/subscriptions"
         }
-      ]
+      ],
+      "lastBillingDate": "2026-07-22"
     },
     {
       "service": "YouTube Premium",
