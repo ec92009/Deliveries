@@ -1,10 +1,10 @@
 {
-  "today": "2026-07-23",
+  "today": "2026-07-27",
   "metadata": {
-    "version": "v145.0",
+    "version": "v149.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-23. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon Cyanboard cyanoacrylate activator and Universal AC remote delivered on 22 July; Amazon DecoKing fitted sheet and Aldous melatonin dispatched for 24 July; Google AI Pro 5 TB renewed through Google Play/PayPal on 22 July. Excluded newsletters, promotions, login/security notices, phishing/fake Spam, personal payments, USPS-style fake package Spam, and non-actionable S1/Manou false positives.",
-    "generatedAt": "2026-07-23T06:03:50+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-27. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon deliveries for Aldous melatonin, DecoKing fitted sheet, D.RECT folder, Air Wick/Flopp package, Ceys glue, RENOVA toilet paper, and Zeagoo dress; Amazon dispatches/orders for Heyumybit, ISOI, Dafannis, Maybelline, Eucerin, L'Oreal, and Pnakqil cases; Amazon CeraVe cancellation, product-safety recall, and Colgate payment verification; Amazon Subscribe & Save Aboca refresh; OpenAI plan cancellation/access-end state; Apple Card dispute follow-up; Movistar invoice; USPS/Nespresso package awaiting sender. Excluded newsletters, recommendations, login/security notices, phishing/fake Spam, personal Wise transfers, and non-actionable S1/Manou false positives.",
+    "generatedAt": "2026-07-27T06:20:00+02:00"
   },
   "deliveries": [
     {
@@ -675,34 +675,6 @@
       ]
     },
     {
-      "id": "amazon-return-window-2026-06-23-402-4997913-7659564",
-      "supplier": "Amazon",
-      "title": "Aboca Aliviolas Fisiolax, 90 tablets",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 23 June says order 402-4997913-7659564 was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19ef46c63d631686"
-      },
-      "items": [
-        "Order 402-4997913-7659564",
-        "Aboca Aliviolas Fisiolax food supplement, 90 tablets",
-        "Delivered 23 June 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-06-23",
-      "returnByDate": "2026-07-23",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
-    },
-    {
       "id": "amazon-return-refunded-2026-07-01-407-9390277-3613124-shopper-purse-organizer",
       "supplier": "Amazon",
       "title": "Shopper Purse Organizer return",
@@ -729,64 +701,6 @@
           "url": "https://www.amazon.es/your-orders/orders"
         }
       ]
-    },
-    {
-      "id": "amazon-return-window-2026-06-25-407-9390277-3613124-lovasy-red-pajama",
-      "supplier": "Amazon",
-      "title": "Lovasy red wine summer pajama set",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "deliveredDate": "2026-06-25",
-      "returnByDate": "2026-07-25",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21,
-      "notes": "Amazon delivery email dated 25 June says order 407-9390277-3613124 was delivered that day and handed to the resident. A later 30 June return confirmation applies only to the Shopper Purse Organizer from the same order, so the Lovasy pajama set remains in passive return-window tracking.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19efe48cd0621894"
-      },
-      "items": [
-        "Order 407-9390277-3613124",
-        "Lovasy summer modal sleeveless pajama set, red wine, size S",
-        "Delivered 25 June 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ]
-    },
-    {
-      "id": "amazon-return-window-2026-06-26-407-4778941-7662731",
-      "supplier": "Amazon",
-      "title": "COOFANDY PAT2 shirt, Pantene serum, and L'OR Ristretto pods",
-      "status": "Delivered - return window open",
-      "dueDate": null,
-      "timezone": "Europe/Madrid",
-      "notes": "Amazon delivery email dated 26 June says order 407-4778941-7662731 was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
-      "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19f03bed8c4b4d46"
-      },
-      "items": [
-        "Order 407-4778941-7662731",
-        "COOFANDY Hawaiian shirt, PAT2, size M",
-        "Pantene Pro-V Miracles Hydration and Shine Serum, 70 ml",
-        "L'OR Ristretto coffee pods, 50 capsules, quantity 8",
-        "Delivered 26 June 2026"
-      ],
-      "links": [
-        {
-          "label": "Open Amazon orders",
-          "url": "https://www.amazon.es/your-orders/orders"
-        }
-      ],
-      "deliveredDate": "2026-06-26",
-      "returnByDate": "2026-07-26",
-      "returnWindowDays": 30,
-      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-return-window-2026-07-01-407-6700631-9949936",
@@ -1899,24 +1813,57 @@
       "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-07-22-407-4070080-6872320-decoking-fitted-sheet",
+      "id": "amazon-return-window-2026-07-23-407-6087361-5796365-aldous-melatonin",
+      "supplier": "Amazon",
+      "title": "Aldous melatonin tablets 500 count",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon delivery email dated 23 July 2026 says order 407-6087361-5796365 was delivered; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f8fcd0177af634"
+      },
+      "items": [
+        "Order 407-6087361-5796365",
+        "Aldous pure melatonin 1 mg, 500 tablets",
+        "Package left near the front door or porch",
+        "Delivered 2026-07-23",
+        "Return window assumed through 2026-08-22"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-6087361-5796365"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "deliveredDate": "2026-07-23",
+      "returnByDate": "2026-08-22",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-return-window-2026-07-24-407-4070080-6872320-decoking-fitted-sheet",
       "supplier": "Amazon",
       "title": "DecoKing chocolate fitted sheet",
-      "status": "Dispatched",
-      "dueDate": "2026-07-24",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order and dispatch emails dated 22 July say order 407-4070080-6872320 for the DecoKing fitted sheet was dispatched and is arriving Friday, 24 July.",
+      "notes": "Amazon delivery email dated 24 July 2026 says order 407-4070080-6872320 was delivered; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f8ac0dee632f54"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f93edbfcb58f92"
       },
       "items": [
         "Order 407-4070080-6872320",
         "DecoKing fitted sheet 200x200-200x220 cm, chocolate brown amber",
-        "Sold by shop_decoking",
-        "Quantity 1",
-        "Total EUR 22.72",
-        "Arriving 24 July 2026"
+        "Parcel handed to resident",
+        "Delivered 2026-07-24",
+        "Return window assumed through 2026-08-23"
       ],
       "links": [
         {
@@ -1927,36 +1874,500 @@
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-07-24",
+      "returnByDate": "2026-08-23",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
-      "id": "amazon-dispatched-2026-07-22-407-6087361-5796365-aldous-melatonin",
+      "id": "amazon-return-window-2026-07-24-403-3908726-7859541-drect-folder",
       "supplier": "Amazon",
-      "title": "Aldous melatonin tablets 500 count",
-      "status": "Dispatched",
-      "dueDate": "2026-07-24",
+      "title": "D.RECT red expanding file folder",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon order and dispatch emails dated 22 July say order 407-6087361-5796365 for Aldous 1 mg melatonin tablets was dispatched and is arriving Friday, 24 July.",
+      "notes": "Amazon delivery email dated 24 July 2026 says order 403-3908726-7859541 was delivered; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19f8b647594a178f"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f93ee4c0c2c921"
       },
       "items": [
-        "Order 407-6087361-5796365",
-        "Aldous pure melatonin 1 mg, 500 tablets",
-        "Sold by Amazon.es",
-        "Quantity 1",
-        "Total EUR 19.51",
-        "Arriving 24 July 2026"
+        "Order 403-3908726-7859541",
+        "D.RECT 5580 A4 expanding file folder, red",
+        "Parcel handed to resident",
+        "Delivered 2026-07-24",
+        "Return window assumed through 2026-08-23"
       ],
       "links": [
         {
           "label": "View order details",
-          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-6087361-5796365"
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=403-3908726-7859541"
         },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "deliveredDate": "2026-07-24",
+      "returnByDate": "2026-08-23",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-return-window-2026-07-25-407-7911451-5549905-air-wick-flopp",
+      "supplier": "Amazon",
+      "title": "Air Wick and Flopp fragrance package",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon delivery email dated 25 July 2026 says order 407-7911451-5549905 was delivered; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f98c1c0aaa825c"
+      },
+      "items": [
+        "Order 407-7911451-5549905",
+        "Air Wick Automatic Spray starter kit",
+        "Flopp perfume for clothes capsules",
+        "Air Wick Active Fresh refill pack",
+        "Parcel handed to resident",
+        "Delivered 2026-07-25",
+        "Return window assumed through 2026-08-24"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-7911451-5549905"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "deliveredDate": "2026-07-25",
+      "returnByDate": "2026-08-24",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-return-window-2026-07-25-403-0408822-3224304-ceys-contactceys",
+      "supplier": "Amazon",
+      "title": "Ceys Contactceys contact glue",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon delivery email dated 25 July 2026 says order 403-0408822-3224304 was delivered; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f98c1659778095"
+      },
+      "items": [
+        "Order 403-0408822-3224304",
+        "Ceys Contactceys super resistant contact glue, 170 ml",
+        "Parcel handed to resident",
+        "Delivered 2026-07-25",
+        "Return window assumed through 2026-08-24"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=403-0408822-3224304"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "deliveredDate": "2026-07-25",
+      "returnByDate": "2026-08-24",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-return-window-2026-07-25-407-4836210-7533108-renova-toilet-paper",
+      "supplier": "Amazon",
+      "title": "RENOVA Skin Care Plus scented toilet paper",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon delivery email dated 25 July 2026 says order 407-4836210-7533108 was delivered; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f98c1c6e0ca8f2"
+      },
+      "items": [
+        "Order 407-4836210-7533108",
+        "RENOVA Skin Care Plus scented decorated toilet paper, 6 count, quantity 4",
+        "Parcel handed to resident",
+        "Delivered 2026-07-25",
+        "Return window assumed through 2026-08-24"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-4836210-7533108"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "deliveredDate": "2026-07-25",
+      "returnByDate": "2026-08-24",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-return-window-2026-07-26-407-3944938-8634707-zeagoo-dress",
+      "supplier": "Amazon",
+      "title": "Zeagoo floral summer dress",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon delivery email dated 26 July 2026 says order 407-3944938-8634707 was delivered; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19f9ea17d037283c"
+      },
+      "items": [
+        "Order 407-3944938-8634707",
+        "Zeagoo sleeveless V-neck floral summer dress, size S",
+        "Earlier dispatch said arriving Sunday",
+        "Delivered 2026-07-26",
+        "Return window assumed through 2026-08-25"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-3944938-8634707"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "deliveredDate": "2026-07-26",
+      "returnByDate": "2026-08-25",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-dispatched-2026-07-27-408-4238332-6827541-heyumybit-doorbell",
+      "supplier": "Amazon",
+      "title": "Heyumybit metal desk doorbell",
+      "status": "Dispatched",
+      "dueDate": "2026-07-27",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatched email dated 27 July 2026 says order 408-4238332-6827541 is arriving today.",
+      "sourceEmail": {
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19fa0f33c16e1ba5"
+      },
+      "items": [
+        "Order 408-4238332-6827541",
+        "Heyumybit desk/service bell",
+        "Sold by Heyumybit",
+        "Total EUR 7.99",
+        "Arriving 2026-07-27"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=408-4238332-6827541"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-07-27-408-3102967-3017930-isoi-motorola-case",
+      "supplier": "Amazon",
+      "title": "ISOI Motorola G05/E15 rope case",
+      "status": "Dispatched",
+      "dueDate": "2026-07-27",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatched email dated 27 July 2026 says order 408-3102967-3017930 is arriving today.",
+      "sourceEmail": {
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19fa0f182df9d2d7"
+      },
+      "items": [
+        "Order 408-3102967-3017930",
+        "ISOI transparent TPU case with adjustable pink lanyard",
+        "Sold by WIDE CHOW LIMITED",
+        "Total EUR 6.98",
+        "Arriving 2026-07-27"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=408-3102967-3017930"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-07-27-407-2251869-3709956-dafannis-shoelaces",
+      "supplier": "Amazon",
+      "title": "Dafannis oval shoelaces",
+      "status": "Dispatched",
+      "dueDate": "2026-07-27",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatched email dated 27 July 2026 says order 407-2251869-3709956 is arriving today.",
+      "sourceEmail": {
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19fa0fc6abd3741c"
+      },
+      "items": [
+        "Order 407-2251869-3709956",
+        "Dafannis oval shoelaces, 2 pairs",
+        "Sold by Dafannis",
+        "Total EUR 4.39",
+        "Arriving 2026-07-27"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-2251869-3709956"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-07-27-405-4833252-9507557-maybelline-mascara",
+      "supplier": "Amazon",
+      "title": "Maybelline Lash Sensational Sky High mascara",
+      "status": "Dispatched",
+      "dueDate": "2026-07-27",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatched email dated 27 July 2026 says order 405-4833252-9507557 is arriving today.",
+      "sourceEmail": {
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19fa0fc8b6b12826"
+      },
+      "items": [
+        "Order 405-4833252-9507557",
+        "Maybelline New York mascara, black, 5 ml",
+        "Sold by Amazon.es",
+        "Total EUR 6.66",
+        "Arriving 2026-07-27"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=405-4833252-9507557"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-07-27-406-9594710-5053935-eucerin-day-cream",
+      "supplier": "Amazon",
+      "title": "Eucerin Hyaluron-Filler day cream",
+      "status": "Dispatched",
+      "dueDate": "2026-07-27",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatched email dated 27 July 2026 says order 406-9594710-5053935 is arriving today.",
+      "sourceEmail": {
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19fa0fce646606a8"
+      },
+      "items": [
+        "Order 406-9594710-5053935",
+        "Eucerin Hyaluron-Filler day cream SPF 15, dry skin, 50 ml",
+        "Sold by Amazon.es",
+        "Total EUR 28.87",
+        "Arriving 2026-07-27"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=406-9594710-5053935"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-dispatched-2026-07-27-404-2122691-3936320-loreal-revitalift",
+      "supplier": "Amazon",
+      "title": "L'Oreal Paris Revitalift Laser day cream",
+      "status": "Dispatched",
+      "dueDate": "2026-07-27",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatched email dated 27 July 2026 says order 404-2122691-3936320 is arriving today.",
+      "sourceEmail": {
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19fa1022ab49caae"
+      },
+      "items": [
+        "Order 404-2122691-3936320",
+        "L'Oreal Paris Revitalift Laser SPF 25 day cream, 50 ml",
+        "Sold by Amazon.es",
+        "Total EUR 13.25",
+        "Arriving 2026-07-27"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=404-2122691-3936320"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-ordered-2026-07-26-408-4555787-5062703-pnakqil-cases",
+      "supplier": "Amazon",
+      "title": "Pnakqil iPhone XR and iPhone 13 rope cases",
+      "status": "Ordered",
+      "dueDate": "2026-07-28",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon ordered email dated 26 July 2026 says order 408-4555787-5062703 is arriving 2026-07-28.",
+      "sourceEmail": {
+        "label": "Order email",
+        "url": "https://mail.google.com/mail/#all/19fa01b023dd5159"
+      },
+      "items": [
+        "Order 408-4555787-5062703",
+        "Pnakqil rope case for iPhone XR",
+        "Pnakqil rope case for iPhone 13",
+        "Total EUR 18.98",
+        "Arriving 2026-07-28"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=408-4555787-5062703"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-canceled-2026-07-24-402-5911738-1003509-cerave-cleanser",
+      "supplier": "Amazon",
+      "title": "CeraVe moisturizing cleansing gel order",
+      "status": "Canceled - not charged",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon cancellation email dated 24 July says order 402-5911738-1003509 for CeraVe moisturizing cleansing gel was canceled and no charge was made.",
+      "sourceEmail": {
+        "label": "Cancellation email",
+        "url": "https://mail.google.com/mail/#all/19f9344b3a993f85"
+      },
+      "items": [
+        "Order 402-5911738-1003509",
+        "CeraVe moisturizing cleansing gel, 8 oz",
+        "Quantity 1",
+        "Canceled successfully",
+        "No charge made"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=402-5911738-1003509"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "amazon-product-recall-2026-07-24-408-8165480-2742724-tabasco-sriracha",
+      "supplier": "Amazon",
+      "title": "Tabasco Sriracha product safety recall",
+      "status": "Product safety recall - check allergen",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon Product Safety email dated 24 July says RASFF published a recall notice for Tabasco Salsa Sriracha 256 ml from order 408-8165480-2742724 because the product contains undeclared peanuts; do not consume if allergic and contact Amazon Customer Service if needed.",
+      "sourceEmail": {
+        "label": "Recall email",
+        "url": "https://mail.google.com/mail/#all/19f94851ac7ad6ee"
+      },
+      "items": [
+        "Order 408-8165480-2742724",
+        "Tabasco Salsa Sriracha sabor suave 256 ml",
+        "Issue: undeclared peanuts allergen",
+        "Impacted expiry date: 20.12.2026",
+        "Share notice if item was given to someone else"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=408-8165480-2742724"
+        },
+        {
+          "label": "Amazon customer service",
+          "url": "https://www.amazon.es/gp/help/customer/contact-us"
+        }
+      ],
+      "actionRequired": true
+    },
+    {
+      "id": "amazon-payment-verification-2026-07-26-colgate-max-white-ultra",
+      "supplier": "Amazon",
+      "title": "Colgate Max White Ultra order payment verification",
+      "status": "Pending payment verification",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon payment-update email dated 26 July says the Colgate Max White Ultra order is pending payment verification; no later dispatch or cancellation was found in this run.",
+      "sourceEmail": {
+        "label": "Payment verification email",
+        "url": "https://mail.google.com/mail/#all/19f9f619ee79e11c"
+      },
+      "items": [
+        "Colgate Max White Ultra order",
+        "Payment verification pending",
+        "No dispatch found yet"
+      ],
+      "links": [
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
+    },
+    {
+      "id": "usps-nespresso-package-awaiting-sender-2026-07-26-92612903098137551023379719",
+      "supplier": "USPS / Nespresso",
+      "title": "Nespresso inbound USPS package",
+      "status": "Awaiting from sender",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "USPS Informed Delivery digest dated 26 July shows one inbound package awaiting from sender, from Nespresso c/o ID Logistics, with tracking number 92612903098137551023379719.",
+      "sourceEmail": {
+        "label": "USPS digest",
+        "url": "https://mail.google.com/mail/#all/19f9ed308a92e568"
+      },
+      "items": [
+        "From: NESPRESSO C/O ID LOGISTICS",
+        "Tracking 92612903098137551023379719",
+        "USPS status: awaiting from sender"
+      ],
+      "links": [
+        {
+          "label": "Open USPS dashboard",
+          "url": "https://informeddelivery.usps.com/"
         }
       ]
     }
@@ -2108,30 +2519,32 @@
       ]
     },
     {
-      "service": "ChatGPT",
-      "title": "ChatGPT Business subscription",
-      "status": "Will not renew",
-      "nextDate": "2026-05-07",
-      "dateLabel": "Access ends Thursday, 7 May 2026",
+      "service": "OpenAI",
+      "title": "OpenAI paid account plan",
+      "status": "Will not renew; access ends",
+      "nextDate": "2026-08-20",
+      "dateLabel": "Access ends Thursday, 20 August 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "canceled",
-      "warningWindowDays": 7,
-      "notes": "A later OpenAI billing email explicitly says the ChatGPT Business subscription will not renew and stays available only until May 7, 2026.",
+      "warningWindowDays": 30,
+      "notes": "OpenAI email dated 25 July says the paid plan will not renew and remains available until the end of the billing period on 20 August 2026.",
       "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19d7dd2f60808849"
+        "label": "Plan cancellation email",
+        "url": "https://mail.google.com/mail/#all/19f99af754f23f81"
       },
       "items": [
-        "Business workspace",
+        "Paid OpenAI plan",
         "Canceled at period end",
-        "Renewable from account page"
+        "Available until 20 August 2026",
+        "Can be renewed from account page"
       ],
       "links": [
         {
-          "label": "Manage subscription",
-          "url": "https://chatgpt.com/account/manage?account_id=f34384e0-c9b8-47ed-86bc-6ec937ab25c0"
+          "label": "Manage ChatGPT plan",
+          "url": "https://chatgpt.com/#settings/Subscription"
         }
-      ]
+      ],
+      "id": "openai-paid-plan-will-not-renew-2026-08-20"
     },
     {
       "service": "Prime Video",
@@ -2410,19 +2823,19 @@
       "service": "Movistar",
       "title": "Movistar telecom service invoice",
       "status": "Invoice available",
-      "nextDate": "2026-06-25",
-      "dateLabel": "Invoice dated Thursday, 25 June 2026",
+      "nextDate": "2026-07-25",
+      "dateLabel": "Invoice dated Saturday, 25 July 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "Movistar email dated 24 June says the 25 June 2026 bill is available and the total to pay is EUR 97.00. The email provides an invoice date, not an explicit renewal or access-end date.",
+      "notes": "Movistar email dated 24 July says the 25 July 2026 bill is available and the total to pay is EUR 99.93. The email provides an invoice date, not an explicit renewal or access-end date.",
       "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19ef7e5a440b103d"
+        "label": "Invoice email",
+        "url": "https://mail.google.com/mail/#all/19f92713405af297"
       },
       "items": [
-        "Factura del 25/06/2026",
-        "Total to pay EUR 97.00",
+        "Factura del 25/07/2026",
+        "Total to pay EUR 99.93",
         "Invoice PDF attached in source email"
       ],
       "links": [
@@ -2435,7 +2848,8 @@
           "url": "https://app.movistar.es/atencion-cliente/app-mi-movistar"
         }
       ],
-      "lastBillingDate": "2026-06-25"
+      "lastBillingDate": "2026-07-25",
+      "id": "movistar-telecom-service-invoice"
     },
     {
       "service": "DIGI",
@@ -2857,26 +3271,26 @@
       ]
     },
     {
-      "id": "amazon-subscribe-save-aboca-aliviolas-fisiolax-2026-07-16",
+      "id": "amazon-subscribe-save-aboca-aliviolas-fisiolax-2026-08-06",
       "service": "Amazon Subscribe & Save",
       "title": "Aboca Aliviolas Fisiolax auto-delivery",
       "status": "Active auto-delivery",
-      "nextDate": "2026-07-16",
-      "dateLabel": "Next expected delivery Thursday, 16 July 2026",
+      "nextDate": "2026-08-06",
+      "dateLabel": "Next expected delivery Thursday, 6 August 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 14,
-      "notes": "Amazon Subscribe & Save reminder dated 5 July confirms the next Aboca Aliviolas Fisiolax auto-delivery totals EUR 16.95, arrives by Thursday 16 July, and can be managed until Wednesday 8 July.",
+      "notes": "Amazon Subscribe & Save reminder dated 26 July confirms the next Aboca Aliviolas Fisiolax auto-delivery totals EUR 16.95, arrives by Thursday 6 August, and can be managed until Wednesday 29 July.",
       "sourceEmail": {
         "label": "Subscribe & Save reminder",
-        "url": "https://mail.google.com/mail/#all/19f2ff4c660da725"
+        "url": "https://mail.google.com/mail/#all/19f9ea50614f8459"
       },
       "items": [
         "Aboca Aliviolas Fisiolax food supplement",
         "1 unit every 3 weeks",
         "Order total EUR 16.95",
-        "Arriving by 16 July 2026",
-        "Last day to manage delivery: 8 July 2026"
+        "Arriving by 6 August 2026",
+        "Last day to manage delivery: 29 July 2026"
       ],
       "links": [
         {
@@ -3138,23 +3552,23 @@
       "id": "openai-apple-card-dispute-evidence-2026-07-20",
       "service": "OpenAI / Apple Card",
       "title": "ChatGPT duplicate-charge Apple Card disputes",
-      "status": "Evidence requested; reply emails bounced",
+      "status": "Evidence requested; latest replies bounced",
       "nextDate": "2026-07-30",
       "dateLabel": "Evidence due Thursday, 30 July 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "action_needed",
       "warningWindowDays": 10,
-      "notes": "Apple Card Support emails dated 20 July request supporting evidence by 30 July for three disputed OpenAI ChatGPT subscription charges from April, May, and June 2026. The user sent replies for all three cases, but Apple Card delivery-failure emails immediately said the replies could not be delivered, so follow-up through Apple Card chat/phone is still needed.",
+      "notes": "Apple Card Support sent fresh evidence requests on 25 July for the April, May, and June 2026 OpenAI subscription disputes, still due 30 July. The user sent PDF evidence replies on 26 July, but Apple Card delivery-failure emails immediately said the replies could not be delivered, so follow-up through Apple Card chat/phone is still needed.",
       "sourceEmail": {
-        "label": "Apple Card evidence request",
-        "url": "https://mail.google.com/mail/#all/19f8031118d86d4f"
+        "label": "Latest Apple Card evidence request",
+        "url": "https://mail.google.com/mail/#all/19f99f10177f7345"
       },
       "items": [
         "D-24949420: Apr 11, 2026, Openai *chatgpt Subscr, $99.93 temporary credit",
         "D-24949417: May 11, 2026, Openai *chatgpt Subscr, $100.38 temporary credit",
         "D-24949419: Jun 11, 2026, Openai *chatgpt Subscr, $98.41 temporary credit",
-        "Requested evidence: merchant correspondence, cancellation proof, and proof the recurring transaction was not intended",
-        "Three reply attempts bounced on 20 July 2026"
+        "Evidence requested again on 25 July 2026; due 30 July 2026",
+        "PDF evidence replies sent on 26 July 2026 bounced as undeliverable"
       ],
       "links": [
         {
@@ -3166,7 +3580,7 @@
           "url": "https://help.openai.com/"
         }
       ],
-      "lastBillingDate": "2026-07-20"
+      "lastBillingDate": "2026-07-25"
     },
     {
       "id": "apple-card-amazon-dispute-2026-07-20-d-24962537",
