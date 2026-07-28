@@ -1,10 +1,10 @@
 {
   "today": "2026-07-28",
   "metadata": {
-    "version": "v150.0",
+    "version": "v150.1",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-28. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon out-for-delivery updates for Heyumybit, ISOI, Dafannis, Maybelline, Eucerin, and L'Oreal; Amazon Pnakqil case dispatch arriving 2026-07-28; DIGI July invoice refreshes for EUR 38.00 and EUR 26.73 due by direct debit on 2026-07-30; USPS/Nespresso package still awaiting sender. Excluded newsletters, recommendations, login/security notices, phishing/fake Spam, personal payments/transfers, stopped Pinterest monitoring noise, and non-actionable S1/Manou false positives.",
-    "generatedAt": "2026-07-28T06:04:21+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-28. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon out-for-delivery updates for Heyumybit, ISOI, Dafannis, Maybelline, Eucerin, and L'Oreal; Amazon Pnakqil case dispatch arriving 2026-07-28; DIGI July invoice refreshes for EUR 38.00 and EUR 26.73 due by direct debit on 2026-07-30; USPS/Nespresso package still awaiting sender. Excluded newsletters, recommendations, login/security notices, phishing/fake Spam, personal payments/transfers, out-of-scope provider/developer noise, and non-actionable S1/Manou false positives.",
+    "generatedAt": "2026-07-28T06:08:30+02:00"
   },
   "deliveries": [
     {
