@@ -1,10 +1,10 @@
 {
-  "today": "2026-07-27",
+  "today": "2026-07-28",
   "metadata": {
-    "version": "v149.0",
+    "version": "v150.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-27. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon deliveries for Aldous melatonin, DecoKing fitted sheet, D.RECT folder, Air Wick/Flopp package, Ceys glue, RENOVA toilet paper, and Zeagoo dress; Amazon dispatches/orders for Heyumybit, ISOI, Dafannis, Maybelline, Eucerin, L'Oreal, and Pnakqil cases; Amazon CeraVe cancellation, product-safety recall, and Colgate payment verification; Amazon Subscribe & Save Aboca refresh; OpenAI plan cancellation/access-end state; Apple Card dispute follow-up; Movistar invoice; USPS/Nespresso package awaiting sender. Excluded newsletters, recommendations, login/security notices, phishing/fake Spam, personal Wise transfers, and non-actionable S1/Manou false positives.",
-    "generatedAt": "2026-07-27T06:20:00+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-28. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon out-for-delivery updates for Heyumybit, ISOI, Dafannis, Maybelline, Eucerin, and L'Oreal; Amazon Pnakqil case dispatch arriving 2026-07-28; DIGI July invoice refreshes for EUR 38.00 and EUR 26.73 due by direct debit on 2026-07-30; USPS/Nespresso package still awaiting sender. Excluded newsletters, recommendations, login/security notices, phishing/fake Spam, personal payments/transfers, stopped Pinterest monitoring noise, and non-actionable S1/Manou false positives.",
+    "generatedAt": "2026-07-28T06:04:21+02:00"
   },
   "deliveries": [
     {
@@ -2056,13 +2056,13 @@
       "id": "amazon-dispatched-2026-07-27-408-4238332-6827541-heyumybit-doorbell",
       "supplier": "Amazon",
       "title": "Heyumybit metal desk doorbell",
-      "status": "Dispatched",
+      "status": "Out for delivery",
       "dueDate": "2026-07-27",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatched email dated 27 July 2026 says order 408-4238332-6827541 is arriving today.",
+      "notes": "Amazon out-for-delivery email dated 27 July 2026 says order 408-4238332-6827541 for the Heyumybit desk/service bell was out for delivery and arriving that day; no delivered follow-up was found in this run.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19fa0f33c16e1ba5"
+        "label": "Out-for-delivery email",
+        "url": "https://mail.google.com/mail/#all/19fa2e4d78adb1a2"
       },
       "items": [
         "Order 408-4238332-6827541",
@@ -2086,13 +2086,13 @@
       "id": "amazon-dispatched-2026-07-27-408-3102967-3017930-isoi-motorola-case",
       "supplier": "Amazon",
       "title": "ISOI Motorola G05/E15 rope case",
-      "status": "Dispatched",
+      "status": "Out for delivery",
       "dueDate": "2026-07-27",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatched email dated 27 July 2026 says order 408-3102967-3017930 is arriving today.",
+      "notes": "Amazon out-for-delivery email dated 27 July 2026 says order 408-3102967-3017930 for the ISOI Motorola G05/E15 rope case was out for delivery and arriving that day; no delivered follow-up was found in this run.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19fa0f182df9d2d7"
+        "label": "Out-for-delivery email",
+        "url": "https://mail.google.com/mail/#all/19fa2e557bcf4cfa"
       },
       "items": [
         "Order 408-3102967-3017930",
@@ -2116,13 +2116,13 @@
       "id": "amazon-dispatched-2026-07-27-407-2251869-3709956-dafannis-shoelaces",
       "supplier": "Amazon",
       "title": "Dafannis oval shoelaces",
-      "status": "Dispatched",
+      "status": "Out for delivery",
       "dueDate": "2026-07-27",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatched email dated 27 July 2026 says order 407-2251869-3709956 is arriving today.",
+      "notes": "Amazon grouped out-for-delivery email dated 27 July 2026 says the package containing the Dafannis shoelaces was out for delivery and arriving that day; no delivered follow-up was found in this run.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19fa0fc6abd3741c"
+        "label": "Out-for-delivery email",
+        "url": "https://mail.google.com/mail/#all/19fa2e0c09f12560"
       },
       "items": [
         "Order 407-2251869-3709956",
@@ -2146,13 +2146,13 @@
       "id": "amazon-dispatched-2026-07-27-405-4833252-9507557-maybelline-mascara",
       "supplier": "Amazon",
       "title": "Maybelline Lash Sensational Sky High mascara",
-      "status": "Dispatched",
+      "status": "Out for delivery",
       "dueDate": "2026-07-27",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatched email dated 27 July 2026 says order 405-4833252-9507557 is arriving today.",
+      "notes": "Amazon grouped out-for-delivery email dated 27 July 2026 says the package containing the Maybelline mascara was out for delivery and arriving that day; no delivered follow-up was found in this run.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19fa0fc8b6b12826"
+        "label": "Out-for-delivery email",
+        "url": "https://mail.google.com/mail/#all/19fa2e0c09f12560"
       },
       "items": [
         "Order 405-4833252-9507557",
@@ -2176,13 +2176,13 @@
       "id": "amazon-dispatched-2026-07-27-406-9594710-5053935-eucerin-day-cream",
       "supplier": "Amazon",
       "title": "Eucerin Hyaluron-Filler day cream",
-      "status": "Dispatched",
+      "status": "Out for delivery",
       "dueDate": "2026-07-27",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatched email dated 27 July 2026 says order 406-9594710-5053935 is arriving today.",
+      "notes": "Amazon grouped out-for-delivery email dated 27 July 2026 says the package containing the Eucerin Hyaluron-Filler day cream was out for delivery and arriving that day; no delivered follow-up was found in this run.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19fa0fce646606a8"
+        "label": "Out-for-delivery email",
+        "url": "https://mail.google.com/mail/#all/19fa2e0c09f12560"
       },
       "items": [
         "Order 406-9594710-5053935",
@@ -2206,13 +2206,13 @@
       "id": "amazon-dispatched-2026-07-27-404-2122691-3936320-loreal-revitalift",
       "supplier": "Amazon",
       "title": "L'Oreal Paris Revitalift Laser day cream",
-      "status": "Dispatched",
+      "status": "Out for delivery",
       "dueDate": "2026-07-27",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatched email dated 27 July 2026 says order 404-2122691-3936320 is arriving today.",
+      "notes": "Amazon grouped out-for-delivery email dated 27 July 2026 says the package containing the L'Oreal Revitalift day cream was out for delivery and arriving that day; no delivered follow-up was found in this run.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19fa1022ab49caae"
+        "label": "Out-for-delivery email",
+        "url": "https://mail.google.com/mail/#all/19fa2e0c09f12560"
       },
       "items": [
         "Order 404-2122691-3936320",
@@ -2233,16 +2233,16 @@
       ]
     },
     {
-      "id": "amazon-ordered-2026-07-26-408-4555787-5062703-pnakqil-cases",
+      "id": "amazon-dispatched-2026-07-28-408-4555787-5062703-pnakqil-cases",
       "supplier": "Amazon",
       "title": "Pnakqil iPhone XR and iPhone 13 rope cases",
-      "status": "Ordered",
+      "status": "Dispatched",
       "dueDate": "2026-07-28",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon ordered email dated 26 July 2026 says order 408-4555787-5062703 is arriving 2026-07-28.",
+      "notes": "Amazon dispatch email dated 27 July 2026 says order 408-4555787-5062703 for the Pnakqil iPhone XR and iPhone 13 rope cases shipped and is arriving 2026-07-28.",
       "sourceEmail": {
-        "label": "Order email",
-        "url": "https://mail.google.com/mail/#all/19fa01b023dd5159"
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19fa51002f2823e5"
       },
       "items": [
         "Order 408-4555787-5062703",
@@ -2354,10 +2354,10 @@
       "status": "Awaiting from sender",
       "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "USPS Informed Delivery digest dated 26 July shows one inbound package awaiting from sender, from Nespresso c/o ID Logistics, with tracking number 92612903098137551023379719.",
+      "notes": "USPS Informed Delivery digests dated 26 and 27 July show one inbound package from Nespresso c/o ID Logistics still awaiting from sender, with tracking number 92612903098137551023379719.",
       "sourceEmail": {
-        "label": "USPS digest",
-        "url": "https://mail.google.com/mail/#all/19f9ed308a92e568"
+        "label": "Latest USPS digest",
+        "url": "https://mail.google.com/mail/#all/19fa3f9c4fa5a8fa"
       },
       "items": [
         "From: NESPRESSO C/O ID LOGISTICS",
@@ -2855,21 +2855,20 @@
       "service": "DIGI",
       "title": "DIGI telecom service invoice",
       "status": "Invoice available",
-      "nextDate": "2026-06-29",
-      "dateLabel": "Direct debit scheduled Monday, 29 June 2026",
+      "nextDate": "2026-07-30",
+      "dateLabel": "Direct debit scheduled Thursday, 30 July 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "DIGI email dated 28 June says the June 2026 bill is available, the total is EUR 38.00, and the direct debit will be charged to the bank account on 29 June 2026. The email provides a charge date, not an explicit renewal or access-end date.",
+      "notes": "DIGI email dated 27 July says the July 2026 bill is available, the total is EUR 38.00, and the direct debit will be charged to the bank account on 30 July 2026. The email provides a charge date, not an explicit renewal or access-end date.",
       "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19f0ce230e88e6a3"
+        "label": "Invoice email",
+        "url": "https://mail.google.com/mail/#all/19fa30101c29fe95"
       },
       "items": [
-        "Factura de junio de 2026",
+        "Factura de julio de 2026",
         "Total EUR 38.00",
-        "Direct debit scheduled 29/06/2026",
-        "Invoice PDF attached in source email"
+        "Direct debit scheduled 2026-07-30"
       ],
       "links": [
         {
@@ -3300,25 +3299,24 @@
       ]
     },
     {
-      "id": "digi-telecom-service-invoice-2026-06-29-secondary",
+      "id": "digi-telecom-service-invoice-2026-07-30-secondary",
       "service": "DIGI",
       "title": "DIGI secondary telecom service invoice",
       "status": "Invoice available",
-      "nextDate": "2026-06-29",
-      "dateLabel": "Direct debit scheduled Monday, 29 June 2026",
+      "nextDate": "2026-07-30",
+      "dateLabel": "Direct debit scheduled Thursday, 30 July 2026",
       "timezone": "Europe/Madrid",
       "renewalState": "active",
       "warningWindowDays": 7,
-      "notes": "Second DIGI email dated 28 June says another June 2026 bill is available, the total is EUR 26.61, and the direct debit will be charged to the bank account on 29 June 2026. The email provides a charge date, not an explicit renewal or access-end date.",
+      "notes": "Second DIGI email dated 27 July says another July 2026 bill is available, the total is EUR 26.73, and the direct debit will be charged to the bank account on 30 July 2026. The email provides a charge date, not an explicit renewal or access-end date.",
       "sourceEmail": {
-        "label": "Source email",
-        "url": "https://mail.google.com/mail/#all/19f0dbef5aca6336"
+        "label": "Invoice email",
+        "url": "https://mail.google.com/mail/#all/19fa3018cdac1fc8"
       },
       "items": [
-        "Factura de junio de 2026",
-        "Total EUR 26.61",
-        "Direct debit scheduled 29/06/2026",
-        "Invoice PDF attached in source email"
+        "Factura de julio de 2026",
+        "Total EUR 26.73",
+        "Direct debit scheduled 2026-07-30"
       ],
       "links": [
         {
