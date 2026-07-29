@@ -1,10 +1,10 @@
 {
-  "today": "2026-07-28",
+  "today": "2026-07-29",
   "metadata": {
-    "version": "v150.1",
+    "version": "v151.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-28. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon out-for-delivery updates for Heyumybit, ISOI, Dafannis, Maybelline, Eucerin, and L'Oreal; Amazon Pnakqil case dispatch arriving 2026-07-28; DIGI July invoice refreshes for EUR 38.00 and EUR 26.73 due by direct debit on 2026-07-30; USPS/Nespresso package still awaiting sender. Excluded newsletters, recommendations, login/security notices, phishing/fake Spam, personal payments/transfers, out-of-scope provider/developer noise, and non-actionable S1/Manou false positives.",
-    "generatedAt": "2026-07-28T06:08:30+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-29. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon Pnakqil case delivery, Amazon Colgate dispatch after payment verification, USPS/Nespresso package expected, InfiMech VIP Access Reservation, and Apple Card/Amazon dispute evidence request. Reviewed an Amazon ERGO protection disclosure but did not add a duplicate because that order is already tracked as refunded. Excluded newsletters, recommendations, login/security notices, phishing/fake Spam, personal payments/transfers, and non-actionable S1/Manou false positives.",
+    "generatedAt": "2026-07-29T06:05:00+02:00"
   },
   "deliveries": [
     {
@@ -2233,23 +2233,23 @@
       ]
     },
     {
-      "id": "amazon-dispatched-2026-07-28-408-4555787-5062703-pnakqil-cases",
+      "id": "amazon-return-window-2026-07-28-408-4555787-5062703-pnakqil-cases",
       "supplier": "Amazon",
       "title": "Pnakqil iPhone XR and iPhone 13 rope cases",
-      "status": "Dispatched",
-      "dueDate": "2026-07-28",
+      "status": "Delivered - return window open",
+      "dueDate": null,
       "timezone": "Europe/Madrid",
-      "notes": "Amazon dispatch email dated 27 July 2026 says order 408-4555787-5062703 for the Pnakqil iPhone XR and iPhone 13 rope cases shipped and is arriving 2026-07-28.",
+      "notes": "Amazon delivery email dated 28 July 2026 says order 408-4555787-5062703 for the Pnakqil iPhone XR and iPhone 13 rope cases was delivered that day and left near the front door/porch; retained for the assumed 30-day Amazon return window.",
       "sourceEmail": {
-        "label": "Dispatch email",
-        "url": "https://mail.google.com/mail/#all/19fa51002f2823e5"
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19fa91ab51145303"
       },
       "items": [
         "Order 408-4555787-5062703",
         "Pnakqil rope case for iPhone XR",
         "Pnakqil rope case for iPhone 13",
-        "Total EUR 18.98",
-        "Arriving 2026-07-28"
+        "Delivered 28 July 2026",
+        "Return window assumed through 27 August 2026"
       ],
       "links": [
         {
@@ -2260,7 +2260,11 @@
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
         }
-      ]
+      ],
+      "deliveredDate": "2026-07-28",
+      "returnByDate": "2026-08-27",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
     },
     {
       "id": "amazon-canceled-2026-07-24-402-5911738-1003509-cerave-cleanser",
@@ -2324,23 +2328,29 @@
       "actionRequired": true
     },
     {
-      "id": "amazon-payment-verification-2026-07-26-colgate-max-white-ultra",
+      "id": "amazon-dispatched-2026-07-29-407-0513286-0260356-colgate-max-white-ultra",
       "supplier": "Amazon",
-      "title": "Colgate Max White Ultra order payment verification",
-      "status": "Pending payment verification",
-      "dueDate": null,
+      "title": "Colgate Max White Ultra Active Foam toothpaste",
+      "status": "Dispatched",
+      "dueDate": "2026-07-29",
       "timezone": "Europe/Madrid",
-      "notes": "Amazon payment-update email dated 26 July says the Colgate Max White Ultra order is pending payment verification; no later dispatch or cancellation was found in this run.",
+      "notes": "Amazon dispatch email dated 28 July 2026 says order 407-0513286-0260356 for Colgate Max White Ultra Active Foam toothpaste shipped after the earlier payment-verification hold and is arriving 2026-07-29.",
       "sourceEmail": {
-        "label": "Payment verification email",
-        "url": "https://mail.google.com/mail/#all/19f9f619ee79e11c"
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19faabad3a0aa08b"
       },
       "items": [
-        "Colgate Max White Ultra order",
-        "Payment verification pending",
-        "No dispatch found yet"
+        "Order 407-0513286-0260356",
+        "COLGATE Max White Ultra Active Foam Whitening Toothpaste with Fluoride, 50 ml",
+        "Quantity 1",
+        "Total EUR 4.24",
+        "Arriving 29 July 2026"
       ],
       "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=407-0513286-0260356"
+        },
         {
           "label": "Open Amazon orders",
           "url": "https://www.amazon.es/your-orders/orders"
@@ -2348,21 +2358,21 @@
       ]
     },
     {
-      "id": "usps-nespresso-package-awaiting-sender-2026-07-26-92612903098137551023379719",
+      "id": "usps-nespresso-package-expected-2026-07-28-92612903098137551023379719",
       "supplier": "USPS / Nespresso",
       "title": "Nespresso inbound USPS package",
-      "status": "Awaiting from sender",
-      "dueDate": null,
+      "status": "Expected via USPS",
+      "dueDate": "2026-07-28",
       "timezone": "Europe/Madrid",
-      "notes": "USPS Informed Delivery digests dated 26 and 27 July show one inbound package from Nespresso c/o ID Logistics still awaiting from sender, with tracking number 92612903098137551023379719.",
+      "notes": "USPS Informed Delivery digest dated 28 July shows one inbound package from Nespresso c/o ID Logistics expected that day with tracking number 92612903098137551023379719, replacing the prior awaiting-from-sender state.",
       "sourceEmail": {
-        "label": "Latest USPS digest",
-        "url": "https://mail.google.com/mail/#all/19fa3f9c4fa5a8fa"
+        "label": "USPS digest",
+        "url": "https://mail.google.com/mail/#all/19fa92b2eb0fe13d"
       },
       "items": [
         "From: NESPRESSO C/O ID LOGISTICS",
         "Tracking 92612903098137551023379719",
-        "USPS status: awaiting from sender"
+        "USPS status: expected 28 July 2026"
       ],
       "links": [
         {
@@ -2483,6 +2493,34 @@
         {
           "label": "Open Shottr FAQ",
           "url": "https://shottr.cc/kb/faq"
+        }
+      ]
+    },
+    {
+      "id": "infimech-vip-access-reservation-5399098-4090",
+      "service": "InfiMech",
+      "title": "InfiMech MX Series VIP Access Reservation",
+      "status": "One-time digital purchase",
+      "nextDate": null,
+      "dateLabel": "No renewal date found",
+      "timezone": "Europe/Madrid",
+      "renewalState": "one_time",
+      "notes": "InfiMech Official Store order confirmation dated 28 July 2026 confirms order 5399098-4090 for one MX Series VIP Access Reservation for $5.00 USD, with no shipping, tax, or renewal terms shown.",
+      "sourceEmail": {
+        "label": "Order confirmation",
+        "url": "https://mail.google.com/mail/#all/19fa9cab8acd5eee"
+      },
+      "items": [
+        "Order 5399098-4090",
+        "Infimech MX Series - VIP Access Reservation x1",
+        "$5.00 USD paid",
+        "No shipping or tax charged",
+        "Payment ending 2340"
+      ],
+      "links": [
+        {
+          "label": "Open InfiMech store",
+          "url": "https://infimech.com/"
         }
       ]
     }
@@ -3584,24 +3622,24 @@
       "id": "apple-card-amazon-dispute-2026-07-20-d-24962537",
       "service": "Apple Card / Amazon",
       "title": "Amazon transaction dispute D-24962537",
-      "status": "Accepted and opened",
-      "nextDate": "2026-09-30",
-      "dateLabel": "Investigation due by Wednesday, 30 September 2026",
+      "status": "Evidence requested",
+      "nextDate": "2026-08-02",
+      "dateLabel": "Evidence due Sunday, 2 August 2026",
       "timezone": "Europe/Madrid",
-      "renewalState": "waiting",
-      "warningWindowDays": 14,
-      "notes": "Apple Card Support email dated 20 July says Goldman Sachs opened dispute D-24962537 for a 1 July Amazon transaction, issued a temporary credit, and requires no additional action unless they request more information.",
+      "renewalState": "action_needed",
+      "warningWindowDays": 10,
+      "notes": "Apple Card Support email dated 28 July 2026 requests correspondence or purchase/delivery evidence for dispute D-24962537 by 2 August 2026. This supersedes the earlier no-action-needed dispute-opened state.",
       "sourceEmail": {
-        "label": "Dispute opened email",
-        "url": "https://mail.google.com/mail/#all/19f7f5298f560f6c"
+        "label": "Evidence request email",
+        "url": "https://mail.google.com/mail/#all/19fa885ff71a85db"
       },
       "items": [
         "Dispute D-24962537",
         "Merchant: amazon* xi0ys2t95",
         "Transaction date: 1 July 2026",
         "Disputed amount: $578.33",
-        "Temporary credit issued",
-        "No additional action currently required"
+        "Temporary credit: $578.33",
+        "Evidence requested by 2 August 2026: merchant correspondence and purchase/service documents"
       ],
       "links": [
         {
@@ -3609,7 +3647,7 @@
           "url": "https://support.apple.com/apple-card"
         }
       ],
-      "lastBillingDate": "2026-07-20"
+      "lastBillingDate": "2026-07-28"
     },
     {
       "id": "ai-chat-for-search-discontinuation-2026-08-20",
