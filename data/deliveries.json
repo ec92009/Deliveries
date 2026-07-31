@@ -1,10 +1,10 @@
 {
-  "today": "2026-07-29",
+  "today": "2026-07-31",
   "metadata": {
-    "version": "v151.0",
+    "version": "v153.0",
     "timezone": "Europe/Madrid",
-    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-29. Searched active rows only (S1 health/admin, Manou admin/property, supplier/order emails) with focused All Mail and Spam coverage. Included concrete supplier signals: Amazon Pnakqil case delivery, Amazon Colgate dispatch after payment verification, USPS/Nespresso package expected, InfiMech VIP Access Reservation, and Apple Card/Amazon dispute evidence request. Reviewed an Amazon ERGO protection disclosure but did not add a duplicate because that order is already tracked as refunded. Excluded newsletters, recommendations, login/security notices, phishing/fake Spam, personal payments/transfers, and non-actionable S1/Manou false positives.",
-    "generatedAt": "2026-07-29T06:05:00+02:00"
+    "source": "Gmail source-watch-dashboard supplier refresh on 2026-07-31. Active rows only were searched; stopped Adeslas and Pinterest watches were not searched or reported. Concrete supplier signals added: Amazon Korres delivery, Amazon Cecotec dispatch with Paack delivery notice, and Stripe Radar Standard trial/pricing change. Newsletters, login/security messages, phishing/spam, marketing, and non-transactional updates were excluded.",
+    "generatedAt": "2026-07-31T06:05:16+02:00"
   },
   "deliveries": [
     {
@@ -2380,6 +2380,69 @@
           "url": "https://informeddelivery.usps.com/"
         }
       ]
+    },
+    {
+      "id": "amazon-return-window-2026-07-30-402-8341568-3529140-korres-argan-coloration",
+      "supplier": "Amazon",
+      "title": "Korres Argan Advanced Coloration oil",
+      "status": "Delivered - return window open",
+      "dueDate": null,
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon delivery email dated 30 July 2026 says order 402-8341568-3529140 for Korres Argan Advanced Coloration Very Light Blonde 9.0 Oil was delivered that day and left near the front door or porch; retained for the assumed 30-day Amazon return window.",
+      "sourceEmail": {
+        "label": "Delivery email",
+        "url": "https://mail.google.com/mail/#all/19fb3fba19a6dd47"
+      },
+      "items": [
+        "Order 402-8341568-3529140",
+        "Korres Argan Advanced Coloration Very Light Blonde 9.0 Oil, 145 ml",
+        "Delivered 30 July 2026",
+        "Return window assumed through 29 August 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=402-8341568-3529140"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ],
+      "deliveredDate": "2026-07-30",
+      "returnByDate": "2026-08-29",
+      "returnWindowDays": 30,
+      "returnWarningStartsAfterDays": 21
+    },
+    {
+      "id": "amazon-dispatched-2026-07-30-408-3021399-3935544-cecotec-wet-dry-vacuum",
+      "supplier": "Amazon",
+      "title": "Cecotec Conga Rockstar Wet & Dry Steel Neo vacuum",
+      "status": "Dispatched",
+      "dueDate": "2026-08-01",
+      "timezone": "Europe/Madrid",
+      "notes": "Amazon dispatch email dated 30 July 2026 says order 408-3021399-3935544 was shipped and is arriving Saturday, 1 August 2026. A same-day Paack notice also says an Amazon package is expected on 1 August.",
+      "sourceEmail": {
+        "label": "Dispatch email",
+        "url": "https://mail.google.com/mail/#all/19fb27217f657703"
+      },
+      "items": [
+        "Order 408-3021399-3935544",
+        "Cecotec Conga Rockstar Wet & Dry Steel Neo 20L solids and liquids vacuum cleaner",
+        "Sold by Amazon.es",
+        "Total EUR 54.90",
+        "Arriving 1 August 2026"
+      ],
+      "links": [
+        {
+          "label": "View order details",
+          "url": "https://www.amazon.es/your-orders/order-details?orderID=408-3021399-3935544"
+        },
+        {
+          "label": "Open Amazon orders",
+          "url": "https://www.amazon.es/your-orders/orders"
+        }
+      ]
     }
   ],
   "licenses": [
@@ -3677,6 +3740,35 @@
         }
       ],
       "lastBillingDate": "2026-07-21"
+    },
+    {
+      "id": "stripe-radar-standard-pricing-2027-01-22",
+      "service": "Stripe",
+      "title": "Stripe Radar Standard fraud protection",
+      "status": "Free trial; paid per screened transaction from 2027-01-22",
+      "nextDate": "2027-01-22",
+      "dateLabel": "Trial ends Friday, 22 January 2027",
+      "timezone": "Europe/Madrid",
+      "renewalState": "trial",
+      "warningWindowDays": 30,
+      "notes": "Stripe email dated 30 July 2026 says the photosByElie account is on a free trial of Radar Standard; after the trial ends on 22 January 2027 it will automatically continue at $0.05 per screened transaction unless switched to Radar Lite.",
+      "sourceEmail": {
+        "label": "Stripe pricing email",
+        "url": "https://mail.google.com/mail/#all/19fb49a19593589d"
+      },
+      "items": [
+        "Radar Standard free trial started 30 July 2026",
+        "Automatically continues after 22 January 2027",
+        "Price after trial: $0.05 per screened transaction",
+        "Radar Lite remains available at no additional cost"
+      ],
+      "links": [
+        {
+          "label": "Open Stripe dashboard",
+          "url": "https://dashboard.stripe.com/"
+        }
+      ],
+      "lastBillingDate": "2026-07-30"
     }
   ],
   "emptySuppliers": []
